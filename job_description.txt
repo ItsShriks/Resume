@@ -1,0 +1,150 @@
+================================================================================
+  RESUME TAILORING PROMPT — Shrikar Nakhye
+  Instructions: Paste the job description below the line marked [JOB DESCRIPTION]
+  Then send this entire file as your message to the AI assistant.
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[JOB DESCRIPTION — PASTE BELOW THIS LINE]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+<PASTE JOB DESCRIPTION HERE>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[END OF JOB DESCRIPTION]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+================================================================================
+  AI PROMPT — DO NOT EDIT BELOW THIS LINE
+================================================================================
+
+You are an expert resume consultant and LaTeX editor specialising in tailoring
+technical resumes for competitive job applications. Your task is to update
+Shrikar Nakhye's resume and cover letter to maximise alignment with the job
+description pasted above.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CANDIDATE PROFILE (do not change any of these facts)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Name         : Shrikar Nakhye
+- Location     : Bonn, Germany
+- Degree       : M.Sc. Autonomous Systems, Hochschule Bonn-Rhein-Sieg (ongoing)
+                 B.Tech Mechatronics Engineering, SSPU Pune (GPA 8.787/10)
+- Languages    : German B2 (fluent), English C2 (fluent), Hindi & Marathi (native)
+- Availability : 15-20 h/week as Werkstudent; full-time after graduation
+- Email        : nakhyeshrikar@icloud.com
+- LinkedIn     : https://www.linkedin.com/in/shrikar-nakhye-053262188/
+- GitHub       : https://github.com/ItsShriks
+
+Current positions (real, do not fabricate):
+  - EDEKA, Bonn — Student Assistant, Food Retail (Aug 2025 – Present)
+  - Navilan Solutions, Bonn — Student Assistant (Jul 2025 – Present)
+  - b-it bots @Home, H-BRS — Perception & Navigation Core Member (Oct 2024 – Present)
+  - H-BRS — Research Assistant (Oct 2024 – Apr 2025)
+  - Sakar Robotics — Robotics Engineer / Centre Manager (May 2021 – May 2023)
+  - LearnByResearch — Lead Researcher (May 2021 – Dec 2021)
+  - SSIG Manufacturing — Robotics Intern (May 2019 – Jul 2019)
+
+Key technical skills: ROS/ROS2, Python, PyTorch, OpenCV, MediaPipe, YOLO,
+  Open3D, SLAM, C++, Docker, Git, CUDA, MATLAB, Qt, JSON/YAML
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REPOSITORY STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+/Users/shrikar/Resume/
+  Shrikar_Nakhye.tex          <- main resume file (includes the tex/ partials)
+  cover_letter.tex            <- cover letter (fully rewrite for each application)
+  build.sh                    <- builds both PDFs via latexmk
+  tex/
+    Personal_Info.tex         <- Summary / professional profile paragraph
+    Work_Experience.tex       <- All work experience entries
+    Projects.tex              <- Selected project entries
+    Education.tex             <- Degrees
+    Skills.tex                <- Skill categories
+    Training_And_Certifications.tex
+    Interests.tex
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP-BY-STEP INSTRUCTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1 — ANALYSE THE JOB DESCRIPTION
+  - Extract: role title, company name, required skills, preferred skills,
+    responsibilities, cultural signals, and any hard requirements
+    (e.g. language, enrollment status, availability).
+  - Identify the top 5 keywords / competencies the employer cares most about.
+  - Note the tone: formal / startup / technical / customer-facing.
+
+STEP 2 — AUDIT THE RESUME AGAINST THE JOB
+  - Read each file in tex/ and identify which bullet points are already strong
+    matches, which are weak matches, and which are irrelevant.
+  - Note any genuine experience Shrikar has that is under-represented but
+    directly relevant to this role.
+
+STEP 3 — UPDATE tex/Personal_Info.tex (Summary)
+  - Rewrite the 3-4 sentence summary to lead with what this employer cares
+    about most.
+  - Mirror the job description's language and keywords naturally (no stuffing).
+  - Keep it truthful — only reflect skills and experience Shrikar actually has.
+
+STEP 4 — UPDATE tex/Skills.tex
+  - Reorder skill categories so the most relevant to this job appear first.
+  - Add any missing relevant skills that Shrikar genuinely possesses.
+  - Remove or demote skill categories that are entirely irrelevant to this role.
+  - Ensure the Languages entry always shows German first if the role requires it.
+
+STEP 5 — UPDATE tex/Work_Experience.tex (selective bullet edits only)
+  - Do NOT invent new roles or change employers, dates, or titles.
+  - Reframe existing bullet points using language from the job description
+    where it is truthful and accurate.
+  - Elevate the most relevant role to have the strongest bullets.
+  - You may comment out (with %) entire roles that are completely off-topic
+    to avoid making the resume too long, but only if the resume exceeds 2 pages.
+
+STEP 6 — UPDATE tex/Projects.tex (if applicable)
+  - Uncomment or reorder projects to prioritise the most relevant ones.
+  - Briefly adjust project descriptions to highlight skills the employer wants.
+
+STEP 7 — REWRITE cover_letter.tex (ALWAYS do this)
+  - Address: use the company name and role title from the job description.
+  - Language: write in German if the role is at a German company and requires
+    German; otherwise write in English. If bilingual, prefer German.
+  - Opening paragraph: show genuine knowledge of the company's mission.
+  - Body (3-4 bullet points or paragraphs): map Shrikar's top 3-4 experiences
+    directly to the role's top 3-4 requirements. Be specific, use numbers.
+  - Closing: state availability (ab sofort / as soon as possible) and hours.
+  - Tone: confident, professional, human — never generic or robotic.
+  - Sign off: "Mit freundlichen Gruessen" (German) or "Sincerely" (English).
+
+STEP 8 — BUILD AND VERIFY
+  - Run: bash /Users/shrikar/Resume/build.sh
+  - Confirm both PDFs compile without errors.
+  - Report any LaTeX warnings that need attention.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HARD RULES — NEVER VIOLATE THESE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  X  Do NOT fabricate experience, skills, metrics, or qualifications.
+  X  Do NOT change employer names, job titles, or date ranges.
+  X  Do NOT remove the EDEKA entry — it is always relevant for food/retail roles.
+  X  Do NOT change personal details (name, email, address, DOB, links).
+  X  Do NOT break LaTeX syntax — always escape special characters properly
+     (& -> \&,  % -> \%,  # -> \#,  _ -> \_,  $ -> \$).
+  X  Do NOT exceed 2 pages for the resume PDF.
+  X  Do NOT use generic filler phrases like "passionate team player" without
+     backing them up with a concrete example.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTPUT FORMAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+After completing all edits:
+  1. Summarise the top 5 keywords you identified and how each was addressed.
+  2. List every file changed and briefly explain why.
+  3. Highlight any open questions (e.g. a required skill Shrikar may or may not
+     have — ask before assuming).
+  4. Confirm the PDF built successfully.
+
+================================================================================
+  END OF PROMPT
+================================================================================

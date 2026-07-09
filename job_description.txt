@@ -8,7 +8,88 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-<PASTE JOB DESCRIPTION HERE>
+Hi Shrikar Nakhye,
+I’m reaching out from Crossing Hurdles, a global recruitment firm currently partnering with our client RWS to support them in identifying and hiring top talent for exciting remote opportunities. Based on your background, we’re sharing an opportunity that aligns with your experience and inviting you to explore the role and application process.
+Role: Speech AI Evaluation Specialist – German
+Organization: RWS
+Type: Freelance / Contract
+Compensation: $18/hour
+Location: Remote
+Role Overview
+RWS is looking for Speech AI Evaluation Specialists to support the improvement of German AI voice systems and contribute towards training next-generation AI models.
+• Participate in short voice conversations with AI models
+• Evaluate AI responses for accuracy, relevance, clarity, and overall quality
+• Provide ratings and structured feedback based on project guidelines
+• Native-level fluency in German with English proficiency required
+• Flexible schedule with minimum 10+ hours per week
+Apply here (reviewed on a rolling basis):
+Speech AI Evaluation Specialist – German | $18/hour
+
+Please find the attached PDF containing the links for multiple language openings. Kindly refer to it for access and further details.
+Application Process
+• Complete initial application & pre-screening
+• Register on RWS WorkZone and accept agreements
+• Set up Tipalti account for payment verification
+• Pass a short German language assessment
+• Complete final qualification test to join production
+
+P.S. If you have any questions or need assistance with the application process, please visit our client's Support Center using the link below. Create an account or log in to submit a request, track your queries, and access the FAQs: https://trainai.zendesk.com/hc/en-us/requests/new, also if you know someone suitable for this opportunity, please feel free to share this opportunity with them as well. 
+
+Best Regards,
+Crossing Hurdles
+
+🍪
+Privacy Notice
+This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies. Cookie Policy
+RWS TrainAI logo
+*Speech AI Evaluation Specialist - German (Germany)
+BerlinRWS – TrainAI /Temporary/Contract /Remote
+We are looking for Speech AI Evaluation Specialist to support the improvement of AI-generated content in German.
+ 
+Job Type: Freelance
+Location: Germany (work from home)
+Work Schedule: Part-time - 10+ hours per week. Flexible - work whenever you want.
+Start Date: Immediately
+Duration: TBC
+Rate: 18 USD per hour
+ 
+Help Shape the Future of AI
+
+Are you a student, recent graduate, stay-at-home parent, gig worker, or professional seeking flexible remote work? Are you interested in shaping the development and safety of today’s AI models?
+ 
+What You’ll Do
+
+Participate in short voice conversations with AI models using a designated platform.
+Follow provided scenarios and prompts during interactions.
+Evaluate AI responses based on factors such as relevance, accuracy, clarity, and overall quality.
+Provide objective ratings and feedback according to project guidelines.
+Complete assigned tasks within established quality and productivity expectations.
+ 
+What we’re looking for:
+
+Native-level fluency in German
+English Proficiency: Fluent or advanced proficiency in English (levels B2–C2)
+AI & Data Capabilities (Preferred): Experience in one or more of the following areas: machine learning tasks, data collection and preprocessing, data evaluation and quality assurance, and data annotation and labeling.
+ 
+What We Offer
+
+Flexible schedule
+Opportunity to earn extra income
+Timely payments
+The job is ideal for students, part-timers, or stay-at-home parents
+ 
+#LI-PR15
+ 
+Vendor Type
+ 
+When applying, please select the option that best describes your working status.
+ 
+Are you a Freelancer or Private Individual?
+A Freelancer is someone who has a business license and may have a VAT number or EIN for tax purposes. A VAT (Value Added Tax) number is a unique identifier assigned to registered businesses in many countries; an EIN (Employer Identification Number) is a similar identifier used in the US. A Private Individual does not have a business license. If you aren’t sure, you are probably a private individual.
+ 
+RWS embraces DEI and promotes equal opportunity, we are an Equal Opportunity Employer and prohibit discrimination and harassment of any kind. RWS is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment. All employment decisions at RWS are based on business needs, job requirements and individual qualifications, without regard to race, religion, nationality, ethnicity, sex, age, disability, or sexual orientation. RWS will not tolerate discrimination based on any of these characteristics. 
+Jobs powered by Lever logo
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
@@ -122,18 +203,19 @@ STEP 8 — BUILD AND VERIFY
   - Confirm both PDFs compile without errors.
   - Report any LaTeX warnings that need attention.
 
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 HARD RULES — NEVER VIOLATE THESE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   X  Do NOT fabricate experience, skills, metrics, or qualifications.
   X  Do NOT change employer names, job titles, or date ranges.
-  X  Do NOT remove the EDEKA entry — it is always relevant for food/retail roles.
   X  Do NOT change personal details (name, email, address, DOB, links).
   X  Do NOT break LaTeX syntax — always escape special characters properly
      (& -> \&,  % -> \%,  # -> \#,  _ -> \_,  $ -> \$).
   X  Do NOT exceed 2 pages for the resume PDF.
   X  Do NOT use generic filler phrases like "passionate team player" without
      backing them up with a concrete example.
+  X DO NOT REmove anything just comment if not relevant
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 OUTPUT FORMAT

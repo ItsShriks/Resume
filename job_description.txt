@@ -7,46 +7,45 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Robot Software Integration Intern (m/f/d)
-Synapticon HQ - Schönaich
-Full-time
-Intern / Student
-Apply for this job
-WHAT WE ARE LOOKING FOR
-We're looking for a motivated Robot Software Integration Intern (ideally 6 months,  mandatory internship) to join our Robotics team in Schönaich (close to Stuttgart), with a flexible start date. If you're passionate about bringing humanoid robots to life — from EtherCAT-based actuator interfaces to ROS2 control stacks — this is your chance to work on systems that are in production, not just in a lab.
+Masterarbeit zur Erstellung eines Konzeptes für den Einsatz eines autonomen mobilen Manipulators für Handgalvanik-Prozesse
+Wernerstraße 51, 70469 Stuttgart, Deutschland
+Vollzeit
+Legal Entity: Robert Bosch Manufacturing Solutions GmbH
+Unternehmensbeschreibung
+Bei Bosch gestalten wir Zukunft mit hochwertigen Technologien und Dienstleistungen, die Begeisterung wecken und das Leben der Menschen verbessern. Unser Versprechen an unsere Mitarbeiterinnen und Mitarbeiter steht dabei felsenfest: Wir wachsen gemeinsam, haben Freude an unserer Arbeit und inspirieren uns gegenseitig. Willkommen bei Bosch.
 
-HERE'S WHERE YOU MAKE AN IMPACT
-Develop and test ros2_control hardware interfaces for drives — the software layer that connects commands to physical actuator behaviour on real hardware
-Build and tune URDF/xacro models for humanoid prototypes, providing the robot descriptions that drive both control and simulation
-Implement and debug nodes for joint state and sensor data pipelines — keeping information flow between hardware and software clean and reliable
-Support EtherCAT master bring-up and commissioning on hardware testbenches, helping new actuator configurations reach integration-ready state
-Work closely with mechanical and electrical teams to make sure everything fits together — physically and in software
+Die Robert Bosch Manufacturing Solutions GmbH freut sich auf Ihre Bewerbung!
+Stellenbeschreibung
+Im Rahmen Ihrer Masterarbeit analysieren Sie reale Handgalvanik-Prozesse und leiten technische sowie sicherheitsrelevante Anforderungen ab. 
+Weiterhin konzipieren Sie einen autonomen, mobilen Manipulator für Transport, Ein-/Entnahme und Prozessstart.  
+Darüber hinaus entwickeln Sie ein 3D-CAD-Konzept, das Plattform, Fahrwerk, Greifer sowie Material- und Dichtungskonzepte umfasst.  
+Zudem legen Sie Mobilitäts-, Energie- und Ladekonzepte für den Dauerbetrieb in chemischer Umgebung aus.
+Ferner bewerten Sie geeignete Greifer- und Sensorsysteme sowie die sichere Mensch-Roboter-Interaktion.
+Sie simulieren Kinematik, die Bahnplanung sowie Fahrwerkskonzepte und erstellen ein Lastenheft. Ganz klar, dass die Bewertung der Herstellerangebote auch in Ihr Aufgabengebiet fällt.
+Ein weiterer Schwerpunkt liegt auf der Durchführung einer Wirtschaftlichkeitsbetrachtung (ROI/TCO) im Vergleich zur manuellen Bedienung.
+Die Ergebnisse Ihrer Masterarbeit dokumentieren Sie lückenlos, inklusive des Konzepts, aller Simulationen und der Sicherheitsbewertung.
+Qualifikationen
+Ausbildung: Masterstudium im Bereich Automatisierungstechnik, Maschinenbau oder Mechatronik 
+Erfahrung und Know-how: Grundkenntnisse in Robotik, Kinematik und Automatisierungstechnik; Kenntnisse in der Programmierung mit Hochsprachen (Python, C++); Erfahrung mit 3D-CAD-Systemen (z.B. Inventor); Verständnis technischer Prozesse und Fähigkeit zur strukturierten Anforderungsanalyse; Basiswissen in Simulation, Regelungstechnik oder Bahnplanung von Vorteil; erste Berührungspunkte mit SPS, FTS/AMR oder industrieller Kommunikation wünschenswert 
+Persönlichkeit und Arbeitsweise: Ihnen gelingt es, komplexe technische Sachverhalte analytisch zu erfassen und verständlich zu dokumentieren, indem Sie selbstständig, zielorientiert und lösungsorientiert mit hohem Verantwortungsbewusstsein und Kommunikationsstärke arbeiten 
+Arbeitsalltag: Ihre Präsenz vor Ort ist erforderlich 
+Begeisterung: für neue Technologien und interdisziplinäre Themen 
+Sprachen: verhandlungssicheres Deutsch und sehr gutes Englisch 
+Zusätzliche Informationen
+Beginn: nach Absprache
+Dauer: 4 – 6 Monate
 
-WHO YOU ARE
-Enrolled MSc student in Robotics, Computer Science, or Mechatronics — ideally with some hands-on project or lab experience to draw from
-Solid C++17 skills for system-level work, with Python for the scripts and tooling that keep development moving
-You've worked with ROS2 hands-on — rclcpp, launch files, tf2 — and experience with ros2_control would put you a step ahead
-You understand real-time concepts and are comfortable working close to hardware; EtherCAT basics are a bonus
-You've modelled robots in URDF or xacro — even if it started as a university project
-WHAT'S IN IT FOR YOU
-Flexible working hours when life takes unexpected turns
-Company support for gym memberships through Wellpass
-Birthday vouchers
-Drinks and coffee (free of charge, of course)
-Snacks and fruit for all employees, as well as breakfast every Monday
-Regular global team-building events such as boot camps, skiing, and summer BBQs
-An international team with long-term prospects
-Highly competent colleagues who are experts in their field and happy to support you in your learning and growth
-Modern office space
-Our company's WG (upon availability)
-About us
-HACKING THE PHYSICS AND ECONOMICS OF MOTION CONTROL WITH DIGITAL TECHNOLOGY
+Voraussetzung für die Abschlussarbeit ist die Immatrikulation an einer Hochschule. Bitte fügen Sie Ihrer Bewerbung Ihren Lebenslauf, Ihren aktuellen Notenspiegel, Ihr Abiturzeugnis, die Prüfungsordnung sowie ggf. eine gültige Arbeits- und Aufenthaltserlaubnis bei.
 
-At Synapticon, we are revolutionizing motion control for robotics and machines—right at the point of motion.
-Our approach is completely new: we integrate previously separate components such as motors, drives, sensors, and gearboxes into seamless units. At the same time, we are digitizing performance and quality factors that previously depended on expensive mechanical manufacturing.
-World-leading innovators are choosing Synapticon to pave their way into the future of intelligent, motion-controlled systems.
+Vielfalt und Inklusion sind für uns keine Trends, sondern fest verankert in unserer Unternehmenskultur. Daher freuen wir uns über alle Bewerbungen: unabhängig von Geschlecht, Alter, Behinderung, Religion, ethnischer Herkunft oder sexueller Identität.
 
-Be part of our success story – apply now at Synapticon!
+Sie haben fachliche Fragen zum Job?
+Dr. Milan Pilaski (Fachabteilung)
++49 711 811 31699 
+Tim Bergmann (Fachabteilung)
++49 711 811 30596 
+
+Work #LikeABosch beginnt hier: Jetzt bewerben!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

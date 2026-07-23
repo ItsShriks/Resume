@@ -7,45 +7,78 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Masterarbeit zur Erstellung eines Konzeptes für den Einsatz eines autonomen mobilen Manipulators für Handgalvanik-Prozesse
-Wernerstraße 51, 70469 Stuttgart, Deutschland
-Vollzeit
-Legal Entity: Robert Bosch Manufacturing Solutions GmbH
-Unternehmensbeschreibung
-Bei Bosch gestalten wir Zukunft mit hochwertigen Technologien und Dienstleistungen, die Begeisterung wecken und das Leben der Menschen verbessern. Unser Versprechen an unsere Mitarbeiterinnen und Mitarbeiter steht dabei felsenfest: Wir wachsen gemeinsam, haben Freude an unserer Arbeit und inspirieren uns gegenseitig. Willkommen bei Bosch.
+This website uses essential cookies to ensure the site works and to remember your preferences. Learn more
+OK
+Precision Resource Group
+facebook sharing button Share twitter sharing button Post linkedin sharing button Share email sharing button
+Logo
+Robotics Software Engineer (Permanent)
+23 July by Precision Resource Group : UK : iO Advanced Mobility
 
-Die Robert Bosch Manufacturing Solutions GmbH freut sich auf Ihre Bewerbung!
-Stellenbeschreibung
-Im Rahmen Ihrer Masterarbeit analysieren Sie reale Handgalvanik-Prozesse und leiten technische sowie sicherheitsrelevante Anforderungen ab. 
-Weiterhin konzipieren Sie einen autonomen, mobilen Manipulator für Transport, Ein-/Entnahme und Prozessstart.  
-Darüber hinaus entwickeln Sie ein 3D-CAD-Konzept, das Plattform, Fahrwerk, Greifer sowie Material- und Dichtungskonzepte umfasst.  
-Zudem legen Sie Mobilitäts-, Energie- und Ladekonzepte für den Dauerbetrieb in chemischer Umgebung aus.
-Ferner bewerten Sie geeignete Greifer- und Sensorsysteme sowie die sichere Mensch-Roboter-Interaktion.
-Sie simulieren Kinematik, die Bahnplanung sowie Fahrwerkskonzepte und erstellen ein Lastenheft. Ganz klar, dass die Bewertung der Herstellerangebote auch in Ihr Aufgabengebiet fällt.
-Ein weiterer Schwerpunkt liegt auf der Durchführung einer Wirtschaftlichkeitsbetrachtung (ROI/TCO) im Vergleich zur manuellen Bedienung.
-Die Ergebnisse Ihrer Masterarbeit dokumentieren Sie lückenlos, inklusive des Konzepts, aller Simulationen und der Sicherheitsbewertung.
-Qualifikationen
-Ausbildung: Masterstudium im Bereich Automatisierungstechnik, Maschinenbau oder Mechatronik 
-Erfahrung und Know-how: Grundkenntnisse in Robotik, Kinematik und Automatisierungstechnik; Kenntnisse in der Programmierung mit Hochsprachen (Python, C++); Erfahrung mit 3D-CAD-Systemen (z.B. Inventor); Verständnis technischer Prozesse und Fähigkeit zur strukturierten Anforderungsanalyse; Basiswissen in Simulation, Regelungstechnik oder Bahnplanung von Vorteil; erste Berührungspunkte mit SPS, FTS/AMR oder industrieller Kommunikation wünschenswert 
-Persönlichkeit und Arbeitsweise: Ihnen gelingt es, komplexe technische Sachverhalte analytisch zu erfassen und verständlich zu dokumentieren, indem Sie selbstständig, zielorientiert und lösungsorientiert mit hohem Verantwortungsbewusstsein und Kommunikationsstärke arbeiten 
-Arbeitsalltag: Ihre Präsenz vor Ort ist erforderlich 
-Begeisterung: für neue Technologien und interdisziplinäre Themen 
-Sprachen: verhandlungssicheres Deutsch und sehr gutes Englisch 
-Zusätzliche Informationen
-Beginn: nach Absprache
-Dauer: 4 – 6 Monate
+Job Location:
+Germany -Bayern -Munich
+Salary:
+€80,000 - €100,000/annum
 
-Voraussetzung für die Abschlussarbeit ist die Immatrikulation an einer Hochschule. Bitte fügen Sie Ihrer Bewerbung Ihren Lebenslauf, Ihren aktuellen Notenspiegel, Ihr Abiturzeugnis, die Prüfungsordnung sowie ggf. eine gültige Arbeits- und Aufenthaltserlaubnis bei.
+Robotics Software Engineer (ROS2) 
+80,000 - 100,000 EUR
+Munich based team - (Remote-First + Customer Travel)
 
-Vielfalt und Inklusion sind für uns keine Trends, sondern fest verankert in unserer Unternehmenskultur. Daher freuen wir uns über alle Bewerbungen: unabhängig von Geschlecht, Alter, Behinderung, Religion, ethnischer Herkunft oder sexueller Identität.
+A fast-growing robotics team is looking for a Robotics Software Engineer with strong ROS2 experience to help build and deploy real-world robotic systems into customer environments. This opening is for someone who enjoys hands-on engineering and being front-facing - supporting deployments, collaborating directly with end users, and making sure what is built in development performs reliably on-site.
 
-Sie haben fachliche Fragen zum Job?
-Dr. Milan Pilaski (Fachabteilung)
-+49 711 811 31699 
-Tim Bergmann (Fachabteilung)
-+49 711 811 30596 
 
-Work #LikeABosch beginnt hier: Jetzt bewerben!
+This is also a great fit for someone who wants the pace and ownership of an ambitious startup where the focus is on shipping, deploying, and iterating with real customers. Their ambitious team is already gaining huge traction and is now preparing for its next growth chapter, including an upcoming significant seed raise in the coming months, plus a clear plan to expand into the US market too.
+
+ 
+What you will be doing
+Developing and integrating robotics software using ROS2
+Supporting customer deployments (on-site work when required) and troubleshooting in the field
+Working closely with customers to understand real constraints and translate them into practical, robust solutions
+Improving system performance, stability, and maintainability as products move from prototype to production use
+ 
+What they are looking for
+ROS2 experience is essential
+Comfortable with customer-facing work (clear communication, pragmatic problem-solving)
+Willingness to travel to customer sites as needed
+Industry background can be varied: mobile robotics, industrial automation, drones, autonomous systems, etc.
+Programming language is flexible (capability matters more than a specific stack)
+ 
+
+If you are interested and would like to learn more, please apply as soon as possible and I will be in touch shortly to discuss in more detail.
+
+ 
+Application Details
+Want to apply faster?    
+Fields marked * are mandatory and must be completed.
+* Upload your CV
+  No file chosen 
+Cover letter
+
+Personal details
+Title
+
+* First name
+
+* Last name
+
+* Email address
+
+Mobile phone
+
+Home phone
+
+Work phone
+
+Eligibility
+* Work eligibility
+You need to indicate if you are eligible to apply for this vacancy located in Germany
+ I confirm that I am eligible to live and work in Germany
+ I am not currently eligible to live or work in Germany
+ I wish to receive a copy of this application
+
+
+Powered by Logic Melon ATS • Privacy Policy
+© Copyright 2026
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

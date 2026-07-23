@@ -7,44 +7,65 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-https://career.metamorphosis.ai/jobs/robotics-and-computer-vision-engineer-m-w-d/
-ROBOTICS AND COMPUTER VISION ENGINEER (M/W/D)
-Vollzeit / Werkstudent
-Büro / Hybrid
-Ab sofort
-Jetzt bewerben
-Als Robotics & Computer Vision Engineer (m/w/d) arbeitest du in einem interdisziplinären Team an echtzeitfähigen Softwaremodulen für robotergestützte chirurgische Systeme. Dein Fokus liegt auf Algorithmen für Robotik, Bewegungsplanung, Kinematik, Sensorintegration und Computer Vision. Die Ergebnisse deiner Arbeit fließen unmittelbar in die Steuerung, Sicherheit und Präzision unserer Systeme ein.
+Masterarbeit (w/m/d) - Drohnen-Tracking
 
-Aufgaben sind:
+Stellenbeschreibung
+Kennziffer:  5841
+Arbeitsort:  Sankt Augustin
+Eintrittsdatum:  sofort
+Karrierestufe:  Studien- & Abschlussarbeit
+Beschäftigungsgrad:  Teilzeit
+Dauer der Beschäftigung:  6 Monate
+Vergütung: Die Vergütung erfolgt gemäß der jeweils geltenden Tarifverträge des öffentlichen Dienstes (Bund).
 
-Entwicklung echtzeitfähiger Robotik- und Computer-Vision-Module (60 Hz, max. 16 ms pro Frame)
-Implementierung von Algorithmen
-Aufbau und Kalibrierung komplexer Multikamera-Setups (RGB-Kameras, monochrome Weltkameras und Time-of-Flight-Tiefensensoren) inkl. Hand-Augen-Kalibrierung und robusten Extrinsik-Modellen
-Entwicklung von Tracking- und Lokalisierungsverfahren, die auch bei Okklusionen zuverlässig funktionieren
-Gestaltung zentraler Architektur- und Infrastrukturentscheidungen für unser Robotik-System – viel Raum für technische Mitgestaltung
-Entwicklung von Motion-Planning-Modulen zur Koordination mehrerer Roboterarme im engen OP-Umfeld
-Das erwartet dich bei metamorphosis
-Karriere in einer absoluten Zukunftsbranche. Geh jetzt den nächsten Schritt.
-Einzigartige und spannende Problemstellungen in der Medizintechnik.
-Fachliche und persönliche Weiterbildung in den Bereichen, die dich wirklich interessieren.
-Kompetitives Gehalt. Spannendes Thema, spannendes Gehalt.
-Flexible Arbeitszeiten. Mach deine Karriere kompatibel mit deinem Leben.
-Gesellschaftlicher Mehrwert. Deine Arbeit wird das Leben von Millionen von Menschen nachhaltig verbessern.
-Das bringst du mit:
-Abgeschlossenes Studium der Informatik, Robotik, Elektrotechnik, Mechatronik oder verwandter Studiengänge. Als Werkstudent musst du in einem dieser Studiengänge eingeschrieben sein.
-Starkes geometrisches Verständnis: Koordinatentransformationen, Kameramodelle, Kinematik
-Praktische Erfahrung in Robotik (Kinematik, Bewegungsplanung, Sensorik) und Computer Vision (Tracking, Pose/Objektlokalisierung, Bildverarbeitung)
-Gute Kenntnisse in C++17 oder neuer (idealerweise moderne C++-Patterns)
-Erfahrung in ROS 2 (Nodes, Launch-Strukturen, Integration komplexer Perzeptions- und Robotikmodule)
-Leidenschaft für algorithmische Herausforderungen unter Echtzeit-Constraints und Lust auf die Mitgestaltung früher Systemarchitekturen
-Strukturierte, selbstständige Arbeitsweise und Freude an enger Zusammenarbeit in einem kleinen Team
-Souveränes Englisch in Wort und Schrift (>= B1).
-Vorteilhafte Erfahrung:
-OpenCV, PCL oder vergleichbare Bibliotheken
-Echtzeit-Tracking, visuelle Lokalisierung oder Sensorfusion
-Robotik-Simulation (Gazebo / Ignition) oder Hardware-in-the-loop-Tests
-GPU-Beschleunigung (CUDA, OpenCL) oder andere Optimierung für Echtzeitsysteme
-Jetzt bewerben
+Steige ein in die faszinierende Welt des Deutschen Zentrums für Luft- und Raumfahrt e. V. (DLR), um mit Forschung und Innovation die Zukunft mitzugestalten! Mit dem Know-how und der Neugier unserer rund 12.000 Mitarbeitenden aus 100 Nationen sowie unserer einzigartigen Infrastruktur bieten wir ein spannendes und inspirierendes Arbeitsumfeld. Gemeinsam entwickeln wir nachhaltige Technologien und tragen so zur Lösung globaler Herausforderungen bei. Möchtest du diese große Zukunftsaufgabe mit uns zusammen angehen? Dann ist dein Platz bei uns!
+
+Das Institut für den Schutz terrestrischer Infrastrukturen widmet sich seit seiner Gründung im Jahr 2019 dem Schutz und der Sicherheit kritischer Infrastrukturen. Wir entwickeln Konzepte, Verfahren und Technologien, die die Widerstandsfähigkeit (Resilienz) von Organisationen und Systemen stärken und verbessern. Dabei haben wir sowohl den Menschen, die Technik als auch das Gesamtsystem im Blick.
+
+ 
+
+Die zunehmende Verbreitung ziviler und kommerzieller Drohnen stellt den Schutz kritischer Infrastrukturen vor wachsende Herausforderungen. Kamerabasierte Verfahren bieten für die Detektion und Verfolgung solcher Systeme einen vielversprechenden Ansatz, da sie passiv arbeiten, vergleichsweise kostengünstig sind und sich in bestehende Sicherheitsarchitekturen integrieren lassen. Während Deep-Learning-basierte Verfahren deutliche Fortschritte in der einzelbildbasierten Drohnendetektion ermöglicht haben, bleibt eine konsistente Detektion in aufeinanderfolgenden Frames unter realistischen Einsatzbedingungen anspruchsvoll. Ursachen hierfür sind insbesondere geringe Objektgrößen, schnelle Bewegungen, temporäre Verdeckungen, komplexe Hintergründe und visuell ähnliche Störobjekte. Eine zuverlässige Detektion in jedem Einzelbild ist unter realistischen Einsatzbedingungen nicht durchgängig gewährleistet. Daher sind Verfahren erforderlich, die ein Ziel nach der initialen Erfassung auch bei temporären Detektionsausfällen stabil weiterverfolgen. 
+
+
+Moderne Tracking-Ansätze umfassen ein breites methodisches Spektrum, das von etablierten Tracking-by-Detection-Verfahren wie SORT und ByteTrack bis hin zu transformerbasierten Architekturen reicht. Ziel der Masterarbeit ist die vergleichende Evaluation dieser Ansätze im Kontext der kamerabasierten Drohnendetektion, insbesondere hinsichtlich der zuverlässigen Fortführung des Trackings ausgehend von initialen Detektionen. Bewertet werden Tracking-Leistung, Robustheit gegenüber temporären Detektionsausfällen, Rechenaufwand und Echtzeitfähigkeit unter realitätsnahen Einsatzbedingungen.
+
+ 
+
+Das erwartet dich
+
+Du bearbeitest eine aktuelle Forschungsfrage an der Schnittstelle von Computer Vision, Deep Learning und sicherheitskritischen Anwendungen. Im Mittelpunkt steht folgende Forschungsfrage:
+Wie robust und recheneffizient können Drohnen in urbanen Überwachungsszenarien auf Grundlage einer oder weniger initialer Detektionen verfolgt werden, und wie unterscheiden sich Tracking-by-Detection-Verfahren und transformerbasierte Ansätze hinsichtlich Tracking-Leistung, Robustheit und Echtzeitfähigkeit?
+
+ 
+
+Deine Aufgaben
+
+Einarbeitung in den Stand der Technik zur kamerabasierten Drohnendetektion sowie zu Multi- und Single-Object-Tracking (insbesondere Tracking-by-Detection-Verfahren sowie transformerbasierte Ansätze)
+Auswahl, Aufbereitung und ggf. Annotation geeigneter Videodatensätze sowie Definition realistischer Evaluationsszenarien inkl. Verdeckung und Störobjekten
+Entwurf und Implementierung einer modularen „Detect-then-Track"-Pipeline, die auf initialen Detektionen aufsetzt und das Tracking eigenständig fortführt
+Integration und vergleichende Evaluation repräsentativer Tracking-Verfahren beider Paradigmen
+Systematische Evaluation anhand etablierter Metriken sowie gezielte Untersuchungen zum Einfluss der initialen Detektionen
+Kritische Analyse und Einordnung der Ergebnisse hinsichtlich der Eignung für den realen Überwachungseinsatz
+Dokumentation von Methodik und Ergebnissen in einer schriftlichen Ausarbeitung
+ 
+
+Das bringst du mit
+
+Laufendes Masterstudium in Informatik, Mathematik, Optotechnik oder einem vergleichbaren Studiengang
+Gute Programmierkenntnisse in Python sowie praktische Erfahrung mit Deep-Learning-Frameworks (idealerweise PyTorch)
+Grundlegendes Verständnis von Computer Vision und Deep Learning
+Selbstständige und strukturierte Arbeitsweise
+Das bieten wir dir
+
+Das DLR steht für Vielfalt, Wertschätzung und Gleichstellung aller Menschen. Wir fördern eigenverantwortliches Arbeiten und die individuelle Weiterentwicklung unserer Mitarbeitenden im persönlichen und beruflichen Umfeld. Dafür stehen dir unsere zahlreichen Fort- und Weiterbildungsmöglichkeiten zur Verfügung. Chancengerechtigkeit ist uns ein besonderes Anliegen, wir möchten daher insbesondere den Anteil von Frauen in der Wissenschaft und Führung erhöhen. Bewerbungen schwerbehinderter Menschen bevorzugen wir bei fachlicher Eignung.
+
+Wir freuen uns darauf, dich kennenzulernen!
+
+Fragen zu dieser Position (Kennziffer 5841) beantwortet dir gerne:
+
+Dr. Tobias Koch 
+Tel.: +49 2241 20148 55 
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]

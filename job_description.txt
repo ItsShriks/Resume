@@ -7,78 +7,77 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-This website uses essential cookies to ensure the site works and to remember your preferences. Learn more
-OK
-Precision Resource Group
-facebook sharing button Share twitter sharing button Post linkedin sharing button Share email sharing button
-Logo
-Robotics Software Engineer (Permanent)
-23 July by Precision Resource Group : UK : iO Advanced Mobility
+Working Student (f/m/x) Embedded Software Development for Swarm Navigation
 
-Job Location:
-Germany -Bayern -Munich
-Salary:
-€80,000 - €100,000/annum
+Job Description
+Req ID:  5837
+Place of work:  Oberpfaffenhofen
+Starting date:  01.10.2026
+Career level:  Student employment
+Type of employment:  Part time
+Duration of contract:  6 months
+Remuneration: Remuneration is in accordance with the Collective Agreement for the Public Sector - Federal Government (TVöD-Bund)
 
-Robotics Software Engineer (ROS2) 
-80,000 - 100,000 EUR
-Munich based team - (Remote-First + Customer Travel)
-
-A fast-growing robotics team is looking for a Robotics Software Engineer with strong ROS2 experience to help build and deploy real-world robotic systems into customer environments. This opening is for someone who enjoys hands-on engineering and being front-facing - supporting deployments, collaborating directly with end users, and making sure what is built in development performs reliably on-site.
-
-
-This is also a great fit for someone who wants the pace and ownership of an ambitious startup where the focus is on shipping, deploying, and iterating with real customers. Their ambitious team is already gaining huge traction and is now preparing for its next growth chapter, including an upcoming significant seed raise in the coming months, plus a clear plan to expand into the US market too.
+Enter the fascinating world of the German Aerospace Center (Deutsches Zentrum für Luft- und Raumfahrt e. V.; DLR) and help shape the future through research and innovation! We offer an exciting and inspiring working environment driven by the expertise and curiosity of our 12,000 employees from 100 nations and our unique infrastructure. Together, we develop sustainable technologies and thus contribute to finding solutions to global challenges. Would you like to join us in addressing this major future challenge? Then this is your place!
 
  
-What you will be doing
-Developing and integrating robotics software using ROS2
-Supporting customer deployments (on-site work when required) and troubleshooting in the field
-Working closely with customers to understand real constraints and translate them into practical, robust solutions
-Improving system performance, stability, and maintainability as products move from prototype to production use
- 
-What they are looking for
-ROS2 experience is essential
-Comfortable with customer-facing work (clear communication, pragmatic problem-solving)
-Willingness to travel to customer sites as needed
-Industry background can be varied: mobile robotics, industrial automation, drones, autonomous systems, etc.
-Programming language is flexible (capability matters more than a specific stack)
- 
 
-If you are interested and would like to learn more, please apply as soon as possible and I will be in touch shortly to discuss in more detail.
+Vacancy-ID:  5837 
+Place of work:  Oberpfaffenhofen 
+Starting date:  01.10.2026 
+Career level:  Student employment 
+Type of employment:  Part time 
+Duration of contract:  6 months 
+Remuneration:  Remuneration is in accordance with the Collective Agreement for the Public Sector - Federal Government (TVöD-Bund)
 
  
-Application Details
-Want to apply faster?    
-Fields marked * are mandatory and must be completed.
-* Upload your CV
-  No file chosen 
-Cover letter
 
-Personal details
-Title
+The DLR Institute of Communications and Navigation is dedicated to mission-oriented research in selected areas of communications and navigation. Its work ranges from the theoretical foundations to the demonstration of new procedures and systems in a real environment and is embedded in DLR's Space, Aeronautics, Transport, Security and Digitalization programmes.
 
-* First name
+ 
 
-* Last name
+What to expect:
 
-* Email address
+In decentralized swarm systems, achieving reliable navigation in GNSS-denied environments remains a critical challenge. The DLR's swarm navigation framework addresses this by leveraging inter-agent ranging to establish a self-organizing localization network. However, running these real-time algorithms requires efficient execution on resource-constrained hardware. Working in close collaboration with the team, you will support the practical implementation and architectural design of the DLR swarm navigation system for microcontrollers and single-board computers.
 
-Mobile phone
+ 
 
-Home phone
+Your tasks:
 
-Work phone
+Contribute to the design of a hardware-independent, modular software architecture to enable flexible deployment across various hardware platforms
+Implement and test software modules to execute the DLR swarm navigation algorithms on microcontrollers and single-board computers
+Jointly design and conduct practical system tests
+Document the developed software architecture and code structures
+ 
 
-Eligibility
-* Work eligibility
-You need to indicate if you are eligible to apply for this vacancy located in Germany
- I confirm that I am eligible to live and work in Germany
- I am not currently eligible to live or work in Germany
- I wish to receive a copy of this application
+Your profile: 
 
+Student in Computer Science, Electrical Engineering, Mechatronics, or a related field.
+Strong programming skills in C++ or Rust for hardware-near development.
+Experience with embedded systems (e.g., ESP32, Raspberry Pi); knowledge of hardware-level concepts (I²C, SPI, Interrupts) is an advantage.
+Good knowledge of software engineering, including Clean Code, Design Patterns, and Software Architectures.
+Familiarity with modern development tools like Git and CI/CD pipelines.
+We offer
 
-Powered by Logic Melon ATS • Privacy Policy
-© Copyright 2026
+DLR stands for diversity, appreciation and equality for all people. We promote independent work and the individual development of our employees both personally and professionally. To this end, we offer numerous training and development opportunities. Equal opportunities are of particular importance to us, which is why we want to increase the proportion of women in science and management in particular. Applicants with severe disabilities will be given preference if they are qualified.
+
+ 
+
+We offer
+DLR stands for diversity, appreciation and equality for all people. We promote independent work and the individual development of our employees both personally and professionally. To this end, we offer numerous training and development opportunities. Equal opportunities are of particular importance to us, which is why we want to increase the proportion of women in science and management in particular. Applicants with severe disabilities will be given preference if they are qualified.
+
+ 
+
+We look forward to getting to know you!
+
+ 
+
+If you have any questions about this position (Vacancy-ID 5837) please contact:
+
+ 
+
+Dr. Christian Gentner 
+Tel.: +49 8153 28 2890 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

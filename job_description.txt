@@ -7,65 +7,66 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Masterarbeit (w/m/d) - Drohnen-Tracking
 
-Stellenbeschreibung
-Kennziffer:  5841
-Arbeitsort:  Sankt Augustin
-Eintrittsdatum:  sofort
-Karrierestufe:  Studien- & Abschlussarbeit
-Beschäftigungsgrad:  Teilzeit
-Dauer der Beschäftigung:  6 Monate
-Vergütung: Die Vergütung erfolgt gemäß der jeweils geltenden Tarifverträge des öffentlichen Dienstes (Bund).
+Jobsuche
+Stellen-ID: 740661
+Werkstudent*in IoT Engineer (m/w/d/x)
+Bonn, Dresden, Magdeburg
+Werkstudententätigkeit
+Work-Study Job
+Deutsche Telekom IoT GmbH
 
-Steige ein in die faszinierende Welt des Deutschen Zentrums für Luft- und Raumfahrt e. V. (DLR), um mit Forschung und Innovation die Zukunft mitzugestalten! Mit dem Know-how und der Neugier unserer rund 12.000 Mitarbeitenden aus 100 Nationen sowie unserer einzigartigen Infrastruktur bieten wir ein spannendes und inspirierendes Arbeitsumfeld. Gemeinsam entwickeln wir nachhaltige Technologien und tragen so zur Lösung globaler Herausforderungen bei. Möchtest du diese große Zukunftsaufgabe mit uns zusammen angehen? Dann ist dein Platz bei uns!
+Jetzt bewerben
 
-Das Institut für den Schutz terrestrischer Infrastrukturen widmet sich seit seiner Gründung im Jahr 2019 dem Schutz und der Sicherheit kritischer Infrastrukturen. Wir entwickeln Konzepte, Verfahren und Technologien, die die Widerstandsfähigkeit (Resilienz) von Organisationen und Systemen stärken und verbessern. Dabei haben wir sowohl den Menschen, die Technik als auch das Gesamtsystem im Blick.
+eightfold
+Informationen zum Job
+Deutsche Telekom IoT GmbH
 
- 
+Das Internet der Dinge (IoT) ist nicht nur ein Schlagwort. DAX-Konzerne und Mittelständler, alle Industrien und Branchen sind gleichermaßen angesprochen ihre Produktionsketten zu digitalisieren und daraus neue Geschäftsmodelle zu entwickeln. Weltweit werden derzeit rund 30 Milliarden “Dinge” - wie Autos, Kühlschränke oder Aufzüge - über das Internet vernetzt. Und wir stehen erst am Anfang. Als Deutsche Telekom IoT GmbH  gestalten wir die Digitalisierung mit.
+Um die Digitalisierung mit IoT voranzutreiben, suchen wir Innovationspioniere, die sich in einem agilen Umfeld wohlfühlen und mit Leidenschaft nach digitalen und innovativen Lösungen für unserer Kunden suchen. Sind Sie #DABEI?
 
-Die zunehmende Verbreitung ziviler und kommerzieller Drohnen stellt den Schutz kritischer Infrastrukturen vor wachsende Herausforderungen. Kamerabasierte Verfahren bieten für die Detektion und Verfolgung solcher Systeme einen vielversprechenden Ansatz, da sie passiv arbeiten, vergleichsweise kostengünstig sind und sich in bestehende Sicherheitsarchitekturen integrieren lassen. Während Deep-Learning-basierte Verfahren deutliche Fortschritte in der einzelbildbasierten Drohnendetektion ermöglicht haben, bleibt eine konsistente Detektion in aufeinanderfolgenden Frames unter realistischen Einsatzbedingungen anspruchsvoll. Ursachen hierfür sind insbesondere geringe Objektgrößen, schnelle Bewegungen, temporäre Verdeckungen, komplexe Hintergründe und visuell ähnliche Störobjekte. Eine zuverlässige Detektion in jedem Einzelbild ist unter realistischen Einsatzbedingungen nicht durchgängig gewährleistet. Daher sind Verfahren erforderlich, die ein Ziel nach der initialen Erfassung auch bei temporären Detektionsausfällen stabil weiterverfolgen. 
-
-
-Moderne Tracking-Ansätze umfassen ein breites methodisches Spektrum, das von etablierten Tracking-by-Detection-Verfahren wie SORT und ByteTrack bis hin zu transformerbasierten Architekturen reicht. Ziel der Masterarbeit ist die vergleichende Evaluation dieser Ansätze im Kontext der kamerabasierten Drohnendetektion, insbesondere hinsichtlich der zuverlässigen Fortführung des Trackings ausgehend von initialen Detektionen. Bewertet werden Tracking-Leistung, Robustheit gegenüber temporären Detektionsausfällen, Rechenaufwand und Echtzeitfähigkeit unter realitätsnahen Einsatzbedingungen.
-
- 
-
-Das erwartet dich
-
-Du bearbeitest eine aktuelle Forschungsfrage an der Schnittstelle von Computer Vision, Deep Learning und sicherheitskritischen Anwendungen. Im Mittelpunkt steht folgende Forschungsfrage:
-Wie robust und recheneffizient können Drohnen in urbanen Überwachungsszenarien auf Grundlage einer oder weniger initialer Detektionen verfolgt werden, und wie unterscheiden sich Tracking-by-Detection-Verfahren und transformerbasierte Ansätze hinsichtlich Tracking-Leistung, Robustheit und Echtzeitfähigkeit?
-
- 
+Werkstudent*in bei der Telekom. Du willst die gelernte Theorie in die Praxis umsetzen und die digitale Welt von morgen schon heute erleben und mitgestalten? Dann bist du bei uns richtig! Kaffee kochen und kopieren können wir selbst. Wir suchen Werkstudent*innen wie dich, die täglich mit Teamgeist sowie Innovations- und Leistungsbereitschaft den Ausbau der vernetzten Welt voranbringen wollen!
 
 Deine Aufgaben
 
-Einarbeitung in den Stand der Technik zur kamerabasierten Drohnendetektion sowie zu Multi- und Single-Object-Tracking (insbesondere Tracking-by-Detection-Verfahren sowie transformerbasierte Ansätze)
-Auswahl, Aufbereitung und ggf. Annotation geeigneter Videodatensätze sowie Definition realistischer Evaluationsszenarien inkl. Verdeckung und Störobjekten
-Entwurf und Implementierung einer modularen „Detect-then-Track"-Pipeline, die auf initialen Detektionen aufsetzt und das Tracking eigenständig fortführt
-Integration und vergleichende Evaluation repräsentativer Tracking-Verfahren beider Paradigmen
-Systematische Evaluation anhand etablierter Metriken sowie gezielte Untersuchungen zum Einfluss der initialen Detektionen
-Kritische Analyse und Einordnung der Ergebnisse hinsichtlich der Eignung für den realen Überwachungseinsatz
-Dokumentation von Methodik und Ergebnissen in einer schriftlichen Ausarbeitung
- 
+Wir suchen immatrikulierte Studierende, die unser Team bis zu 20h pro Woche für mindestens 6 bis maximal 24 Monate bei folgenden Aufgaben unterstützen.
 
-Das bringst du mit
+Als Werkstudent im Bereich IoT Engineering spielen Sie eine entscheidende Rolle bei der Entwicklung und Implementierung innovativer IoT-Lösungen
+Sie sammeln praktische Erfahrungen, indem Sie unser Team in verschiedenen Phasen des IoT-Projektlebenszyklus unterstützen
+Dies umfasst die Programmierung von Embedded Systems mit Python und C/C++, die Integration von Kommuninationsprotokollen wie MQTT und NB-IoT/LTE-M sowie die Arbeit mit Hardware wie Raspberry Pi und Arduino.
+Ihre analytischen Fähigkeiten und Ihre Problemlösungskompetenz sind unerlässlich, wenn Sie zur Fehlersuche, zum Testen und zur Optimierung von IoT-Geräten und -Anwendungen beitragen.
+Sie arbeiten an spannenden Projekten mit, nutzen Git zur Versionskontrolle und helfen dabei, zukunftsweisende IoT-Technologien zum Leben zu erwecken.
 
-Laufendes Masterstudium in Informatik, Mathematik, Optotechnik oder einem vergleichbaren Studiengang
-Gute Programmierkenntnisse in Python sowie praktische Erfahrung mit Deep-Learning-Frameworks (idealerweise PyTorch)
-Grundlegendes Verständnis von Computer Vision und Deep Learning
-Selbstständige und strukturierte Arbeitsweise
-Das bieten wir dir
+Must-Have Skills
 
-Das DLR steht für Vielfalt, Wertschätzung und Gleichstellung aller Menschen. Wir fördern eigenverantwortliches Arbeiten und die individuelle Weiterentwicklung unserer Mitarbeitenden im persönlichen und beruflichen Umfeld. Dafür stehen dir unsere zahlreichen Fort- und Weiterbildungsmöglichkeiten zur Verfügung. Chancengerechtigkeit ist uns ein besonderes Anliegen, wir möchten daher insbesondere den Anteil von Frauen in der Wissenschaft und Führung erhöhen. Bewerbungen schwerbehinderter Menschen bevorzugen wir bei fachlicher Eignung.
+Solide Programmierkenntnisse in Python
+Erfahrung mit C/C++ für Embedded Systeme oder hardwarenahe Programmierung
+Verständnis und praktische Erfahrung mit dem MQTT-Protokoll
+Sicherer Umgang mit Git für die Versionskontrolle
+Praktische Erfahrung mit Raspberry Pi / Arduino Plattformen
+Kenntnisse in NB-IoT / LTE-M für IoT-Konnektivität
+Ausgeprägtes analytisches Denkvermögen
+Hervorragende Problemlösungsfähigkeiten
 
-Wir freuen uns darauf, dich kennenzulernen!
+Nice-to-Have Skills
 
-Fragen zu dieser Position (Kennziffer 5841) beantwortet dir gerne:
+Erfahrung mit Cloud-Plattformen (z.B. AWS IoT, Azure IoT)
+Grundlegendes Verständnis von Linux-Umgebungen
+Kenntnisse weiterer IoT-Kommunikationsprotokolle (z.B. LoRaWAN, Zigbee)
+Vertrautheit mit RESTful APIs
 
-Dr. Tobias Koch 
-Tel.: +49 2241 20148 55 
+Was wir bieten
 
+Sammle wertvolle praktische Erfahrung: Wende dein theoretisches Wissen in realen IoT-Projekten an
+Flexible Arbeitszeiten: Passe deinen Job perfekt an dein Studium an.
+Spannende Technologien: Arbeite mit modernsten IoT-Lösungen, Python, C/C++, MQTT und Embedded Systems
+Unterstützendes Team: Lerne von erfahrenen Profis in einem kollaborativen und offenen Umfeld
+Entwicklungsmöglichkeiten: Erweitere kontinuierlich deine Fähigkeiten und Kenntnisse in einem sich schnell entwickelnden Bereich
+Moderner Arbeitsplatz: Genieße ein dynamisches und innovatives Arbeitsumfeld
+Work-Life-Balance: Wir unterstützen dein Wohlbefinden und deine akademischen Verpflichtungen
+Attraktive Vergütung: Eine faire Entlohnung für deinen wertvollen Beitrag
+
+Diese Stelle ist auch in Teilzeit möglich.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]

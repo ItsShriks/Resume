@@ -7,56 +7,56 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Working Student (f/m/x) Embedded Software Development for Swarm Navigation
+Student assistant (m/f/d) Robotics and Autonomous Systems
 
 Job Description
-Req ID:  5837
-Place of work:  Oberpfaffenhofen
+Req ID:  5884
+Place of work:  Sankt Augustin
 Starting date:  01.10.2026
 Career level:  Student employment
 Type of employment:  Part time
-Duration of contract:  6 months
+Duration of contract:  6 months with the option to extend
 Remuneration: Remuneration is in accordance with the Collective Agreement for the Public Sector - Federal Government (TVöD-Bund)
 
 Enter the fascinating world of the German Aerospace Center (Deutsches Zentrum für Luft- und Raumfahrt e. V.; DLR) and help shape the future through research and innovation! We offer an exciting and inspiring working environment driven by the expertise and curiosity of our 12,000 employees from 100 nations and our unique infrastructure. Together, we develop sustainable technologies and thus contribute to finding solutions to global challenges. Would you like to join us in addressing this major future challenge? Then this is your place!
 
  
 
-Vacancy-ID:  5837 
-Place of work:  Oberpfaffenhofen 
+Vacancy-ID:  5884 
+Place of work:  Sankt Augustin 
 Starting date:  01.10.2026 
 Career level:  Student employment 
 Type of employment:  Part time 
-Duration of contract:  6 months 
+Duration of contract:  6 months with the option to extend 
 Remuneration:  Remuneration is in accordance with the Collective Agreement for the Public Sector - Federal Government (TVöD-Bund)
 
  
 
-The DLR Institute of Communications and Navigation is dedicated to mission-oriented research in selected areas of communications and navigation. Its work ranges from the theoretical foundations to the demonstration of new procedures and systems in a real environment and is embedded in DLR's Space, Aeronautics, Transport, Security and Digitalization programmes.
+At the DLR Institute for AI Safety and Security, we research and develop AI-related methods, processes, algorithms, technologies and execution and system environments. Our focus is on safe and standard-compliant AI, cybersecurity in open data and service ecosystems and AI, as well as automation in mobility and logistics.
 
  
 
-What to expect:
-
-In decentralized swarm systems, achieving reliable navigation in GNSS-denied environments remains a critical challenge. The DLR's swarm navigation framework addresses this by leveraging inter-agent ranging to establish a self-organizing localization network. However, running these real-time algorithms requires efficient execution on resource-constrained hardware. Working in close collaboration with the team, you will support the practical implementation and architectural design of the DLR swarm navigation system for microcontrollers and single-board computers.
+The AI Engineering department defines and establishes and goal-orientated development processes, methods, and tools for safe and secure AI-based applications. The focus lies on the development and application of safety and security-by-design methods for AI-based components, as well as on the investigation of safe human-AI interaction.
 
  
 
-Your tasks:
+Your tasks 
+•    Development and testing of robotic systems: robotic systems in the form of service robots and drones based on ROS2
+•    Implementation and integration: integrating the robotic systems into the IT infrastructure of a VR/AR laboratory
+•    Programming of functionalities: Extending simple scripts and AI functions
+•    Support in the development and optimisation of VR/AR demonstrators: Collaborating on the planning, design and implementation of virtual application scenarios for autonomous mobility and logistics solutions
+•    Testing, fault reproduction and debugging: Carrying out tests to evaluate functionality and performance; rectifying faults and optimising applications
 
-Contribute to the design of a hardware-independent, modular software architecture to enable flexible deployment across various hardware platforms
-Implement and test software modules to execute the DLR swarm navigation algorithms on microcontrollers and single-board computers
-Jointly design and conduct practical system tests
-Document the developed software architecture and code structures
+
+Your profile 
+•    A student enrolled on a degree programme in robotics, mechatronics or a related technical discipline
+•    Good knowledge of Python or C++ programming
+•    An interest in drones, service robots or autonomous systems
+•    High motivation and a willingness to familiarise yourself with new technologies and tools
+•    Written and spoken English; knowledge of German would be an advantage
+
  
 
-Your profile: 
-
-Student in Computer Science, Electrical Engineering, Mechatronics, or a related field.
-Strong programming skills in C++ or Rust for hardware-near development.
-Experience with embedded systems (e.g., ESP32, Raspberry Pi); knowledge of hardware-level concepts (I²C, SPI, Interrupts) is an advantage.
-Good knowledge of software engineering, including Clean Code, Design Patterns, and Software Architectures.
-Familiarity with modern development tools like Git and CI/CD pipelines.
 We offer
 
 DLR stands for diversity, appreciation and equality for all people. We promote independent work and the individual development of our employees both personally and professionally. To this end, we offer numerous training and development opportunities. Equal opportunities are of particular importance to us, which is why we want to increase the proportion of women in science and management in particular. Applicants with severe disabilities will be given preference if they are qualified.
@@ -72,12 +72,17 @@ We look forward to getting to know you!
 
  
 
-If you have any questions about this position (Vacancy-ID 5837) please contact:
+If you have any questions about this position (Vacancy-ID 5884) please contact:
 
  
 
-Dr. Christian Gentner 
-Tel.: +49 8153 28 2890 
+Dr. Sven Hallerbach 
+Tel.: +49 731 400198 315 
+
+ 
+
+Start of internal publication: 
+Internal job advertisement deadline:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -90,7 +95,8 @@ Tel.: +49 8153 28 2890
 You are an expert resume consultant and LaTeX editor specialising in tailoring
 technical resumes for competitive job applications. Your task is to update
 Shrikar Nakhye's resume and cover letter to maximise alignment with the job
-description pasted above.
+description pasted above, while keeping the resume MINIMAL, CONSISTENT, and
+FREE OF LEFTOVER TEXT FROM PREVIOUS TAILORING PASSES.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 CANDIDATE PROFILE (do not change any of these facts)
@@ -137,6 +143,23 @@ REPOSITORY STRUCTURE
 STEP-BY-STEP INSTRUCTIONS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+STEP 0 — SANITY-CHECK THE CURRENT FILES FIRST (run every time, before tailoring)
+  - Read Personal_Info.tex in full and check every sentence is actually about
+    THIS candidate and THIS field (robotics/perception/autonomous systems).
+    Delete/rewrite any sentence that references an unrelated domain, a
+    different job family, or a company/team name that isn't Shrikar's own
+    (e.g. leftover mentions of surgical robotics, "metamorphosis", or any
+    other phrase that doesn't match the rest of the CV). This kind of
+    leftover text is the single most damaging thing a recruiter can see —
+    treat any mismatch as a bug to fix before any tailoring begins.
+  - Check every file in tex/ for stray signature lines, place/date stamps
+    (e.g. "Bonn, den <date>"), or other cover-letter-only content that may
+    have been pasted into the resume by mistake. Remove from the resume.
+  - Check date formatting is IDENTICAL across every entry in
+    Work_Experience.tex (e.g. always "Mon YYYY – Mon YYYY", never mixing
+    "Jul 2025" with "Mai 2021 – Dez. 2021" style abbreviations/languages).
+    Standardise to one format and one language for all dates.
+
 STEP 1 — ANALYSE THE JOB DESCRIPTION
   - Extract: role title, company name, required skills, preferred skills,
     responsibilities, cultural signals, and any hard requirements
@@ -149,12 +172,19 @@ STEP 2 — AUDIT THE RESUME AGAINST THE JOB
     matches, which are weak matches, and which are irrelevant.
   - Note any genuine experience Shrikar has that is under-represented but
     directly relevant to this role.
+  - Flag anything that reads as filler, vague, or repeated across multiple
+    roles — minimalism means cutting redundancy, not just adding keywords.
 
 STEP 3 — UPDATE tex/Personal_Info.tex (Summary)
   - Rewrite the 3-4 sentence summary to lead with what this employer cares
     about most.
+  - Pull in 1-2 of Shrikar's strongest QUANTIFIED results (e.g. tracking
+    accuracy %, processing time reduction %) directly into the summary so
+    they're visible in the first few seconds of scanning — don't leave all
+    metrics buried in bullet points further down.
   - Mirror the job description's language and keywords naturally (no stuffing).
   - Keep it truthful — only reflect skills and experience Shrikar actually has.
+  - Keep it TIGHT: 2-3 sentences max, no filler adjectives without evidence.
 
 STEP 4 — UPDATE tex/Skills.tex
   - Reorder skill categories so the most relevant to this job appear first.
@@ -166,15 +196,31 @@ STEP 5 — UPDATE tex/Work_Experience.tex (selective bullet edits only)
   - Do NOT invent new roles or change employers, dates, or titles.
   - Reframe existing bullet points using language from the job description
     where it is truthful and accurate.
-  - Elevate the most relevant role to have the strongest bullets.
+  - Elevate the most relevant role to have the strongest, most specific
+    bullets — lead with the role most aligned to "Robotics Engineer" duties
+    (e.g. b-it bots @Home / Sakar Robotics) rather than whichever is most
+    recent, if the job description points that way.
+  - Prefer ONE strong quantified bullet over two vague ones per role — cut
+    for brevity wherever a bullet doesn't add new information.
   - You may comment out (with %) entire roles that are completely off-topic
     to avoid making the resume too long, but only if the resume exceeds 2 pages.
 
 STEP 6 — UPDATE tex/Projects.tex (if applicable)
   - Uncomment or reorder projects to prioritise the most relevant ones.
   - Briefly adjust project descriptions to highlight skills the employer wants.
+  - Keep each project to 1-2 lines — cut anything that repeats a skill
+    already demonstrated elsewhere on the CV.
 
-STEP 7 — REWRITE cover_letter.tex (ALWAYS do this)
+STEP 7 — TRIM LOW-SIGNAL SECTIONS FOR THIS ROLE
+  - If Training_And_Certifications.tex or a Publications section exists and
+    the role is industry/engineering-focused (not research-focused), keep at
+    most the single most relevant/high-tier item (e.g. the IEEE publication)
+    and comment out the rest — do not delete, per the hard rules.
+  - Do not include GPA or Date of Birth prominently in the header/profile
+    unless the job description or country norm explicitly calls for it;
+    comment out rather than delete if unsure.
+
+STEP 8 — REWRITE cover_letter.tex (ALWAYS do this)
   - Address: use the company name and role title from the job description.
   - Language: write in German if the role is at a German company and requires
     German; otherwise write in English. If bilingual, prefer German.
@@ -184,11 +230,14 @@ STEP 7 — REWRITE cover_letter.tex (ALWAYS do this)
   - Closing: state availability (ab sofort / as soon as possible) and hours.
   - Tone: confident, professional, human — never generic or robotic.
   - Sign off: "Mit freundlichen Gruessen" (German) or "Sincerely" (English).
+  - Any date/place stamp (e.g. "Bonn, den <date>") belongs ONLY in the cover
+    letter, never in the resume file.
 
-STEP 8 — BUILD AND VERIFY
+STEP 9 — BUILD AND VERIFY
   - Run: bash /Users/shrikar/Resume/build.sh
   - Confirm both PDFs compile without errors.
   - Report any LaTeX warnings that need attention.
+  - Confirm resume is 1 page if possible, 2 pages max.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -202,7 +251,15 @@ HARD RULES — NEVER VIOLATE THESE
   X  Do NOT exceed 2 pages for the resume PDF.
   X  Do NOT use generic filler phrases like "passionate team player" without
      backing them up with a concrete example.
-  X DO NOT REmove anything just comment if not relevant
+  X  Do NOT leave any sentence, phrase, or heading in the resume that refers
+     to a different job field, employer, or team than Shrikar's actual
+     experience — always cross-check Personal_Info.tex against Work_Experience.tex
+     for consistency before finishing.
+  X  Do NOT let date formats or languages diverge between entries — one
+     consistent format across the whole document.
+  X  Do NOT include cover-letter-only elements (signature lines, place/date
+     stamps, "Sincerely"/"Mit freundlichen Grüßen") anywhere in the resume file.
+  X  DO NOT REMOVE anything — only comment out (%) if not relevant.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 OUTPUT FORMAT
@@ -210,9 +267,11 @@ OUTPUT FORMAT
 After completing all edits:
   1. Summarise the top 5 keywords you identified and how each was addressed.
   2. List every file changed and briefly explain why.
-  3. Highlight any open questions (e.g. a required skill Shrikar may or may not
+  3. Explicitly confirm the Step 0 consistency check passed (no mismatched
+     domain text, no stray date/signature lines, dates formatted consistently).
+  4. Highlight any open questions (e.g. a required skill Shrikar may or may not
      have — ask before assuming).
-  4. Confirm the PDF built successfully.
+  5. Confirm the PDF built successfully and its page count.
 
 ================================================================================
   END OF PROMPT

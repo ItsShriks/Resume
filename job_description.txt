@@ -7,82 +7,57 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Student assistant (m/f/d) Robotics and Autonomous Systems
 
-Job Description
-Req ID:  5884
-Place of work:  Sankt Augustin
-Starting date:  01.10.2026
-Career level:  Student employment
-Type of employment:  Part time
-Duration of contract:  6 months with the option to extend
-Remuneration: Remuneration is in accordance with the Collective Agreement for the Public Sector - Federal Government (TVöD-Bund)
+About the job
+We are looking for a motivated Working Student to join our team and support the development of autonomous quadruped robot applications.
+You will work alongside experienced robotics engineers on R&D initiatives and customer projects. Depending on your skills, interests, and project needs, you will contribute to in one or more areas of quadruped robot software development, including perception, locomotion, autonomous behaviors, and robot applications.
 
-Enter the fascinating world of the German Aerospace Center (Deutsches Zentrum für Luft- und Raumfahrt e. V.; DLR) and help shape the future through research and innovation! We offer an exciting and inspiring working environment driven by the expertise and curiosity of our 12,000 employees from 100 nations and our unique infrastructure. Together, we develop sustainable technologies and thus contribute to finding solutions to global challenges. Would you like to join us in addressing this major future challenge? Then this is your place!
+This is an excellent opportunity to gain hands-on experience with modern robotics software, simulation, and real robotic platforms while learning from experienced engineers in an international team.
+Your Responsibilities
 
- 
+Depending on your skills and interests, you will contribute to one or more of the following areas:
+Explore and prototype robotics algorithms and software solutions for autonomous quadruped robots.
+Support the development and integration of robot applications, including perception, locomotion, navigation, and autonomous behaviors.
+Work with sensors such as RGB cameras, depth cameras, LiDAR, and IMUs to evaluate and integrate robotics solutions for localization, mapping, motion planning, and environmental perception.
+Test, validate, and optimize software performance in simulation and on physical robotic platforms.
+Collaborate with the robotics team on R&D projects, customer demonstrations, and system integration.
 
-Vacancy-ID:  5884 
-Place of work:  Sankt Augustin 
-Starting date:  01.10.2026 
-Career level:  Student employment 
-Type of employment:  Part time 
-Duration of contract:  6 months with the option to extend 
-Remuneration:  Remuneration is in accordance with the Collective Agreement for the Public Sector - Federal Government (TVöD-Bund)
+Essential Skills
+Strong Programming experience in Python and/or C++.
+Familiarity with Linux development environments.
+Understanding of robotics concepts, including kinematics, control, localization, mapping, and motion planning. 
+Strong analytical and problem-solving skills.
 
- 
+Beneficial Skills
+ROS / ROS 2 and robotics software development
+Computer vision and perception, such as OpenCV, object detection, point cloud processing, or 3D perception
+Navigation and localization, including SLAM, state estimation, mapping, or motion planning
+Robot control, such as feedback control, legged locomotion, Model Predictive Control (MPC), or Whole-Body Control
+Machine learning or reinforcement learning for robotics applications
+Robotics simulation, such as Gazebo, Isaac Sim, or MuJoCo
+Mobile or legged robotics and autonomous robot applications
+Git and collaborative software development
 
-At the DLR Institute for AI Safety and Security, we research and develop AI-related methods, processes, algorithms, technologies and execution and system environments. Our focus is on safe and standard-compliant AI, cybersecurity in open data and service ecosystems and AI, as well as automation in mobility and logistics.
+Your Profile
+Currently enrolled in a Master's degree in Robotics, Computer Science, Electrical Engineering, Mechanical Engineering, or a related field.
+Passionate about robotics and eager to learn new technologies.
+Interested in developing expertise in robot applications, perception, or control systems.
+Able to work independently while collaborating effectively within a multidisciplinary team.
+Able to structure open-ended problems and communicate technical results clearly.
+Careful and rigorous when testing, debugging, and documenting your work.
+Available to work fully on-site, as the role involves hands-on work with physical robots.
 
- 
+What we offer
+Opportunity to work on cutting-edge quadruped robotics.
+Hands-on experience with advanced robotic platforms.
+Mentorship from experienced robotics engineers.
+Flexible working hours compatible with university studies.
+A collaborative, innovative, and international work environment.
 
-The AI Engineering department defines and establishes and goal-orientated development processes, methods, and tools for safe and secure AI-based applications. The focus lies on the development and application of safety and security-by-design methods for AI-based components, as well as on the investigation of safe human-AI interaction.
-
- 
-
-Your tasks 
-•    Development and testing of robotic systems: robotic systems in the form of service robots and drones based on ROS2
-•    Implementation and integration: integrating the robotic systems into the IT infrastructure of a VR/AR laboratory
-•    Programming of functionalities: Extending simple scripts and AI functions
-•    Support in the development and optimisation of VR/AR demonstrators: Collaborating on the planning, design and implementation of virtual application scenarios for autonomous mobility and logistics solutions
-•    Testing, fault reproduction and debugging: Carrying out tests to evaluate functionality and performance; rectifying faults and optimising applications
-
-
-Your profile 
-•    A student enrolled on a degree programme in robotics, mechatronics or a related technical discipline
-•    Good knowledge of Python or C++ programming
-•    An interest in drones, service robots or autonomous systems
-•    High motivation and a willingness to familiarise yourself with new technologies and tools
-•    Written and spoken English; knowledge of German would be an advantage
-
- 
-
-We offer
-
-DLR stands for diversity, appreciation and equality for all people. We promote independent work and the individual development of our employees both personally and professionally. To this end, we offer numerous training and development opportunities. Equal opportunities are of particular importance to us, which is why we want to increase the proportion of women in science and management in particular. Applicants with severe disabilities will be given preference if they are qualified.
-
- 
-
-We offer
-DLR stands for diversity, appreciation and equality for all people. We promote independent work and the individual development of our employees both personally and professionally. To this end, we offer numerous training and development opportunities. Equal opportunities are of particular importance to us, which is why we want to increase the proportion of women in science and management in particular. Applicants with severe disabilities will be given preference if they are qualified.
-
- 
-
-We look forward to getting to know you!
-
- 
-
-If you have any questions about this position (Vacancy-ID 5884) please contact:
-
- 
-
-Dr. Sven Hallerbach 
-Tel.: +49 731 400198 315 
-
- 
-
-Start of internal publication: 
-Internal job advertisement deadline:
+About us
+Agile Robots SE is an international high-tech company based in Munich, Germany with a production site in Kaufbeuren and more than 2300 employees worldwide. Our mission is to bridge the gap between artificial intelligence and robotics by developing systems that combine state-of-the-art force-moment-sensing and world-leading image-processing technology. This unique combination of technologies allows us to provide user-friendly and affordable robotic solutions that enable intelligent precision assembly. 
+This is made possible by our employees, who bring out the best in each and every day with creativity and enthusiasm. Become part of this team and shape the future of robotics with us!
+We are proud of our diversity and welcome your application regardless of gender and sexual identity, nationality, ethnicity, religion, age, or disability.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -8,56 +8,34 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-About the job
-We are looking for a motivated Working Student to join our team and support the development of autonomous quadruped robot applications.
-You will work alongside experienced robotics engineers on R&D initiatives and customer projects. Depending on your skills, interests, and project needs, you will contribute to in one or more areas of quadruped robot software development, including perception, locomotion, autonomous behaviors, and robot applications.
+working student (f/m/d) AI & Robotics Development (VLA & Automation)
+Company:  B. Braun Melsungen AG
+Job Posting Location:  Melsungen, Hessen, Germany
+Functional Area:  Information Technology
+Working Model:  Hybrid
+Requisition ID:  13167
+About the Role: We are expanding our core development team and are looking for highly technical Working Students passionate about embodied AI and advanced automation. You will work directly on the deployment of Vision-Language-Action (VLA) models, LLMs, and computer vision pipelines, integrating these cutting-edge AI systems with industrial hardware and humanoid robotic platforms.
 
-This is an excellent opportunity to gain hands-on experience with modern robotics software, simulation, and real robotic platforms while learning from experienced engineers in an international team.
-Your Responsibilities
+ 
 
-Depending on your skills and interests, you will contribute to one or more of the following areas:
-Explore and prototype robotics algorithms and software solutions for autonomous quadruped robots.
-Support the development and integration of robot applications, including perception, locomotion, navigation, and autonomous behaviors.
-Work with sensors such as RGB cameras, depth cameras, LiDAR, and IMUs to evaluate and integrate robotics solutions for localization, mapping, motion planning, and environmental perception.
-Test, validate, and optimize software performance in simulation and on physical robotic platforms.
-Collaborate with the robotics team on R&D projects, customer demonstrations, and system integration.
+Key Responsibilities:
 
-Essential Skills
-Strong Programming experience in Python and/or C++.
-Familiarity with Linux development environments.
-Understanding of robotics concepts, including kinematics, control, localization, mapping, and motion planning. 
-Strong analytical and problem-solving skills.
+AI Integration: Assist in the development, optimization, and deployment of LLMs and VLA models for complex robotic manipulation and control tasks.
+Hardware Interfacing: Develop reliable communication bridges between advanced AI algorithms (Python/C++) and industrial automation systems, specifically Siemens PLCs.
+Vision Pipelines: Optimize computer vision models (e.g., object detection, 3D spatial awareness) for real-time inference on robotic systems.
+Prototyping & Testing: Support the engineering team in testing AI-driven behaviors on physical hardware, including humanoid platforms (e.g., Unitree series) and industrial manipulators.
+ 
 
-Beneficial Skills
-ROS / ROS 2 and robotics software development
-Computer vision and perception, such as OpenCV, object detection, point cloud processing, or 3D perception
-Navigation and localization, including SLAM, state estimation, mapping, or motion planning
-Robot control, such as feedback control, legged locomotion, Model Predictive Control (MPC), or Whole-Body Control
-Machine learning or reinforcement learning for robotics applications
-Robotics simulation, such as Gazebo, Isaac Sim, or MuJoCo
-Mobile or legged robotics and autonomous robot applications
-Git and collaborative software development
+Your Profile:
 
-Your Profile
-Currently enrolled in a Master's degree in Robotics, Computer Science, Electrical Engineering, Mechanical Engineering, or a related field.
-Passionate about robotics and eager to learn new technologies.
-Interested in developing expertise in robot applications, perception, or control systems.
-Able to work independently while collaborating effectively within a multidisciplinary team.
-Able to structure open-ended problems and communicate technical results clearly.
-Careful and rigorous when testing, debugging, and documenting your work.
-Available to work fully on-site, as the role involves hands-on work with physical robots.
+Currently enrolled in a Bachelor’s or Master’s program in Computer Science, Electrical Engineering, Artificial Intelligence, Robotics, or a similar highly technical field.
+Strong programming skills in Python and C++, with hands-on experience using AI frameworks (e.g., PyTorch, TensorFlow).
+Experience with PLC programming and industrial automation, with a strong preference for Siemens TIA Portal.
+Familiarity with robot operating systems (ROS/ROS2) and integrating sensory data (e.g., stereo vision, RGB-D cameras) into control loops.
+High problem-solving ability, an experimental mindset, and a strong drive to push the boundaries of what is possible in industrial and medical robotics.
+B. Braun Melsungen AG | Emma Becker | +495661717185 
 
-What we offer
-Opportunity to work on cutting-edge quadruped robotics.
-Hands-on experience with advanced robotic platforms.
-Mentorship from experienced robotics engineers.
-Flexible working hours compatible with university studies.
-A collaborative, innovative, and international work environment.
 
-About us
-Agile Robots SE is an international high-tech company based in Munich, Germany with a production site in Kaufbeuren and more than 2300 employees worldwide. Our mission is to bridge the gap between artificial intelligence and robotics by developing systems that combine state-of-the-art force-moment-sensing and world-leading image-processing technology. This unique combination of technologies allows us to provide user-friendly and affordable robotic solutions that enable intelligent precision assembly. 
-This is made possible by our employees, who bring out the best in each and every day with creativity and enthusiasm. Become part of this team and shape the future of robotics with us!
-We are proud of our diversity and welcome your application regardless of gender and sexual identity, nationality, ethnicity, religion, age, or disability.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

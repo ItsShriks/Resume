@@ -7,34 +7,25 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+About the job
+About the Role
+As an Autonomous Systems Engineer, you will develop and integrate autonomous capabilities for UAV platforms, enabling safe and intelligent operation in complex environments. Working alongside software, controls and systems engineers, you will design, test and optimise autonomous flight behaviours from simulation through to real-world flight testing.
 
-working student (f/m/d) AI & Robotics Development (VLA & Automation)
-Company:  B. Braun Melsungen AG
-Job Posting Location:  Melsungen, Hessen, Germany
-Functional Area:  Information Technology
-Working Model:  Hybrid
-Requisition ID:  13167
-About the Role: We are expanding our core development team and are looking for highly technical Working Students passionate about embodied AI and advanced automation. You will work directly on the deployment of Vision-Language-Action (VLA) models, LLMs, and computer vision pipelines, integrating these cutting-edge AI systems with industrial hardware and humanoid robotic platforms.
+Key Responsibilities
+Develop autonomous navigation, mission planning and decision-making algorithms.
+Design and implement guidance, navigation and control (GNC) software.
+Develop sensor fusion and perception capabilities using GPS, IMUs, LiDAR, cameras and other sensors.
+Build and validate autonomous systems through simulation, HIL/SIL testing and flight trials.
+Analyse flight data to improve system performance and reliability.
+Collaborate with multidisciplinary engineering teams to integrate autonomous capabilities into UAV platforms.
 
- 
-
-Key Responsibilities:
-
-AI Integration: Assist in the development, optimization, and deployment of LLMs and VLA models for complex robotic manipulation and control tasks.
-Hardware Interfacing: Develop reliable communication bridges between advanced AI algorithms (Python/C++) and industrial automation systems, specifically Siemens PLCs.
-Vision Pipelines: Optimize computer vision models (e.g., object detection, 3D spatial awareness) for real-time inference on robotic systems.
-Prototyping & Testing: Support the engineering team in testing AI-driven behaviors on physical hardware, including humanoid platforms (e.g., Unitree series) and industrial manipulators.
- 
-
-Your Profile:
-
-Currently enrolled in a Bachelor’s or Master’s program in Computer Science, Electrical Engineering, Artificial Intelligence, Robotics, or a similar highly technical field.
-Strong programming skills in Python and C++, with hands-on experience using AI frameworks (e.g., PyTorch, TensorFlow).
-Experience with PLC programming and industrial automation, with a strong preference for Siemens TIA Portal.
-Familiarity with robot operating systems (ROS/ROS2) and integrating sensory data (e.g., stereo vision, RGB-D cameras) into control loops.
-High problem-solving ability, an experimental mindset, and a strong drive to push the boundaries of what is possible in industrial and medical robotics.
-B. Braun Melsungen AG | Emma Becker | +495661717185 
-
+Experience
+Degree in Aerospace Engineering, Robotics, Computer Science, Electrical Engineering or a related discipline.
+Experience developing autonomous systems for UAVs, robotics, autonomous vehicles or aerospace applications.
+Strong programming skills in C++ and/or Python.
+Experience with ROS/ROS2, Linux and simulation environments such as Gazebo or AirSim.
+Knowledge of guidance, navigation and control, sensor fusion and computer vision.
+Experience with PX4, ArduPilot, AI/ML or SLAM is advantageous.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]

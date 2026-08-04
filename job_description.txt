@@ -7,26 +7,56 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-About the job
-About the Role
-As an Autonomous Systems Engineer, you will develop and integrate autonomous capabilities for UAV platforms, enabling safe and intelligent operation in complex environments. Working alongside software, controls and systems engineers, you will design, test and optimise autonomous flight behaviours from simulation through to real-world flight testing.
+Drone Control and Development
 
-Key Responsibilities
-Develop autonomous navigation, mission planning and decision-making algorithms.
-Design and implement guidance, navigation and control (GNC) software.
-Develop sensor fusion and perception capabilities using GPS, IMUs, LiDAR, cameras and other sensors.
-Build and validate autonomous systems through simulation, HIL/SIL testing and flight trials.
-Analyse flight data to improve system performance and reliability.
-Collaborate with multidisciplinary engineering teams to integrate autonomous capabilities into UAV platforms.
+Employment type: Part-time (Work from office only)
 
-Experience
-Degree in Aerospace Engineering, Robotics, Computer Science, Electrical Engineering or a related discipline.
-Experience developing autonomous systems for UAVs, robotics, autonomous vehicles or aerospace applications.
-Strong programming skills in C++ and/or Python.
-Experience with ROS/ROS2, Linux and simulation environments such as Gazebo or AirSim.
-Knowledge of guidance, navigation and control, sensor fusion and computer vision.
-Experience with PX4, ArduPilot, AI/ML or SLAM is advantageous.
+We are seeking a Master's graduate or a candidate nearing the completion of their Master's degree to join our team in developing autonomous drone technology, with both part-time and full-time options available. In this role, you will be responsible for:
 
+Assist in programming drones' movement and behavior using platforms such as DJI SDK, PX4, or ArduPilot.
+Collaborate with the team to develop and implement control algorithms for autonomous flight and navigation.
+Support the integration of various sensors, including cameras, Lasers, LiDARs, GPS, and IMUs, with drones to enhance their capabilities for navigation, obstacle avoidance, and data collection.
+Work closely with the engineering team to ensure seamless communication between different sensor types and the drone's onboard systems.
+Assist in conducting tests and experiments to validate the performance and reliability of drone systems, sensor integrations, and software algorithms.
+Participate in field tests to evaluate drone performance in real-world environments and identify areas for improvement.
+Maintain detailed documentation of development activities, including software designs, integration procedures, and test results.
+Prepare progress reports and presentations to communicate findings, challenges, and recommendations to the project team.
+Qualifications
+
+Completed or currently enrolled in Master's degree program in Computer Science, Robotics, Electrical Engineering, Aerospace Engineering, or a related field.
+Strong programming skills in languages such as Python, C/C++, or Java.
+Familiarity with drone platforms and development frameworks, such as DJI SDK, PX4, or ArduPilot.
+Experience with cameras and image processing packages like OpenCV, Pillow.
+Experience with sensor integration and data fusion techniques, preferably in the context of drones or robotics.
+Knowledge of Robot Operating System (ROS) and experience with ROS-based development would be a plus.
+Ability to work independently and collaboratively in a fast-paced, dynamic environment.
+Excellent problem-solving skills and attention to detail.
+Strong communication skills in English, both written and verbal.
+Nice to have
+
+Experience with FPGA integration for real-time processing.
+Familiarity with drone flight control systems and autopilot hardware.
+Understanding of ROS (Robot Operating System) and its integration with embedded systems.
+Offered
+
+Hands-on experience with cutting-edge drone technology and sensor integration.
+Possibility for further involvement and growth within the company based on performance and availability.
+To apply, please send your resume and a motivation letter highlighting your relevant experience.
+First Name
+
+Last Name
+
+Email
+
+Phone
+
+Role
+Drone Control and Development
+Upload CV
+Upload Motivation Letter
+Submit
+COLOGNE MUNICH PARIS
+WITHDRAWAL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

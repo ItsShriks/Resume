@@ -1,252 +1,156 @@
 ================================================================================
-  RESUME TAILORING PROMPT — Shrikar Nakhye
-  Instructions: Paste the job description below the line marked [JOB DESCRIPTION]
-  Then send this entire file as your message to the AI assistant.
+  RESUME & COVER LETTER TAILORING PROMPT — Shrikar Nakhye
+  Instructions:
+  1. Paste the Job Description in the marked section below.
+  2. Copy and send this ENTIRE block to the AI assistant.
 ================================================================================
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Drone Control and Development
 
-Employment type: Part-time (Work from office only)
+People you can reach out to
 
-We are seeking a Master's graduate or a candidate nearing the completion of their Master's degree to join our team in developing autonomous drone technology, with both part-time and full-time options available. In this role, you will be responsible for:
+School alumni from Bonn-Rhein-Sieg University of Applied Sciences and others in your network
+Show all
+Meet the hiring team
 
-Assist in programming drones' movement and behavior using platforms such as DJI SDK, PX4, or ArduPilot.
-Collaborate with the team to develop and implement control algorithms for autonomous flight and navigation.
-Support the integration of various sensors, including cameras, Lasers, LiDARs, GPS, and IMUs, with drones to enhance their capabilities for navigation, obstacle avoidance, and data collection.
-Work closely with the engineering team to ensure seamless communication between different sensor types and the drone's onboard systems.
-Assist in conducting tests and experiments to validate the performance and reliability of drone systems, sensor integrations, and software algorithms.
-Participate in field tests to evaluate drone performance in real-world environments and identify areas for improvement.
-Maintain detailed documentation of development activities, including software designs, integration procedures, and test results.
-Prepare progress reports and presentations to communicate findings, challenges, and recommendations to the project team.
-Qualifications
 
-Completed or currently enrolled in Master's degree program in Computer Science, Robotics, Electrical Engineering, Aerospace Engineering, or a related field.
-Strong programming skills in languages such as Python, C/C++, or Java.
-Familiarity with drone platforms and development frameworks, such as DJI SDK, PX4, or ArduPilot.
-Experience with cameras and image processing packages like OpenCV, Pillow.
-Experience with sensor integration and data fusion techniques, preferably in the context of drones or robotics.
-Knowledge of Robot Operating System (ROS) and experience with ROS-based development would be a plus.
-Ability to work independently and collaboratively in a fast-paced, dynamic environment.
-Excellent problem-solving skills and attention to detail.
-Strong communication skills in English, both written and verbal.
-Nice to have
+Lily Wang 
+• 3rd
+HR
+Job poster
+Message
+About the job
+R&D Automation Intern / Working Student(w/m/d) - Shining 3D Technology GmbH
+HINING 3D develops high-accuracy 3D scanners for a wide range of applications. Our solutions are ideal for use in high-precision metrology, digital dentistry, and more. 
 
-Experience with FPGA integration for real-time processing.
-Familiarity with drone flight control systems and autopilot hardware.
-Understanding of ROS (Robot Operating System) and its integration with embedded systems.
-Offered
+What you’ll do:
+1. Participate in the development, optimization, and testing of modules related to robotic arm scanning path planning;
+2. Assist in the design, setup, and validation of demonstration solutions for 3D scanning and automated inspection;
+3. Participate in the integration, commissioning, and performance optimization of automated systems to enhance stability and efficiency;
+4. Support project progress and facilitate technical communication and collaboration across teams;
+5. Compile relevant technical documentation and analyze experimental data based on project requirements.
 
-Hands-on experience with cutting-edge drone technology and sensor integration.
-Possibility for further involvement and growth within the company based on performance and availability.
-To apply, please send your resume and a motivation letter highlighting your relevant experience.
-First Name
+What you bring: 
+1. Majors in Geomatics Engineering, Robotics, Computer Vision, Automation, Mechanical Engineering, or related fields;
+2. Strong programming skills with proficiency in Python and C++; experience with ROS/ROS2 development is preferred;
+3. Familiarity with 3D scanning/inspection, robotic arm path planning, or automation system technologies; relevant project experience is preferred;
+4. Good English communication skills; German language proficiency is a plus;
+5. Strong sense of responsibility, with excellent learning ability, communication skills, and a collaborative team spirit.
 
-Last Name
+Shining 3D Technology GmbH employee Benefits:
+Birthday Welfare,
+Festival Welfare,
+Free Coffee/Fruit,
+Social Friday drinks,
+Team-building activities,
+Food subsidy by Foodji
 
-Email
+Für weitere Informationen besuchen Sie bitte SHINING 3D im Internet unter www.shining3d.com
+Requirements added by the job poster
+• Authorized to work in Germany
 
-Phone
-
-Role
-Drone Control and Development
-Upload CV
-Upload Motivation Letter
-Submit
-COLOGNE MUNICH PARIS
-WITHDRAWAL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 ================================================================================
-  AI PROMPT — DO NOT EDIT BELOW THIS LINE
+  AI INSTRUCTIONS & WORKFLOW — DO NOT EDIT BELOW THIS LINE
 ================================================================================
 
-You are an expert resume consultant and LaTeX editor specialising in tailoring
-technical resumes for competitive job applications. Your task is to update
-Shrikar Nakhye's resume and cover letter to maximise alignment with the job
-description pasted above, while keeping the resume MINIMAL, CONSISTENT, and
-FREE OF LEFTOVER TEXT FROM PREVIOUS TAILORING PASSES.
+You are an expert resume consultant and senior LaTeX engineer specializing in technical CV tailoring for competitive robotics, perception, and autonomous systems positions.
+
+Your objective is to adapt Shrikar Nakhye's resume modules (`tex/*.tex`) and generate a bespoke `cover_letter.tex` to maximize ATS scores and human recruiter alignment for the job description above.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CANDIDATE PROFILE (do not change any of these facts)
+CANDIDATE PROFILE (GROUND TRUTH — DO NOT ALTER OR FABRICATE)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - Name         : Shrikar Nakhye
 - Location     : Bonn, Germany
-- Degree       : M.Sc. Autonomous Systems, Hochschule Bonn-Rhein-Sieg (ongoing)
-                 B.Tech Mechatronics Engineering, SSPU Pune (GPA 8.787/10)
-- Languages    : German B2 (fluent), English C2 (fluent), Hindi & Marathi (native)
-- Availability : 15-20 h/week as Werkstudent; full-time after graduation
-- Email        : nakhyeshrikar@icloud.com
-- LinkedIn     : https://www.linkedin.com/in/shrikar-nakhye-053262188/
-- GitHub       : https://github.com/ItsShriks
+- Degree       : M.Sc. Autonomous Systems, Hochschule Bonn-Rhein-Sieg (Oct 2023 – Present)
+                 B.Tech Mechatronics Engineering, SSPU Pune (Jul 2018 – Jun 2022 | CGPA: 8.787 / 10)
+- Languages    : Deutsch (B2 -- fließend), Englisch (C2 -- fließend), Hindi (Muttersprache), Marathi (Muttersprache)
+- Availability : Werkstudent (15–20 h/week); Full-time after graduation
+- Contact      : nakhyeshrikar@icloud.com | LinkedIn: https://www.linkedin.com/in/shrikar-nakhye-053262188/ | GitHub: https://github.com/ItsShriks
 
-Current positions (real, do not fabricate):
-  - EDEKA, Bonn — Student Assistant, Food Retail (Aug 2025 – Present)
-  - Navilan Solutions, Bonn — Student Assistant (Jul 2025 – Present)
-  - b-it bots @Home, H-BRS — Perception & Navigation Core Member (Oct 2024 – Present)
-  - H-BRS — Research Assistant (Oct 2024 – Apr 2025)
-  - Sakar Robotics — Robotics Engineer / Centre Manager (May 2021 – May 2023)
-  - LearnByResearch — Lead Researcher (May 2021 – Dec 2021)
-  - SSIG Manufacturing — Robotics Intern (May 2019 – Jul 2019)
+Real Experience Record (DO NOT rename, relocate, or invent dates):
+  1. b-it bots @Home (Bonn, Germany) — Perception & Navigation Core Member (Oct 2024 – Present)
+  2. Navilan Solutions (Bonn, Germany) — Student Assistant (Jul 2025 – Apr 2026)
+  3. H-BRS (Bonn, Germany) — Research Assistant (Oct 2024 – Apr 2025)
+  4. Sakar Robotics / HunarPro Hub (Pune, India) — Robotics Engineer, Tech Associate & Centre Manager (May 2021 – May 2023)
+  5. LearnByResearch (Remote) — Lead Researcher / Hardware Dev Researcher (May 2021 – Dec 2021)
+  6. SSIG Manufacturing Advancements (Pune, India) — Robotics System Intern (May 2019 – Jul 2019)
 
-Key technical skills: ROS/ROS2, Python, PyTorch, OpenCV, MediaPipe, YOLO,
-  Open3D, SLAM, C++, Docker, Git, CUDA, MATLAB, Qt, JSON/YAML
+Core Technical Stack:
+  - Frameworks & Systems: ROS, ROS2 (rclcpp, rclpy, tf2, Nav2, Lifecycle Nodes), MoveIt, KDL, RTAB-Map, PX4, ArduPilot, Gazebo, MuJoCo, Isaac Sim
+  - Languages & Tools: Python, Modern C++ (C++17), CMake, Git, Linux, Docker, CUDA, PyTorch, OpenCV, Open3D, Qt, JSON/YAML, MATLAB, Simulink
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-REPOSITORY STRUCTURE
+MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 /Users/shrikar/Resume/
-  Shrikar_Nakhye.tex          <- main resume file (includes the tex/ partials)
-  cover_letter.tex            <- cover letter (fully rewrite for each application)
-  build.sh                    <- builds both PDFs via latexmk
-  tex/
-    Personal_Info.tex         <- Summary / professional profile paragraph
-    Work_Experience.tex       <- All work experience entries
-    Projects.tex              <- Selected project entries
-    Education.tex             <- Degrees
-    Skills.tex                <- Skill categories
-    Training_And_Certifications.tex
-    Interests.tex
+├── Shrikar_Nakhye.tex                  <- Main resume wrapper (imports tex/ files)
+├── cover_letter.tex                    <- Generated letter (rewritten per application)
+├── build.sh                            <- Build pipeline script (latexmk / pdflatex)
+└── tex/
+    ├── Personal_Info.tex               <- Summary / Professional profile paragraph
+    ├── Work_Experience.tex             <- Work experience entries (\resumeSubheading)
+    ├── Projects.tex                    <- Selective project listings (\resumeSubItem)
+    ├── Education.tex                   <- Educational background
+    ├── Skills.tex                      <- Skills listing by prioritized categories
+    ├── Training_And_Certifications.tex <- Certifications & training courses
+    └── Interests.tex                   <- Technical and personal interests
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP-BY-STEP INSTRUCTIONS
+EXECUTION STEPS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STEP 0 — SANITY-CHECK THE CURRENT FILES FIRST (run every time, before tailoring)
-  - Read Personal_Info.tex in full and check every sentence is actually about
-    THIS candidate and THIS field (robotics/perception/autonomous systems).
-    Delete/rewrite any sentence that references an unrelated domain, a
-    different job family, or a company/team name that isn't Shrikar's own
-    (e.g. leftover mentions of surgical robotics, "metamorphosis", or any
-    other phrase that doesn't match the rest of the CV). This kind of
-    leftover text is the single most damaging thing a recruiter can see —
-    treat any mismatch as a bug to fix before any tailoring begins.
-  - Check every file in tex/ for stray signature lines, place/date stamps
-    (e.g. "Bonn, den <date>"), or other cover-letter-only content that may
-    have been pasted into the resume by mistake. Remove from the resume.
-  - Check date formatting is IDENTICAL across every entry in
-    Work_Experience.tex (e.g. always "Mon YYYY – Mon YYYY", never mixing
-    "Jul 2025" with "Mai 2021 – Dez. 2021" style abbreviations/languages).
-    Standardise to one format and one language for all dates.
+STEP 0 — PRE-TAILORING SANITY & CONSISTENCY AUDIT
+  - Inspect `Personal_Info.tex` to ensure absolute alignment with Shrikar's background in Robotics, Perception, and Autonomous Systems. Instantly remove/rewrite any artifact or text referencing unrelated fields (e.g., medical/surgical robotics, non-mechatronics domains, or mismatched company names).
+  - Verify zero cover-letter components (stray signature blocks, location stamps like "Bonn, den...", closing salutations) exist in any `tex/*.tex` files.
+  - Standardize all date strings across `Work_Experience.tex` and `Education.tex` to the exact uniform format: "MMM YYYY -- MMM YYYY" or "MMM YYYY -- Present" (e.g., "Oct 2024 -- Present").
 
-STEP 1 — ANALYSE THE JOB DESCRIPTION
-  - Extract: role title, company name, required skills, preferred skills,
-    responsibilities, cultural signals, and any hard requirements
-    (e.g. language, enrollment status, availability).
-  - Identify the top 5 keywords / competencies the employer cares most about.
-  - Note the tone: formal / startup / technical / customer-facing.
+STEP 1 — JOB DESCRIPTION ANALYSIS
+  - Extract the target Role Title, Target Company Name, Primary Required Skills, Secondary/Preferred Skills, and Core Responsibilities.
+  - Identify top 5 core keywords/competencies expected by ATS scanners and hiring managers.
+  - Determine optimal language for Cover Letter (German if German-speaking company/posting; English otherwise).
 
-STEP 2 — AUDIT THE RESUME AGAINST THE JOB
-  - Read each file in tex/ and identify which bullet points are already strong
-    matches, which are weak matches, and which are irrelevant.
-  - Note any genuine experience Shrikar has that is under-represented but
-    directly relevant to this role.
-  - Flag anything that reads as filler, vague, or repeated across multiple
-    roles — minimalism means cutting redundancy, not just adding keywords.
+STEP 2 — TARGETED MODULAR REWRITES
+  - `tex/Personal_Info.tex`: Rewrite the 2-3 sentence summary leading with the target job's highest priority skills. Pull 1-2 key quantified achievements (e.g., "95% tracking success rate", "15% accuracy improvement").
+  - `tex/Skills.tex`: Prioritize and reorder categories so the skills most relevant to the JD appear first. Ensure language proficiency reflects "Deutsch (B2)" prominently for DACH roles.
+  - `tex/Work_Experience.tex`: Keep all official company names and dates untouched. Rephrase standard bullet points using action verbs and technical keywords directly aligned with the job description. Do not delete non-matching entries; comment them out using `%` only if space requires it.
+  - `tex/Projects.tex`: Reorder project entries to highlight relevant frameworks (e.g., Nav2, Whole Body Control, CUDA/Point Cloud, MoveIt, or Meta Quest VR depending on role).
+  - `tex/Training_And_Certifications.tex` & `tex/Interests.tex`: Comment out lower-priority entries if necessary to fit the single-page or tight two-page format target.
 
-STEP 3 — UPDATE tex/Personal_Info.tex (Summary)
-  - Rewrite the 3-4 sentence summary to lead with what this employer cares
-    about most.
-  - Pull in 1-2 of Shrikar's strongest QUANTIFIED results (e.g. tracking
-    accuracy %, processing time reduction %) directly into the summary so
-    they're visible in the first few seconds of scanning — don't leave all
-    metrics buried in bullet points further down.
-  - Mirror the job description's language and keywords naturally (no stuffing).
-  - Keep it truthful — only reflect skills and experience Shrikar actually has.
-  - Keep it TIGHT: 2-3 sentences max, no filler adjectives without evidence.
+STEP 3 — GENERATE `cover_letter.tex`
+  - Address directly to the target company and hiring team.
+  - Paragraph 1: High-impact introduction connecting Shrikar’s Master’s at H-BRS and relevant experience directly to the target role.
+  - Paragraphs 2-3: Core match proof points mapping key achievements (ROS2 pipelines, SLAM, multi-sensor calibration, 3D perception) to the position requirements.
+  - Closing Paragraph: State availability (as Werkstudent or Full-Time as applicable) and confirm immediate readiness.
 
-STEP 4 — UPDATE tex/Skills.tex
-  - Reorder skill categories so the most relevant to this job appear first.
-  - Add any missing relevant skills that Shrikar genuinely possesses.
-  - Remove or demote skill categories that are entirely irrelevant to this role.
-  - Ensure the Languages entry always shows German first if the role requires it.
-
-STEP 5 — UPDATE tex/Work_Experience.tex (selective bullet edits only)
-  - Do NOT invent new roles or change employers, dates, or titles.
-  - Reframe existing bullet points using language from the job description
-    where it is truthful and accurate.
-  - Elevate the most relevant role to have the strongest, most specific
-    bullets — lead with the role most aligned to "Robotics Engineer" duties
-    (e.g. b-it bots @Home / Sakar Robotics) rather than whichever is most
-    recent, if the job description points that way.
-  - Prefer ONE strong quantified bullet over two vague ones per role — cut
-    for brevity wherever a bullet doesn't add new information.
-  - You may comment out (with %) entire roles that are completely off-topic
-    to avoid making the resume too long, but only if the resume exceeds 2 pages.
-
-STEP 6 — UPDATE tex/Projects.tex (if applicable)
-  - Uncomment or reorder projects to prioritise the most relevant ones.
-  - Briefly adjust project descriptions to highlight skills the employer wants.
-  - Keep each project to 1-2 lines — cut anything that repeats a skill
-    already demonstrated elsewhere on the CV.
-
-STEP 7 — TRIM LOW-SIGNAL SECTIONS FOR THIS ROLE
-  - If Training_And_Certifications.tex or a Publications section exists and
-    the role is industry/engineering-focused (not research-focused), keep at
-    most the single most relevant/high-tier item (e.g. the IEEE publication)
-    and comment out the rest — do not delete, per the hard rules.
-  - Do not include GPA or Date of Birth prominently in the header/profile
-    unless the job description or country norm explicitly calls for it;
-    comment out rather than delete if unsure.
-
-STEP 8 — REWRITE cover_letter.tex (ALWAYS do this)
-  - Address: use the company name and role title from the job description.
-  - Language: write in German if the role is at a German company and requires
-    German; otherwise write in English. If bilingual, prefer German.
-  - Opening paragraph: show genuine knowledge of the company's mission.
-  - Body (3-4 bullet points or paragraphs): map Shrikar's top 3-4 experiences
-    directly to the role's top 3-4 requirements. Be specific, use numbers.
-  - Closing: state availability (ab sofort / as soon as possible) and hours.
-  - Tone: confident, professional, human — never generic or robotic.
-  - Sign off: "Mit freundlichen Gruessen" (German) or "Sincerely" (English).
-  - Any date/place stamp (e.g. "Bonn, den <date>") belongs ONLY in the cover
-    letter, never in the resume file.
-
-STEP 9 — BUILD AND VERIFY
-  - Run: bash /Users/shrikar/Resume/build.sh
-  - Confirm both PDFs compile without errors.
-  - Report any LaTeX warnings that need attention.
-  - Confirm resume is 1 page if possible, 2 pages max.
-
+STEP 4 — BUILD VERIFICATION & OUTPUT GENERATION
+  - Provide full, ready-to-save code blocks for every updated `.tex` file.
+  - Output exact updated code for `tex/Personal_Info.tex`, `tex/Skills.tex`, `tex/Work_Experience.tex`, `tex/Projects.tex`, and `cover_letter.tex`.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-HARD RULES — NEVER VIOLATE THESE
+HARD CONSTRAINTS & RULES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  X  Do NOT fabricate experience, skills, metrics, or qualifications.
-  X  Do NOT change employer names, job titles, or date ranges.
-  X  Do NOT change personal details (name, email, address, DOB, links).
-  X  Do NOT break LaTeX syntax — always escape special characters properly
-     (& -> \&,  % -> \%,  # -> \#,  _ -> \_,  $ -> \$).
-  X  Do NOT exceed 2 pages for the resume PDF.
-  X  Do NOT use generic filler phrases like "passionate team player" without
-     backing them up with a concrete example.
-  X  Do NOT leave any sentence, phrase, or heading in the resume that refers
-     to a different job field, employer, or team than Shrikar's actual
-     experience — always cross-check Personal_Info.tex against Work_Experience.tex
-     for consistency before finishing.
-  X  Do NOT let date formats or languages diverge between entries — one
-     consistent format across the whole document.
-  X  Do NOT include cover-letter-only elements (signature lines, place/date
-     stamps, "Sincerely"/"Mit freundlichen Grüßen") anywhere in the resume file.
-  X  DO NOT REMOVE anything — only comment out (%) if not relevant.
+  1. NEVER Fabricate Experience: Do not add unearned metrics, false employers, or unverified job titles.
+  2. NEVER Remove Raw Lines: Comment out unneeded lines using LaTeX `%` tags instead of deleting source text.
+  3. Proper LaTeX Escaping: Always escape special LaTeX symbols (`&` -> `\&`, `%` -> `\%`, `_` -> `\_`, `#` -> `\#`, `$` -> `\$`).
+  4. Date Uniformity: Enforce standard formatting across all resume entries ("MMM YYYY -- MMM YYYY").
+  5. Strict Page Limit: Keep resume output concise (aim for 1-2 pages maximum).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-OUTPUT FORMAT
+REQUIRED OUTPUT FORMAT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-After completing all edits:
-  1. Summarise the top 5 keywords you identified and how each was addressed.
-  2. List every file changed and briefly explain why.
-  3. Explicitly confirm the Step 0 consistency check passed (no mismatched
-     domain text, no stray date/signature lines, dates formatted consistently).
-  4. Highlight any open questions (e.g. a required skill Shrikar may or may not
-     have — ask before assuming).
-  5. Confirm the PDF built successfully and its page count.
-
+At the end of your response, provide a summary structured as follows:
+  1. Top 5 Target Keywords Identified & How Implemented
+  2. Summary of File Updates (`Personal_Info.tex`, `Skills.tex`, `Work_Experience.tex`, `Projects.tex`, `cover_letter.tex`)
+  3. Step 0 Consistency Verification (Confirmed clean dates, no domain mismatches, no cover letter text in resume)
+  4. Open Questions / Clarification Requests (if any)
 ================================================================================
   END OF PROMPT
 ================================================================================

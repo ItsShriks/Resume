@@ -8,65 +8,47 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Jobsuche
-Stellen-ID: 740661
-Werkstudent*in IoT Engineer (m/w/d/x)
-Bonn, Dresden, Magdeburg
-Werkstudententätigkeit
-Work-Study Job
-Deutsche Telekom IoT GmbH
 
-Jetzt bewerben
-
-eightfold
-Informationen zum Job
-Deutsche Telekom IoT GmbH
-
-Das Internet der Dinge (IoT) ist nicht nur ein Schlagwort. DAX-Konzerne und Mittelständler, alle Industrien und Branchen sind gleichermaßen angesprochen ihre Produktionsketten zu digitalisieren und daraus neue Geschäftsmodelle zu entwickeln. Weltweit werden derzeit rund 30 Milliarden “Dinge” - wie Autos, Kühlschränke oder Aufzüge - über das Internet vernetzt. Und wir stehen erst am Anfang. Als Deutsche Telekom IoT GmbH  gestalten wir die Digitalisierung mit.
-Um die Digitalisierung mit IoT voranzutreiben, suchen wir Innovationspioniere, die sich in einem agilen Umfeld wohlfühlen und mit Leidenschaft nach digitalen und innovativen Lösungen für unserer Kunden suchen. Sind Sie #DABEI?
-
-Werkstudent*in bei der Telekom. Du willst die gelernte Theorie in die Praxis umsetzen und die digitale Welt von morgen schon heute erleben und mitgestalten? Dann bist du bei uns richtig! Kaffee kochen und kopieren können wir selbst. Wir suchen Werkstudent*innen wie dich, die täglich mit Teamgeist sowie Innovations- und Leistungsbereitschaft den Ausbau der vernetzten Welt voranbringen wollen!
-
+Robot Application Engineer (m/w/d)
+Bremen, Hybrid
+Vollzeit
+Festanstellung
+Auf diese Stelle bewerben
+Deine Mission
+Als Robot Application Engineer (m/w/d) sorgst du dafür, dass unsere Roboter bei unseren Kunden zuverlässig und mit maximaler Performance laufen. Du analysierst Optimierungspotenziale, begleitest Inbetriebnahmen und arbeitest eng mit unseren Entwicklungs- und Customer-Teams zusammen, um unsere Lösungen kontinuierlich zu verbessern.
 Deine Aufgaben
-
-Wir suchen immatrikulierte Studierende, die unser Team bis zu 20h pro Woche für mindestens 6 bis maximal 24 Monate bei folgenden Aufgaben unterstützen.
-
-Als Werkstudent im Bereich IoT Engineering spielen Sie eine entscheidende Rolle bei der Entwicklung und Implementierung innovativer IoT-Lösungen
-Sie sammeln praktische Erfahrungen, indem Sie unser Team in verschiedenen Phasen des IoT-Projektlebenszyklus unterstützen
-Dies umfasst die Programmierung von Embedded Systems mit Python und C/C++, die Integration von Kommuninationsprotokollen wie MQTT und NB-IoT/LTE-M sowie die Arbeit mit Hardware wie Raspberry Pi und Arduino.
-Ihre analytischen Fähigkeiten und Ihre Problemlösungskompetenz sind unerlässlich, wenn Sie zur Fehlersuche, zum Testen und zur Optimierung von IoT-Geräten und -Anwendungen beitragen.
-Sie arbeiten an spannenden Projekten mit, nutzen Git zur Versionskontrolle und helfen dabei, zukunftsweisende IoT-Technologien zum Leben zu erwecken.
-
-Must-Have Skills
-
-Solide Programmierkenntnisse in Python
-Erfahrung mit C/C++ für Embedded Systeme oder hardwarenahe Programmierung
-Verständnis und praktische Erfahrung mit dem MQTT-Protokoll
-Sicherer Umgang mit Git für die Versionskontrolle
-Praktische Erfahrung mit Raspberry Pi / Arduino Plattformen
-Kenntnisse in NB-IoT / LTE-M für IoT-Konnektivität
-Ausgeprägtes analytisches Denkvermögen
-Hervorragende Problemlösungsfähigkeiten
-
-Nice-to-Have Skills
-
-Erfahrung mit Cloud-Plattformen (z.B. AWS IoT, Azure IoT)
-Grundlegendes Verständnis von Linux-Umgebungen
-Kenntnisse weiterer IoT-Kommunikationsprotokolle (z.B. LoRaWAN, Zigbee)
-Vertrautheit mit RESTful APIs
-
-Was wir bieten
-
-Sammle wertvolle praktische Erfahrung: Wende dein theoretisches Wissen in realen IoT-Projekten an
-Flexible Arbeitszeiten: Passe deinen Job perfekt an dein Studium an.
-Spannende Technologien: Arbeite mit modernsten IoT-Lösungen, Python, C/C++, MQTT und Embedded Systems
-Unterstützendes Team: Lerne von erfahrenen Profis in einem kollaborativen und offenen Umfeld
-Entwicklungsmöglichkeiten: Erweitere kontinuierlich deine Fähigkeiten und Kenntnisse in einem sich schnell entwickelnden Bereich
-Moderner Arbeitsplatz: Genieße ein dynamisches und innovatives Arbeitsumfeld
-Work-Life-Balance: Wir unterstützen dein Wohlbefinden und deine akademischen Verpflichtungen
-Attraktive Vergütung: Eine faire Entlohnung für deinen wertvollen Beitrag
-
-Diese Stelle ist auch in Teilzeit möglich.
+Verantwortung für die Betreuung unserer Roboter für Neu- und Bestandskunden und aktives Einbringen von Ideen zur Optimierung der Lösungen
+Analyse der Performance unserer Roboter und Ableitung von gezielten Optimierungsmaßnahmen in Zusammenarbeit mit den Entwicklungsteams
+Durchführung und Auswertung interner Tests zur Sicherstellung der Qualität und Performance unserer Roboter
+Erstellung von detaillierten Reports für interne Zwecke sowie für die Kommunikation mit Kunden und anderen Stakeholdern
+Begleitung und Unterstützung von Evaluationsscans sowie Inbetriebnahmen der Systeme bei unseren Kunden vor Ort
+Unterstützung beim Aufsetzen und Konfigurieren der Software für unsere Roboter, um eine reibungslose Integration sicherzustellen
+Dein Profil
+Ein erfolgreich abgeschlossenes Studium in Informatik, Wirtschaftsinformatik oder einem vergleichbaren technischem Bereich – alternativ eine abgeschlossene Ausbildung mit relevanter Berufserfahrung
+Ausgeprägte analytische Fähigkeiten, um eigenständig Optimierungspotenziale im Produkt zu identifizieren und gezielte Verbesserungsmaßnahmen abzuleiten
+Erste relevante Erfahrungen im Bereich Anwendungsoptimierung, idealerweise mit dem Fokus auf Performance-Steigerung und Effizienz
+Gute Kenntnisse in der Arbeit mit Linux-basierten Systemen
+Idealerweise praktische Erfahrung mit Python zur Konfiguration und Anpassung von Softwarelösungen
+Idealerweise Erfahrung mit dem Robot Operating System (ROS2)
+Reisebereitschaft (50%) für die Begleitung von Kundenprojekten und Inbetriebnahmen vor Ort 
+Freude am eigenverantwortlichen Arbeiten in einem interdisziplinären Team
+Verhandlungssichere Deutsch- und Englischkenntnisse
+Das bieten wir Dir
+Verantwortung & Gestaltungsspielraum
+Bei uns kannst du Ideen nicht nur einbringen, sondern auch umsetzen. Flache Hierarchien, kurze Entscheidungswege und ein offener Austausch auf Augenhöhe geben dir viel Eigenverantwortung. So gestaltest du unsere Produkte, Prozesse und die Weiterentwicklung unseres Unternehmens aktiv mit.
+Gemeinsam wachsen
+Wir entwickeln uns kontinuierlich weiter – von unseren Produkten über unsere Teams bis hin zu unseren Prozessen. Dabei verbinden wir die Dynamik eines wachsenden Technologieunternehmens mit einer persönlichen Zusammenarbeit, gegenseitiger Unterstützung und einem starken Teamzusammenhalt. Denn wir sind überzeugt: Die besten Erfolge entstehen gemeinsam – und werden auch gemeinsam gefeiert.
+Flexible Arbeitsbedingungen
+Mit Vertrauensarbeitszeit, 30 Urlaubstagen und der Möglichkeit zum mobilen Arbeiten unterstützen wir dich dabei, Beruf und Privatleben flexibel miteinander zu vereinbaren.
+Innovatives Technologieumfeld
+Von autonomer Robotik über KI-basierte Bildverarbeitung bis hin zu moderner Softwareentwicklung und RapidPrototyping – bei uns arbeitest du an zukunftsweisenden Technologien und profitierst vom Wissen eines interdisziplinären Teams.
+Persönliche und fachliche Weiterentwicklung
+Ob individuelle Entwicklungsziele, Fachveranstaltungen, Messebesuche oder neue Verantwortungsbereiche – wir unterstützen dich dabei, deine Kompetenzen auszubauen und dich kontinuierlich weiterzuentwickeln. Regelmäßiges Feedback und ein transparenter Entwicklungsprozess sind dabei fester Bestandteil unserer Unternehmenskultur.
+Attraktive Zusatzleistungen
+Unser modernes Büro im Europahafen bietet eine gute ÖPNV-Anbindung, kostenfreie Parkplätze und ergonomisch ausgestattete Arbeitsplätze. Darüber hinaus erwarten dich zahlreiche Benefits wie Zuschüsse zur betrieblichen Altersvorsorge und zum Deutschlandticket-Jobticket, eine Kooperation mit EGYM Wellpass sowie täglich frischer Kaffee.
+Über uns
+Ubica Robotics entwickelt autonome Systeme zur Erstellung digitaler Zwillinge des stationären Handels. Aus der Forschung der Universität Bremen hervorgegangen, verbinden wir Robotik, KI und Software-Engineering zu marktreifer Technologie. Unser Fokus liegt auf zuverlässigen Lösungen, die täglich im operativen Einzelhandel eingesetzt werden und echte Entscheidungen ermöglichen. Wir glauben, dass Mitarbeiter*innen, die Verantwortung übernehmen, ihre Vision am besten verwirklichen. Unser unternehmerischer Ansatz gibt ihnen die Freiheit und die Werkzeuge, Innovationen schnell in reale Lösungen zu überführen.
+Auf diese Stelle bewerben
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]

@@ -8,45 +8,44 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Neura Robotics
-Integration & Distributed Systems Engineer – Cognitive Twin (human)
-Location
-
-Metzingen / Riederich
-Employment Type
-
-Full time
-Location Type
-
-On-site
-Department
-
-Software Engineering
-Overview
-Application
-At NEURA Robotics we build cognitive robots and Neuraverse, the connected ecosystem where robots, their skills, and the developers who build them come together. The Cognitive Twin is the unified environment where we design robotic applications, visualize their data in real time, and simulate and run them across virtual and real robots — so an application can be built and validated in simulation long before it runs on real hardware.
-A twin is only as useful as the connections that keep it in sync with the real world. You own the API-first architecture and the distributed communication layer of the twin — the transport, the real-time bi-directional sync loop, and the symmetric control plane that makes commanding a virtual robot and a physical one behave identically.
-Your mission & challenges
-Transport & real-time sync: You design the transport — gRPC/Protobuf microservices, compact binary real-time frames, and WebRTC media / data streaming — and the low-latency, high-throughput bi-directional telemetry sync loop between live fleets and the twin.
-Symmetric control plane: You build and maintain a single command path so the same controls drive virtual and live targets identically, and stay consistent under load.
-Connectivity: You build the connectors and real-time links that keep the twin and its simulator in sync with the robots, controllers, and services around them — including device-data ingestion (Fast DDS) — at consistently low latency.
-API-first architecture & SDKs: You design and own the cross-cutting API/SDK layer every area builds on, generating language-agnostic SDKs from the scene definition format so the twin engine embeds cleanly into external developer environments.
-Distributed-systems robustness: You set deployment standards — service boundaries, backpressure, failure and reconnection semantics — instrument transport for latency and throughput, and harden services under load.
-Contracts & compatibility: You own the binary data-exchange schema and the scene definition format as the shared boundary between frontend, SDKs, and the simulation backend, plus SDK ergonomics, the auth model for programmatic access, and backward-compatibility policy.
-What we can look forward to
-A university degree (Bachelor's or Master's) in Computer Science, Robotics, Electrical Engineering, or a related field — or equivalent hands-on experience.
-Several years of relevant experience designing and operating distributed, real-time systems and APIs/SDKs, with a track record of hardening research / prototype code into production services.
-Strong modern C++ (C++17), with Python for tooling; production-quality, tested code.
-A solid grasp of inter-process communication, networking (TCP/IP), and real-time constraints.
-Experience with robotics middleware (ROS 2 Humble, Fast DDS) and high-throughput transport (gRPC/Protobuf), plus schema-based serialization and code generation (binary schemas such as Protobuf) and multi-language SDK generation.
-Experience with real-time streaming (WebRTC, WebSockets).
-Comfortable with containerized deployment and orchestration (Docker, Kubernetes, Linux).
-Working familiarity with modern web development technologies (TypeScript, and a framework such as React) and how they consume the API.
-Familiarity with AI coding tools (e.g. Claude Code, Cursor, Copilot) and agentic orchestration for development.
-A plus: gRPC-Web / Envoy; CI/CD and release engineering for distributed services; prior experience building software for real robots, from control loops to device drivers and middleware; open-source robotics / middleware contributions.
-A product-development mindset — you care about delivering real value to users and adapt readily as product requirements evolve.
-Team spirit, a structured working style, and clear technical communication. Perfect command of English; German is a plus.
-
+Working Student Interior Sensing ML
+Apply
+locations
+Wuppertal, Germany
+time type
+Part time
+posted on
+Posted 30+ Days Ago
+job requisition id
+J000700630
+Shaping the Future of Mobility
+ 
+APTIV is one of the largest automotive suppliers and a global technology leader, with more than 180,000 employees worldwide. We tackle mobility’s toughest challenges and deliver market-relevant solutions for our customers. One of the key technologies driving the advancement of modern driver assistance systems and autonomous driving is Machine Learning (ML) and Artificial Intelligence (AI).
+ 
+We are looking for talented students who can contribute fresh ideas and support us in developing the next generation of AI algorithms.
+ 
+The team you will be working with develops solutions for in-cabin sensing. The goal is to determine, among other things, which seats are occupied, whether objects have been left behind in the vehicle, and whether passengers are wearing their seat belts correctly. In addition, we work on many other exciting topics.
+ 
+If you are looking for an opportunity to work in industry on practical applications and real-world challenges, we would love to hear from you!
+We also offer interesting Master’s thesis topics as an attractive opportunity for your next academic and professional step.
+ 
+Your Responsibilities:
+Provide general support in the field of Machine Learning for advanced engineering applications, particularly in data preparation and processing, data collection, as well as the training and evaluation of neural networks.
+Your Background:
+You are enrolled at a German university and studying Electrical Engineering, Computer Science, or a related field.
+You have the ability to program independently in Python.
+You have practical experience with at least one machine-learning framework such as TensorFlow, Keras, Caffe, PyTorch, fast.ai, or similar.
+You have good English skills; German language skills are considered an advantage.
+You are looking for a challenging role and enjoy working as part of a team.
+Benefits:
+Hourly-paid position.
+Flexible working hours.
+Structured onboarding process.
+Attractive training and development plan.
+Learning, professional growth, and development in a globally recognized international environment.
+#LI-NN1
+Privacy Notice - Active Candidates: https://www.aptiv.com/privacy-notice-active-candidates
+Aptiv is an equal employment opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender identity, sexual orientation, disability status, protected veteran status or any other characteristic protected by law.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

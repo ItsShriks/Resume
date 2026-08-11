@@ -3,36 +3,36 @@
 
 \resumeSubHeadingListStart
 
-\resumeSubItem{LiDAR 3D Semantic Segmentation \& Autonomous Inspection (Python, PyTorch, Open3D, CUDA)}{(Oct 2024 -- Apr 2025)
+\resumeSubItem{Continuous Mobile Manipulation Architecture (ROS2, C++17, MPC)}{(Master Thesis Project)
 \resumeItemListStart
-    \resumeItemPlain{Developed and benchmarked real-time 3D point cloud \textbf{semantic segmentation} and automated inspection pipelines on drone-collected aerial scanning datasets using PyTorch deep learning models.}
-    \resumeItemPlain{Optimised ML inference for embedded GPU deployment (CUDA, Jetson); validated segmentation accuracy against ground-truth datasets under strict real-world latency constraints.}
-\resumeItemListEnd}
-
-\resumeSubItem{UAV Sensor Integration \& SLAM-Based Localisation (C++17, Python, ROS2)}{(Oct 2024 -- Apr 2025)
-\resumeItemListStart
-    \resumeItemPlain{Integrated Camera, LiDAR, IMU, and GPS sensor streams for UAV state estimation; implemented SLAM and multi-sensor fusion pipelines validated against real drone scanning data under strict latency constraints.}
-    \resumeItemPlain{Developed ROS2 sensor drivers and calibration workflows for multimodal autonomous flight perception.}
-\resumeItemListEnd}
-
-\resumeSubItem{Robot Butler (ROS2, Nav2, RTAB-Map, OpenYOLO3D, Mask3D, DeepSeek LLM)}{
-\resumeItemListStart
-    \resumeItemPlain{Deployed ROS2 perception pipelines integrating \textbf{3D object detection} (OpenYOLO3D) and \textbf{semantic segmentation} (Mask3D) on a domestic service robot (Neobotix MMO700) with Camera and LiDAR sensors.}
-    \resumeItemPlain{Configured Nav2 and RTAB-Map for autonomous navigation, 3D SLAM mapping, and semantic object retrieval in dynamic real-world environments.}
-    \resumeItemPlain{Integrated DeepSeek LLM and visual-language models for semantic scene understanding and autonomous mission planning.}
+    \resumeItemPlain{Designing a unified control architecture coupling a \textbf{visibility-aware MPC planner} with a high-frequency TSID controller for continuous autonomous manipulation on mobile platforms.}
+    \resumeItemPlain{Developing an asynchronous \textbf{ROS2 bridge} for trajectory interpolation, ensuring symmetric control plane execution and strict real-time constraints for rigid-body dynamics.}
 \resumeItemListEnd}
 
 \resumeSubItem{Autonomous Mobile Robot Navigation Stack (ROS2 Humble, SLAM, EKF)}{
 \resumeItemListStart
-    \resumeItemPlain{Developed autonomous navigation capabilities for an omnidirectional industrial robotic platform.}
-    \resumeItemPlain{Designed and deployed a custom \textbf{Extended Kalman Filter (EKF)} node for multi-sensor fusion and state estimation across Camera, LiDAR, and IMU modalities.}
-    \resumeItemPlain{Validated \textbf{motion planning} and frontier exploration in dynamic simulation and real-world environments.}
+    \resumeItemPlain{Developed autonomous navigation and high-throughput transport capabilities for an industrial robotic platform.}
+    \resumeItemPlain{Designed a custom \textbf{Extended Kalman Filter (EKF)} node for multi-sensor state estimation (Camera, LiDAR, IMU) with low-latency device-data ingestion.}
+    \resumeItemPlain{Validated \textbf{motion planning} and control algorithms across dynamic simulated (Gazebo) and physical real-world environments.}
 \resumeItemListEnd}
 
-\resumeSubItem{Continuous Mobile Manipulation Architecture (MPC, TSID, ROS2)}{(Master Thesis Project)
+\resumeSubItem{Robot Butler (ROS2, Nav2, RTAB-Map, Fast DDS, Python)}{
 \resumeItemListStart
-    \resumeItemPlain{Designing a unified Whole Body Control (WBC) architecture coupling a \textbf{visibility-aware MPC planner} with a high-frequency TSID controller for continuous autonomous manipulation.}
-    \resumeItemPlain{Developing an asynchronous ROS2 bridge for trajectory interpolation and rigid-body dynamics resolution; targeting safety-critical real-world deployment on mobile manipulator platforms.}
+    \resumeItemPlain{Deployed \textbf{ROS2 perception pipelines} (OpenYOLO3D, Mask3D) on a Neobotix MMO700 domestic service robot using robust \textbf{Fast DDS} middleware for reliable sensor data streaming.}
+    \resumeItemPlain{Configured Nav2 and RTAB-Map for autonomous navigation, 3D SLAM mapping, and semantic object retrieval, ensuring consistent behaviour across real and virtual twin representations.}
+    \resumeItemPlain{Integrated visual-language models for scene understanding via programmatic APIs.}
+\resumeItemListEnd}
+
+\resumeSubItem{UAV Sensor Integration \& SLAM-Based Localisation (C++17, Python, ROS2)}{(Oct 2024 -- Apr 2025)
+\resumeItemListStart
+    \resumeItemPlain{Integrated Camera, LiDAR, IMU, and GPS sensor streams into a unified data-exchange schema for UAV state estimation.}
+    \resumeItemPlain{Implemented SLAM and sensor fusion pipelines validated against real drone telemetry under strict \textbf{real-time constraints}, developing robust ROS2 sensor drivers and calibration tools.}
+\resumeItemListEnd}
+
+\resumeSubItem{LiDAR 3D Semantic Segmentation (Python, PyTorch, CUDA)}{(Oct 2024 -- Apr 2025)
+\resumeItemListStart
+    \resumeItemPlain{Developed real-time 3D point cloud segmentation pipelines on drone-collected datasets, optimising ML inference for \textbf{embedded deployment (Jetson/Linux)}.}
+    \resumeItemPlain{Validated accuracy against ground-truth data under strict real-world latency constraints, producing production-quality, tested code.}
 \resumeItemListEnd}
 
 % \resumeSubItem{UR5 Robot Kinematics \& Scanning Path Planning (ROS Noetic, KDL, MoveIt)}{
@@ -42,4 +42,3 @@
 % \resumeItemListEnd}
 
 \resumeSubHeadingListEnd
-

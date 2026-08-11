@@ -8,84 +8,44 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Neura Robotics
+Integration & Distributed Systems Engineer – Cognitive Twin (human)
+Location
 
-People you can reach out to
+Metzingen / Riederich
+Employment Type
 
-School alumni from Bonn-Rhein-Sieg University of Applied Sciences and others in your network
-Show all
-Meet the hiring team
+Full time
+Location Type
 
+On-site
+Department
 
-Lily Wang 
-• 3rd
-HR
-Job poster
-Message
-About the job
-R&D Automation Intern / Working Student(w/m/d) - Shining 3D Technology GmbH
-HINING 3D develops high-accuracy 3D scanners for a wide range of applications. Our solutions are ideal for use in high-precision metrology, digital dentistry, and more. 
-
-What you’ll do:
-1. Participate in the development, optimization, and testing of modules related to robotic arm scanning path planning;
-2. Assist in the design, setup, and validation of demonstration solutions for 3D scanning and automated inspection;
-3. Participate in the integration, commissioning, and performance optimization of automated systems to enhance stability and efficiency;
-4. Support project progress and facilitate technical communication and collaboration across teams;
-5. Compile relevant technical documentation and analyze experimental data based on project requirements.
-
-What you bring: 
-1. Majors in Geomatics Engineering, Robotics, Computer Vision, Automation, Mechanical Engineering, or related fields;
-2. Strong programming skills with proficiency in Python and C++; experience with ROS/ROS2 development is preferred;
-3. Familiarity with 3D scanning/inspection, robotic arm path planning, or automation system technologies; relevant project experience is preferred;
-4. Good English communication skills; German language proficiency is a plus;
-5. Strong sense of responsibility, with excellent learning ability, communication skills, and a collaborative team spirit.
-
-Shining 3D Technology GmbH employee Benefits:
-Birthday Welfare,
-Festival Welfare,
-Free Coffee/Fruit,
-Social Friday drinks,
-Team-building activities,
-Food subsidy by Foodji
-
-Für weitere Informationen besuchen Sie bitte SHINING 3D im Internet unter www.shining3d.com
-Requirements added by the job poster
-• Authorized to work in Germany
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[END OF JOB DESCRIPTION]
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
-================================================================================
-  AI INSTRUCTIONS & WORKFLOW — DO NOT EDIT BELOW THIS LINE
-================================================================================
-
-You are an expert resume consultant and senior LaTeX engineer specializing in technical CV tailoring for competitive robotics, perception, and autonomous systems positions.
-
-Your objective is to adapt Shrikar Nakhye's resume modules (`tex/*.tex`) and generate a bespoke `cover_letter.tex` to maximize ATS scores and human recruiter alignment for the job description above.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CANDIDATE PROFILE (GROUND TRUTH — DO NOT ALTER OR FABRICATE)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Name         : Shrikar Nakhye
-- Location     : Bonn, Germany
-- Degree       : M.Sc. Autonomous Systems, Hochschule Bonn-Rhein-Sieg (Oct 2023 – Present)
-                 B.Tech Mechatronics Engineering, SSPU Pune (Jul 2018 – Jun 2022 | CGPA: 8.787 / 10)
-- Languages    : Deutsch (B2 -- fließend), Englisch (C2 -- fließend), Hindi (Muttersprache), Marathi (Muttersprache)
-- Availability : Werkstudent (15–20 h/week); Full-time after graduation
-- Contact      : nakhyeshrikar@icloud.com | LinkedIn: https://www.linkedin.com/in/shrikar-nakhye-053262188/ | GitHub: https://github.com/ItsShriks
-
-Real Experience Record (DO NOT rename, relocate, or invent dates):
-  1. b-it bots @Home (Bonn, Germany) — Perception & Navigation Core Member (Oct 2024 – Present)
-  2. Navilan Solutions (Bonn, Germany) — Student Assistant (Jul 2025 – Apr 2026)
-  3. H-BRS (Bonn, Germany) — Research Assistant (Oct 2024 – Apr 2025)
-  4. Sakar Robotics / HunarPro Hub (Pune, India) — Robotics Engineer, Tech Associate & Centre Manager (May 2021 – May 2023)
-  5. LearnByResearch (Remote) — Lead Researcher / Hardware Dev Researcher (May 2021 – Dec 2021)
-  6. SSIG Manufacturing Advancements (Pune, India) — Robotics System Intern (May 2019 – Jul 2019)
-
-Core Technical Stack:
-  - Frameworks & Systems: ROS, ROS2 (rclcpp, rclpy, tf2, Nav2, Lifecycle Nodes), MoveIt, KDL, RTAB-Map, PX4, ArduPilot, Gazebo, MuJoCo, Isaac Sim
-  - Languages & Tools: Python, Modern C++ (C++17), CMake, Git, Linux, Docker, CUDA, PyTorch, OpenCV, Open3D, Qt, JSON/YAML, MATLAB, Simulink
+Software Engineering
+Overview
+Application
+At NEURA Robotics we build cognitive robots and Neuraverse, the connected ecosystem where robots, their skills, and the developers who build them come together. The Cognitive Twin is the unified environment where we design robotic applications, visualize their data in real time, and simulate and run them across virtual and real robots — so an application can be built and validated in simulation long before it runs on real hardware.
+A twin is only as useful as the connections that keep it in sync with the real world. You own the API-first architecture and the distributed communication layer of the twin — the transport, the real-time bi-directional sync loop, and the symmetric control plane that makes commanding a virtual robot and a physical one behave identically.
+Your mission & challenges
+Transport & real-time sync: You design the transport — gRPC/Protobuf microservices, compact binary real-time frames, and WebRTC media / data streaming — and the low-latency, high-throughput bi-directional telemetry sync loop between live fleets and the twin.
+Symmetric control plane: You build and maintain a single command path so the same controls drive virtual and live targets identically, and stay consistent under load.
+Connectivity: You build the connectors and real-time links that keep the twin and its simulator in sync with the robots, controllers, and services around them — including device-data ingestion (Fast DDS) — at consistently low latency.
+API-first architecture & SDKs: You design and own the cross-cutting API/SDK layer every area builds on, generating language-agnostic SDKs from the scene definition format so the twin engine embeds cleanly into external developer environments.
+Distributed-systems robustness: You set deployment standards — service boundaries, backpressure, failure and reconnection semantics — instrument transport for latency and throughput, and harden services under load.
+Contracts & compatibility: You own the binary data-exchange schema and the scene definition format as the shared boundary between frontend, SDKs, and the simulation backend, plus SDK ergonomics, the auth model for programmatic access, and backward-compatibility policy.
+What we can look forward to
+A university degree (Bachelor's or Master's) in Computer Science, Robotics, Electrical Engineering, or a related field — or equivalent hands-on experience.
+Several years of relevant experience designing and operating distributed, real-time systems and APIs/SDKs, with a track record of hardening research / prototype code into production services.
+Strong modern C++ (C++17), with Python for tooling; production-quality, tested code.
+A solid grasp of inter-process communication, networking (TCP/IP), and real-time constraints.
+Experience with robotics middleware (ROS 2 Humble, Fast DDS) and high-throughput transport (gRPC/Protobuf), plus schema-based serialization and code generation (binary schemas such as Protobuf) and multi-language SDK generation.
+Experience with real-time streaming (WebRTC, WebSockets).
+Comfortable with containerized deployment and orchestration (Docker, Kubernetes, Linux).
+Working familiarity with modern web development technologies (TypeScript, and a framework such as React) and how they consume the API.
+Familiarity with AI coding tools (e.g. Claude Code, Cursor, Copilot) and agentic orchestration for development.
+A plus: gRPC-Web / Envoy; CI/CD and release engineering for distributed services; prior experience building software for real robots, from control loops to device drivers and middleware; open-source robotics / middleware contributions.
+A product-development mindset — you care about delivering real value to users and adapt readily as product requirements evolve.
+Team spirit, a structured working style, and clear technical communication. Perfect command of English; German is a plus.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE

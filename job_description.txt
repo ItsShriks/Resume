@@ -7,67 +7,35 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Werkstudent (w/m/d) Perception Software Engineer
-Job ID 
-516123
-Posted since 
-30-Jul-2026
-Organization 
-Mobility
-Field of work 
-Engineering
-Company 
-Siemens Mobility GmbH
-Experience level 
-Student (Not Yet Graduated)
-Job type 
-Part-time
-Work mode 
-Hybrid (Remote/Office)
-Employment type 
-Fixed Term
-Location(s) 
-Braunschweig - Niedersachsen - Germany
-Gemeinsam machen wir den Unterschied
-Siemens Mobility ist ein eigenständig geführtes Unternehmen der Siemens AG und seit über 160 Jahren ein führender Anbieter im Bereich Mobilität. Zu unserem Kerngeschäft gehören Schienenfahrzeuge, Bahnautomatisierungs- und Elektrifizierungslösungen, schlüsselfertige Systeme sowie die dazugehörigen Serviceleistungen. Wir waren schon immer sehr innovativ, um Reisen schneller, sicherer und komfortabler zu machen. Heute brauchen wir neue Lösungen für neue Herausforderungen wie den Klimawandel und weltweit steigende Bevölkerungszahlen. Das ist es, was uns antreibt. Deshalb gestalten wir Mobilität mit Leidenschaft und sind immer einen Schritt voraus. Durch Digitalisierung machen wir Infrastrukturen intelligent und schaffen Möglichkeiten, die uns nachhaltig und nahtlos von A nach B bringen. Unsere über 40.000 Mitarbeitenden sind Pioniere im Mobilitätswesen, die dabei helfen, die Welt in Bewegung zu halten.
+WOFÜR WIR SIE SUCHEN
+Konzeptionierung, Auslegung und Entwicklung von Elektronikkomponenten/-systemen von innovativen Produkten im Bereich Robotik (Humanoide, künstliche Muskeln)
+Definition relevanter Anforderungen anhand definierter Anwendungen
+Unterstützung bei der Planung und Betreuung von CAE-Simulationen zur Systemauslegung/-optimierung/-validierung
+Entwicklung eines Steuerungssystems basierend auf einer Mikrocontroller-Plattform (z. B. Arduino oder Raspberry Pi) zur Verarbeitung von Sensorik und Koordination der Bewegungen
+Prototypenbau (z. B. mittels 3D-Druck) und Integration der Aktuatoren
+Testen und Optimieren
+WAS SIE MITBRINGEN SOLLTEN
+Fortlaufendes oder abgeschlossenes Studium im Bereich der Robotik, Mechatronik, Elektrotechnik oder vergleichbare 
+Fundierte Kenntnisse in den Grundlagen der Auslegung und Detaillierung von Bauteilen und Baugruppen in entsprechenden Tools
+Technologie-Know-how in den Disziplinen Robotik, Mechanik, Mechatronik und/oder Elektrotechnik
+Vorerfahrung im Bereich Regelungsentwicklung und im Aufbau und Betrieb von Prototypen
+Beherrschung gängiger Programmiersprachen, u. a. C++, MATLAB, Python, ROS2
+Kreativität und Innovativität sowie rasche Auffassungsgabe und analytische Problemlösungsfähigkeit
+Sehr gutes Deutsch- und Englischkenntnisse in Wort und Schrift
+Stärken und Erfahrungen zählen bei Rheinmetall, auch wenn vielleicht nicht alle aufgeführten Anforderungen vollständig erfüllt sind. Wir freuen uns auf Bewerber (m/w/d), die Lust haben, etwas zu bewegen und Verantwortung zu übernehmen. Wir legen Wert auf Individualität und Chancengleichheit. Schwerbehinderte Bewerber (m/w/d) werden bei gleicher Eignung besonders berücksichtigt.
+
+WAS WIR IHNEN BIETEN
+An unserem Standort in Düsseldorf bieten wir Ihnen:
+
  
-Was trägst Du bei?
-Wir bei Siemens Mobility setzen auf zukunftsweisende sensorbasierte Systeme, um die Sicherheit im Schienenverkehr kontinuierlich zu verbessern. Unser Ziel ist es, durch intelligente Objekterkennung im Gleisbereich – sowohl durch Sensoren im Zug als auch stationär an Stationen – einfahrende Züge rechtzeitig zu warnen und somit potenzielle Gefahren abzuwenden. Für die Entwicklung dieser komplexen Toolkette, von der Sensordatenerfassung über die Objekterkennung bis hin zur Echtzeit-Alarmausgabe, suchen wir Dich als engagierte Unterstützung.
-Du recherchierst und implementierst verschiedene State-of-the-Art Algorithmen zur 3D-Punktwolkenverarbeitung von LiDAR-Daten, insbesondere in den Bereichen Background Segmentation, Objekterkennung und Multi-Object Tracking.
-Du konzipierst und implementierst eine performante Computer-Vision-Pipeline zur Echtzeit-Objekterkennung im ROS-Framework, optimiert für High- Compute-Plattformen.
-Du unterstützt uns beim Aufbau und der Konfiguration eines physischen Testsetups mit Sensoren und leistungsstarken Rechnern vor Ort, um die Algorithmen unter realitätsnahen Bedingungen zu validieren.
-Du analysierst die Performance der Algorithmen auf verschiedenen Hardware-Architekturen (GPUs vs. CPUs) und optimierst diese gezielt zur Laufzeitverbesserung.
-Du konzipierst systematisch Testszenarien, hinterlegst eine Ground Truth und evaluierst die Detektionsraten der Algorithmen.
- 
-Was bringst Du mit?
-Du studierst Informatik, Computer Science, Robotics, Software-Engineering, Mechatronik oder einen vergleichbaren Studiengang.
-Du verfügst über Kenntnisse in der Sensordatenverarbeitung, Computer Vision und Objekterkennung, idealerweise im Kontext von LiDAR-Punktwolken.
-Du hast erste Erfahrung in der Programmierung mit C++, ROS oder Python und bist sicher im Umgang mit GitHub. Kenntnisse in der Programmierung auf NVIDIA-Hardware sind ein Plus.
-Du arbeitest selbstständig, strukturiert und erfasst neue technische Themen schnell und lösungsorientiert.
-Du kommunizierst sicher auf Deutsch und Englisch.
- 
-Was bieten wir Dir?
-Inklusion & Vielfalt
-Bei Siemens Mobility setzen wir uns engagiert für Gerechtigkeit und Gleichberechtigung ein. Vielfalt bereichert unser Team und fördert innovative Lösungen. Wir freuen uns über Bewerbungen von Menschen mit Behinderung.
-Purpose
-Wir sind Pioniere der Mobilität. Bei uns trägst Du in einem Zukunftsmarkt aktiv zu Verkehrswende und Klimaschutz bei, weil unsere Transportlösungen in aller Welt den CO2-Ausstoß verringern.
-Mobiles Arbeiten /Remote Working
-Bei uns hast Du die Möglichkeit, hybrid zu arbeiten. Das bedeutet, dass Du zu einem erheblichen Anteil mobil tätig sein kannst. Dies haben wir durch eine Betriebsvereinbarung offiziell geregelt.
-Attraktive Konditionen
-Bei uns erhältst Du eine attraktive Vergütung. Du startest mit 15,17€ je Stunde und erhältst ab dem 7. Monat 19,36€ pro Stunde.
-Eine Übersicht über unsere Benefits findest Du hier.
- 
-Wie trittst Du mit uns in Kontakt?
-www.siemens.de/mobility
-wenn Du vor Deiner Bewerbung mehr über Siemens Mobility erfahren möchtest.
-www.siemens.com/de/de/unternehmen/jobs/faq.html
-wenn Du Informationen rund um das Thema Bewerbung mittels unseres FAQ’s einholen möchtest.
-+49 (9131) 17 5243-0
-wenn Du über unsere Bewerberhotline weitere Fragen zur Stelle klären möchtest.
-www.siemens.com/mobility-jobs
-wenn Du mehr Informationen zu Jobs & Karriere bei Siemens erhalten möchtest.
-Wir legen Wert auf Chancengleichheit und freuen uns über Bewerbungen von Menschen mit Behinderung.
-Ansprechpartner für diese Stellenausschreibung ist Frau Christin Hitz.
+
+Flexible Arbeitszeitmodelle
+Fitness- und Gesundheitsangebote
+Subventioniertes Betriebsrestaurant
+Corporate Benefits Plattform
+Deutschland-Ticket als Jobticket
+Individuelle und vielfältige externe sowie interne Weiterentwicklungsmöglichkeiten, u. a. in der Rheinmetall Academy und über eine E-Learning-Plattform
+Professioneller Einarbeitungsprozess begleitet durch ein digitales Onboarding-Tool
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -111,8 +79,8 @@ Key technical skills: ROS/ROS2, Python, PyTorch, OpenCV, MediaPipe, YOLO,
 REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 /Users/shrikar/Resume/
-  Shrikar_Nakhye.tex          <- main resume file (includes the tex/ partials)
-  cover_letter.tex            <- cover letter (fully rewrite for each application)
+  Lebenslauf_Shrikar_Nakhye.tex          <- main resume file (includes the tex/ partials)
+  Anschreiben.tex            <- cover letter (fully rewrite for each application)
   build.sh                    <- builds both PDFs via latexmk
   tex/
     Personal_Info.tex         <- Summary / professional profile paragraph
@@ -164,7 +132,7 @@ STEP 6 — UPDATE tex/Projects.tex (if applicable)
   - Uncomment or reorder projects to prioritise the most relevant ones.
   - Briefly adjust project descriptions to highlight skills the employer wants.
 
-STEP 7 — REWRITE cover_letter.tex (ALWAYS do this)
+STEP 7 — REWRITE Anschreiben.tex (ALWAYS do this)
   - Address: use the company name and role title from the job description.
   - Language: write in German if the role is at a German company and requires
     German; otherwise write in English. If bilingual, prefer German.

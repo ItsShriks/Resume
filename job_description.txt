@@ -7,35 +7,59 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-WOFÜR WIR SIE SUCHEN
-Konzeptionierung, Auslegung und Entwicklung von Elektronikkomponenten/-systemen von innovativen Produkten im Bereich Robotik (Humanoide, künstliche Muskeln)
-Definition relevanter Anforderungen anhand definierter Anwendungen
-Unterstützung bei der Planung und Betreuung von CAE-Simulationen zur Systemauslegung/-optimierung/-validierung
-Entwicklung eines Steuerungssystems basierend auf einer Mikrocontroller-Plattform (z. B. Arduino oder Raspberry Pi) zur Verarbeitung von Sensorik und Koordination der Bewegungen
-Prototypenbau (z. B. mittels 3D-Druck) und Integration der Aktuatoren
-Testen und Optimieren
-WAS SIE MITBRINGEN SOLLTEN
-Fortlaufendes oder abgeschlossenes Studium im Bereich der Robotik, Mechatronik, Elektrotechnik oder vergleichbare 
-Fundierte Kenntnisse in den Grundlagen der Auslegung und Detaillierung von Bauteilen und Baugruppen in entsprechenden Tools
-Technologie-Know-how in den Disziplinen Robotik, Mechanik, Mechatronik und/oder Elektrotechnik
-Vorerfahrung im Bereich Regelungsentwicklung und im Aufbau und Betrieb von Prototypen
-Beherrschung gängiger Programmiersprachen, u. a. C++, MATLAB, Python, ROS2
-Kreativität und Innovativität sowie rasche Auffassungsgabe und analytische Problemlösungsfähigkeit
-Sehr gutes Deutsch- und Englischkenntnisse in Wort und Schrift
-Stärken und Erfahrungen zählen bei Rheinmetall, auch wenn vielleicht nicht alle aufgeführten Anforderungen vollständig erfüllt sind. Wir freuen uns auf Bewerber (m/w/d), die Lust haben, etwas zu bewegen und Verantwortung zu übernehmen. Wir legen Wert auf Individualität und Chancengleichheit. Schwerbehinderte Bewerber (m/w/d) werden bei gleicher Eignung besonders berücksichtigt.
+Ort:  Stuttgart
+Datum:  20.07.2026
+Studentische Hilfskraft (m/w/d) - Softwareentwicklung für moderne autonome Outdoor-Roboternavigation
 
-WAS WIR IHNEN BIETEN
-An unserem Standort in Düsseldorf bieten wir Ihnen:
+Die Fraunhofer-Gesellschaft (www.fraunhofer.de) ist eine der weltweit führenden Organisationen für anwendungsorientierte Forschung. 74 Institute entwickeln wegweisende Technologien für unsere Wirtschaft und Gesellschaft – genauer: 30 000 Menschen aus Technik, Wissenschaft, Verwaltung und IT. Sie wissen: Wer zu Fraunhofer kommt, will und kann etwas verändern. Für sich, für uns und die Märkte von heute und morgen.
 
  
+ 
+ 
+Studentische Hilfskraft (m/w/d) - Softwareentwicklung für moderne autonome Outdoor-Roboternavigation
+ 
+Ausschreibung für die Fachrichtungen wie z. B.: Automatisierungstechnik, Elektrotechnik, Informatik, Softwaredesign, Softwareengineering, technische Informatik oder vergleichbare.
+ 
+In der Forschungsgruppe „Navigation mobile Roboter“ entwickeln wir autonome, mobile Roboter für eine Vielzahl von Anwendungen im Außenbereich, beispielsweise in der Land- und Forstwirtschaft sowie in der Logistik. Der Schwerpunkt liegt auf der Entwicklung einer autonomen Navigationslösung für den Außenbereich sowie auf der Hardware der Roboter.
+Wir suchen eine/n motivierte/n Studierende/n (m/w/d), der/die unser Team verstärkt und uns bei der Software-Implementierung sowie bei Evaluierungsaufgaben unterstützt. Wenn Sie Freude am Programmieren haben, gerne neue Ideen und Implementierungen ausprobieren und zu unserem Navigations-Software-Stack beitragen möchten, ist dies eine hervorragende Gelegenheit, die Welt der autonomen Roboternavigation kennenzulernen.
+ 
+ 
+Hier sorgen Sie für Veränderung
+Zu Ihren Aufgaben gehört die Implementierung von Funktionen in mehreren Softwarekomponenten, etwa in den Bereichen Roboterlokalisierung, Treiber und Infrastruktur, sowie das Testen und Evaluieren neuer Ideen und vielversprechender Ansätze aus Forschungsarbeiten und Open-Source-Veröffentlichungen. Sie werden die Software auf den realen Robotern in unseren Testumgebungen testen und einsetzen.
+Zu den ersten Aufgaben zählen die Unterstützung bei der Integration eines neuen Fernsteuerungssystems in unseren Kettenroboter CURttrac sowie die Untersuchung des Einsatzes visueller Odometrie in unserer Lokalisierungslösung.
+ 
+ 
+Hiermit bringen Sie sich ein
+Immatrikulation an einer deutschen Universität oder Hochschule
+Regelmäßige Präsenz am IPA-Campus
+Hintergrund in Informatik, Software Engineering, Elektrotechnik, Autonomen Systemen oder einem vergleichbaren Fachgebiet
+Erste Erfahrungen mit C++ und Linux
+Idealerweise Erfahrung mit einem oder mehreren der folgenden Bereiche: ROS 2, Computer Vision, Punktwolkenverarbeitung, Maschinelles Lernen, Docker, Git, GitLab CI, Grafana, CAN/CANOpen, Python, Rust
+Begeisterung für mobile Robotik
+Sehr gute Englisch- oder Deutschkenntnisse
+ 
+ 
+Was wir für Sie bereithalten
+Möglichkeit, künftig Studienprojekte oder eine Bachelor-/Masterarbeit aufbauend auf der eigenen Tätigkeit durchzuführen
+Modernste Technologien im Bereich der mobilen Robotik für den Außeneinsatz
+Praktische Arbeit mit unseren Robotern in unseren eigenen Testumgebungen in Stuttgart
+Möglichkeit, Verantwortung zu übernehmen und eigene Ideen eigenständig umzusetzen
+Zusammenarbeit mit exzellenten Studierenden der jeweiligen Fachrichtungen
+ 
+​
+Wir wertschätzen und fördern die Vielfalt der Kompetenzen unserer Mitarbeitenden und begrüßen daher alle Bewerbungen – unabhängig von Alter, Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion, Weltanschauung, Behinderung sowie sexueller Orientierung und Identität. Schwerbehinderte Menschen werden bei gleicher Eignung bevorzugt eingestellt. Unsere Aufgaben sind vielfältig und anpassbar – für Bewerber*innen mit Behinderung finden wir gemeinsam Lösungen, die ihre Fähigkeiten optimal fördern. 
+ 
+Bereit für Veränderung? Dann bewerben Sie sich jetzt, und machen Sie einen Unterschied! Nach Eingang Ihrer Online-Bewerbung erhalten Sie eine automatische Empfangsbestätigung. Dann melden wir uns schnellstmöglich und sagen Ihnen, wie es weitergeht.
+ 
+Frau Jennifer Leppich
+Recruiting
++49 711 970-1415
+jennifer.leppich@ipa.fraunhofer.de 
+ 
+Fraunhofer-Institut für Produktionstechnik und Automatisierung IPA 
+www.ipa.fraunhofer.de 
 
-Flexible Arbeitszeitmodelle
-Fitness- und Gesundheitsangebote
-Subventioniertes Betriebsrestaurant
-Corporate Benefits Plattform
-Deutschland-Ticket als Jobticket
-Individuelle und vielfältige externe sowie interne Weiterentwicklungsmöglichkeiten, u. a. in der Rheinmetall Academy und über eine E-Learning-Plattform
-Professioneller Einarbeitungsprozess begleitet durch ein digitales Onboarding-Tool
+Kennziffer: 85105
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

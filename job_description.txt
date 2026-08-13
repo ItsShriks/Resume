@@ -7,59 +7,40 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Ort:  Stuttgart
-Datum:  20.07.2026
-Studentische Hilfskraft (m/w/d) - Softwareentwicklung für moderne autonome Outdoor-Roboternavigation
+Werkstudent Computer Vision & Python (w/m/div.)
+Markwiesenstraße 46, 72770 Reutlingen-Betzingen, Deutschland
+Teilzeit
+Legal Entity: Robert Bosch GmbH
+Unternehmensbeschreibung
+Bei Bosch gestalten wir Zukunft mit hochwertigen Technologien und Dienstleistungen, die Begeisterung wecken und das Leben der Menschen verbessern. Unser Versprechen an unsere Mitarbeiterinnen und Mitarbeiter steht dabei felsenfest: Wir wachsen gemeinsam, haben Freude an unserer Arbeit und inspirieren uns gegenseitig. Willkommen bei Bosch.
 
-Die Fraunhofer-Gesellschaft (www.fraunhofer.de) ist eine der weltweit führenden Organisationen für anwendungsorientierte Forschung. 74 Institute entwickeln wegweisende Technologien für unsere Wirtschaft und Gesellschaft – genauer: 30 000 Menschen aus Technik, Wissenschaft, Verwaltung und IT. Sie wissen: Wer zu Fraunhofer kommt, will und kann etwas verändern. Für sich, für uns und die Märkte von heute und morgen.
+Die Robert Bosch GmbH freut sich auf deine Bewerbung!
+Stellenbeschreibung
+Du begeisterst dich für die Entwicklung zukunftsweisender Softwarelösungen und möchtest aktiv an der Gestaltung des Qualitätsmanagements von morgen mitwirken? Hier hast du die einzigartige Chance, deine Python-Skills in einem innovativen Umfeld einzusetzen. Werde Teil eines Teams, das mit einem In-house-Patent die Grenzen der kamerabasierten Überwachung neu definiert und gestalte mit uns die Zukunft der Qualitätssicherung.
 
- 
- 
- 
-Studentische Hilfskraft (m/w/d) - Softwareentwicklung für moderne autonome Outdoor-Roboternavigation
- 
-Ausschreibung für die Fachrichtungen wie z. B.: Automatisierungstechnik, Elektrotechnik, Informatik, Softwaredesign, Softwareengineering, technische Informatik oder vergleichbare.
- 
-In der Forschungsgruppe „Navigation mobile Roboter“ entwickeln wir autonome, mobile Roboter für eine Vielzahl von Anwendungen im Außenbereich, beispielsweise in der Land- und Forstwirtschaft sowie in der Logistik. Der Schwerpunkt liegt auf der Entwicklung einer autonomen Navigationslösung für den Außenbereich sowie auf der Hardware der Roboter.
-Wir suchen eine/n motivierte/n Studierende/n (m/w/d), der/die unser Team verstärkt und uns bei der Software-Implementierung sowie bei Evaluierungsaufgaben unterstützt. Wenn Sie Freude am Programmieren haben, gerne neue Ideen und Implementierungen ausprobieren und zu unserem Navigations-Software-Stack beitragen möchten, ist dies eine hervorragende Gelegenheit, die Welt der autonomen Roboternavigation kennenzulernen.
- 
- 
-Hier sorgen Sie für Veränderung
-Zu Ihren Aufgaben gehört die Implementierung von Funktionen in mehreren Softwarekomponenten, etwa in den Bereichen Roboterlokalisierung, Treiber und Infrastruktur, sowie das Testen und Evaluieren neuer Ideen und vielversprechender Ansätze aus Forschungsarbeiten und Open-Source-Veröffentlichungen. Sie werden die Software auf den realen Robotern in unseren Testumgebungen testen und einsetzen.
-Zu den ersten Aufgaben zählen die Unterstützung bei der Integration eines neuen Fernsteuerungssystems in unseren Kettenroboter CURttrac sowie die Untersuchung des Einsatzes visueller Odometrie in unserer Lokalisierungslösung.
- 
- 
-Hiermit bringen Sie sich ein
-Immatrikulation an einer deutschen Universität oder Hochschule
-Regelmäßige Präsenz am IPA-Campus
-Hintergrund in Informatik, Software Engineering, Elektrotechnik, Autonomen Systemen oder einem vergleichbaren Fachgebiet
-Erste Erfahrungen mit C++ und Linux
-Idealerweise Erfahrung mit einem oder mehreren der folgenden Bereiche: ROS 2, Computer Vision, Punktwolkenverarbeitung, Maschinelles Lernen, Docker, Git, GitLab CI, Grafana, CAN/CANOpen, Python, Rust
-Begeisterung für mobile Robotik
-Sehr gute Englisch- oder Deutschkenntnisse
- 
- 
-Was wir für Sie bereithalten
-Möglichkeit, künftig Studienprojekte oder eine Bachelor-/Masterarbeit aufbauend auf der eigenen Tätigkeit durchzuführen
-Modernste Technologien im Bereich der mobilen Robotik für den Außeneinsatz
-Praktische Arbeit mit unseren Robotern in unseren eigenen Testumgebungen in Stuttgart
-Möglichkeit, Verantwortung zu übernehmen und eigene Ideen eigenständig umzusetzen
-Zusammenarbeit mit exzellenten Studierenden der jeweiligen Fachrichtungen
- 
-​
-Wir wertschätzen und fördern die Vielfalt der Kompetenzen unserer Mitarbeitenden und begrüßen daher alle Bewerbungen – unabhängig von Alter, Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion, Weltanschauung, Behinderung sowie sexueller Orientierung und Identität. Schwerbehinderte Menschen werden bei gleicher Eignung bevorzugt eingestellt. Unsere Aufgaben sind vielfältig und anpassbar – für Bewerber*innen mit Behinderung finden wir gemeinsam Lösungen, die ihre Fähigkeiten optimal fördern. 
- 
-Bereit für Veränderung? Dann bewerben Sie sich jetzt, und machen Sie einen Unterschied! Nach Eingang Ihrer Online-Bewerbung erhalten Sie eine automatische Empfangsbestätigung. Dann melden wir uns schnellstmöglich und sagen Ihnen, wie es weitergeht.
- 
-Frau Jennifer Leppich
-Recruiting
-+49 711 970-1415
-jennifer.leppich@ipa.fraunhofer.de 
- 
-Fraunhofer-Institut für Produktionstechnik und Automatisierung IPA 
-www.ipa.fraunhofer.de 
+Während deiner Werkstudententätigkeit begleitest du den Rollout und die Inbetriebnahme einer brandneuen Visualisierungssoftware für unser Qualitätsmanagement und gestaltest dabei aktiv die Usability mit.
+Du unterstützt unsere Prozessingenieurinnen und Prozessingenieure bei der Überwachung von Prozessparametern, optimierst bestehende Abläufe und lernst dabei, wie datengestützte Entscheidungen in der Praxis getroffen werden.
+Darüber hinaus entwickelst du eine moderne, intuitive grafische Benutzeroberfläche (GUI) für unsere kamerabasierte SPC-Überwachung und implementierst neue Analysefeatures, um unser In-house-Patent auf das nächste Level zu heben.
+Nicht zuletzt baust du ein professionelles Logging-Framework auf und implementierst ein smartes Exception Handling, um unsere Python-Systeme robust und zukunftssicher zu gestalten.
+Qualifikationen
+Ausbildung: Studium im Bereich Maschinenbau, Mechatronik, Informatik oder vergleichbar
+Erfahrungen und Know-how: sicherer Umgang mit MS Office; Vorerfahrung mit Bildverarbeitung und KI wünschenswert
+Persönlichkeit und Arbeitsweise: du arbeitest selbstständig und qualitätsbewusst, bringst eine starke Eigeninitiative mit und kommunizierst deine Ergebnisse klar sowie prägnant
+Arbeitsalltag: deine Präsenz vor Ort ist erforderlich
+Sprachen: verhandlungssicheres Deutsch und Englisch
+Zusätzliche Informationen
+Beginn: nach Absprache
+Dauer: 6 Monate – 10h/Woche 
 
-Kennziffer: 85105
+Voraussetzung für die Werkstudententätigkeit ist die Immatrikulation an einer Hochschule. Bitte füge deiner Bewerbung deinen Lebenslauf, deinen aktuellen Notenspiegel, eine aktuelle Immatrikulationsbescheinigung sowie ggf. eine gültige Arbeits- und Aufenthaltserlaubnis bei.
+
+Vielfalt und Inklusion sind für uns keine Trends, sondern fest verankert in unserer Unternehmenskultur. Daher freuen wir uns über alle Bewerbungen: unabhängig von Geschlecht, Alter, Behinderung, Religion, ethnischer Herkunft oder sexueller Identität.
+
+Du hast fachliche Fragen zum Job?
+Thomas Haerter (Fachabteilung)
++49 7121 35 39381
+
+Work #LikeABosch beginnt hier: Jetzt bewerben!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

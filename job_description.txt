@@ -8,64 +8,36 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Stealth Robotics Startup
-Stealth Robotics Startup
-Neu
-Working Student / Internship - Robotics Application Engineer (m/w/d)
-München, Deutschland
-Werkstudent
-Maschinenbau
-18 € bis 28 € / Stunde
-We're an early-stage robotics startup founded out of TUM MIRMI and backed by €1M+ in pre-seed funding from a leading European VC. Our mission is to bring the latest advances in Robot Learning and Physical AI into real industrial deployment.
-
-We're looking for builders: Engineers who enjoy taking things apart, putting them back together, and making complex systems work. You'll work across the entire robotics stack - from mechanics and CAD to sensors, robot programming and industrial deployments - building real automation systems that leave the lab and enter factories.
-Aufgaben
-
-Design, build, install and troubleshoot industrial robotic applications and customer deployments
-Design applications and mechanical components in CAD
-Integrate sensors, cameras, pneumatics, end-effectors and industrial I/Os
-Manufacture, assemble, test and iterate prototypes and customer systems
-Support in creating drawings and documentation for robotic cells
-Qualifikation
-
-Currently pursuing a degree in Mechanical Engineering, Mechatronics, Automation Engineering or a related field
-Hands-on mentality and enthusiasm for building real hardware
-Experience with CAD, 3D-printing and manufacturing technolgies
-First experience in automation technology, robotics or automation machinery
-Independent, pragmatic and solution-oriented way of working
-Experience with one or more of the following makes you stand out:
-PLC & Industrial communication (Siemens/Codesys, Profinet/EtherCAT, ...)
-Robot programming (for example UR, Kuka, Fanuc..)
-Pneumatics or electrical systems
-Benefits
-
-Take Ownership: Join an early-stage startup where your ideas have a direct impact on the company, product, and technology.
-
-State-of-the-Art Tools and Machinery: Work hands-on with the latest robotics platforms, machine tools, 3D-printers and more.
-
-Accelerate Your Growth: Take on challenging problems, learn how to build turnkey automation solutions from first design to safety certification, and grow faster than in almost any other environment.
-
-Freedom & Responsibility: Shape your role around your strengths and interests with a high degree of ownership and autonomy.
-
-Great Perks: Free dinners, gym membership, team events, and other startup perks.
-
-Grow With Us: Excellent interns and working students have the opportunity to join full-time and help build the company from its earliest days.
-
-Team & Culture: Join a team of young and ambitious builders, who enjoy solving hard problems and have fun playing with the latest technolgies.
-We appreciate a builders mindset more than a polished CV. If you're excited about robotics, love building things, and want to work on technology that will shape the future of manufacturing, we'd love to hear from you.
-Aktualisiert: vor 2 Tagen
-Job ID 16564514
-Problem melden
-
-Stealth Robotics Startup
-1-10 Mitarbeitende
-Produktionsautomatisierung
-We're an early-stage robotics startup founded out of TUM MIRMI and backed by €1M+ in pre-seed funding from a leading European venture capital investor.
-
-Our mission is to bring th…
-Mehr lesen
-Webseite
-LinkedIn
+Job Requisition ID
+JR2022444
+Job Category
+Sales
+Time Type
+Full time
+NVIDIA has been redefining computer graphics and accelerated computing for three decades. Today, we're tapping into the unlimited potential of AI to define the next era of computing. Doing what's never been done before takes vision, innovation, and the world's best talent. 
+As a new college graduate, our rotation program will team you up with experienced Solution Architects for on-the-job training as you work as part of a team supporting customers building solutions with our newest software and hardware platforms. A Solutions Architect is the first line of technical expertise between NVIDIA and our partners and customers. You will dynamically engage with developers, data scientists, scientific researchers, IT and senior leaders. 
+You will spend up to 16 months rotating through customer-facing teams supporting different industries such as healthcare, retail, automotive, robotics, etc. In the process, you will have the opportunity to become a specialist in our enterprise products as well as our developer software platforms such as NVIDIA AI Enterprise, CUDA-X and Omniverse. You may also be able to rotate with other departments at NVIDIA. At the end of the program, you will have become a domain specialist on at least one NVIDIA technology and will join a team as a Solution Architect in an area of your choosing. 
+What you will be doing: 
+• Engage with customers in academia and industry to understand their technical environment & challenges, design tailored NVIDIA-powered solutions that address their needs and demonstrate value, and gain hands-on field experience through customer visits and on-site engagements across EMEA. 
+• Be the catalyst driving the adoption and scaling of cutting-edge AI solutions by delivering hands-on workshops, demonstrations, and training sessions using NVIDIA hardware and software, empowering users to become NVIDIA champions. 
+• Take ownership of proof-of-concept implementations that showcase NVIDIA's capabilities in real customer environments, driving product adoption through technical evaluation, documentation, and handoff into production IT infrastructures. 
+• Collaborate with Sales Account Managers; Developer Relations Managers and Customers as a trusted technical advisor, helping large enterprises understand the value of NVIDIA and painting the vision for how they can successfully integrate and deploy our solutions, and securing design wins. 
+• Identify gaps between customer needs and NVIDIA's current offerings, propose and develop prototypical solutions, and communicate requirements directly to NVIDIA Engineering, turning front-line field insights into product improvements that shape our roadmap. 
+What we need to see: 
+• Newly graduating with a MS (or equivalent degree) in Computer Science, Engineering, or related field. 
+• Coursework in Machine Learning, High-Performance Computing, Deep Learning & AI, Data Science or Visual Computing. 
+• Skilled in 1 or more programming languages (Python, C/C++, etc.). 
+• Self-driven and analytical, with a natural curiosity for customer problems and the confidence to engage both technical and business audiences. 
+• Strong collaboration and interpersonal skills, ability to explain technical trade-offs clearly to both technical and non-technical audiences, fluent in English both oral and written. 
+• Passion for continuous learning and knowledge transfer. 
+Ways to stand out from the crowd: 
+• Experience with Deep Learning frameworks, AI harnesses, GPU programming (e.g. CUDA) and/or 3D (i.e. 3D Visualization, Digital Twin, Physical AI concepts and tools). 
+• Passion for accelerated computing, skills in profiling, analyzing and optimizing code, and/or understanding of system architecture and operations inc. distributed and cloud computing, networking, filesystems, virtualization (e.g. Docker), system and workload management (e.g. Slurm, Kubernetes), etc. 
+• Outstanding verbal and written communication skills, and an enthusiastic presentation style. 
+The NCG program is designed to launch your career at full speed —giving you real responsibility, deep mentorship, and the breadth of experience to find where you truly thrive. If you're ready to grow fast and work on problems that are shaping the future of AI, we want to hear from you. 
+Applications must include a resume (CV po angielsku) and a statement of grades (aktualny wykaz ocen z ostatnich 2 lat); incomplete applications will not be considered. 
+All MS graduation requirements must complete in 2026 and the candidate available to start at NVIDIA by January 2027. The candidate must have a working permit for the target location. 
+Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. For Poland: The base salary range is 157,500 PLN - 273,000 PLN.&#xa;&#xa;&#xa;
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

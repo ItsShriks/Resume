@@ -1,8 +1,6 @@
 %------------------------
 % Resume Template
-% Author : Anubhav Singh
-% Github : https://github.com/xprilion
-% License : MIT
+% Author : Anushwa Golegaonkar
 %------------------------
 
 \documentclass[a4paper,9pt]{article}
@@ -31,8 +29,8 @@
 \addtolength{\oddsidemargin}{-0.530in}
 \addtolength{\evensidemargin}{-0.375in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.75in}
-\addtolength{\textheight}{1.45in}
+\addtolength{\topmargin}{-.80in}
+\addtolength{\textheight}{1.55in}
 \setlength{\footskip}{3.60004pt}
 
 \urlstyle{rm}
@@ -45,21 +43,24 @@
 % SECTIONS FORMATTING (With solid horizontal lines and bold text parameters)
 % =========================================================================
 \titleformat{\section}{
-  \vspace{-2pt}\scshape\raggedright\large\bfseries
+  \vspace{-3pt}\scshape\raggedright\large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2}
+    \if\relax\detokenize{#1}\relax
+      #2
+    \else
+      \textbf{#1}{: #2}
+    \fi
   }
 }
 
 \newcommand{\resumeItemPlain}[1]{
   \item\small{#1}
 }
-
 
 \newcommand{\resumeItemWithoutTitle}[1]{
   \item\small{
@@ -68,20 +69,20 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+  \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{#3} & \textit{#4} \\
     \end{tabular*}\vspace{-2pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-1pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-2pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,itemsep=0.5pt,parsep=0pt,topsep=1pt]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,itemsep=0.2pt,parsep=0pt,topsep=0.5pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0.5pt,parsep=0pt,topsep=1pt]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0.2pt,parsep=0pt,topsep=0.5pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 %-----------------------------
@@ -97,26 +98,24 @@
 \makebox[\origtextwidth][c]{%
   \colorbox{headerbg}{%
     \begin{minipage}{\paperwidth}
-      \vspace*{25pt}
+      \vspace*{14pt}
       \hspace{\dimexpr\oddsidemargin+1in\relax}%
-      \begin{minipage}[c]{0.72\origtextwidth}
+      \begin{minipage}[c]{0.73\origtextwidth}
           \raggedright
-          {\Huge \textbf{Shrikar Nakhye}} \\[6pt]
+          {\Huge \textbf{Anushwa Golegaonkar}} \\[5pt]
           \small
-          Address: Bonn, Germany \\
-          Email: \href{mailto:nakhyeshrikar@icloud.com}{nakhyeshrikar@icloud.com} \\
-          % Date of Birth: 30 August 2000 \\[6pt]
-          \raisebox{-2pt}{\includegraphics[height=10pt]{images/linkedin.png}}\ \href{https://www.linkedin.com/in/shrikar-nakhye-053262188/}{LinkedIn} \quad
-          \raisebox{-2pt}{\includegraphics[height=10pt]{images/github.png}}\ \href{https://github.com/ItsShriks}{GitHub} \quad
-          \raisebox{-2pt}{\includegraphics[height=10pt]{images/Google_Scholar.png}}\ \href{https://scholar.google.com/citations?user=-kVcoO8AAAAJ&hl=en}{Google Scholar}
+          Address: Laurenzstraße, 47533 Kleve, Deutschland \\
+          Email: \href{mailto:anushwa.golegaonkar@gmail.com}{anushwa.golegaonkar@gmail.com} \\
+          Phone: +49 15166882698 \\[4pt]
+          \raisebox{-2pt}{\includegraphics[height=9.5pt]{images/linkedin.png}}\ \href{https://www.linkedin.com/in/anushwa-golegaonkar}{LinkedIn}
       \end{minipage}%
       \hfill
       \begin{minipage}[c]{0.20\origtextwidth}
           \raggedleft
-          {\setlength{\fboxsep}{0pt}\fbox{\includegraphics[width=2.5cm,height=3.3cm,keepaspectratio]{images/Self_Pic.jpg}}}
+          {\setlength{\fboxsep}{0pt}\fbox{\includegraphics[width=2.3cm,height=2.9cm,keepaspectratio]{images/Self_Pic.jpg}}}
       \end{minipage}%
       \hspace{\dimexpr\oddsidemargin+1in\relax}%
-      \vspace{15pt}
+      \vspace{10pt}
     \end{minipage}%
   }%
 }
@@ -126,15 +125,12 @@
 %-----------INCLUDED SECTIONS-----------------
 \input{tex/Personal_Info.tex}
 \input{tex/Work_Experience.tex}
-\input{tex/Projects.tex}
 \input{tex/Education.tex}
+\pagebreak
+\input{tex/Projects.tex}
 \input{tex/Skills.tex}
 \input{tex/Training_And_Certifications.tex}
-\input{tex/Publications.tex}
-% \input{tex/Interests.tex}
-
-\vspace{15pt}
-% \noindent
-% \small Bonn, \today
+\input{tex/Interests.tex}
+% \input{tex/Publications.tex}
 
 \end{document}

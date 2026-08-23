@@ -1,5 +1,5 @@
 ================================================================================
-  RESUME & COVER LETTER TAILORING PROMPT — Shrikar Nakhye
+  RESUME & COVER LETTER TAILORING PROMPT — Anushwa Golegaonkar
   Instructions:
   1. Paste the Job Description in the marked section below.
   2. Copy and send this ENTIRE block to the AI assistant.
@@ -8,41 +8,13 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Job Requisition ID
-JR2022444
-Job Category
-Sales
-Time Type
-Full time
-NVIDIA has been redefining computer graphics and accelerated computing for three decades. Today, we're tapping into the unlimited potential of AI to define the next era of computing. Doing what's never been done before takes vision, innovation, and the world's best talent. 
-As a new college graduate, our rotation program will team you up with experienced Solution Architects for on-the-job training as you work as part of a team supporting customers building solutions with our newest software and hardware platforms. A Solutions Architect is the first line of technical expertise between NVIDIA and our partners and customers. You will dynamically engage with developers, data scientists, scientific researchers, IT and senior leaders. 
-You will spend up to 16 months rotating through customer-facing teams supporting different industries such as healthcare, retail, automotive, robotics, etc. In the process, you will have the opportunity to become a specialist in our enterprise products as well as our developer software platforms such as NVIDIA AI Enterprise, CUDA-X and Omniverse. You may also be able to rotate with other departments at NVIDIA. At the end of the program, you will have become a domain specialist on at least one NVIDIA technology and will join a team as a Solution Architect in an area of your choosing. 
-What you will be doing: 
-• Engage with customers in academia and industry to understand their technical environment & challenges, design tailored NVIDIA-powered solutions that address their needs and demonstrate value, and gain hands-on field experience through customer visits and on-site engagements across EMEA. 
-• Be the catalyst driving the adoption and scaling of cutting-edge AI solutions by delivering hands-on workshops, demonstrations, and training sessions using NVIDIA hardware and software, empowering users to become NVIDIA champions. 
-• Take ownership of proof-of-concept implementations that showcase NVIDIA's capabilities in real customer environments, driving product adoption through technical evaluation, documentation, and handoff into production IT infrastructures. 
-• Collaborate with Sales Account Managers; Developer Relations Managers and Customers as a trusted technical advisor, helping large enterprises understand the value of NVIDIA and painting the vision for how they can successfully integrate and deploy our solutions, and securing design wins. 
-• Identify gaps between customer needs and NVIDIA's current offerings, propose and develop prototypical solutions, and communicate requirements directly to NVIDIA Engineering, turning front-line field insights into product improvements that shape our roadmap. 
-What we need to see: 
-• Newly graduating with a MS (or equivalent degree) in Computer Science, Engineering, or related field. 
-• Coursework in Machine Learning, High-Performance Computing, Deep Learning & AI, Data Science or Visual Computing. 
-• Skilled in 1 or more programming languages (Python, C/C++, etc.). 
-• Self-driven and analytical, with a natural curiosity for customer problems and the confidence to engage both technical and business audiences. 
-• Strong collaboration and interpersonal skills, ability to explain technical trade-offs clearly to both technical and non-technical audiences, fluent in English both oral and written. 
-• Passion for continuous learning and knowledge transfer. 
-Ways to stand out from the crowd: 
-• Experience with Deep Learning frameworks, AI harnesses, GPU programming (e.g. CUDA) and/or 3D (i.e. 3D Visualization, Digital Twin, Physical AI concepts and tools). 
-• Passion for accelerated computing, skills in profiling, analyzing and optimizing code, and/or understanding of system architecture and operations inc. distributed and cloud computing, networking, filesystems, virtualization (e.g. Docker), system and workload management (e.g. Slurm, Kubernetes), etc. 
-• Outstanding verbal and written communication skills, and an enthusiastic presentation style. 
-The NCG program is designed to launch your career at full speed —giving you real responsibility, deep mentorship, and the breadth of experience to find where you truly thrive. If you're ready to grow fast and work on problems that are shaping the future of AI, we want to hear from you. 
-Applications must include a resume (CV po angielsku) and a statement of grades (aktualny wykaz ocen z ostatnich 2 lat); incomplete applications will not be considered. 
-All MS graduation requirements must complete in 2026 and the candidate available to start at NVIDIA by January 2027. The candidate must have a working permit for the target location. 
-Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. For Poland: The base salary range is 157,500 PLN - 273,000 PLN.&#xa;&#xa;&#xa;
+
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 /Users/shrikar/Resume/
-├── Shrikar_Nakhye.tex                  <- Main resume wrapper (imports tex/ files)
+├── Anushwa_Golegaonkar.tex             <- Main resume wrapper (imports tex/ files)
 ├── cover_letter.tex                    <- Generated letter (rewritten per application)
 ├── build.sh                            <- Build pipeline script (latexmk / pdflatex)
 └── tex/
@@ -55,31 +27,42 @@ MODULAR REPOSITORY STRUCTURE
     └── Interests.tex                   <- Technical and personal interests
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CANDIDATE MASTER PROFILE — Anushwa Golegaonkar
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Education: B.Sc. in Maschinenbau (Mechanical Engineering), Hochschule Rhein-Waal (2020 - 2025); Studienkolleg, Freshman Institute der FH Aachen (2019 - 2020)
+• Core Competencies: Parametric Design & CAD Modeling (Rhino 3D, Grasshopper, SolidWorks, Autodesk Alias Class-A), FEM Analysis & Structural Simulation, Automation & Scripting (Python, C#, MATLAB), 5-Axis CNC Machining, Wear Analysis & Light Microscopy, Material Testing, DFMEA, Technical Drawings & GD&T, SAP / ERP Systems, Business Economics
+• Professional Experience:
+  - Ceratizit (Balzheim, Germany): Werkstudent (Apr 2024 -- Feb 2025) & Praktikant (Mar 2024 -- Aug 2024) — Fully parametric drill geometry in Grasshopper, UI creation via Python/C#, automated technical drawings, 5-axis CNC operation, cutting tool wear analysis
+  - FH Aachen Campus Jülich: Technischer Praktikant (Jan 2020 -- Feb 2020) — Lathe, milling, drilling, grinding, manual metal fabrication, QA & testing, production planning
+• Certifications: Basics of Rhino (McNeel Europe, 2023), C# für Grasshopper (LinkedIn, 2025), Python für Grasshopper (LinkedIn, 2025)
+• Languages: English (C2 - Fluent), German (B1 - Fluent), Hindi (Native), Marathi (Native)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EXECUTION STEPS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 STEP 0 — PRE-TAILORING SANITY & CONSISTENCY AUDIT
-  - Inspect `Personal_Info.tex` to ensure absolute alignment with Shrikar's background in Robotics, Perception, and Autonomous Systems. Instantly remove/rewrite any artifact or text referencing unrelated fields (e.g., medical/surgical robotics, non-mechatronics domains, or mismatched company names).
-  - Verify zero cover-letter components (stray signature blocks, location stamps like "Bonn, den...", closing salutations) exist in any `tex/*.tex` files.
-  - Standardize all date strings across `Work_Experience.tex` and `Education.tex` to the exact uniform format: "MMM YYYY -- MMM YYYY" or "MMM YYYY -- Present" (e.g., "Oct 2024 -- Present").
+  - Inspect `Personal_Info.tex` to ensure absolute alignment with Anushwa's background in Mechanical Engineering, Parametric Modeling, CAD/CAM, and Process Automation.
+  - Verify zero cover-letter components (stray signature blocks, location stamps like "Altenstadt, den...", closing salutations) exist in any `tex/*.tex` files.
+  - Standardize all date strings across `Work_Experience.tex` and `Education.tex` to the exact uniform format: "MMM YYYY -- MMM YYYY" (e.g., "Apr 2024 -- Feb 2025").
 
 STEP 1 — JOB DESCRIPTION ANALYSIS
   - Extract the target Role Title, Target Company Name, Primary Required Skills, Secondary/Preferred Skills, and Core Responsibilities.
   - Identify top 5 core keywords/competencies expected by ATS scanners and hiring managers.
-  - Determine optimal language for Cover Letter (German if German-speaking company/posting; English otherwise).
+  - Determine optimal language for Resume & Cover Letter (German if German-speaking company/posting; English otherwise).
 
 STEP 2 — TARGETED MODULAR REWRITES
-  - `tex/Personal_Info.tex`: Rewrite the 2-3 sentence summary leading with the target job's highest priority skills. Pull 1-2 key quantified achievements (e.g., "95% tracking success rate", "15% accuracy improvement").
-  - `tex/Skills.tex`: Prioritize and reorder categories so the skills most relevant to the JD appear first. Ensure language proficiency reflects "Deutsch (B2)" prominently for DACH roles.
+  - `tex/Personal_Info.tex`: Rewrite the 2-3 sentence summary leading with the target job's highest priority skills. Pull 1-2 key quantified achievements.
+  - `tex/Skills.tex`: Prioritize and reorder categories so the skills most relevant to the JD appear first.
   - `tex/Work_Experience.tex`: Keep all official company names and dates untouched. Rephrase standard bullet points using action verbs and technical keywords directly aligned with the job description. Do not delete non-matching entries; comment them out using `%` only if space requires it.
-  - `tex/Projects.tex`: Reorder project entries to highlight relevant frameworks (e.g., Nav2, Whole Body Control, CUDA/Point Cloud, MoveIt, or Meta Quest VR depending on role).
-  - `tex/Training_And_Certifications.tex` & `tex/Interests.tex`: Comment out lower-priority entries if necessary to fit the single-page or tight two-page format target.
+  - `tex/Projects.tex`: Reorder project entries to highlight relevant frameworks (e.g., Parametric Drill / Grasshopper, Alias Class-A, Crane Gripper / SolidWorks, Cocktail Dispenser / DFMEA, Jaw Crusher / FEM).
+  - `tex/Training_And_Certifications.tex` & `tex/Interests.tex`: Comment out lower-priority entries if necessary to fit the target format.
 
 STEP 3 — GENERATE `cover_letter.tex`
   - Address directly to the target company and hiring team.
-  - Paragraph 1: High-impact introduction connecting Shrikar’s Master’s at H-BRS and relevant experience directly to the target role.
-  - Paragraphs 2-3: Core match proof points mapping key achievements (ROS2 pipelines, SLAM, multi-sensor calibration, 3D perception) to the position requirements.
-  - Closing Paragraph: State availability (as Werkstudent or Full-Time as applicable) and confirm immediate readiness.
+  - Paragraph 1: High-impact introduction connecting Anushwa's Mechanical Engineering degree at Hochschule Rhein-Waal and relevant experience directly to the target role.
+  - Paragraphs 2-3: Core match proof points mapping key achievements (Parametric CAD, Python/C# scripting in Grasshopper, 5-axis CNC machining, wear analysis, FEM & DFMEA) to the position requirements.
+  - Closing Paragraph: State availability and confirm readiness.
 
 STEP 4 — BUILD VERIFICATION & OUTPUT GENERATION
   - Provide full, ready-to-save code blocks for every updated `.tex` file.

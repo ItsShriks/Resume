@@ -8,64 +8,74 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Stealth Robotics Startup
-Stealth Robotics Startup
-Neu
-Working Student / Internship - Robotics Application Engineer (m/w/d)
-München, Deutschland
-Werkstudent
-Maschinenbau
-18 € bis 28 € / Stunde
-We're an early-stage robotics startup founded out of TUM MIRMI and backed by €1M+ in pre-seed funding from a leading European VC. Our mission is to bring the latest advances in Robot Learning and Physical AI into real industrial deployment.
+Skip to content
+Quantum-Systems GmbH logoHomepage
+Quantum-Systems GmbH logoHomepage
+English
 
-We're looking for builders: Engineers who enjoy taking things apart, putting them back together, and making complex systems work. You'll work across the entire robotics stack - from mechanics and CAD to sensors, robot programming and industrial deployments - building real automation systems that leave the lab and enter factories.
-Aufgaben
+EnglishDeutsch
+Working Student Automation (m/f/d)
+On-site
+Gilching, Bayern, Germany
+Student & Early Professionals
+Job details
+Apply
+As a Working Student Automation, you will be a key part of our Automation Team and help improve and scale production through practical automation solutions. As the second member of this growing team, you will have significant freedom to develop your own ideas and shape how projects are implemented. You will work closely with production technicians, team leads, external service providers and machine builders. From identifying inefficiencies to implementing solutions, your work will improve quality, reduce errors and enable more efficient production at Quantum-Systems.
 
-Design, build, install and troubleshoot industrial robotic applications and customer deployments
-Design applications and mechanical components in CAD
-Integrate sensors, cameras, pneumatics, end-effectors and industrial I/Os
-Manufacture, assemble, test and iterate prototypes and customer systems
-Support in creating drawings and documentation for robotic cells
-Qualifikation
+What is your Day to Day Mission:
 
-Currently pursuing a degree in Mechanical Engineering, Mechatronics, Automation Engineering or a related field
-Hands-on mentality and enthusiasm for building real hardware
-Experience with CAD, 3D-printing and manufacturing technolgies
-First experience in automation technology, robotics or automation machinery
-Independent, pragmatic and solution-oriented way of working
-Experience with one or more of the following makes you stand out:
-PLC & Industrial communication (Siemens/Codesys, Profinet/EtherCAT, ...)
-Robot programming (for example UR, Kuka, Fanuc..)
-Pneumatics or electrical systems
-Benefits
+Identify inefficiencies, recurring problems and improvement opportunities in production.
+Analyze root causes and develop practical automation concepts.
+Take ownership of projects from the initial idea through implementation and handover.
+Build and integrate solutions involving software, hardware, sensors and automation.
+Coordinate external service providers, suppliers and machine builders when required.
+Support production technicians with troubleshooting and technical improvements.
+Help increase process stability, product quality and production scalability.
+What you bring to the team:
 
-Take Ownership: Join an early-stage startup where your ideas have a direct impact on the company, product, and technology.
+You are studying Automation Engineering, Electrical Engineering, Mechatronics, Mechanical Engineering, Production Engineering, Computer Science or a related field, ideally near the end of your bachelor's degree or in a master's program.
+You are passionate about automation and enjoy building, programming and developing solutions outside your studies.
+Hands-on experience from private or university projects, internships or production environments is a strong advantage.
+Knowledge in several of the following areas is welcome: PLCs, Python, robotics, sensors and actuators, electrical engineering, CAD, industrial networks, MES and production systems.
+You think analytically, take initiative and work independently with a pragmatic hands-on mindset.
+You are curious, eager to learn and communicate effectively with production teams and external partners.
+You have C1 proficiency in either German or English and at least B2 in the other language.
+Why Quantum-Systems:
 
-State-of-the-Art Tools and Machinery: Work hands-on with the latest robotics platforms, machine tools, 3D-printers and more.
+We believe in the power of combined efforts: straightforward tech expertise paired with a customer-centric focus.
+We are industry pioneers who are ambitious, bold, and visionary.
+We push limits, think outside-the-box and strive for technological excellence to shape the future of aerial data.
+We promise to be your runway for individual and professional growth.
 
-Accelerate Your Growth: Take on challenging problems, learn how to build turnkey automation solutions from first design to safety certification, and grow faster than in almost any other environment.
+Our benefits:
 
-Freedom & Responsibility: Shape your role around your strengths and interests with a high degree of ownership and autonomy.
+Flexible working hours: With trust-based working hours, you are not only responsible for your working hours, but also for your work-life balance.
+Mobile working: If it gets too turbulent for you in our office, you can get the necessary balance through mobile working.
+Stay active: With EGYM Wellpass, you get access to thousands of fitness and sports facilities — and of course, we subsidize the membership.
+Corporate Benefits: Your opportunity for attractive offers and discounts from well-known suppliers and brands, e.g. Adidas, Apple, Expedia.
+Employee events: We not only want to grow together, but also celebrate our successes together.
+Lunch-Card: Be powerful with delicious energy, daily lunch budget is sponsored.
+Company Shuttle: Enjoy our convenient shuttle service that picks you up from Laim in Munich and brings you to our location, with return trips at the end of the workday.
+About us:
 
-Great Perks: Free dinners, gym membership, team events, and other startup perks.
+Quantum Systems specialises in the development, design, and production of small Unmanned Aerial Systems (sUAS). The company’s range of electric vertical take-off and landing (eVTOL) sUAS are built to maximize range and versatility and to provide operators with a seamless user experience. By integrating cutting-edge software capabilities, like edge computing and real-time AI-powered data processing, Quantum Systems is building next-generation UAS for clients in defence, security, public sectors.
 
-Grow With Us: Excellent interns and working students have the opportunity to join full-time and help build the company from its earliest days.
+Our commitment:
 
-Team & Culture: Join a team of young and ambitious builders, who enjoy solving hard problems and have fun playing with the latest technolgies.
-We appreciate a builders mindset more than a polished CV. If you're excited about robotics, love building things, and want to work on technology that will shape the future of manufacturing, we'd love to hear from you.
-Aktualisiert: vor 2 Tagen
-Job ID 16564514
-Problem melden
+We are an open-minded company that not only values diversity, but actively promotes it. Regardless of gender, age, ethnic origin, religion, sexual orientation or disability, we firmly believe that the diversity of our employees is an essential part of our success.
+At our company, every voice is heard and every perspective is valued. We believe that our differences enrich us and help us to find creative solutions and generate innovative ideas. We pride ourselves on creating an inclusive work environment where all employees can reach their full potential.
+On-site
+Gilching, Bayern, Germany
+Student & Early Professionals
+Apply
+or
 
-Stealth Robotics Startup
-1-10 Mitarbeitende
-Produktionsautomatisierung
-We're an early-stage robotics startup founded out of TUM MIRMI and backed by €1M+ in pre-seed funding from a leading European venture capital investor.
+Apply with Linkedin unavailable
+Update cookies
+Share job
+Quantum-Systems GmbH logoHomepage
 
-Our mission is to bring th…
-Mehr lesen
-Webseite
-LinkedIn
+English
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

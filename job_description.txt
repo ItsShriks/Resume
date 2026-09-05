@@ -7,64 +7,53 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Wir sind World of VR – dein Robotik & XR-Spezialist und Agenturpartner in Köln seit 2015. Unser Purpose lautet „Evolve Humanity Virtually“. Wir brennen darauf, Unternehmen und die Menschen dahinter durch innovative, unkomplizierte Lösungen und eine einzigartige User Experience weiterzubringen. Bis heute haben wir bereits für über 150 namhafte Kunden (wie z. B. RheinEnergie, Deutsche Telekom oder Kübler) maßgeschneiderte VR-Trainings, XR-Experiences und VR-Verkaufs-Tools realisiert.
+Zum Hauptinhalt springen
+Gini GmbH 
 
-Verbinde die Theorie deines Studiums mit echter, anfassbarer Hardware! Wir entwickeln hochmoderne humanoide Roboter und suchen nach tech-begeisterten Studierenden, die Code schreiben wollen, der Roboter zum Leben erweckt. Von Sim-to-Real über Deep Learning bis hin zu Tele-Operation – bei uns arbeitest du an der absoluten Speerspitze der autonomen Robotik.
+Deutsch
+Zurück zu allen Stellen
+Werkstudent Data Annotation (m/w/d)
+München
+Teilzeit
+Werkstudierende
+Auf diese Stelle bewerben
 
-Aufgaben
-In dieser Vor-Ort-Rolle entwickelst du Software und Hardware rund um humanoide Roboter:
-
-
-Coding & Prototyping: Du unterstützt bei der Entwicklung und Optimierung von Softwaremodulen und Skripten (hauptsächlich in Python und/oder C++).
-
-Simulation: Du hilfst dabei, neue KI-Modelle oder Steuerungsalgorithmen in virtuellen Umgebungen (z. B. NVIDIA Isaac Sim) zu testen und zu evaluieren.
-
-Daten & KI: Du wirkst bei der Datenerhebung, Datenverarbeitung und dem Training von Machine-Learning-Modellen für Computer Vision und Reinforcement Learning mit.
-
-Mobile-VR-Entwicklung: Du unterstützt uns bei der Entwicklung einer Mobile-VR-App (mit C# und der Unity Engine), um neue Interaktionsmöglichkeiten mit dem Roboter zu schaffen.
-
-Hands-on Testing: Du bist dabei, wenn dein Code auf die echte Roboter-Hardware aufgespielt wird, wertest Sensor- und Telemetriedaten aus und unterstützt beim Debugging.
-
-Tooling & Infrastruktur: Du hilfst bei der Pflege unseres ROS2-Ökosystems und unserer Robotik-Workflow-Pipelines.
-
-
-Qualifikation
-
-Studium: Du bist aktuell eingeschrieben (Bachelor oder Master) in Elektrotechnik, Informatik, Robotik, Mechatronik, Data Science oder einem vergleichbaren Studiengang.
-
-Programmierkenntnisse: Du hast bereits erste praktische Erfahrungen (z. B. durch Uni-Projekte, private Bastelprojekte oder Praktika) in Python oder C++ in Robotik-Projekten gesammelt.
-
-Interesse & Grundverständnis: Du brennst für Themen wie Robotik, Künstliche Intelligenz, Machine Learning, Computer Vision, Kinematik oder Regelungstechnik.
-
-Erste Berührungspunkte: Idealerweise hast du schon einmal ROS / ROS2 eingesetzt, kennst dich ein wenig in Linux (Ubuntu) aus und hast Git schon mehrmals benutzt.
-
-Der absolute Bonus: ROS 2 Grundlagenwissen zum Ansprechen von Roboter-Hardware, Erster Umgang mit WSL (Windows Subsystem for Linux) und Kenntnis der Eigenarten bezüglich Dateisystem und Netzwerk. Erste Erfahrungen in der Entwicklung von Deep-Learning-Algorithmen mit PyTorch. Erfahrung mit Conda & CMake im Erstellen/Konfigurieren von Envs (Conda) sowie im Schreiben von Build-Anweisungen und Bauen von Projekten (CMake).
-
-Hands-on-Mentalität: Du arbeitest dich selbständig in neue Tools und Themen ein und scheust dich nicht davor, Neues auszuprobieren.
-
-Eigeninitiative: Teamfähigkeit und eine schnelle Auffassungsgabe zeichnen dich aus.
-
-Kommunikation: Du hast gute Deutsch- und Englischkenntnisse.
-
-
-Benefits
-
-Flexibilität für dein Studium: Deine Vorlesungen und Klausuren gehen vor! Wir passen deine Arbeitszeiten flexibel an deinen Stundenplan an.
-
-Praxiswissen pur: Ein Mentoring durch erfahrene Senior Engineers, die ihr Wissen gerne teilen und dich aktiv fördern.
-
-Hardware-Zugang: Keine reinen Schreibtischaufgaben – du arbeitest auch direkt an unseren humanoiden Prototypen im Labor.
-
-Zukunftsperspektive: Die Chance auf eine Übernahme nach deinem Studium oder die Möglichkeit, deine Bachelor- oder Masterarbeit in Kooperation mit uns zu schreiben.
-
-Start-up Kultur: Kurze Entscheidungswege, ein lockeres Arbeitsumfeld, regelmäßige Team-Events sowie Kaffee, Snacks und Getränke for free.
-
-
-Du hast Lust, neben dem Studium an der Technologie von morgen aktiv zu schrauben?
-
-Dann schick uns einfach deinen aktuellen Lebenslauf, und (wenn vorhanden) gerne Links zu deinem GitHub-Profil, deinen Uni-Projekten oder Code-Beispielen oder bewirb dich über unser Online-Portal. Ein klassisches Anschreiben ist kein Muss – erzähl uns lieber in drei Sätzen, was dich an Robotik fasziniert!
-
-Wir freuen uns darauf, dich kennenzulernen!
+Deutsch
+Dein Team
+Als Teil unseres Annotation Labs bist du für die Annotation von Finanzdokumenten verantwortlich und leistest damit einen wichtigen Beitrag zur Verbesserung unserer Datenqualität und Analysegenauigkeit.
+Wir suchen jemanden im Rahmen eines Werkstudiums, der uns mindestens 15 und bis zu 20 Stunden pro Woche unterstützt. Dank unserer flexiblen Arbeitszeiten kannst du Studium und Arbeit gut miteinander vereinbaren und deine Arbeitszeit passend zu deinem Uni-Alltag gestalten.
+Dabei arbeiten wir hybrid: Einmal pro Woche kommst du in unser Münchner Büro, die restliche Zeit kannst du flexibel remote arbeiten.
+Deine Aufgaben bei Gini
+Du erstellst detaillierte Annotationen für Finanzdokumente und visuelle Annotationen für Fotos von Unterlagen, basierend auf unseren spezifischen Anforderungen
+Du analysierst und interpretierst Dokumente, um relevante Muster und Informationen zu identifizieren
+Du überprüfst die Annotationen deiner KollegInnen, erkennst Fehler und sorgst für deren Korrektur
+Du nutzt deine Annotationsfähigkeiten, um aktiv zum Erfolg des Teams beizutragen und unsere Prozesse kontinuierlich zu verbessern
+Dein Profil, um erfolgreich zu sein
+Du bist derzeit in einem Studium eingeschrieben und kannst mindestens 15 Stunden/Woche arbeiten
+Du hast idealerweise schon mal in einer ähnlichen Rolle gearbeitet
+Du verfügst über gute IT-Kenntnisse und arbeitest gerne mit Tools, die Du noch nie benutzt hast
+Du bist sehr geduldig, verantwortungsbewusst, vertrauenswürdig und gehst sorgsam mit sensiblen Daten um
+Du trägst mit Deinen exzellenten Kommunikationsfähigkeiten zu einer tollen Teamzusammenarbeit bei und kannst in einem selbstorganisierten Arbeitsumfeld selbständig arbeiten
+Du sprichst fließend Deutsch (C1/C2) und verfügst über sehr gute Englisch Fähigkeiten (mindestens B2)
+Deine Benefits
+Du hast die Wahl - Mobiles Arbeiten von zu Hause aus oder in unserem hellen Büro mit zwei geräumigen Dachterrassen und einer hochwertigen Kantine, ganz nach deinen Bedürfnissen
+Flexibilität - Früher Vogel oder Nachteule? Du hast flexible Arbeitszeiten
+Essenszuschuss 3€ pro Mahlzeit - Wir haben eine ausgezeichnete Kantine in unserem Bürogebäude, in der Du Dir leckeres Essen holen kannst
+Vielfalt an Team-Events - Wir wissen, dass der Zusammenhalt im Team wichtig ist, deshalb organisieren wir regelmäßig Team-Events und tolle Aktivitäten
+Kostenfreie Tiefgarage - Wir möchten sicherstellen, dass unsere Mitarbeitende bequem und stressfrei zur Arbeit kommen.
+Eine Feedback-geprägte Kultur mit Sinnhaftigkeit und Gemeinschaft - Schau dir gerne an was unsere Ginis und KandidatInnen auf kununu und Glassdoor über uns sagen
+Klingt das nach der richtigen Herausforderung für dich?
+Julia Partusch-Asik
+HR Manager & Dog lover
+julia.partusch@gini.net
+Über uns
+Gini wurde 2011 gegründet und ist ein etabliertes, preisgekröntes FinTech im Banken-, E-Commerce- und Versicherungssektor. Unser bekanntestes Produkt ist die Gini Fotoüberweisung, die in über 90% der deutschen Banking-Apps eingebaut ist. Mit dieser und anderen Produkten möchten wir die Lebensqualität aller verbessern, indem wir mühsame Aufgaben durch Automatisierung vereinfachen. Das Besondere an uns: Bei Gini legen wir viel Wert auf Autonomie und verbinden das in unserem Arbeitsalltag mit flachen Hierarchien. Wir haben 4 Unternehmenswerte, die für unsere Zusammenarbeit bei Gini essenziell sind: Exzellenz, Chancen statt Risiken, Herzlichkeit und Einsatz & Verantwortung. Genaueres zu unseren Werten und der Art und Weise, wie wir bei Gini zusammenarbeiten findest du in unserem Handbook.
+Wir sind sehr stolz darauf, dass wir in den letzten Jahren mehrere Auszeichnungen, wie den „Top Arbeitgeber 2020“ von Focus, das "Finanzprodukt des Jahres 2022" und "Top Company" von kununu für 2023, 2024 und 2025 erhalten haben.
+Auf diese Stelle bewerben
+Powered by Personio
+Powered by Personio
+Datenschutzerklärung
+Impressum
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

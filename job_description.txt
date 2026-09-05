@@ -8,74 +8,43 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Skip to content
-Quantum-Systems GmbH logoHomepage
-Quantum-Systems GmbH logoHomepage
-English
+Neura Robotics
+Software Engineer – Navigation Engineer (human)
+Location
 
-EnglishDeutsch
-Working Student Automation (m/f/d)
+Metzingen / Riederich
+Employment Type
+
+Full time
+Location Type
+
 On-site
-Gilching, Bayern, Germany
-Student & Early Professionals
-Job details
-Apply
-As a Working Student Automation, you will be a key part of our Automation Team and help improve and scale production through practical automation solutions. As the second member of this growing team, you will have significant freedom to develop your own ideas and shape how projects are implemented. You will work closely with production technicians, team leads, external service providers and machine builders. From identifying inefficiencies to implementing solutions, your work will improve quality, reduce errors and enable more efficient production at Quantum-Systems.
+Department
 
-What is your Day to Day Mission:
+Software Engineering
+Overview
+Application
+Your mission & challenges
+We're looking for a Navigation Software Engineer to integrate, validate, and improve third-party and internal navigation solutions on our mobile robot platforms. You'll join our software department and work with third-party navigation, ROS 2, robot middleware, and fleet interfaces to make mobile robots navigate reliably in real customer environments.
+You integrate and debug third-party navigation solutions into mobile robot and mobile manipulator platforms.
+You develop and maintain a deep understanding of navigation software capabilities, configuration options, release updates, and known limitations; you collaborate with vendors by reporting issues, sharing feedback, and following up on bug fixes or feature improvements.
+You develop software adapters between navigation systems, hardware interfaces, and fleet interfaces based on existing navigation systems.
+You support navigation commissioning on real robots, including map creation, localization tuning, trajectory validation, and recovery behavior.
+You analyze navigation failures using Docker logs, rosbag, RViz/Foxglove, and customer feedback.
+You define standard commissioning and acceptance criteria for navigation performance, robustness, safety-related behavior, and navigation integration.
+What we can look forward to
+A degree in Robotics, Computer Science, Software Engineering, Mechatronics, or a related field.
+2+ years of relevant work experience in robotics, software engineering, or a related technical field is a plus.
+Solid knowledge of navigation and localization (SLAM) techniques and ROS 2.
+Experience with C++, Python, RESTful APIs, and Docker.
+The ability to debug and isolate issues in complex software architectures, independently analyze root causes, and resolve problems with the right tools and methods.
+Understanding of VDA5050, fleet management, or multi-robot traffic concepts is a plus.
+Willingness to work with real robots, customer environments, and cross-functional teams.
+Good English communication skills.
+Apply for this Job
+Powered by 
+Privacy PolicySecurityVulnerability Disclosure
 
-Identify inefficiencies, recurring problems and improvement opportunities in production.
-Analyze root causes and develop practical automation concepts.
-Take ownership of projects from the initial idea through implementation and handover.
-Build and integrate solutions involving software, hardware, sensors and automation.
-Coordinate external service providers, suppliers and machine builders when required.
-Support production technicians with troubleshooting and technical improvements.
-Help increase process stability, product quality and production scalability.
-What you bring to the team:
-
-You are studying Automation Engineering, Electrical Engineering, Mechatronics, Mechanical Engineering, Production Engineering, Computer Science or a related field, ideally near the end of your bachelor's degree or in a master's program.
-You are passionate about automation and enjoy building, programming and developing solutions outside your studies.
-Hands-on experience from private or university projects, internships or production environments is a strong advantage.
-Knowledge in several of the following areas is welcome: PLCs, Python, robotics, sensors and actuators, electrical engineering, CAD, industrial networks, MES and production systems.
-You think analytically, take initiative and work independently with a pragmatic hands-on mindset.
-You are curious, eager to learn and communicate effectively with production teams and external partners.
-You have C1 proficiency in either German or English and at least B2 in the other language.
-Why Quantum-Systems:
-
-We believe in the power of combined efforts: straightforward tech expertise paired with a customer-centric focus.
-We are industry pioneers who are ambitious, bold, and visionary.
-We push limits, think outside-the-box and strive for technological excellence to shape the future of aerial data.
-We promise to be your runway for individual and professional growth.
-
-Our benefits:
-
-Flexible working hours: With trust-based working hours, you are not only responsible for your working hours, but also for your work-life balance.
-Mobile working: If it gets too turbulent for you in our office, you can get the necessary balance through mobile working.
-Stay active: With EGYM Wellpass, you get access to thousands of fitness and sports facilities — and of course, we subsidize the membership.
-Corporate Benefits: Your opportunity for attractive offers and discounts from well-known suppliers and brands, e.g. Adidas, Apple, Expedia.
-Employee events: We not only want to grow together, but also celebrate our successes together.
-Lunch-Card: Be powerful with delicious energy, daily lunch budget is sponsored.
-Company Shuttle: Enjoy our convenient shuttle service that picks you up from Laim in Munich and brings you to our location, with return trips at the end of the workday.
-About us:
-
-Quantum Systems specialises in the development, design, and production of small Unmanned Aerial Systems (sUAS). The company’s range of electric vertical take-off and landing (eVTOL) sUAS are built to maximize range and versatility and to provide operators with a seamless user experience. By integrating cutting-edge software capabilities, like edge computing and real-time AI-powered data processing, Quantum Systems is building next-generation UAS for clients in defence, security, public sectors.
-
-Our commitment:
-
-We are an open-minded company that not only values diversity, but actively promotes it. Regardless of gender, age, ethnic origin, religion, sexual orientation or disability, we firmly believe that the diversity of our employees is an essential part of our success.
-At our company, every voice is heard and every perspective is valued. We believe that our differences enrich us and help us to find creative solutions and generate innovative ideas. We pride ourselves on creating an inclusive work environment where all employees can reach their full potential.
-On-site
-Gilching, Bayern, Germany
-Student & Early Professionals
-Apply
-or
-
-Apply with Linkedin unavailable
-Update cookies
-Share job
-Quantum-Systems GmbH logoHomepage
-
-English
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

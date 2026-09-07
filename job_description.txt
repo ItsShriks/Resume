@@ -8,69 +8,56 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Trainee Innovations - CoE Automation of Operations (m/f/x)
- AV-374358  Bonn,Nordrhein-Westfalen,Germany  Deutsche Post AG  Post & Parcel  Full-time  Temporary  Bonn, Nordrhein-Westfalen, Germany
- 
-OUR GRADUATE PROGRAM GROW OFFERS INTERESTING OPPORTUNITIES IN GERMANY, BONN, FROM APRIL 1st 2027 FOR 18 MONTHS, AIMING TO KEEP YOU ON AFTER PROGRAM COMPLETION FOR
+About the job
+We are looking for AI Data Specialists to support the improvement of AI-generated content in German.
+Job Type: Freelance
 
-TRAINEE INNOVATIONS INTERNATIONAL IN CENTER OF EXCELLENCE (CoE) AUTOMATION OF OPERATIONS (M/F/X)
+Location: Work from home
 
-Shape the future of operations through automation and robotics
+Work Schedule: Part-time - 10+ hours per week. Flexible - work whenever you want.
 
-Digitalization is transforming our industry at an unprecedented pace. From creating better experiences for our customers and employees to making operations more efficient, smarter technologies are opening up new opportunities across DHL Group.
-The Center of Excellence (CoE) for Automation of Operations is at the heart of this transformation. Based within Corporate Development at DHL Group Headquarters, our team works globally with the divisions to identify, test and scale innovative, cost-efficient robotic and computer vision technologies that can make our operations smarter, safer and more efficient.
-We explore emerging technologies, turn promising ideas into practical solutions and support their successful integration into our operations. In doing so, we work closely with colleagues across the Group, our divisions and Corporate Procurement to move innovations from initial concepts to scalable solutions.
-Our work is closely aligned with the strategic priorities of the divisions through the Automation & Robotics Group, an advisory board and community platform for all stakeholders.
+Start Date: Immediately
 
-Your opportunity to shape what’s next
+Rate: 18 USD per hour (rates vary per country. If you are based elsewhere, the rates will be different)
 
-As part of the CoE Automation of Operations, you will work at the intersection of technology, innovation and real-world operations. You’ll have the opportunity to explore technologies that are still emerging today and help determine how they can create value for DHL Group tomorrow.
+Help Shape the Future of AI
+Are you a student, recent graduate, stay-at-home parent, gig worker, or professional seeking flexible remote work? Are you interested in shaping the development and safety of today’s AI models?
 
-Our key areas of technological expertise include:
+What You’ll Do
+The role involves performing diverse data-related tasks, including:
 
-Automated unloading – developing solutions to automate and optimize the unloading of shipments and goods.
-Autonomous Mobile Robots (AMRs) – exploring and scaling intelligent robots that can move goods efficiently through our operations.
-Robotic arm solutions – testing and integrating robotic systems for handling, sorting and other operational processes.
-Computer Vision – using advanced vision technologies to enable smarter, more automated processes and decision-making.
-Humanoid robotics – evaluating and testing emerging humanoid robotic technologies and exploring their potential applications within our operations.
 
-From innovation to impact
+ Data collection, evaluation, and annotation
+ Pairwise comparisons
+ Counting tasks
+ Object tagging and labeling across different content types (audio, video, images, or collected data)
 
-Our ambition goes beyond simply testing new technologies. We identify solutions with real potential, validate them in operational environments and help scale successful concepts across divisions and locations.
-You’ll collaborate with experts and decision-makers across DHL Group and work on technologies that have the potential to shape the future of logistics. Whether it’s robotics, computer vision, autonomous systems or the next generation of humanoid robots, you’ll help turn innovation into practical solutions with a tangible impact on our operations.
 
-Join us and help shape the future of automated operations at DHL Group.
 
-Your tasks
+What we’re looking for:
 
-Explore emerging technologies worldwide and identify innovative solutions with the potential to shape the future of our operations.
-Contribute to innovation projects and Proof of Concepts (PoCs), helping turn promising ideas and technologies into practical solutions.
+ Native-level fluency in German
+ English Proficiency: Fluent or advanced proficiency in English (levels B2–C2)
+ AI & Data Capabilities (Preferred): Experience in one or more of the following areas: machine learning tasks, data collection and preprocessing, data evaluation and quality assurance, and data annotation and labeling
 
-Your profile
 
-Master Graduation before April 1st, 2027 in Logistics, Supply Chain Management, Engineering, Economy
-First professional experience (up to 3 years) in Project Management; international experience
-Fluent English skills; fluent/good German skills
-Very good communication skills
 
-Your benefits
+What We Offer
 
-Appealing salary package: With us you will earn an annual salary of € 57.000 gross – including Christmas and vacation allowance as well as an annual bonus.
-Individual career development: After an induction week, you will dive into the world of logistics in three individual program phases in Germany and around the world.
-Training and support: We support you in your individual career development through integrated training, personal support and regular feedback.
-Network: Build up a valuable network in one of the leading mail and logistics service provider.
-Diverse opportunities: Work on varied and challenging projects that will enhance your professional development.
+ Flexible schedule
+ Opportunity to earn extra income
+ Timely payments
+ The job is ideal for students, part-timers, or stay-at-home parents
 
-Your contact
-For further questions please contact Steffi Koch, GROW Recruiting, grow@dhl.com.
 
-Interested in this exciting opportunity? Please apply online now until November 26th, 2026  via careers.dhl.com/global/en/grow for the business area Innovations international including a cover letter, CV and references. You will find there more detailed information on the application process, program schedule and typical project positions in the various business areas.
 
-We are looking forward to your application.
+Vendor Type
+When applying, please select the option that best describes your working status.
+Are you a Freelancer or Private Individual?
+A Freelancer is someone who has a business license and may have a VAT number or EIN for tax purposes. A VAT (Value Added Tax) number is a unique identifier assigned to registered businesses in many countries; an EIN (Employer Identification Number) is a similar identifier used in the US. A Private Individual does not have a business license. If you aren’t sure, you are probably a private individual.
 
-CONNECTING PEOPLE. IMPROVING LIVES.
+RWS embraces DEI and promotes equal opportunity, we are an Equal Opportunity Employer and prohibit discrimination and harassment of any kind. RWS is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment. All employment decisions at RWS are based on business needs, job requirements and individual qualifications, without regard to race, religion, nationality, ethnicity, sex, age, disability, or sexual orientation. RWS will not tolerate discrimination based on any of these characteristics.
 
-#trainee #growprogram #growinn
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -7,53 +7,72 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Zum Hauptinhalt springen
-Gini GmbH 
+About the job
+Entwicklungsingenieur Humanoide Robotik (m/w/d/x) in Stuttgart Du brennst für die Mobilität von morgen? Dann bist Du bei uns genau richtig! Bei PROGNUM sind wir als etablierter Ingenieur- und Beratungsdienstleister darauf spezialisiert, in vielseitigen Automotive-Projekten neue Maßstäbe zu setzen. Wir arbeiten an den wegweisenden Technologien von morgen – sei es im autonomen Fahren, Elektromobilität, Connectivity, Infotainment oder darüber hinaus. Sichere Dir die Pole-Position und starte mit uns durch! Das erwartet Dich
 
-Deutsch
-Zurück zu allen Stellen
-Werkstudent Data Annotation (m/w/d)
-München
-Teilzeit
-Werkstudierende
-Auf diese Stelle bewerben
+ Entwicklung, Integration und Optimierung von Komponenten für humanoide Robotersysteme
+ Mitarbeit an Bewegungsfunktionen, Greifsystemen, Sensorintegration und Aktorik
+ Abstimmung technischer Anforderungen mit Mechanik, Elektronik, Software und KI-Teams
+ Analyse und Bewertung von Bewegungsabläufen, Schnittstellen und Funktionsverhalten
+ Mitarbeit an innovativen Anwendungen im Umfeld Servicerobotik, Industrieautomation und Mensch-Roboter-Interaktion Das bringst Du mit
+ Abgeschlossenes Studium im Bereich Robotik, Mechatronik, Elektrotechnik, Informatik, Automatisierungstechnik oder vergleichbar
+ Erfahrung in der Entwicklung mechatronischer Systeme, idealerweise im Bereich Robotik, humanoide Systeme oder mobile Plattformen
+ Kenntnisse in Steuerungssoftware, Regelungsalgorithmen, Sensorik, Aktorik und Systemintegration
+ Sicherer Umgang mit relevanten Entwicklungs- und Engineering-Tools, z. B. Python, C++, ROS, Linux, Git, CAD oder MATLAB
+ Begeisterung für humanoide Robotik, intelligente Systeme und neue Formen der Mensch-Maschine-Interaktion Was wir bieten
+ Attraktive Vergütung: Überdurchschnittliches Gehalt mit individuellen Zuschüssen
+ High-End Kunden: Zusammenarbeit mit den angesagtesten Unternehmen verschiedener Tech-Branchen
+ Moderne Arbeitskultur: New Work ist für uns Normalität (z.B. Homeoffice)
+ PROGNUM-DNA:  Familiär, offen und wertschätzend mit flachen Hierarchien sowie legendären Firmenevents u. After Work Events
+ Spitzen-Karriereperspektive: Möglichkeit zur individuellen Weiterentwicklung durch berufsspezifische Trainings
+ …und natürlich bieten wir die üblichen Standards wie bis zu 30 Tage Urlaub, BAV, Corporate Benefits uvm.
+ Persönlicher PROGNUM-Guide im Projekt vor Ort!
+ Bei PROGNUM kannst Du Dein ganzes Potenzial ausschöpfen und aktiv zum Unternehmenserfolg beitragen! Du möchtest wechseln? Das bleibt unter uns! Falls Du dich in einem ungekündigten Arbeitsverhältnis befindest, sichern wir Dir natürlich höchste Vertraulichkeit Deiner Bewerbung zu. Bereit zum Durchstarten? Dann bewirb Dich jetzt. Wir freuen uns auf Dich!,
 
-Deutsch
-Dein Team
-Als Teil unseres Annotation Labs bist du für die Annotation von Finanzdokumenten verantwortlich und leistest damit einen wichtigen Beitrag zur Verbesserung unserer Datenqualität und Analysegenauigkeit.
-Wir suchen jemanden im Rahmen eines Werkstudiums, der uns mindestens 15 und bis zu 20 Stunden pro Woche unterstützt. Dank unserer flexiblen Arbeitszeiten kannst du Studium und Arbeit gut miteinander vereinbaren und deine Arbeitszeit passend zu deinem Uni-Alltag gestalten.
-Dabei arbeiten wir hybrid: Einmal pro Woche kommst du in unser Münchner Büro, die restliche Zeit kannst du flexibel remote arbeiten.
-Deine Aufgaben bei Gini
-Du erstellst detaillierte Annotationen für Finanzdokumente und visuelle Annotationen für Fotos von Unterlagen, basierend auf unseren spezifischen Anforderungen
-Du analysierst und interpretierst Dokumente, um relevante Muster und Informationen zu identifizieren
-Du überprüfst die Annotationen deiner KollegInnen, erkennst Fehler und sorgst für deren Korrektur
-Du nutzt deine Annotationsfähigkeiten, um aktiv zum Erfolg des Teams beizutragen und unsere Prozesse kontinuierlich zu verbessern
-Dein Profil, um erfolgreich zu sein
-Du bist derzeit in einem Studium eingeschrieben und kannst mindestens 15 Stunden/Woche arbeiten
-Du hast idealerweise schon mal in einer ähnlichen Rolle gearbeitet
-Du verfügst über gute IT-Kenntnisse und arbeitest gerne mit Tools, die Du noch nie benutzt hast
-Du bist sehr geduldig, verantwortungsbewusst, vertrauenswürdig und gehst sorgsam mit sensiblen Daten um
-Du trägst mit Deinen exzellenten Kommunikationsfähigkeiten zu einer tollen Teamzusammenarbeit bei und kannst in einem selbstorganisierten Arbeitsumfeld selbständig arbeiten
-Du sprichst fließend Deutsch (C1/C2) und verfügst über sehr gute Englisch Fähigkeiten (mindestens B2)
-Deine Benefits
-Du hast die Wahl - Mobiles Arbeiten von zu Hause aus oder in unserem hellen Büro mit zwei geräumigen Dachterrassen und einer hochwertigen Kantine, ganz nach deinen Bedürfnissen
-Flexibilität - Früher Vogel oder Nachteule? Du hast flexible Arbeitszeiten
-Essenszuschuss 3€ pro Mahlzeit - Wir haben eine ausgezeichnete Kantine in unserem Bürogebäude, in der Du Dir leckeres Essen holen kannst
-Vielfalt an Team-Events - Wir wissen, dass der Zusammenhalt im Team wichtig ist, deshalb organisieren wir regelmäßig Team-Events und tolle Aktivitäten
-Kostenfreie Tiefgarage - Wir möchten sicherstellen, dass unsere Mitarbeitende bequem und stressfrei zur Arbeit kommen.
-Eine Feedback-geprägte Kultur mit Sinnhaftigkeit und Gemeinschaft - Schau dir gerne an was unsere Ginis und KandidatInnen auf kununu und Glassdoor über uns sagen
-Klingt das nach der richtigen Herausforderung für dich?
-Julia Partusch-Asik
-HR Manager & Dog lover
-julia.partusch@gini.net
-Über uns
-Gini wurde 2011 gegründet und ist ein etabliertes, preisgekröntes FinTech im Banken-, E-Commerce- und Versicherungssektor. Unser bekanntestes Produkt ist die Gini Fotoüberweisung, die in über 90% der deutschen Banking-Apps eingebaut ist. Mit dieser und anderen Produkten möchten wir die Lebensqualität aller verbessern, indem wir mühsame Aufgaben durch Automatisierung vereinfachen. Das Besondere an uns: Bei Gini legen wir viel Wert auf Autonomie und verbinden das in unserem Arbeitsalltag mit flachen Hierarchien. Wir haben 4 Unternehmenswerte, die für unsere Zusammenarbeit bei Gini essenziell sind: Exzellenz, Chancen statt Risiken, Herzlichkeit und Einsatz & Verantwortung. Genaueres zu unseren Werten und der Art und Weise, wie wir bei Gini zusammenarbeiten findest du in unserem Handbook.
-Wir sind sehr stolz darauf, dass wir in den letzten Jahren mehrere Auszeichnungen, wie den „Top Arbeitgeber 2020“ von Focus, das "Finanzprodukt des Jahres 2022" und "Top Company" von kununu für 2023, 2024 und 2025 erhalten haben.
-Auf diese Stelle bewerben
-Powered by Personio
-Powered by Personio
-Datenschutzerklärung
-Impressum
+
+Entwicklungsingenieur Humanoide Robotik (m/w/d/x) in Stuttgart
+
+Du brennst für die Mobilität von morgen? Dann bist Du bei uns genau richtig!
+
+Bei PROGNUM sind wir als etablierter Ingenieur- und Beratungsdienstleister darauf spezialisiert, in vielseitigen Automotive-Projekten neue Maßstäbe zu setzen. Wir arbeiten an den wegweisenden Technologien von morgen - sei es im autonomen Fahren, Elektromobilität, Connectivity, Infotainment oder darüber hinaus.
+
+Sichere Dir die Pole-Position und starte mit uns durch!
+
+Das erwartet Dich
+
+Entwicklung, Integration und Optimierung von Komponenten für humanoide Robotersysteme
+Mitarbeit an Bewegungsfunktionen, Greifsystemen, Sensorintegration und Aktorik
+Abstimmung technischer Anforderungen mit Mechanik, Elektronik, Software und KI-Teams
+Analyse und Bewertung von Bewegungsabläufen, Schnittstellen und Funktionsverhalten
+Mitarbeit an innovativen Anwendungen im Umfeld Servicerobotik, Industrieautomation und Mensch-Roboter-Interaktion
+
+
+Das bringst Du mit
+
+Abgeschlossenes Studium im Bereich Robotik, Mechatronik, Elektrotechnik, Informatik, Automatisierungstechnik oder vergleichbar
+Erfahrung in der Entwicklung mechatronischer Systeme, idealerweise im Bereich Robotik, humanoide Systeme oder mobile Plattformen
+Kenntnisse in Steuerungssoftware, Regelungsalgorithmen, Sensorik, Aktorik und Systemintegration
+Sicherer Umgang mit relevanten Entwicklungs- und Engineering-Tools, z. B. Python, C++, ROS, Linux, Git, CAD oder MATLAB
+Begeisterung für humanoide Robotik, intelligente Systeme und neue Formen der Mensch-Maschine-Interaktion
+
+
+Was wir bieten
+
+Attraktive Vergütung: Überdurchschnittliches Gehalt mit individuellen Zuschüssen
+High-End Kunden: Zusammenarbeit mit den angesagtesten Unternehmen verschiedener Tech-Branchen
+Moderne Arbeitskultur: New Work ist für uns Normalität (z.B. Homeoffice)
+PROGNUM-DNA:  Familiär, offen und wertschätzend mit flachen Hierarchien sowie legendären Firmenevents u. After Work Events
+Spitzen-Karriereperspektive: Möglichkeit zur individuellen Weiterentwicklung durch berufsspezifische Trainings
+…und natürlich bieten wir die üblichen Standards wie bis zu 30 Tage Urlaub, BAV, Corporate Benefits uvm.
+Persönlicher PROGNUM-Guide im Projekt vor Ort!
+Bei PROGNUM kannst Du Dein ganzes Potenzial ausschöpfen und aktiv zum Unternehmenserfolg beitragen!
+
+
+Du möchtest wechseln? Das bleibt unter uns!
+
+Falls Du dich in einem ungekündigten Arbeitsverhältnis befindest, sichern wir Dir natürlich höchste Vertraulichkeit Deiner Bewerbung zu.
+
+Bereit zum Durchstarten? Dann bewirb Dich jetzt. Wir freuen uns auf Dich
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

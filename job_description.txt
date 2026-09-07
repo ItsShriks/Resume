@@ -8,43 +8,69 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Neura Robotics
-Software Engineer – Navigation Engineer (human)
-Location
+Trainee Innovations - CoE Automation of Operations (m/f/x)
+ AV-374358  Bonn,Nordrhein-Westfalen,Germany  Deutsche Post AG  Post & Parcel  Full-time  Temporary  Bonn, Nordrhein-Westfalen, Germany
+ 
+OUR GRADUATE PROGRAM GROW OFFERS INTERESTING OPPORTUNITIES IN GERMANY, BONN, FROM APRIL 1st 2027 FOR 18 MONTHS, AIMING TO KEEP YOU ON AFTER PROGRAM COMPLETION FOR
 
-Metzingen / Riederich
-Employment Type
+TRAINEE INNOVATIONS INTERNATIONAL IN CENTER OF EXCELLENCE (CoE) AUTOMATION OF OPERATIONS (M/F/X)
 
-Full time
-Location Type
+Shape the future of operations through automation and robotics
 
-On-site
-Department
+Digitalization is transforming our industry at an unprecedented pace. From creating better experiences for our customers and employees to making operations more efficient, smarter technologies are opening up new opportunities across DHL Group.
+The Center of Excellence (CoE) for Automation of Operations is at the heart of this transformation. Based within Corporate Development at DHL Group Headquarters, our team works globally with the divisions to identify, test and scale innovative, cost-efficient robotic and computer vision technologies that can make our operations smarter, safer and more efficient.
+We explore emerging technologies, turn promising ideas into practical solutions and support their successful integration into our operations. In doing so, we work closely with colleagues across the Group, our divisions and Corporate Procurement to move innovations from initial concepts to scalable solutions.
+Our work is closely aligned with the strategic priorities of the divisions through the Automation & Robotics Group, an advisory board and community platform for all stakeholders.
 
-Software Engineering
-Overview
-Application
-Your mission & challenges
-We're looking for a Navigation Software Engineer to integrate, validate, and improve third-party and internal navigation solutions on our mobile robot platforms. You'll join our software department and work with third-party navigation, ROS 2, robot middleware, and fleet interfaces to make mobile robots navigate reliably in real customer environments.
-You integrate and debug third-party navigation solutions into mobile robot and mobile manipulator platforms.
-You develop and maintain a deep understanding of navigation software capabilities, configuration options, release updates, and known limitations; you collaborate with vendors by reporting issues, sharing feedback, and following up on bug fixes or feature improvements.
-You develop software adapters between navigation systems, hardware interfaces, and fleet interfaces based on existing navigation systems.
-You support navigation commissioning on real robots, including map creation, localization tuning, trajectory validation, and recovery behavior.
-You analyze navigation failures using Docker logs, rosbag, RViz/Foxglove, and customer feedback.
-You define standard commissioning and acceptance criteria for navigation performance, robustness, safety-related behavior, and navigation integration.
-What we can look forward to
-A degree in Robotics, Computer Science, Software Engineering, Mechatronics, or a related field.
-2+ years of relevant work experience in robotics, software engineering, or a related technical field is a plus.
-Solid knowledge of navigation and localization (SLAM) techniques and ROS 2.
-Experience with C++, Python, RESTful APIs, and Docker.
-The ability to debug and isolate issues in complex software architectures, independently analyze root causes, and resolve problems with the right tools and methods.
-Understanding of VDA5050, fleet management, or multi-robot traffic concepts is a plus.
-Willingness to work with real robots, customer environments, and cross-functional teams.
-Good English communication skills.
-Apply for this Job
-Powered by 
-Privacy PolicySecurityVulnerability Disclosure
+Your opportunity to shape what’s next
 
+As part of the CoE Automation of Operations, you will work at the intersection of technology, innovation and real-world operations. You’ll have the opportunity to explore technologies that are still emerging today and help determine how they can create value for DHL Group tomorrow.
+
+Our key areas of technological expertise include:
+
+Automated unloading – developing solutions to automate and optimize the unloading of shipments and goods.
+Autonomous Mobile Robots (AMRs) – exploring and scaling intelligent robots that can move goods efficiently through our operations.
+Robotic arm solutions – testing and integrating robotic systems for handling, sorting and other operational processes.
+Computer Vision – using advanced vision technologies to enable smarter, more automated processes and decision-making.
+Humanoid robotics – evaluating and testing emerging humanoid robotic technologies and exploring their potential applications within our operations.
+
+From innovation to impact
+
+Our ambition goes beyond simply testing new technologies. We identify solutions with real potential, validate them in operational environments and help scale successful concepts across divisions and locations.
+You’ll collaborate with experts and decision-makers across DHL Group and work on technologies that have the potential to shape the future of logistics. Whether it’s robotics, computer vision, autonomous systems or the next generation of humanoid robots, you’ll help turn innovation into practical solutions with a tangible impact on our operations.
+
+Join us and help shape the future of automated operations at DHL Group.
+
+Your tasks
+
+Explore emerging technologies worldwide and identify innovative solutions with the potential to shape the future of our operations.
+Contribute to innovation projects and Proof of Concepts (PoCs), helping turn promising ideas and technologies into practical solutions.
+
+Your profile
+
+Master Graduation before April 1st, 2027 in Logistics, Supply Chain Management, Engineering, Economy
+First professional experience (up to 3 years) in Project Management; international experience
+Fluent English skills; fluent/good German skills
+Very good communication skills
+
+Your benefits
+
+Appealing salary package: With us you will earn an annual salary of € 57.000 gross – including Christmas and vacation allowance as well as an annual bonus.
+Individual career development: After an induction week, you will dive into the world of logistics in three individual program phases in Germany and around the world.
+Training and support: We support you in your individual career development through integrated training, personal support and regular feedback.
+Network: Build up a valuable network in one of the leading mail and logistics service provider.
+Diverse opportunities: Work on varied and challenging projects that will enhance your professional development.
+
+Your contact
+For further questions please contact Steffi Koch, GROW Recruiting, grow@dhl.com.
+
+Interested in this exciting opportunity? Please apply online now until November 26th, 2026  via careers.dhl.com/global/en/grow for the business area Innovations international including a cover letter, CV and references. You will find there more detailed information on the application process, program schedule and typical project positions in the various business areas.
+
+We are looking forward to your application.
+
+CONNECTING PEOPLE. IMPROVING LIVES.
+
+#trainee #growprogram #growinn
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

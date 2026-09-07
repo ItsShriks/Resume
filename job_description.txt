@@ -8,71 +8,68 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 About the job
-Entwicklungsingenieur Humanoide Robotik (m/w/d/x) in Stuttgart Du brennst für die Mobilität von morgen? Dann bist Du bei uns genau richtig! Bei PROGNUM sind wir als etablierter Ingenieur- und Beratungsdienstleister darauf spezialisiert, in vielseitigen Automotive-Projekten neue Maßstäbe zu setzen. Wir arbeiten an den wegweisenden Technologien von morgen – sei es im autonomen Fahren, Elektromobilität, Connectivity, Infotainment oder darüber hinaus. Sichere Dir die Pole-Position und starte mit uns durch! Das erwartet Dich
+Renommiertes Unternehmen in Düsseldorf
+nvidia, isaac, gazbo, simulation, freelance, freiberufler
 
- Entwicklung, Integration und Optimierung von Komponenten für humanoide Robotersysteme
- Mitarbeit an Bewegungsfunktionen, Greifsystemen, Sensorintegration und Aktorik
- Abstimmung technischer Anforderungen mit Mechanik, Elektronik, Software und KI-Teams
- Analyse und Bewertung von Bewegungsabläufen, Schnittstellen und Funktionsverhalten
- Mitarbeit an innovativen Anwendungen im Umfeld Servicerobotik, Industrieautomation und Mensch-Roboter-Interaktion Das bringst Du mit
- Abgeschlossenes Studium im Bereich Robotik, Mechatronik, Elektrotechnik, Informatik, Automatisierungstechnik oder vergleichbar
- Erfahrung in der Entwicklung mechatronischer Systeme, idealerweise im Bereich Robotik, humanoide Systeme oder mobile Plattformen
- Kenntnisse in Steuerungssoftware, Regelungsalgorithmen, Sensorik, Aktorik und Systemintegration
- Sicherer Umgang mit relevanten Entwicklungs- und Engineering-Tools, z. B. Python, C++, ROS, Linux, Git, CAD oder MATLAB
- Begeisterung für humanoide Robotik, intelligente Systeme und neue Formen der Mensch-Maschine-Interaktion Was wir bieten
- Attraktive Vergütung: Überdurchschnittliches Gehalt mit individuellen Zuschüssen
- High-End Kunden: Zusammenarbeit mit den angesagtesten Unternehmen verschiedener Tech-Branchen
- Moderne Arbeitskultur: New Work ist für uns Normalität (z.B. Homeoffice)
- PROGNUM-DNA:  Familiär, offen und wertschätzend mit flachen Hierarchien sowie legendären Firmenevents u. After Work Events
- Spitzen-Karriereperspektive: Möglichkeit zur individuellen Weiterentwicklung durch berufsspezifische Trainings
- …und natürlich bieten wir die üblichen Standards wie bis zu 30 Tage Urlaub, BAV, Corporate Benefits uvm.
- Persönlicher PROGNUM-Guide im Projekt vor Ort!
- Bei PROGNUM kannst Du Dein ganzes Potenzial ausschöpfen und aktiv zum Unternehmenserfolg beitragen! Du möchtest wechseln? Das bleibt unter uns! Falls Du dich in einem ungekündigten Arbeitsverhältnis befindest, sichern wir Dir natürlich höchste Vertraulichkeit Deiner Bewerbung zu. Bereit zum Durchstarten? Dann bewirb Dich jetzt. Wir freuen uns auf Dich!,
+Firmenprofil
 
+Start: sofort
 
-Entwicklungsingenieur Humanoide Robotik (m/w/d/x) in Stuttgart
+Projektlaufzeit: 06 Monate
 
-Du brennst für die Mobilität von morgen? Dann bist Du bei uns genau richtig!
+Auslastung: 5 Tage / pro Woche
 
-Bei PROGNUM sind wir als etablierter Ingenieur- und Beratungsdienstleister darauf spezialisiert, in vielseitigen Automotive-Projekten neue Maßstäbe zu setzen. Wir arbeiten an den wegweisenden Technologien von morgen - sei es im autonomen Fahren, Elektromobilität, Connectivity, Infotainment oder darüber hinaus.
+Standort: Remote/ Wuppertal & Düsseldorf
 
-Sichere Dir die Pole-Position und starte mit uns durch!
+Projektsprache: englisch/deutsch
 
-Das erwartet Dich
+Aufgabengebiet
 
-Entwicklung, Integration und Optimierung von Komponenten für humanoide Robotersysteme
-Mitarbeit an Bewegungsfunktionen, Greifsystemen, Sensorintegration und Aktorik
-Abstimmung technischer Anforderungen mit Mechanik, Elektronik, Software und KI-Teams
-Analyse und Bewertung von Bewegungsabläufen, Schnittstellen und Funktionsverhalten
-Mitarbeit an innovativen Anwendungen im Umfeld Servicerobotik, Industrieautomation und Mensch-Roboter-Interaktion
+Konzeption, Aufbau und Weiterentwicklung einer Simulationsumgebung für Consumer-Robotik-Systeme.
+Entwicklung physikbasierter virtueller Testumgebungen zur Validierung von Robotikfunktionen.
+Integration und Weiterentwicklung von Sensor-, Aktuator- und Umweltsimulationen.
+Aufbau automatisierter Test- und Regressionstest-Pipelines innerhalb der CI/CD-Infrastruktur.
+Enge Zusammenarbeit mit Software-, Perception-, Firmware- und Hardware-Teams zur Definition geeigneter Simulations- und Teststrategien.
+Unterstützung von Entwicklungsteams bei der Nutzung der Simulationsplattform als Entwicklungs- und Validierungswerkzeug.
+Analyse und Reproduktion von Fehlerbildern in virtuellen Testumgebungen.
+Sicherstellung einer hohen Testabdeckung und frühzeitigen Erkennung von Software- und Integrationsproblemen.
+Abstimmung technischer Konzepte und Entwicklungsaktivitäten mit internationalen Teams in Deutschland und China.
 
+Anforderungsprofil
 
-Das bringst Du mit
+Fundierte praktische Erfahrung mit mindestens einer führenden Robotik-Simulationsplattform wie NVIDIA Isaac Sim, Gazebo/Ignition Gazebooder vergleichbaren Frameworks.
+Sehr gute Programmierkenntnisse in Python und/oder C++im Umfeld von Robotik-, Simulations- oder Automatisierungssystemen.
+Tiefes Verständnis von Rigid-Body-Dynamik, Kontakt- und Kollisionsmodellen sowie der Simulation von Sensorsystemen wie Kameras, ToF-/LiDAR-Sensoren, IMUs und Odometrie.
+Erfahrung in der Erstellung, Kalibrierung und Validierung physikalisch realistischer Robotermodelle auf Basis von URDF, SDF oder USD.
+Praktische Erfahrung mit ROS 2, insbesondere bei der Integration von Simulationen in Wahrnehmungs-, Planungs- und Regelungssysteme.
+Ausgeprägte Test-First-Mentalitätmit nachweislicher Erfahrung in der Definition von Testszenarien, Metriken und Akzeptanzkriterien gemeinsam mit Entwicklungs- und Fachteams.
+Verantwortung für den Aufbau und die kontinuierliche Weiterentwicklung von simulationsbasierten Regressionstestsals integralen Bestandteil des Entwicklungsprozesses.
+Erfahrung bei der Integration von Simulations- und Testumgebungen in CI/CD-Pipelines, einschließlich containerisierter Ausführung (Docker) und automatisierter Szenario-Regressionstests.
+Fähigkeit, technische Ergebnisse strukturiert zu dokumentieren und in einem internationalen, verteilten Entwicklungsumfeld selbstständig zu arbeiten.
+Verhandlungssichere Englischkenntnisse in Wort und Schrift.
 
-Abgeschlossenes Studium im Bereich Robotik, Mechatronik, Elektrotechnik, Informatik, Automatisierungstechnik oder vergleichbar
-Erfahrung in der Entwicklung mechatronischer Systeme, idealerweise im Bereich Robotik, humanoide Systeme oder mobile Plattformen
-Kenntnisse in Steuerungssoftware, Regelungsalgorithmen, Sensorik, Aktorik und Systemintegration
-Sicherer Umgang mit relevanten Entwicklungs- und Engineering-Tools, z. B. Python, C++, ROS, Linux, Git, CAD oder MATLAB
-Begeisterung für humanoide Robotik, intelligente Systeme und neue Formen der Mensch-Maschine-Interaktion
+Nice To Have
 
+Erfahrung im Bereich Consumer Robotics, idealerweise mit autonomen Bodenpflegegeräten oder mobilen Indoor-Robotern.
+Fundierte Kenntnisse in den Bereichen SLAM (Simultaneous Localization and Mapping), Navigation, Hinderniserkennung und Hindernisvermeidung.
+Erfahrung mit GPU-beschleunigten Simulationsumgebungenund Reinforcement-Learning-Frameworks wie Isaac Lab, Isaac Gym oder vergleichbaren Plattformen.
+Verständnis von Embedded- und Edge-Computing-Architekturensowie der Fähigkeit, Hardwarebeschränkungen realitätsnah in Simulationsumgebungen abzubilden.
+Erfahrung mit Performance- und Ressourcenanalysen für robotische Systeme unter realen Hardwarebedingungen.
+Erfahrung in der Zusammenarbeit mit verteilten, internationalen und interkulturellen Entwicklungsteams.
+Fähigkeit, technische Konzepte team- und standortübergreifend zu koordinieren und in einem globalen Entwicklungsumfeld erfolgreich umzusetzen.
 
-Was wir bieten
+Vergütungspaket
 
-Attraktive Vergütung: Überdurchschnittliches Gehalt mit individuellen Zuschüssen
-High-End Kunden: Zusammenarbeit mit den angesagtesten Unternehmen verschiedener Tech-Branchen
-Moderne Arbeitskultur: New Work ist für uns Normalität (z.B. Homeoffice)
-PROGNUM-DNA:  Familiär, offen und wertschätzend mit flachen Hierarchien sowie legendären Firmenevents u. After Work Events
-Spitzen-Karriereperspektive: Möglichkeit zur individuellen Weiterentwicklung durch berufsspezifische Trainings
-…und natürlich bieten wir die üblichen Standards wie bis zu 30 Tage Urlaub, BAV, Corporate Benefits uvm.
-Persönlicher PROGNUM-Guide im Projekt vor Ort!
-Bei PROGNUM kannst Du Dein ganzes Potenzial ausschöpfen und aktiv zum Unternehmenserfolg beitragen!
+Ich freue mich auf Ihre Rückmeldung mit folgenden Informationen:
 
+ Ihre aktuelle Projektverfügbarkeit (frühester Start)
+ Ihre maximale Auslastung/Woche insgesamt
+ Können Sie diese Auslastung regelmäßig anbieten?
+ Ihr Stundensatz (Vor Ort / Remote)
+ Ihr aktuelles Profil
+ Eine kurze Rückmeldung zur Passgenauigkeit (gehen Sie bitte auf die oben aufgeführten Punkte ein)
 
-Du möchtest wechseln? Das bleibt unter uns!
-
-Falls Du dich in einem ungekündigten Arbeitsverhältnis befindest, sichern wir Dir natürlich höchste Vertraulichkeit Deiner Bewerbung zu.
-
-Bereit zum Durchstarten? Dann bewirb Dich jetzt. Wir freuen uns auf Dich
+ Quote job ref: JN-092026-7098236
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

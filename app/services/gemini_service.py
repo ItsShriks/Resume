@@ -70,17 +70,18 @@ class GeminiService:
         api_key: Optional[str] = None,
         model: Optional[str] = None
     ) -> Dict[str, Any]:
-        """Analyzes Job Description and computes ATS match score and extracted keywords."""
+        """Analyzes Job Description and computes ATS match score and extracted keywords for any industry."""
         system_instruction = (
-            "You are a Principal Technical Recruiter and ATS Optimization Expert in Robotics, "
-            "Autonomous Systems, Machine Learning, and Software Engineering. "
-            "Analyze the candidate's master profile against the provided Job Description."
+            "You are an Elite Global Recruiter, Hiring Executive, and ATS (Applicant Tracking System) Optimization Expert. "
+            "You analyze candidate qualifications against Job Descriptions across any domain, including Software Engineering, "
+            "Data Science & AI, Robotics, Hardware, Product Management, Business & Operations, Finance, Marketing, Design, "
+            "Healthcare, and Science. Provide objective, high-signal, actionable feedback."
         )
         
         prompt = f"""
-Candidate Master Profile:
-Name: {master_profile.get('name')}
-Title: {master_profile.get('title')}
+Candidate Profile:
+Name: {master_profile.get('name', 'Candidate')}
+Title/Background: {master_profile.get('title', 'Professional')}
 Summary & Experience:
 {master_profile.get('sections', {}).get('personal_info', '')}
 {master_profile.get('sections', {}).get('work_experience', '')}
@@ -94,16 +95,16 @@ Provide an in-depth analysis formatted as strict JSON with the following keys:
 {{
   "job_title": "Extracted target job title",
   "company_name": "Extracted company name (or 'Company' if not stated)",
+  "industry_domain": "Detected domain (e.g. Software / Data / Product / Marketing / Finance / Engineering / Design / Healthcare)",
   "match_score": 85 (an integer from 0 to 100 based on realistic technical fit),
   "match_summary": "2-3 concise sentences summarizing why the candidate is a strong fit and where the main alignment is",
-  "required_keywords": ["list", "of", "vital", "technical", "skills", "from", "JD"],
+  "required_keywords": ["list", "of", "vital", "skills", "tools", "and", "qualifications", "from", "JD"],
   "matching_strengths": ["list", "of", "strongest", "matching", "experiences", "or", "skills"],
   "missing_or_gap_keywords": ["list", "of", "keywords", "in", "JD", "that", "need", "emphasis", "or", "gap"],
-  "recommended_focus": "Robotics / Perception / Embedded / AI / Data / Software",
   "actionable_tips": [
     "Tip 1 on how to adjust experience bullets",
-    "Tip 2 on which project to prioritize",
-    "Tip 3 on skill ordering"
+    "Tip 2 on which project/achievement to prioritize",
+    "Tip 3 on skill or qualification ordering"
   ]
 }}
 """
@@ -118,7 +119,6 @@ Provide an in-depth analysis formatted as strict JSON with the following keys:
         try:
             return json.loads(raw_output)
         except Exception:
-            # Fallback cleaning if JSON has markdown fences
             cleaned = re.sub(r"^```json\s*", "", raw_output.strip())
             cleaned = re.sub(r"\s*```$", "", cleaned)
             return json.loads(cleaned)
@@ -135,17 +135,17 @@ Provide an in-depth analysis formatted as strict JSON with the following keys:
         model: Optional[str] = None
     ) -> Dict[str, Any]:
         """
-        Tailors Summary, Experience, Projects, and Skills to match the Job Description.
-        Returns modified LaTeX section contents and tailored explanation.
+        Tailors Summary, Experience, Projects, and Skills for ANY industry or field to match the Job Description.
         """
         sections = master_profile.get("sections", {})
         
         system_instruction = (
-            "You are an Elite Resume Strategist & LaTeX Specialist for Robotics and Autonomous Systems engineers. "
+            "You are an Elite Resume Strategist & LaTeX Specialist across all technical and non-technical disciplines "
+            "(Software, Tech, Product, Engineering, Science, Business, Marketing, Finance, Design, Healthcare, Operations). "
             "Your task is to tailor the candidate's resume sections specifically for the target job description. "
             "CRITICAL RULES:\n"
-            "1. NEVER invent fake companies, degrees, or years of experience. Keep facts 100% grounded in the master profile.\n"
-            "2. Reword, sharpen, and reorder bullet points to prominently feature relevant keywords, metrics, and technologies from the JD.\n"
+            "1. NEVER invent fake companies, degrees, or years of experience. Keep facts 100% grounded in the candidate's actual history.\n"
+            "2. Reword, sharpen, and reorder bullet points to prominently feature relevant keywords, metrics, and responsibilities from the JD.\n"
             "3. Output valid LaTeX for each section matching the exact commands used in the original LaTeX snippets "
             "(\\resumeSubheading, \\resumeItem, \\resumeItemPlain, \\resumeSubItem, \\resumeSubHeadingListStart, \\resumeItemListStart, etc.).\n"
             "4. Escape special LaTeX characters properly (e.g. \\& for &, \\% for %, \\_ for _).\n"
@@ -157,7 +157,7 @@ TARGET JOB DESCRIPTION:
 \"\"\"{jd_text}\"\"\"
 
 TARGET ROLE: {target_role or 'As deduced from JD'}
-PRIMARY FOCUS AREA: {focus_area or 'Robotics / Perception / Software'}
+PRIMARY FOCUS AREA: {focus_area or 'Auto-align to JD industry and role'}
 LANGUAGE: {language}
 
 CANDIDATE'S ORIGINAL MASTER LATEX SECTIONS:
@@ -180,8 +180,8 @@ Return a strict JSON object with:
 {{
   "tailored_summary_tex": "Full LaTeX code for Summary section",
   "tailored_work_experience_tex": "Full LaTeX code for Work Experience section",
-  "tailored_projects_tex": "Full LaTeX code for Projects section (prioritize top 3-4 most relevant projects)",
-  "tailored_skills_tex": "Full LaTeX code for Skills section (categorized and ordered to highlight JD technologies first)",
+  "tailored_projects_tex": "Full LaTeX code for Projects/Key Achievements section (prioritize top 3-4 most relevant)",
+  "tailored_skills_tex": "Full LaTeX code for Skills section (categorized and ordered to highlight JD technologies/competencies first)",
   "tailoring_notes": [
     "Brief explanation of changes made in experience bullets",
     "Brief explanation of project selection rationale",
@@ -215,17 +215,21 @@ Return a strict JSON object with:
         api_key: Optional[str] = None,
         model: Optional[str] = None
     ) -> Dict[str, Any]:
-        """Generates a matching Cover Letter (Anschreiben) in LaTeX format."""
+        """Generates a matching Cover Letter (or German Anschreiben) for any profession."""
         system_instruction = (
-            "You are a professional Career Coach and Executive Copywriter. "
+            "You are a professional Career Coach and Executive Copywriter across all industries. "
             "Write a persuasive, highly tailored, professional Cover Letter (or German Anschreiben) "
-            "for Shrikar Nakhye based on his master profile and the target job description. "
-            "Ensure the letter strictly follows standard professional conventions in Germany / Europe, "
-            "demonstrates deep interest in the company, cites concrete achievements from his background, "
+            "based on the candidate's background and the target job description. "
+            "Ensure the letter strictly follows standard professional conventions in Europe / International standards, "
+            "demonstrates deep interest in the company, cites concrete achievements from their background, "
             "and outputs clean LaTeX suitable for compilation with the provided template."
         )
 
         template_tex = master_profile.get("cover_letter_tex", "")
+        candidate_name = master_profile.get("name", "Candidate")
+        candidate_location = master_profile.get("location", "Bonn, Germany")
+        candidate_email = master_profile.get("email", "candidate@example.com")
+        sections = master_profile.get("sections", {})
 
         prompt = f"""
 TARGET JOB DESCRIPTION:
@@ -235,19 +239,24 @@ COMPANY: {company_name or 'Hiring Company'}
 ROLE TITLE: {role_title or 'Target Role'}
 LANGUAGE: {language} (If German, write a fluent, authentic German Anschreiben. If English, write an impactful English Cover Letter).
 
-MASTER PROFILE & BACKGROUND:
-Name: Shrikar Nakhye
-Address: Bonn, Germany
-Email: nakhyeshrikar@icloud.com
-Degree: M.Sc. Autonomous Systems at Hochschule Bonn-Rhein-Sieg (Bonn, Germany)
-Bachelor: B.Tech Mechatronics Engineering
-Key Experience: b-it bots @Home (ROS 2, Perception, Nav2), Navilan Solutions (Python, Telemetry, QA), H-BRS Research Assistant (LiDAR 3D Segmentation, PyTorch, CUDA, 15% accuracy boost), Sakar Robotics (Autonomous Mobile Robots, SLAM).
+CANDIDATE BACKGROUND:
+Name: {candidate_name}
+Location: {candidate_location}
+Email: {candidate_email}
+Summary:
+{sections.get('personal_info', '')}
+Experience:
+{sections.get('work_experience', '')}
+Projects:
+{sections.get('projects', '')}
+Skills:
+{sections.get('skills', '')}
 
 REFERENCE LATEX TEMPLATE:
 {template_tex}
 
 TASK:
-Produce a customized, complete standalone LaTeX document for the Cover Letter matching the styling and header of the template.
+Produce a customized, complete standalone LaTeX document for the Cover Letter matching the styling and layout of the template.
 Ensure all special characters are escaped (\\&, \\%, \\_).
 Return strict JSON:
 {{

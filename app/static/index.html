@@ -98,13 +98,20 @@
               </select>
             </div>
             <div class="form-group">
-              <label for="focusSelect">Technical Focus</label>
+              <label for="focusSelect">Industry / Domain</label>
               <select id="focusSelect">
-                <option value="Autonomous Systems & ROS">🤖 Autonomous Systems & ROS</option>
-                <option value="Robotics Perception & Vision">👁️ Perception & Computer Vision</option>
-                <option value="AI & Data Annotation">📊 AI & Data Annotation QA</option>
-                <option value="Embedded & C++">⚡ Embedded & C++17</option>
-                <option value="General Robotics">🚀 General Robotics</option>
+                <option value="Auto-Detect (AI)" selected>✨ Auto-Detect (AI)</option>
+                <option value="Software Engineering & Cloud">💻 Software Engineering & Cloud</option>
+                <option value="Data Science & AI/ML">📊 Data Science & AI/ML</option>
+                <option value="Product & Project Management">📈 Product & Project Management</option>
+                <option value="Robotics & Autonomous Systems">🤖 Robotics & Autonomous Systems</option>
+                <option value="Embedded Systems & C++">⚡ Embedded Systems & C++</option>
+                <option value="Mobile App Development">📱 Mobile App Development</option>
+                <option value="Business, Finance & Consulting">💼 Business, Finance & Consulting</option>
+                <option value="Marketing, Growth & Content">📣 Marketing, Growth & Content</option>
+                <option value="UI/UX & Creative Design">🎨 UI/UX & Creative Design</option>
+                <option value="Science, Research & Healthcare">🔬 Science, Research & Healthcare</option>
+                <option value="General Professional">🌐 General Professional</option>
               </select>
             </div>
           </div>
@@ -330,6 +337,29 @@
             <option value="gemini-1.5-flash">Gemini 1.5 Flash (Ultra Fast)</option>
             <option value="gemini-1.5-pro">Gemini 1.5 Pro (Deep Reasoning)</option>
           </select>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid var(--border-color); margin: 16px 0;">
+
+        <div class="form-group">
+          <label for="candidateNameInput">Candidate Name</label>
+          <input type="text" id="candidateNameInput" placeholder="e.g. Shrikar Nakhye">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="candidateTitleInput">Professional Title</label>
+            <input type="text" id="candidateTitleInput" placeholder="e.g. Software Engineer / Data Scientist">
+          </div>
+          <div class="form-group">
+            <label for="candidateLocationInput">City / Location</label>
+            <input type="text" id="candidateLocationInput" placeholder="e.g. Bonn, Germany">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="candidateEmailInput">Contact Email</label>
+          <input type="text" id="candidateEmailInput" placeholder="e.g. yourname@email.com">
         </div>
       </div>
       <div class="modal-footer">

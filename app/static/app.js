@@ -52,13 +52,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const statusDot = document.getElementById('statusDot');
   const statusMessage = document.getElementById('statusMessage');
 
-  // Settings Elements
+  // Settings & Candidate Profile Elements
   const settingsBtn = document.getElementById('settingsBtn');
   const settingsModal = document.getElementById('settingsModal');
   const closeSettingsBtn = document.getElementById('closeSettingsBtn');
   const saveSettingsBtn = document.getElementById('saveSettingsBtn');
   const apiKeyInput = document.getElementById('apiKeyInput');
   const modelSelect = document.getElementById('modelSelect');
+
+  const candidateNameInput = document.getElementById('candidateNameInput');
+  const candidateTitleInput = document.getElementById('candidateTitleInput');
+  const candidateLocationInput = document.getElementById('candidateLocationInput');
+  const candidateEmailInput = document.getElementById('candidateEmailInput');
+  const candidatePillText = document.querySelector('.candidate-pill span:last-child');
 
   // Theme Toggle
   const themeToggleBtn = document.getElementById('themeToggleBtn');
@@ -73,12 +79,34 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   modelSelect.value = savedModel;
 
+  // Load Custom Candidate Profile if saved
+  candidateNameInput.value = localStorage.getItem('CANDIDATE_NAME') || '';
+  candidateTitleInput.value = localStorage.getItem('CANDIDATE_TITLE') || '';
+  candidateLocationInput.value = localStorage.getItem('CANDIDATE_LOCATION') || '';
+  candidateEmailInput.value = localStorage.getItem('CANDIDATE_EMAIL') || '';
+
+  function updateCandidateDisplay() {
+    const customName = candidateNameInput.value.trim();
+    if (candidatePillText) {
+      candidatePillText.textContent = customName || (masterProfile ? masterProfile.name : 'Candidate');
+    }
+  }
+
   function getApiKey() {
     return localStorage.getItem('GEMINI_API_KEY') || apiKeyInput.value.trim() || undefined;
   }
 
   function getModel() {
     return localStorage.getItem('GEMINI_MODEL') || modelSelect.value || 'gemini-3.6-flash';
+  }
+
+  function getCandidateData() {
+    return {
+      candidate_name: candidateNameInput.value.trim() || (masterProfile ? masterProfile.name : undefined),
+      candidate_title: candidateTitleInput.value.trim() || (masterProfile ? masterProfile.title : undefined),
+      candidate_location: candidateLocationInput.value.trim() || (masterProfile ? masterProfile.location : undefined),
+      candidate_email: candidateEmailInput.value.trim() || (masterProfile ? masterProfile.email : undefined),
+    };
   }
 
   // --- Status Helper ---
@@ -104,13 +132,20 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = await res.json();
       if (data.status === 'success') {
         masterProfile = data.profile;
+        if (!candidateNameInput.value) candidateNameInput.value = masterProfile.name || '';
+        if (!candidateTitleInput.value) candidateTitleInput.value = masterProfile.title || '';
+        if (!candidateLocationInput.value) candidateLocationInput.value = masterProfile.location || '';
+        if (!candidateEmailInput.value) candidateEmailInput.value = masterProfile.email || '';
+
+        updateCandidateDisplay();
+
         const sections = masterProfile.sections || {};
         sectionSummaryTex.value = sections.personal_info || '';
         sectionExperienceTex.value = sections.work_experience || '';
         sectionProjectsTex.value = sections.projects || '';
         sectionSkillsTex.value = sections.skills || '';
         coverLetterTex.value = masterProfile.cover_letter_tex || '';
-        setStatus('Master Profile Loaded', 'ready');
+        setStatus('Master Profile Ready', 'ready');
       }
     } catch (err) {
       console.error('Error fetching master profile:', err);
@@ -120,38 +155,111 @@ document.addEventListener('DOMContentLoaded', () => {
 
   fetchMasterProfile();
 
-  // --- Sample JD loader ---
-  loadSampleJDBtn.addEventListener('click', async () => {
-    try {
-      // Try to load job_description.txt from workspace or populate default
-      const sampleText = `Role: Robotics Software & Perception Engineer
+  // --- Diverse Multi-Domain Sample JDs ---
+  const SAMPLE_JDS = [
+    {
+      title: "Senior Full Stack Software Engineer",
+      company: "Stripe / CloudScale Labs",
+      domain: "Software Engineering & Cloud",
+      text: `Role: Senior Full Stack Software Engineer
+Company: CloudScale Labs
+Location: Remote / Berlin, Germany
+
+About the Role:
+We are seeking an experienced Full Stack Engineer to architect high-throughput web applications, design RESTful/GraphQL APIs, and scale cloud infrastructure.
+
+Key Responsibilities:
+- Build robust microservices and backend APIs in Python, Node.js, or Go.
+- Develop interactive, accessible web frontends using React, TypeScript, and modern design systems.
+- Containerize services with Docker and manage deployment pipelines on AWS / Kubernetes.
+- Optimize database performance (PostgreSQL, Redis), monitoring telemetry, and automated testing.
+- Collaborate in an agile Scrum team to deliver production-grade software with 99.9% uptime.
+
+Requirements:
+- Degree in Computer Science, Software Engineering, or equivalent practical experience.
+- Strong software development experience in Python, TypeScript/JavaScript, or C++.
+- Hands-on experience with Docker, CI/CD, Git, and Linux systems.
+- Fluency in English.`
+    },
+    {
+      title: "Data Scientist & AI Specialist",
+      company: "DeepMind / Applied AI Solutions",
+      domain: "Data Science & AI/ML",
+      text: `Role: Data Scientist & AI Specialist
+Company: Applied AI Solutions
+Location: Munich / Remote, Germany
+
+About the Role:
+Join our AI core team to build, evaluate, and deploy machine learning models and multimodal data pipelines for high-impact production applications.
+
+Key Responsibilities:
+- Design end-to-end data acquisition, cleaning, feature engineering, and annotation QA pipelines.
+- Train and fine-tune deep learning models using PyTorch, TensorFlow, and CUDA acceleration.
+- Conduct statistical evaluations, pairwise model comparisons, and root-cause error diagnostics.
+- Develop RESTful API endpoints and Docker containers to deploy models into production.
+
+Requirements:
+- Degree in Computer Science, Data Science, Mathematics, or engineering discipline.
+- Strong programming skills in Python, Pandas, NumPy, and PyTorch.
+- Experience with data quality assurance, annotation workflows, and metric benchmarking.
+- Excellent analytical and problem-solving skills.`
+    },
+    {
+      title: "Technical Product & Project Manager",
+      company: "InnovateTech Global",
+      domain: "Product & Project Management",
+      text: `Role: Technical Product Manager
+Company: InnovateTech Global
+Location: Frankfurt / Remote, Germany
+
+About the Role:
+We are looking for a Technical Product Manager to bridge engineering and business teams, define product roadmaps, and lead cross-functional product launches.
+
+Key Responsibilities:
+- Own the product lifecycle from requirement discovery to release and iterative optimization.
+- Lead Scrum/Agile ceremonies (sprint planning, backlog grooming, retrospectives).
+- Translate complex technical requirements into user stories, PRDs, and acceptance criteria.
+- Monitor KPIs, user engagement metrics, and system stability with engineering teams.
+
+Requirements:
+- Background in Tech, Engineering, or Business Informatics.
+- Proven experience managing software/hardware products and technical teams.
+- Strong stakeholder management and communication skills in English and German.`
+    },
+    {
+      title: "Robotics Software & Perception Engineer",
+      company: "Autonomous Mobility AI Labs",
+      domain: "Robotics & Autonomous Systems",
+      text: `Role: Robotics Software & Perception Engineer
 Company: Autonomous Mobility AI Labs
 Location: Munich / Bonn, Germany
 
 About the Role:
-We are seeking a talented Robotics Engineer with expertise in ROS 2, C++17, Python, and Multi-Sensor Perception (LiDAR, Camera, IMU) to develop next-generation autonomous navigation and 3D semantic perception pipelines.
+We are seeking a Robotics Engineer with expertise in ROS 2, C++17, Python, and Multi-Sensor Perception (LiDAR, Camera, IMU) to develop autonomous navigation and 3D perception pipelines.
 
 Key Responsibilities:
-- Design, integrate, and benchmark autonomous mobile robot navigation stacks using ROS 2 and Nav2.
+- Design, integrate, and benchmark autonomous robot navigation stacks using ROS 2 and Nav2.
 - Develop real-time 3D point cloud segmentation and object detection algorithms using PyTorch and CUDA.
-- Curate, label, and validate multi-sensor robotic datasets (RGB-D, LiDAR, odometry) ensuring high data quality and sensor calibration.
-- Conduct root-cause analysis on system logs, rosbags, and edge-case anomalies in Dockerized environments.
-- Maintain high code quality, automated testing, and CI/CD pipelines.
+- Curate, label, and validate multi-sensor robotic datasets ensuring sensor calibration.
+- Conduct root-cause analysis on system logs, rosbags, and edge-case anomalies.
 
 Requirements:
-- Degree in Robotics, Computer Science, Autonomous Systems, or Mechatronics.
-- Hands-on experience with ROS/ROS 2, Nav2, SLAM, and sensor fusion (LiDAR, IMU, Encoders).
-- Strong proficiency in Python and Modern C++ (C++17).
-- Familiarity with Deep Learning frameworks (PyTorch), OpenCV, and 3D data processing (Open3D).
-- Fluency in English; proficiency in German is a strong advantage.`;
-
-      jdInput.value = sampleText;
-      roleTitleInput.value = "Robotics Software & Perception Engineer";
-      companyInput.value = "Autonomous Mobility AI Labs";
-      setStatus('Sample Job Description Loaded', 'ready');
-    } catch (err) {
-      console.error(err);
+- Degree in Robotics, Autonomous Systems, Mechatronics, or Computer Science.
+- Hands-on experience with ROS/ROS 2, Nav2, SLAM, and sensor fusion.
+- Strong proficiency in Python and Modern C++ (C++17).`
     }
+  ];
+
+  let sampleIndex = 0;
+  loadSampleJDBtn.addEventListener('click', () => {
+    const sample = SAMPLE_JDS[sampleIndex % SAMPLE_JDS.length];
+    sampleIndex++;
+
+    jdInput.value = sample.text;
+    roleTitleInput.value = sample.title;
+    companyInput.value = sample.company;
+    focusSelect.value = sample.domain;
+    setStatus(`Sample Loaded: ${sample.title}`, 'ready');
   });
 
   // --- ATS Score Dial Animation ---
@@ -159,12 +267,10 @@ Requirements:
     const clampedScore = Math.max(0, Math.min(100, score));
     scoreValue.textContent = clampedScore;
 
-    // Circumference of r=42 is 2 * PI * 42 ≈ 263.89
     const circumference = 2 * Math.PI * 42;
     const offset = circumference - (clampedScore / 100) * circumference;
     scoreDialProgress.style.strokeDashoffset = offset;
 
-    // Color gradient
     if (clampedScore >= 80) {
       scoreDialProgress.style.stroke = 'var(--color-success)';
     } else if (clampedScore >= 60) {
@@ -186,11 +292,15 @@ Requirements:
       setStatus('Analyzing Job Spec with Gemini AI...', 'busy');
       showSpinner('Analyzing ATS Fit & Keywords...');
 
+      const candidateData = getCandidateData();
+
       const res = await fetch('/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           jd_text: jdText,
+          candidate_name: candidateData.candidate_name,
+          candidate_title: candidateData.candidate_title,
           api_key: getApiKey(),
           model: getModel()
         })
@@ -263,6 +373,8 @@ Requirements:
       setStatus('Tailoring Resume & Compiling LaTeX...', 'busy');
       showSpinner('Generating tailored LaTeX & Compiling PDF...');
 
+      const candidateData = getCandidateData();
+
       const res = await fetch('/api/tailor', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -271,6 +383,10 @@ Requirements:
           target_role: roleTitleInput.value.trim(),
           language: languageSelect.value,
           focus_area: focusSelect.value,
+          candidate_name: candidateData.candidate_name,
+          candidate_title: candidateData.candidate_title,
+          candidate_location: candidateData.candidate_location,
+          candidate_email: candidateData.candidate_email,
           api_key: getApiKey(),
           model: getModel()
         })
@@ -319,6 +435,8 @@ Requirements:
       setStatus('Generating Cover Letter & Compiling...', 'busy');
       showSpinner('Drafting Cover Letter & Building PDF...');
 
+      const candidateData = getCandidateData();
+
       const res = await fetch('/api/cover-letter', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -327,6 +445,9 @@ Requirements:
           company_name: companyInput.value.trim(),
           role_title: roleTitleInput.value.trim(),
           language: languageSelect.value,
+          candidate_name: candidateData.candidate_name,
+          candidate_location: candidateData.candidate_location,
+          candidate_email: candidateData.candidate_email,
           api_key: getApiKey(),
           model: getModel()
         })
@@ -536,8 +657,21 @@ Requirements:
       localStorage.removeItem('GEMINI_API_KEY');
     }
     localStorage.setItem('GEMINI_MODEL', model);
+
+    // Save candidate profile overrides
+    const cName = candidateNameInput.value.trim();
+    const cTitle = candidateTitleInput.value.trim();
+    const cLoc = candidateLocationInput.value.trim();
+    const cEmail = candidateEmailInput.value.trim();
+
+    if (cName) localStorage.setItem('CANDIDATE_NAME', cName); else localStorage.removeItem('CANDIDATE_NAME');
+    if (cTitle) localStorage.setItem('CANDIDATE_TITLE', cTitle); else localStorage.removeItem('CANDIDATE_TITLE');
+    if (cLoc) localStorage.setItem('CANDIDATE_LOCATION', cLoc); else localStorage.removeItem('CANDIDATE_LOCATION');
+    if (cEmail) localStorage.setItem('CANDIDATE_EMAIL', cEmail); else localStorage.removeItem('CANDIDATE_EMAIL');
+
+    updateCandidateDisplay();
     settingsModal.style.display = 'none';
-    setStatus('Settings saved', 'ready');
+    setStatus('Settings & Profile saved', 'ready');
   });
 
   // --- Mobile Panel Navigation ---

@@ -31,6 +31,8 @@ SESSION_STORE: Dict[str, Any] = {
 
 class AnalyzeRequest(BaseModel):
     jd_text: str
+    candidate_name: Optional[str] = None
+    candidate_title: Optional[str] = None
     api_key: Optional[str] = None
     model: Optional[str] = None
 
@@ -39,6 +41,10 @@ class TailorRequest(BaseModel):
     target_role: Optional[str] = None
     language: Optional[str] = "English"
     focus_area: Optional[str] = None
+    candidate_name: Optional[str] = None
+    candidate_title: Optional[str] = None
+    candidate_location: Optional[str] = None
+    candidate_email: Optional[str] = None
     api_key: Optional[str] = None
     model: Optional[str] = None
 
@@ -47,6 +53,9 @@ class CoverLetterRequest(BaseModel):
     company_name: Optional[str] = None
     role_title: Optional[str] = None
     language: Optional[str] = "English"
+    candidate_name: Optional[str] = None
+    candidate_location: Optional[str] = None
+    candidate_email: Optional[str] = None
     api_key: Optional[str] = None
     model: Optional[str] = None
 
@@ -68,12 +77,15 @@ def get_master_profile():
 
 @app.post("/api/analyze")
 def analyze_job(req: AnalyzeRequest):
-    """Analyzes a Job Description against Shrikar's master profile."""
+    """Analyzes a Job Description against candidate profile across any industry."""
     if not req.jd_text.strip():
         raise HTTPException(status_code=400, detail="Job description text is empty.")
     
     try:
         profile = ProfileService.get_master_profile()
+        if req.candidate_name: profile["name"] = req.candidate_name
+        if req.candidate_title: profile["title"] = req.candidate_title
+
         analysis = GeminiService.analyze_job(
             jd_text=req.jd_text,
             master_profile=profile,
@@ -86,12 +98,17 @@ def analyze_job(req: AnalyzeRequest):
 
 @app.post("/api/tailor")
 def tailor_resume(req: TailorRequest):
-    """Generates tailored resume sections and automatically compiles PDF."""
+    """Generates tailored resume sections for any field and automatically compiles PDF."""
     if not req.jd_text.strip():
         raise HTTPException(status_code=400, detail="Job description text is empty.")
     
     try:
         profile = ProfileService.get_master_profile()
+        if req.candidate_name: profile["name"] = req.candidate_name
+        if req.candidate_title: profile["title"] = req.candidate_title
+        if req.candidate_location: profile["location"] = req.candidate_location
+        if req.candidate_email: profile["email"] = req.candidate_email
+
         tailor_result = GeminiService.tailor_resume(
             jd_text=req.jd_text,
             master_profile=profile,
@@ -115,10 +132,11 @@ def tailor_resume(req: TailorRequest):
 
         # Compile tailored resume into PDF
         main_tex = profile.get("main_resume_tex", "")
+        job_name = f"{(req.candidate_name or 'Candidate').replace(' ', '_')}_Tailored"
         success, pdf_bytes, logs = LatexService.compile_latex(
             main_tex_content=main_tex,
             section_files=updated_sections,
-            job_name="Shrikar_Nakhye_Tailored"
+            job_name=job_name
         )
 
         pdf_base64 = None
@@ -140,12 +158,16 @@ def tailor_resume(req: TailorRequest):
 
 @app.post("/api/cover-letter")
 def generate_cover_letter(req: CoverLetterRequest):
-    """Generates a tailored cover letter and compiles to PDF."""
+    """Generates a tailored cover letter and compiles to PDF for any profession."""
     if not req.jd_text.strip():
         raise HTTPException(status_code=400, detail="Job description text is empty.")
     
     try:
         profile = ProfileService.get_master_profile()
+        if req.candidate_name: profile["name"] = req.candidate_name
+        if req.candidate_location: profile["location"] = req.candidate_location
+        if req.candidate_email: profile["email"] = req.candidate_email
+
         cl_result = GeminiService.generate_cover_letter(
             jd_text=req.jd_text,
             master_profile=profile,

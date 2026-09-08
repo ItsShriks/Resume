@@ -52,19 +52,32 @@ document.addEventListener('DOMContentLoaded', () => {
   const statusDot = document.getElementById('statusDot');
   const statusMessage = document.getElementById('statusMessage');
 
-  // Settings & Candidate Profile Elements
+  // Profile Modal Elements
+  const profileBtn = document.getElementById('profileBtn');
+  const profileModal = document.getElementById('profileModal');
+  const closeProfileBtn = document.getElementById('closeProfileBtn');
+  const saveProfileBtn = document.getElementById('saveProfileBtn');
+  const resetToDefaultProfileBtn = document.getElementById('resetToDefaultProfileBtn');
+  const rawResumeInput = document.getElementById('rawResumeInput');
+  const parseResumeBtn = document.getElementById('parseResumeBtn');
+
+  const candidateNameInput = document.getElementById('candidateNameInput');
+  const candidateTitleInput = document.getElementById('candidateTitleInput');
+  const candidateLocationInput = document.getElementById('candidateLocationInput');
+  const candidateEmailInput = document.getElementById('candidateEmailInput');
+  const candidateLinkedinInput = document.getElementById('candidateLinkedinInput');
+  const activeCandidateName = document.getElementById('activeCandidateName');
+  const mobileProfileTabBtn = document.getElementById('mobileProfileTabBtn');
+  const candidateBannerBtn = document.getElementById('candidateBannerBtn');
+  const bannerCandidateName = document.getElementById('bannerCandidateName');
+
+  // Settings Modal Elements
   const settingsBtn = document.getElementById('settingsBtn');
   const settingsModal = document.getElementById('settingsModal');
   const closeSettingsBtn = document.getElementById('closeSettingsBtn');
   const saveSettingsBtn = document.getElementById('saveSettingsBtn');
   const apiKeyInput = document.getElementById('apiKeyInput');
   const modelSelect = document.getElementById('modelSelect');
-
-  const candidateNameInput = document.getElementById('candidateNameInput');
-  const candidateTitleInput = document.getElementById('candidateTitleInput');
-  const candidateLocationInput = document.getElementById('candidateLocationInput');
-  const candidateEmailInput = document.getElementById('candidateEmailInput');
-  const candidatePillText = document.querySelector('.candidate-pill span:last-child');
 
   // Theme Toggle
   const themeToggleBtn = document.getElementById('themeToggleBtn');
@@ -79,16 +92,59 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   modelSelect.value = savedModel;
 
+  const photoModeSelect = document.getElementById('photoModeSelect');
+  const customPhotoUploadGroup = document.getElementById('customPhotoUploadGroup');
+  const photoFileInput = document.getElementById('photoFileInput');
+  const photoPreviewContainer = document.getElementById('photoPreviewContainer');
+  const photoPreviewImg = document.getElementById('photoPreviewImg');
+
   // Load Custom Candidate Profile if saved
   candidateNameInput.value = localStorage.getItem('CANDIDATE_NAME') || '';
   candidateTitleInput.value = localStorage.getItem('CANDIDATE_TITLE') || '';
   candidateLocationInput.value = localStorage.getItem('CANDIDATE_LOCATION') || '';
   candidateEmailInput.value = localStorage.getItem('CANDIDATE_EMAIL') || '';
+  candidateLinkedinInput.value = localStorage.getItem('CANDIDATE_LINKEDIN') || '';
+
+  let customPhotoBase64 = localStorage.getItem('CANDIDATE_PHOTO_BASE64') || null;
+  let savedPhotoMode = localStorage.getItem('CANDIDATE_PHOTO_MODE');
+  if (!savedPhotoMode || savedPhotoMode === 'default') {
+    savedPhotoMode = 'none';
+  }
+  photoModeSelect.value = savedPhotoMode;
+
+  if (photoModeSelect.value === 'custom') {
+    customPhotoUploadGroup.style.display = 'block';
+    if (customPhotoBase64) {
+      photoPreviewImg.src = customPhotoBase64;
+      photoPreviewContainer.style.display = 'block';
+    }
+  }
+
+  photoModeSelect.addEventListener('change', () => {
+    customPhotoUploadGroup.style.display = photoModeSelect.value === 'custom' ? 'block' : 'none';
+  });
+
+  photoFileInput.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        customPhotoBase64 = event.target.result;
+        photoPreviewImg.src = customPhotoBase64;
+        photoPreviewContainer.style.display = 'block';
+      };
+      reader.readAsDataURL(file);
+    }
+  });
 
   function updateCandidateDisplay() {
     const customName = candidateNameInput.value.trim();
-    if (candidatePillText) {
-      candidatePillText.textContent = customName || (masterProfile ? masterProfile.name : 'Candidate');
+    const displayName = customName || (masterProfile ? masterProfile.name : 'Candidate');
+    if (activeCandidateName) {
+      activeCandidateName.textContent = displayName;
+    }
+    if (bannerCandidateName) {
+      bannerCandidateName.textContent = displayName;
     }
   }
 
@@ -106,6 +162,9 @@ document.addEventListener('DOMContentLoaded', () => {
       candidate_title: candidateTitleInput.value.trim() || (masterProfile ? masterProfile.title : undefined),
       candidate_location: candidateLocationInput.value.trim() || (masterProfile ? masterProfile.location : undefined),
       candidate_email: candidateEmailInput.value.trim() || (masterProfile ? masterProfile.email : undefined),
+      candidate_linkedin: candidateLinkedinInput.value.trim() || (masterProfile ? masterProfile.linkedin : undefined),
+      photo_mode: photoModeSelect.value || 'none',
+      photo_base64: photoModeSelect.value === 'custom' ? customPhotoBase64 : null
     };
   }
 
@@ -127,11 +186,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Load Master Profile on Init ---
   async function fetchMasterProfile() {
     try {
-      setStatus('Loading Master Profile...', 'busy');
+      setStatus('Loading Profile...', 'busy');
       const res = await fetch('/api/master-profile');
       const data = await res.json();
       if (data.status === 'success') {
         masterProfile = data.profile;
+
+        // Check if user has saved custom sections
+        const customSections = JSON.parse(localStorage.getItem('CUSTOM_PROFILE_SECTIONS') || '{}');
+        const sections = Object.keys(customSections).length ? customSections : (masterProfile.sections || {});
+
         if (!candidateNameInput.value) candidateNameInput.value = masterProfile.name || '';
         if (!candidateTitleInput.value) candidateTitleInput.value = masterProfile.title || '';
         if (!candidateLocationInput.value) candidateLocationInput.value = masterProfile.location || '';
@@ -139,13 +203,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         updateCandidateDisplay();
 
-        const sections = masterProfile.sections || {};
         sectionSummaryTex.value = sections.personal_info || '';
         sectionExperienceTex.value = sections.work_experience || '';
         sectionProjectsTex.value = sections.projects || '';
         sectionSkillsTex.value = sections.skills || '';
         coverLetterTex.value = masterProfile.cover_letter_tex || '';
-        setStatus('Master Profile Ready', 'ready');
+        setStatus('Profile Ready', 'ready');
       }
     } catch (err) {
       console.error('Error fetching master profile:', err);
@@ -155,35 +218,125 @@ document.addEventListener('DOMContentLoaded', () => {
 
   fetchMasterProfile();
 
+  // --- AI Parse Raw Resume Text ---
+  parseResumeBtn.addEventListener('click', async () => {
+    const rawText = rawResumeInput.value.trim();
+    if (!rawText) {
+      alert('Please paste your existing CV or LinkedIn text first.');
+      return;
+    }
+
+    try {
+      setStatus('Parsing your resume with AI...', 'busy');
+      showSpinner('Extracting your background & converting to LaTeX...');
+
+      const res = await fetch('/api/parse-resume', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          raw_cv_text: rawText,
+          api_key: getApiKey(),
+          model: getModel()
+        })
+      });
+
+      const data = await res.json();
+      hideSpinner();
+
+      if (!res.ok || data.status !== 'success') {
+        throw new Error(data.detail || 'Resume parsing failed');
+      }
+
+      const p = data.parsed_profile;
+      if (p.name) candidateNameInput.value = p.name;
+      if (p.title) candidateTitleInput.value = p.title;
+      if (p.location) candidateLocationInput.value = p.location;
+      if (p.email) candidateEmailInput.value = p.email;
+      if (p.linkedin) candidateLinkedinInput.value = p.linkedin;
+
+      // Populate Section Editors
+      const secs = p.sections || {};
+      if (secs.personal_info) sectionSummaryTex.value = secs.personal_info;
+      if (secs.work_experience) sectionExperienceTex.value = secs.work_experience;
+      if (secs.projects) sectionProjectsTex.value = secs.projects;
+      if (secs.skills) sectionSkillsTex.value = secs.skills;
+
+      // Save custom profile in LocalStorage
+      localStorage.setItem('CANDIDATE_NAME', candidateNameInput.value);
+      localStorage.setItem('CANDIDATE_TITLE', candidateTitleInput.value);
+      localStorage.setItem('CANDIDATE_LOCATION', candidateLocationInput.value);
+      localStorage.setItem('CANDIDATE_EMAIL', candidateEmailInput.value);
+      localStorage.setItem('CANDIDATE_LINKEDIN', candidateLinkedinInput.value);
+      localStorage.setItem('CUSTOM_PROFILE_SECTIONS', JSON.stringify({
+        personal_info: sectionSummaryTex.value,
+        work_experience: sectionExperienceTex.value,
+        projects: sectionProjectsTex.value,
+        skills: sectionSkillsTex.value
+      }));
+
+      updateCandidateDisplay();
+      profileModal.style.display = 'none';
+
+      // Recompile custom PDF immediately
+      recompileResumeBtn.click();
+      setStatus(`Profile loaded for ${p.name || 'you'}!`, 'ready');
+    } catch (err) {
+      hideSpinner();
+      console.error(err);
+      alert(`Resume Parsing Error: ${err.message}`);
+      setStatus('Parsing failed', 'error');
+    }
+  });
+
+  // --- Reset to Default Profile ---
+  resetToDefaultProfileBtn.addEventListener('click', () => {
+    if (confirm("Reset profile back to Shrikar Nakhye's master resume?")) {
+      localStorage.removeItem('CANDIDATE_NAME');
+      localStorage.removeItem('CANDIDATE_TITLE');
+      localStorage.removeItem('CANDIDATE_LOCATION');
+      localStorage.removeItem('CANDIDATE_EMAIL');
+      localStorage.removeItem('CANDIDATE_LINKEDIN');
+      localStorage.removeItem('CUSTOM_PROFILE_SECTIONS');
+
+      candidateNameInput.value = '';
+      candidateTitleInput.value = '';
+      candidateLocationInput.value = '';
+      candidateEmailInput.value = '';
+      candidateLinkedinInput.value = '';
+
+      fetchMasterProfile();
+      profileModal.style.display = 'none';
+      setStatus('Profile reset to default', 'ready');
+    }
+  });
+
   // --- Diverse Multi-Domain Sample JDs ---
   const SAMPLE_JDS = [
     {
       title: "Senior Full Stack Software Engineer",
-      company: "Stripe / CloudScale Labs",
+      company: "CloudScale Labs",
       domain: "Software Engineering & Cloud",
       text: `Role: Senior Full Stack Software Engineer
 Company: CloudScale Labs
 Location: Remote / Berlin, Germany
 
 About the Role:
-We are seeking an experienced Full Stack Engineer to architect high-throughput web applications, design RESTful/GraphQL APIs, and scale cloud infrastructure.
+We are seeking an experienced Full Stack Engineer to architect high-throughput web applications, design RESTful APIs, and scale cloud infrastructure.
 
 Key Responsibilities:
-- Build robust microservices and backend APIs in Python, Node.js, or Go.
-- Develop interactive, accessible web frontends using React, TypeScript, and modern design systems.
-- Containerize services with Docker and manage deployment pipelines on AWS / Kubernetes.
-- Optimize database performance (PostgreSQL, Redis), monitoring telemetry, and automated testing.
-- Collaborate in an agile Scrum team to deliver production-grade software with 99.9% uptime.
+- Build robust backend microservices in Python, Node.js, or Go.
+- Develop interactive web frontends using React, TypeScript, and modern CSS design systems.
+- Containerize services with Docker and manage deployment pipelines on AWS / GCP.
+- Optimize database performance (PostgreSQL, Redis), telemetry, and automated testing.
 
 Requirements:
 - Degree in Computer Science, Software Engineering, or equivalent practical experience.
 - Strong software development experience in Python, TypeScript/JavaScript, or C++.
-- Hands-on experience with Docker, CI/CD, Git, and Linux systems.
-- Fluency in English.`
+- Hands-on experience with Docker, CI/CD, Git, and Linux systems.`
     },
     {
       title: "Data Scientist & AI Specialist",
-      company: "DeepMind / Applied AI Solutions",
+      company: "Applied AI Solutions",
       domain: "Data Science & AI/ML",
       text: `Role: Data Scientist & AI Specialist
 Company: Applied AI Solutions
@@ -195,14 +348,13 @@ Join our AI core team to build, evaluate, and deploy machine learning models and
 Key Responsibilities:
 - Design end-to-end data acquisition, cleaning, feature engineering, and annotation QA pipelines.
 - Train and fine-tune deep learning models using PyTorch, TensorFlow, and CUDA acceleration.
-- Conduct statistical evaluations, pairwise model comparisons, and root-cause error diagnostics.
+- Conduct statistical evaluations, pairwise model comparisons, and root-cause diagnostics.
 - Develop RESTful API endpoints and Docker containers to deploy models into production.
 
 Requirements:
 - Degree in Computer Science, Data Science, Mathematics, or engineering discipline.
 - Strong programming skills in Python, Pandas, NumPy, and PyTorch.
-- Experience with data quality assurance, annotation workflows, and metric benchmarking.
-- Excellent analytical and problem-solving skills.`
+- Experience with data quality assurance, annotation workflows, and metric benchmarking.`
     },
     {
       title: "Technical Product & Project Manager",
@@ -224,7 +376,7 @@ Key Responsibilities:
 Requirements:
 - Background in Tech, Engineering, or Business Informatics.
 - Proven experience managing software/hardware products and technical teams.
-- Strong stakeholder management and communication skills in English and German.`
+- Strong stakeholder management and communication skills.`
     },
     {
       title: "Robotics Software & Perception Engineer",
@@ -485,6 +637,7 @@ Requirements:
       setStatus('Recompiling Resume LaTeX...', 'busy');
       showSpinner('Compiling Custom LaTeX...');
 
+      const candidateData = getCandidateData();
       const updatedSections = {
         personal_info: sectionSummaryTex.value,
         work_experience: sectionExperienceTex.value,
@@ -496,7 +649,11 @@ Requirements:
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          sections: updatedSections
+          sections: updatedSections,
+          candidate_name: candidateData.candidate_name,
+          candidate_location: candidateData.candidate_location,
+          candidate_email: candidateData.candidate_email,
+          candidate_linkedin: candidateData.candidate_linkedin
         })
       });
 
@@ -639,6 +796,58 @@ Requirements:
     });
   });
 
+  // --- Profile Modal Actions ---
+  if (profileBtn) {
+    profileBtn.addEventListener('click', () => {
+      profileModal.style.display = 'flex';
+    });
+  }
+
+  if (mobileProfileTabBtn) {
+    mobileProfileTabBtn.addEventListener('click', () => {
+      profileModal.style.display = 'flex';
+    });
+  }
+
+  if (candidateBannerBtn) {
+    candidateBannerBtn.addEventListener('click', () => {
+      profileModal.style.display = 'flex';
+    });
+  }
+
+  closeProfileBtn.addEventListener('click', () => {
+    profileModal.style.display = 'none';
+  });
+
+  saveProfileBtn.addEventListener('click', () => {
+    const cName = candidateNameInput.value.trim();
+    const cTitle = candidateTitleInput.value.trim();
+    const cLoc = candidateLocationInput.value.trim();
+    const cEmail = candidateEmailInput.value.trim();
+    const cLinkedin = candidateLinkedinInput.value.trim();
+    const photoMode = photoModeSelect.value;
+
+    if (cName) localStorage.setItem('CANDIDATE_NAME', cName); else localStorage.removeItem('CANDIDATE_NAME');
+    if (cTitle) localStorage.setItem('CANDIDATE_TITLE', cTitle); else localStorage.removeItem('CANDIDATE_TITLE');
+    if (cLoc) localStorage.setItem('CANDIDATE_LOCATION', cLoc); else localStorage.removeItem('CANDIDATE_LOCATION');
+    if (cEmail) localStorage.setItem('CANDIDATE_EMAIL', cEmail); else localStorage.removeItem('CANDIDATE_EMAIL');
+    if (cLinkedin) localStorage.setItem('CANDIDATE_LINKEDIN', cLinkedin); else localStorage.removeItem('CANDIDATE_LINKEDIN');
+    
+    localStorage.setItem('CANDIDATE_PHOTO_MODE', photoMode);
+    if (customPhotoBase64 && photoMode === 'custom') {
+      localStorage.setItem('CANDIDATE_PHOTO_BASE64', customPhotoBase64);
+    } else if (photoMode !== 'custom') {
+      localStorage.removeItem('CANDIDATE_PHOTO_BASE64');
+    }
+
+    updateCandidateDisplay();
+    profileModal.style.display = 'none';
+    setStatus('Profile updated & saved', 'ready');
+
+    // Recompile PDF to reflect photo and header changes
+    recompileResumeBtn.click();
+  });
+
   // --- Settings Modal ---
   settingsBtn.addEventListener('click', () => {
     settingsModal.style.display = 'flex';
@@ -657,21 +866,8 @@ Requirements:
       localStorage.removeItem('GEMINI_API_KEY');
     }
     localStorage.setItem('GEMINI_MODEL', model);
-
-    // Save candidate profile overrides
-    const cName = candidateNameInput.value.trim();
-    const cTitle = candidateTitleInput.value.trim();
-    const cLoc = candidateLocationInput.value.trim();
-    const cEmail = candidateEmailInput.value.trim();
-
-    if (cName) localStorage.setItem('CANDIDATE_NAME', cName); else localStorage.removeItem('CANDIDATE_NAME');
-    if (cTitle) localStorage.setItem('CANDIDATE_TITLE', cTitle); else localStorage.removeItem('CANDIDATE_TITLE');
-    if (cLoc) localStorage.setItem('CANDIDATE_LOCATION', cLoc); else localStorage.removeItem('CANDIDATE_LOCATION');
-    if (cEmail) localStorage.setItem('CANDIDATE_EMAIL', cEmail); else localStorage.removeItem('CANDIDATE_EMAIL');
-
-    updateCandidateDisplay();
     settingsModal.style.display = 'none';
-    setStatus('Settings & Profile saved', 'ready');
+    setStatus('Settings saved', 'ready');
   });
 
   // --- Mobile Panel Navigation ---

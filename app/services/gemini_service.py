@@ -280,3 +280,67 @@ Return strict JSON:
             cleaned = re.sub(r"^```json\s*", "", raw_output.strip())
             cleaned = re.sub(r"\s*```$", "", cleaned)
             return json.loads(cleaned)
+
+    @classmethod
+    def parse_raw_resume(
+        cls,
+        raw_cv_text: str,
+        api_key: Optional[str] = None,
+        model: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        Takes raw text of any person's CV/Resume and converts it into structured LaTeX sections
+        compatible with the application's clean LaTeX template.
+        """
+        system_instruction = (
+            "You are an Elite Resume Parser and LaTeX Specialist. "
+            "Extract and convert the candidate's raw resume into clean, valid LaTeX sections "
+            "using standard LaTeX commands (\\resumeSubheading, \\resumeItem, \\resumeItemPlain, \\resumeSubItem, \\resumeSubHeadingListStart, etc.). "
+            "Escape all special characters (\\&, \\%, \\_). "
+            "Output strict JSON with candidate metadata and LaTeX sections."
+        )
+
+        prompt = f"""
+RAW RESUME TEXT:
+\"\"\"{raw_cv_text}\"\"\"
+
+TASK:
+Extract the candidate's information and produce valid LaTeX sections for:
+1. personal_info: Short summary paragraph
+2. work_experience: Full work experience section with \\resumeSubheading and \\resumeItemListStart
+3. projects: Key projects or achievements with \\resumeSubItem and \\resumeItemListStart
+4. education: Education history
+5. skills: Categorized skills with \\resumeSubItem
+
+Return a strict JSON object:
+{{
+  "name": "Extracted candidate full name",
+  "title": "Extracted professional title or target field",
+  "location": "City, Country",
+  "email": "candidate email",
+  "linkedin": "LinkedIn URL or handle (or empty)",
+  "github": "GitHub/Portfolio URL (or empty)",
+  "sections": {{
+    "personal_info": "\\section{{Summary}}\\n...",
+    "work_experience": "\\section{{Experience}}\\n\\resumeSubHeadingListStart\\n...",
+    "projects": "\\section{{Projects}}\\n\\resumeSubHeadingListStart\\n...",
+    "education": "\\section{{Education}}\\n\\resumeSubHeadingListStart\\n...",
+    "skills": "\\section{{Skills}}\\n\\resumeSubHeadingListStart\\n..."
+  }}
+}}
+"""
+        raw_output = cls._call_gemini_api(
+            prompt=prompt,
+            system_instruction=system_instruction,
+            api_key=api_key,
+            model=model,
+            json_mode=True
+        )
+
+        try:
+            return json.loads(raw_output)
+        except Exception:
+            cleaned = re.sub(r"^```json\s*", "", raw_output.strip())
+            cleaned = re.sub(r"\s*```$", "", cleaned)
+            return json.loads(cleaned)
+

@@ -27,10 +27,11 @@
       </div>
       
       <div class="nav-actions">
-        <div class="candidate-pill">
+        <button id="profileBtn" class="candidate-pill" style="cursor: pointer;" title="Edit or Import Candidate Profile">
           <span class="status-dot"></span>
-          <span>Shrikar Nakhye</span>
-        </div>
+          <span id="activeCandidateName">Shrikar Nakhye</span>
+          <i data-lucide="user-edit" style="width: 14px; height: 14px; margin-left: 4px;"></i>
+        </button>
         <button id="settingsBtn" class="btn btn-secondary" title="Configure API Key and Model">
           <i data-lucide="settings"></i>
           <span>Settings</span>
@@ -43,6 +44,10 @@
 
     <!-- Mobile Navigation Bar (Visible only on mobile/tablet) -->
     <nav class="mobile-nav-bar" id="mobileNavBar">
+      <button class="mobile-tab-btn" id="mobileProfileTabBtn" title="Change or Import Candidate Profile">
+        <i data-lucide="user-check"></i>
+        <span>Profile</span>
+      </button>
       <button class="mobile-tab-btn active" data-mobile-panel="left">
         <i data-lucide="file-text"></i>
         <span>1. Job Spec</span>
@@ -53,7 +58,7 @@
       </button>
       <button class="mobile-tab-btn" data-mobile-panel="right">
         <i data-lucide="file-check"></i>
-        <span>3. PDF Preview</span>
+        <span>3. PDF</span>
       </button>
     </nav>
 
@@ -66,13 +71,28 @@
             <i data-lucide="file-text"></i>
             <span>Job Specification</span>
           </div>
-          <button id="loadSampleJDBtn" class="btn btn-xs btn-ghost" title="Load sample robotics/AI job description">
+          <button id="loadSampleJDBtn" class="btn btn-xs btn-ghost" title="Load sample job description">
             <i data-lucide="file-plus"></i>
             <span>Load Sample</span>
           </button>
         </div>
 
         <div class="panel-body">
+          <!-- Active Candidate Banner -->
+          <div class="candidate-card-banner" id="candidateBannerBtn" title="Click to edit or import resume">
+            <div class="candidate-banner-left">
+              <span class="status-dot"></span>
+              <div class="candidate-banner-text">
+                <span class="candidate-banner-label">Active Candidate Profile:</span>
+                <strong id="bannerCandidateName">Shrikar Nakhye</strong>
+              </div>
+            </div>
+            <button class="btn btn-xs btn-outline-primary" style="pointer-events: none;">
+              <i data-lucide="user-edit"></i>
+              <span>Change</span>
+            </button>
+          </div>
+
           <div class="form-group">
             <label for="jdInput">Job Description <span class="required">*</span></label>
             <textarea id="jdInput" placeholder="Paste the job description, role requirements, or company info here..." rows="10"></textarea>
@@ -313,6 +333,85 @@
     </main>
   </div>
 
+  <!-- Profile & Resume Import Modal -->
+  <div id="profileModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card" style="max-width: 520px;">
+      <div class="modal-header">
+        <div class="modal-title">
+          <i data-lucide="user-check"></i>
+          <span>Candidate Profile & Resume Importer</span>
+        </div>
+        <button id="closeProfileBtn" class="btn-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="form-hint" style="margin-bottom: 12px; font-size: 0.8rem; color: var(--text-secondary);">
+          Anyone can use this app! Paste your existing resume text to auto-convert your background, or edit your profile fields below.
+        </p>
+
+        <div class="form-group">
+          <label for="rawResumeInput">📥 Paste Existing CV / Resume Text (Optional AI Auto-Import)</label>
+          <textarea id="rawResumeInput" placeholder="Paste your raw CV, LinkedIn text, or past experience bullets here to automatically parse your profile..." rows="6"></textarea>
+          <button id="parseResumeBtn" class="btn btn-sm btn-outline-primary btn-block" style="margin-top: 6px;">
+            <i data-lucide="sparkles"></i>
+            <span>✨ AI Auto-Import & Set as My Profile</span>
+          </button>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid var(--border-color); margin: 16px 0;">
+
+        <div class="form-group">
+          <label for="candidateNameInput">Candidate Full Name</label>
+          <input type="text" id="candidateNameInput" placeholder="e.g. Shrikar Nakhye / Your Name">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="candidateTitleInput">Professional Title</label>
+            <input type="text" id="candidateTitleInput" placeholder="e.g. Software Engineer / Data Scientist">
+          </div>
+          <div class="form-group">
+            <label for="candidateLocationInput">Location</label>
+            <input type="text" id="candidateLocationInput" placeholder="e.g. Bonn, Germany">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="candidateEmailInput">Email</label>
+            <input type="text" id="candidateEmailInput" placeholder="e.g. name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="candidateLinkedinInput">LinkedIn URL / Handle</label>
+            <input type="text" id="candidateLinkedinInput" placeholder="e.g. linkedin.com/in/username">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="photoModeSelect">Profile Photo on CV</label>
+          <select id="photoModeSelect">
+            <option value="none" selected>🚫 No Photo (Standard ATS Clean Header - Default)</option>
+            <option value="custom">📷 Upload Custom Photo (JPG / PNG)</option>
+          </select>
+        </div>
+
+        <div class="form-group" id="customPhotoUploadGroup" style="display: none;">
+          <label for="photoFileInput">Upload Custom Photo (JPG / PNG)</label>
+          <input type="file" id="photoFileInput" accept="image/jpeg,image/png,image/webp">
+          <div id="photoPreviewContainer" style="margin-top: 8px; display: none;">
+            <img id="photoPreviewImg" src="" alt="Preview" style="width: 50px; height: 65px; object-fit: cover; border-radius: 4px; border: 1px solid var(--border-color);">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: space-between;">
+        <button id="resetToDefaultProfileBtn" class="btn btn-sm btn-ghost" title="Reset back to Shrikar's master profile">
+          <i data-lucide="rotate-ccw"></i>
+          <span>Reset to Default Profile</span>
+        </button>
+        <button id="saveProfileBtn" class="btn btn-primary">Save Profile</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Settings Modal -->
   <div id="settingsModal" class="modal-overlay" style="display: none;">
     <div class="modal-card">
@@ -337,29 +436,6 @@
             <option value="gemini-1.5-flash">Gemini 1.5 Flash (Ultra Fast)</option>
             <option value="gemini-1.5-pro">Gemini 1.5 Pro (Deep Reasoning)</option>
           </select>
-        </div>
-
-        <hr style="border: none; border-top: 1px solid var(--border-color); margin: 16px 0;">
-
-        <div class="form-group">
-          <label for="candidateNameInput">Candidate Name</label>
-          <input type="text" id="candidateNameInput" placeholder="e.g. Shrikar Nakhye">
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label for="candidateTitleInput">Professional Title</label>
-            <input type="text" id="candidateTitleInput" placeholder="e.g. Software Engineer / Data Scientist">
-          </div>
-          <div class="form-group">
-            <label for="candidateLocationInput">City / Location</label>
-            <input type="text" id="candidateLocationInput" placeholder="e.g. Bonn, Germany">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="candidateEmailInput">Contact Email</label>
-          <input type="text" id="candidateEmailInput" placeholder="e.g. yourname@email.com">
         </div>
       </div>
       <div class="modal-footer">

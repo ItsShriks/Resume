@@ -45,6 +45,10 @@ class TailorRequest(BaseModel):
     candidate_title: Optional[str] = None
     candidate_location: Optional[str] = None
     candidate_email: Optional[str] = None
+    candidate_linkedin: Optional[str] = None
+    candidate_github: Optional[str] = None
+    photo_mode: Optional[str] = "default"
+    photo_base64: Optional[str] = None
     api_key: Optional[str] = None
     model: Optional[str] = None
 
@@ -56,22 +60,51 @@ class CoverLetterRequest(BaseModel):
     candidate_name: Optional[str] = None
     candidate_location: Optional[str] = None
     candidate_email: Optional[str] = None
+    photo_mode: Optional[str] = "default"
+    photo_base64: Optional[str] = None
+    api_key: Optional[str] = None
+    model: Optional[str] = None
+
+class ParseResumeRequest(BaseModel):
+    raw_cv_text: str
     api_key: Optional[str] = None
     model: Optional[str] = None
 
 class CompileResumeRequest(BaseModel):
     sections: Dict[str, str]
     main_tex: Optional[str] = None
+    candidate_name: Optional[str] = None
+    candidate_location: Optional[str] = None
+    candidate_email: Optional[str] = None
+    candidate_linkedin: Optional[str] = None
+    candidate_github: Optional[str] = None
+    photo_mode: Optional[str] = "default"
+    photo_base64: Optional[str] = None
 
 class CompileCoverLetterRequest(BaseModel):
     cover_letter_tex: str
 
 @app.get("/api/master-profile")
 def get_master_profile():
-    """Returns Shrikar's master profile and LaTeX templates."""
+    """Returns master profile and LaTeX templates."""
     try:
         profile = ProfileService.get_master_profile()
         return {"status": "success", "profile": profile}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/parse-resume")
+def parse_raw_resume(req: ParseResumeRequest):
+    """Parses any raw resume text into structured LaTeX sections using AI."""
+    if not req.raw_cv_text.strip():
+        raise HTTPException(status_code=400, detail="Resume text is empty.")
+    try:
+        parsed_profile = GeminiService.parse_raw_resume(
+            raw_cv_text=req.raw_cv_text,
+            api_key=req.api_key,
+            model=req.model
+        )
+        return {"status": "success", "parsed_profile": parsed_profile}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -133,10 +166,21 @@ def tailor_resume(req: TailorRequest):
         # Compile tailored resume into PDF
         main_tex = profile.get("main_resume_tex", "")
         job_name = f"{(req.candidate_name or 'Candidate').replace(' ', '_')}_Tailored"
+        candidate_meta = {
+            "name": req.candidate_name,
+            "title": req.candidate_title,
+            "location": req.candidate_location,
+            "email": req.candidate_email,
+            "linkedin": req.candidate_linkedin,
+            "github": req.candidate_github,
+            "photo_mode": req.photo_mode,
+            "photo_base64": req.photo_base64
+        }
         success, pdf_bytes, logs = LatexService.compile_latex(
             main_tex_content=main_tex,
             section_files=updated_sections,
-            job_name=job_name
+            job_name=job_name,
+            candidate_data=candidate_meta
         )
 
         pdf_base64 = None
@@ -179,9 +223,17 @@ def generate_cover_letter(req: CoverLetterRequest):
         )
 
         cover_tex = cl_result.get("cover_letter_tex", "")
+        candidate_meta = {
+            "name": req.candidate_name,
+            "location": req.candidate_location,
+            "email": req.candidate_email,
+            "photo_mode": req.photo_mode,
+            "photo_base64": req.photo_base64
+        }
         success, pdf_bytes, logs = LatexService.compile_latex(
             main_tex_content=cover_tex,
-            job_name="Cover_Letter_Tailored"
+            job_name="Cover_Letter_Tailored",
+            candidate_data=candidate_meta
         )
 
         pdf_base64 = None
@@ -206,10 +258,21 @@ def compile_resume_custom(req: CompileResumeRequest):
     try:
         profile = ProfileService.get_master_profile()
         main_tex = req.main_tex or profile.get("main_resume_tex", "")
+        job_name = f"{(req.candidate_name or 'Candidate').replace(' ', '_')}_Custom"
+        candidate_meta = {
+            "name": req.candidate_name,
+            "location": req.candidate_location,
+            "email": req.candidate_email,
+            "linkedin": req.candidate_linkedin,
+            "github": req.candidate_github,
+            "photo_mode": req.photo_mode,
+            "photo_base64": req.photo_base64
+        }
         success, pdf_bytes, logs = LatexService.compile_latex(
             main_tex_content=main_tex,
             section_files=req.sections,
-            job_name="Shrikar_Nakhye_Custom"
+            job_name=job_name,
+            candidate_data=candidate_meta
         )
 
         pdf_base64 = None

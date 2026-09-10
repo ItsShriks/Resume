@@ -7,49 +7,54 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-About the job
-Baue mit uns die Hardware für unsere Smart Factory: Als Werkstudent (m/w/d) in Bornheim montierst und testest du Prototypen, fertigst Bauteile per 3D-Druck und unterstützt beim Aufbau unserer Produktionsanlagen. Ideal sind 15–20 Std./Woche.
+Remote Audio Content Annotation (German/English) - 08/26
+Apply
+locations
+DEU Remote
+time type
+Part time
+posted on
+Posted 4 Days Ago
+job requisition id
+JR101833
+We Could Use Someone Like You in Our Crew.
+ModSquad is looking for detail-oriented and culturally aware German and English bilingual professionals to join our Content Annotation team. In this role, you’ll work with a wide range of digital audio content, including music, podcasts, and audiobooks, helping ensure that content and search experiences are accurately understood and represented for audiences around the world.
+If German is your primary language and you have a strong understanding of the language, culture, and local content, this is an opportunity to put your language expertise and cultural knowledge to work in a dynamic global project.
+What You’ll Do
+Review and annotate music, podcasts, audiobooks, and related search scenarios with accuracy and cultural awareness
+Use your language expertise and cultural knowledge to understand content, context, and user intent
+Listen to and evaluate audio content when needed, considering relevance, context, and local cultural nuances
+Research information online to verify details and support accurate evaluations
+Apply project guidelines consistently while using good judgment when handling nuanced or subjective content
+Clearly document your findings, insights, and questions in English
+Complete assigned annotation tasks within established 1–2 week project timelines across rotating project types
+Incorporate feedback and escalate questions or issues when additional clarification is needed
+Project Commitment
+30 hours per week
+Hours of Operation (Pacific Time)
+5:00 AM to 4:00 PM PST
+What We’re Looking For
+German as a primary language, with strong written and verbal English proficiency
+Strong understanding of the culture, language, and local content
+Familiarity with Indonesian music, podcasts, audiobooks, and other digital media
+Comfortable exploring and navigating audio streaming platforms on both desktop and mobile devices
+Excellent attention to detail and a strong commitment to accuracy and consistency
+Experience with content annotation, rating, or evaluation, including making subjective assessments and applying defined criteria consistently
+Proficient with Google Workspace, particularly Google Sheets, as well as web-based tools and platforms
+Reliable, adaptable, and open to receiving and incorporating feedback
+Workspace Requirements
+Dedicated laptop or desktop computer running Windows 11 or macOS Tahoe
+Willingness to install required ModSquad security systems on your computer and mobile phone
+Stable broadband internet connection of 50 Mbps or higher
+8 GB RAM or greater
+Good quality headset with clear audio
+Dual monitors are highly recommended
+Please note:  A Chromebook is not sufficient for ModSquad projects.
+About ModSquad:
+ModSquad has been reinventing the Customer Experience Services industry since 2007. Top brands around the globe turn to us for customer support, content moderation, trust and safety, community management, and social media services. We work with startups and Fortune 500 companies and everything in between. Our client list includes Spotify, VSCO, Vimeo, Tourism Ireland, and a ton of other companies we aren’t at liberty to talk about. We support over 50 languages in more than 90 countries. We’re primarily a remote company so you’ve already seen our/your office. If you want to work with great people on cool projects for amazing brands, you’ve come to the right place. 
+ModSquad is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex (including pregnancy), gender, national origin, ancestry, age, physical or mental disability, military status, status as a veteran or disabled veteran, sexual orientation, gender identity or expression, marital or family status, genetic information, medical condition, or any other basis protected by applicable federal, state, or local law, ordinance, or regulation. 
+Individual base pay or rate depends on various factors, in addition to primary work location, such as complexity and responsibility of role, job or contract duties/requirements, and relevant experience and skills. Although we have opportunities across the globe, this advertisement, unless otherwise specified, excludes individuals residing in California, Colorado, New York, and Washington at this time.
 
-Was du machen wirst:
-
-Bei suppify in Bornheim baust du an den Maschinen für unsere automatisierte Nahrungsergänzungsmittelproduktion mit. Dein Schwerpunkt liegt in der Werkstatt: mechanische Baugruppen montieren, Prototypen aufbauen und testen sowie Anlagen umbauen. Dazu kommen CAD, 3D-Druck und der Anschluss von Sensoren und Aktuatoren unter Anleitung. Du studierst Maschinenbau, Mechatronik oder Elektrotechnik, bringst handwerkliches Geschick mit und hast idealerweise 15–20 Std./Woche Zeit.
-
-Was wir bieten
-
-
-Arbeitszeiten nach Absprache passend zu deinem Stundenplan
-Angenehmes Arbeitsumfeld
-Praxiserfahrung in Prototypenbau, 3D-Druck und Automatisierung
-Raum für eigene Ideen und deren praktische Umsetzung
-Direkte Zusammenarbeit mit unserem Entwicklungsteam
-Gut erreichbar: direkt am Bahnhof Roisdorf
-
-
-Was wir erwarten
-
-
-Eingeschriebene:r Student:in an einer staatlich anerkannten Hochschule
-Teamfähigkeit
-Problemlösung
-Kommunikation
-Lernbereitschaft
-
-
-Bewerben
-
-Dieser Job passt perfekt zu dir? Dann bewirb dich jetzt und wir werden dich so schnell wie möglich kontaktieren.
-
-Extra Informationen
-
-Wir sind die Personalized Nutrition Systems GmbH, das Unternehmen hinter suppify. In Bornheim entwickeln wir eigene Maschinen für die Herstellung individueller Nahrungsergänzungsmittel. Unser Ziel ist eine weitgehend automatisierte Produktion – von der Dosierung über das Mischen bis zum Abfüllen.
-
-Du unterstützt uns auch beim Aufbau von Arbeitsplätzen und Vorrichtungen sowie bei praktischen Anpassungen in Werkstatt und Halle. Testläufe, die Dokumentation der Ergebnisse und Ordnung am Arbeitsplatz gehören ebenfalls dazu.
-
-Bewirb dich mit einem kurzen Lebenslauf oder ein paar Zeilen zu deinem Studium, deinem möglichen Starttermin und deiner zeitlichen Verfügbarkeit. Zeig uns gerne, was du schon gebaut hast: Fotos, Studienprojekte, eigene Konstruktionen oder ein Link zu deinem Projekt sind willkommen.
-
-Status Offen Ausbildungsniveau Abitur, Fachabitur, Hochschule/Universität Standort Bornheim Arbeitsstunden pro Woche 15 - 20 Jobart Werkstudentenstelle Gehaltsangabe Zwischen 15.00€ und 20.00€ pro Stunde Verantwortlich für Aufbau, Montage und Erprobung von Prototypen und Produktionsanlagen Veröffentlicht am 08-09-2026 Tätigkeitsbereich Maschinenbau / Ingenieur Führerschein erforderlich? Nein Auto erforderlich? Nein Motivationsschreiben erforderlich? Nein
-
-#Jobster
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

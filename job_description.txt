@@ -7,53 +7,62 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Remote Audio Content Annotation (German/English) - 08/26
-Apply
-locations
-DEU Remote
-time type
-Part time
-posted on
-Posted 4 Days Ago
-job requisition id
-JR101833
-We Could Use Someone Like You in Our Crew.
-ModSquad is looking for detail-oriented and culturally aware German and English bilingual professionals to join our Content Annotation team. In this role, you’ll work with a wide range of digital audio content, including music, podcasts, and audiobooks, helping ensure that content and search experiences are accurately understood and represented for audiences around the world.
-If German is your primary language and you have a strong understanding of the language, culture, and local content, this is an opportunity to put your language expertise and cultural knowledge to work in a dynamic global project.
-What You’ll Do
-Review and annotate music, podcasts, audiobooks, and related search scenarios with accuracy and cultural awareness
-Use your language expertise and cultural knowledge to understand content, context, and user intent
-Listen to and evaluate audio content when needed, considering relevance, context, and local cultural nuances
-Research information online to verify details and support accurate evaluations
-Apply project guidelines consistently while using good judgment when handling nuanced or subjective content
-Clearly document your findings, insights, and questions in English
-Complete assigned annotation tasks within established 1–2 week project timelines across rotating project types
-Incorporate feedback and escalate questions or issues when additional clarification is needed
-Project Commitment
-30 hours per week
-Hours of Operation (Pacific Time)
-5:00 AM to 4:00 PM PST
-What We’re Looking For
-German as a primary language, with strong written and verbal English proficiency
-Strong understanding of the culture, language, and local content
-Familiarity with Indonesian music, podcasts, audiobooks, and other digital media
-Comfortable exploring and navigating audio streaming platforms on both desktop and mobile devices
-Excellent attention to detail and a strong commitment to accuracy and consistency
-Experience with content annotation, rating, or evaluation, including making subjective assessments and applying defined criteria consistently
-Proficient with Google Workspace, particularly Google Sheets, as well as web-based tools and platforms
-Reliable, adaptable, and open to receiving and incorporating feedback
-Workspace Requirements
-Dedicated laptop or desktop computer running Windows 11 or macOS Tahoe
-Willingness to install required ModSquad security systems on your computer and mobile phone
-Stable broadband internet connection of 50 Mbps or higher
-8 GB RAM or greater
-Good quality headset with clear audio
-Dual monitors are highly recommended
-Please note:  A Chromebook is not sufficient for ModSquad projects.
-About ModSquad:
-ModSquad has been reinventing the Customer Experience Services industry since 2007. Top brands around the globe turn to us for customer support, content moderation, trust and safety, community management, and social media services. We work with startups and Fortune 500 companies and everything in between. Our client list includes Spotify, VSCO, Vimeo, Tourism Ireland, and a ton of other companies we aren’t at liberty to talk about. We support over 50 languages in more than 90 countries. We’re primarily a remote company so you’ve already seen our/your office. If you want to work with great people on cool projects for amazing brands, you’ve come to the right place. 
-ModSquad is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex (including pregnancy), gender, national origin, ancestry, age, physical or mental disability, military status, status as a veteran or disabled veteran, sexual orientation, gender identity or expression, marital or family status, genetic information, medical condition, or any other basis protected by applicable federal, state, or local law, ordinance, or regulation. 
-Individual base pay or rate depends on various factors, in addition to primary work location, such as complexity and responsibility of role, job or contract duties/requirements, and relevant experience and skills. Although we have opportunities across the globe, this advertisement, unless otherwise specified, excludes individuals residing in California, Colorado, New York, and Washington at this time.
+TOI TOI & DIXI Group GmbH logo
+Werkstudent (m/w/d) Software Testing (manuell) - job post
+TOI TOI & DIXI Group GmbH
+2.7
+2.7 von 5 Sternen
+Ratingen
+Studentenjob
+Stellenbeschreibung
+Gleichen Sie hier die Stellenbeschreibung mit Ihrem Profil ab.
+
+Anstellungsart
+
+Studentenjob
+
+&nbsp;
+Arbeitsort
+
+
+Ratingen
+&nbsp;
+Leistungen
+Aus der vollständigen Stellenbeschreibung
+
+Homeoffice-Möglichkeit
+&nbsp;
+Vollständige Stellenbeschreibung
+Das erwartet Dich
+
+Praxiserfahrung: Sammle neben deinem Studium praktische Erfahrung in der Qualitätssicherung als manueller Software-Tester.
+Eine gute Einarbeitung: Unsere erfahrenen QA-Kollegen unterstützen dich dabei, unsere Anwendungen, Geschäftsprozesse und QA-Prozesse kennenzulernen.
+Ein Team, das zusammenhält: Bei uns erwartet dich eine offene und kollegiale Atmosphäre. Wir unterstützen uns gegenseitig, teilen unser Wissen und kommunizieren offen und transparent.
+Mitgestalten & weiterentwickeln: Bringe deine Ideen ein, übernimm nach und nach mehr Verantwortung und entwickle deine Kenntnisse im manuellen Software-Testing weiter.
+Flexibles Arbeiten: Homeoffice / Remote und/oder Büro möglich
+Das sind Deine Aufgaben
+
+Manuelles Testing: Du testest neue und bestehende Funktionen unserer Webanwendungen und prüfst, ob diese wie vorgesehen funktionieren.
+Fehleranalyse: Du identifizierst Fehler und Abweichungen, dokumentierst diese nachvollziehbar und überprüfst anschließend deren Behebung.
+Qualität im Team: Du arbeitest eng mit unseren QA-Kollegen und Entwicklern zusammen und bringst deine Beobachtungen und Ideen aktiv ein.
+Schrittweise mehr Verantwortung: Mit zunehmender Erfahrung übernimmst du eigenständig Tests und weitere Aufgaben innerhalb unseres QA-Prozesses.
+Das bringst Du mit
+
+Du bist aktuell an einer Hochschule oder Universität eingeschrieben – idealerweise in Informatik, Wirtschaftsinformatik oder einem vergleichbaren Studiengang.
+Du interessierst dich für Software, Softwarequalität und manuelles Testing und bringst erste Erfahrungen mit.
+Du arbeitest sorgfältig, strukturiert und zuverlässig und besitzt ein gutes analytisches Denkvermögen.
+Du hast Spaß daran, unterschiedliche Szenarien auszuprobieren und Fehlern auf den Grund zu gehen.
+Du arbeitest gerne im Team, kommunizierst offen und konstruktiv.
+Jetzt suchen wir Mitarbeiter (m/w/d) aus den Bereichen: Werkstudent Quality Assurance (m/w/d), Werkstudent Software Testing (m/w/d), Werkstudent QA Testing (m/w/d), Werkstudent Softwarequalität (m/w/d), Werkstudent Software Tester (m/w/d), Werkstudent Test Engineering (m/w/d)
+
+Willkommen bei TOI TOI & DIXI!
+
+Wir sind der weltweit größte Anbieter von mobilen Sanitäreinheiten mit Vertretungen in Europa, USA und Asien. In der Unternehmensgruppe werden die Marken TOI TOI® und DIXI® in 31 Ländern geführt, mit mehr als 5400 MitarbeiterInnen weltweit. Bei uns hat jeder Mitarbeiter Einfluss und die Möglichkeit, etwas zu bewirken. Unsere flachen Hierarchien und kurzen Entscheidungswege ermöglichen eine effiziente Zusammenarbeit und fördern die individuelle Entwicklung. Wir legen großen Wert auf flexible Arbeitsbedingungen und eine Arbeitskultur, in der Sie nicht nur eine Nummer sind, sondern als wertvolles Mitglied unseres Teams geschätzt werden.
+
+Wenn auch Du Lust hast, in unserem Team zu arbeiten, dann bewirb dich jetzt!
+
+#Group
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]

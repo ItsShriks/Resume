@@ -9,55 +9,34 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 About the job
-We are looking for AI Data Specialists to support the improvement of AI-generated content in German.
-Job Type: Freelance
+About the roleAs one of our Software & Robotics Engineers, you are the technical bridge between our motion planning software and real machines and production systems. You take projects from software through to hardware on your own, connect execution logic with real kinematics and sensors, and get our systems running reproducibly.
+What you will do
+Run projects end to end, from software through to the hardware setup
+Own build and release, including configuration and commissioning of our systems
+Dockerise and document deployments so that every setup stays reproducible
+Bring software and hardware together so that execution logic, kinematics, sensor data and control loops work efficiently
+Test technical workflows and sensor integrations on the real robot arm before new features and fixes go into the field
+Keep code quality high through defined structures, tests, code reviews and CI/CD
 
-Location: Work from home
+What you bring
+Confident with C++, C# and Python
+Routine in build and release processes as well as configuration management
+Proven experience in problem solving and hands-on troubleshooting on hardware and sensors
+Strong systems thinking
+Knowledge of robot calibration
+Confident presence and the ability to explain technical topics clearly
+High level of ownership and constructive teamwork
+Comfortable with changing areas of responsibility
+English at C1 or above, German at B1 or above
 
-Work Schedule: Part-time - 10+ hours per week. Flexible - work whenever you want.
-
-Start Date: Immediately
-
-Rate: 18 USD per hour (rates vary per country. If you are based elsewhere, the rates will be different)
-
-Help Shape the Future of AI
-Are you a student, recent graduate, stay-at-home parent, gig worker, or professional seeking flexible remote work? Are you interested in shaping the development and safety of today’s AI models?
-
-What You’ll Do
-The role involves performing diverse data-related tasks, including:
-
-
- Data collection, evaluation, and annotation
- Pairwise comparisons
- Counting tasks
- Object tagging and labeling across different content types (audio, video, images, or collected data)
-
-
-
-What we’re looking for:
-
- Native-level fluency in German
- English Proficiency: Fluent or advanced proficiency in English (levels B2–C2)
- AI & Data Capabilities (Preferred): Experience in one or more of the following areas: machine learning tasks, data collection and preprocessing, data evaluation and quality assurance, and data annotation and labeling
-
-
-
-What We Offer
-
- Flexible schedule
- Opportunity to earn extra income
- Timely payments
- The job is ideal for students, part-timers, or stay-at-home parents
-
-
-
-Vendor Type
-When applying, please select the option that best describes your working status.
-Are you a Freelancer or Private Individual?
-A Freelancer is someone who has a business license and may have a VAT number or EIN for tax purposes. A VAT (Value Added Tax) number is a unique identifier assigned to registered businesses in many countries; an EIN (Employer Identification Number) is a similar identifier used in the US. A Private Individual does not have a business license. If you aren’t sure, you are probably a private individual.
-
-RWS embraces DEI and promotes equal opportunity, we are an Equal Opportunity Employer and prohibit discrimination and harassment of any kind. RWS is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment. All employment decisions at RWS are based on business needs, job requirements and individual qualifications, without regard to race, religion, nationality, ethnicity, sex, age, disability, or sexual orientation. RWS will not tolerate discrimination based on any of these characteristics.
-
+What you can expect from usEVASIVE ROBOTICS is defining the new category in motion planning for industrial robots. Together with leading companies, our agile team works on increasing the productivity of robot installations while keeping complexity manageable. That is how we will set the new standard for what automation can do.
+Fast growing startup with a highly qualified team. Not a typical 9-to-5 job.
+Demanding tasks and projects with real impact
+Flexible working hours and hybrid work
+Flat hierarchies and direct communication
+Team events, public transport pass and further benefits
+Requirements added by the job poster
+• Authorized to work in Deutschland
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

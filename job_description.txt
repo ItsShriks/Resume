@@ -7,63 +7,42 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TOI TOI & DIXI Group GmbH logo
-Werkstudent (m/w/d) Software Testing (manuell) - job post
-TOI TOI & DIXI Group GmbH
-2.7
-2.7 von 5 Sternen
-Ratingen
-Studentenjob
-Stellenbeschreibung
-Gleichen Sie hier die Stellenbeschreibung mit Ihrem Profil ab.
 
-Anstellungsart
+Bereich: Büro / kaufmännisch
+16,56
+ab sofort
+Du studierst aktuell und möchtest praktische Erfahrung sammeln?
+Dann bist Du bei uns genau richtig! Unterstütze unser Team als Werkstudent (m/w/d) in der Datenerfassung für 20 Stunden pro Woche!
+Freu dich auf einen festen Werkstudentenjob im Bereich Datenerfassung, der planbar ist, aber trotzdem volle Flexibilität bietet: Deine Einsätze, die Zeiterfassung uvm. steuerst du easy über unsere smarte App - so wie du willst. 
+Das bieten wir Dir:
+16,56 €/h inkl. Urlaubsentgelt – Nacht- & Feiertagszuschläge extra! Direkt ausgezahlt.
+Schnell & digital: Einfacher Bewerbungsprozess – z.B. via WHATS-APP: Komplett digital, null Papierkram, kein Stress
+Money Monday - wöchentliche Bezahlung: Jeden Montag n automatisch auf deinem Konto
+Maximale Flexibilität: Gestalte deinen Dienstplan so, wie er zu dir passt
+Alles in einer App: Einsätze planen, auswählen und Arbeitszeiten tracken
+Extra-Plus: Urlaubs- und Weihnachtsgeld nach Tarifvertrag
+Top-Deals: Bis zu 70 % sparen bei über 600 Online-Shops
+Deine Aufgaben im Überblick:
+Du erfasst, überträgst und pflegst unsere Konstruktionsdatensätze
+Du prüfst bestehende Daten auf Vollständigkeit und Richtigkeit 
+Du pflegst datensätze in interne Systeme und Datenbanken ein
+Was wir uns von Dir wünschen:
+Du bist Schüler (m/w/d) oder Student (m/w/d) oder hast es bald vor! 
+Für den kommunikativen Austausch sind gute Deutschkenntnisse von Vorteil.
+Du bist volljährig und suchst eine neue Herausforderung.
+Du stehst ab dem 01.07. für etwa 20 Std. pro Woche zur Verfügung
+Über uns:
+DEIN Job bei STUDYHEADS: Faire Bezahlung und höchste Flexibilität - Das ist unser Versprechen als einer der größten studentischen Arbeitgeber in Deutschland. Wähle aus vielen spannenden und abwechslungsreichen Jobs und plane deine Einsätze deutschlandweit flexibel und jederzeit über unsere App. Worauf also warten – komm in unser Team!
+Wir freuen uns über Deine Online-Bewerbung oder Deinen Anruf für den Einstieg als Werkstudent (m/w/d) in der Datenerfassung .
+Jetzt bewerben
+Ansprechpartner
+Athanasios Apallas
+Recruiting - und Dispositionsmanager
 
-Studentenjob
-
-&nbsp;
-Arbeitsort
-
-
-Ratingen
-&nbsp;
-Leistungen
-Aus der vollständigen Stellenbeschreibung
-
-Homeoffice-Möglichkeit
-&nbsp;
-Vollständige Stellenbeschreibung
-Das erwartet Dich
-
-Praxiserfahrung: Sammle neben deinem Studium praktische Erfahrung in der Qualitätssicherung als manueller Software-Tester.
-Eine gute Einarbeitung: Unsere erfahrenen QA-Kollegen unterstützen dich dabei, unsere Anwendungen, Geschäftsprozesse und QA-Prozesse kennenzulernen.
-Ein Team, das zusammenhält: Bei uns erwartet dich eine offene und kollegiale Atmosphäre. Wir unterstützen uns gegenseitig, teilen unser Wissen und kommunizieren offen und transparent.
-Mitgestalten & weiterentwickeln: Bringe deine Ideen ein, übernimm nach und nach mehr Verantwortung und entwickle deine Kenntnisse im manuellen Software-Testing weiter.
-Flexibles Arbeiten: Homeoffice / Remote und/oder Büro möglich
-Das sind Deine Aufgaben
-
-Manuelles Testing: Du testest neue und bestehende Funktionen unserer Webanwendungen und prüfst, ob diese wie vorgesehen funktionieren.
-Fehleranalyse: Du identifizierst Fehler und Abweichungen, dokumentierst diese nachvollziehbar und überprüfst anschließend deren Behebung.
-Qualität im Team: Du arbeitest eng mit unseren QA-Kollegen und Entwicklern zusammen und bringst deine Beobachtungen und Ideen aktiv ein.
-Schrittweise mehr Verantwortung: Mit zunehmender Erfahrung übernimmst du eigenständig Tests und weitere Aufgaben innerhalb unseres QA-Prozesses.
-Das bringst Du mit
-
-Du bist aktuell an einer Hochschule oder Universität eingeschrieben – idealerweise in Informatik, Wirtschaftsinformatik oder einem vergleichbaren Studiengang.
-Du interessierst dich für Software, Softwarequalität und manuelles Testing und bringst erste Erfahrungen mit.
-Du arbeitest sorgfältig, strukturiert und zuverlässig und besitzt ein gutes analytisches Denkvermögen.
-Du hast Spaß daran, unterschiedliche Szenarien auszuprobieren und Fehlern auf den Grund zu gehen.
-Du arbeitest gerne im Team, kommunizierst offen und konstruktiv.
-Jetzt suchen wir Mitarbeiter (m/w/d) aus den Bereichen: Werkstudent Quality Assurance (m/w/d), Werkstudent Software Testing (m/w/d), Werkstudent QA Testing (m/w/d), Werkstudent Softwarequalität (m/w/d), Werkstudent Software Tester (m/w/d), Werkstudent Test Engineering (m/w/d)
-
-Willkommen bei TOI TOI & DIXI!
-
-Wir sind der weltweit größte Anbieter von mobilen Sanitäreinheiten mit Vertretungen in Europa, USA und Asien. In der Unternehmensgruppe werden die Marken TOI TOI® und DIXI® in 31 Ländern geführt, mit mehr als 5400 MitarbeiterInnen weltweit. Bei uns hat jeder Mitarbeiter Einfluss und die Möglichkeit, etwas zu bewirken. Unsere flachen Hierarchien und kurzen Entscheidungswege ermöglichen eine effiziente Zusammenarbeit und fördern die individuelle Entwicklung. Wir legen großen Wert auf flexible Arbeitsbedingungen und eine Arbeitskultur, in der Sie nicht nur eine Nummer sind, sondern als wertvolles Mitglied unseres Teams geschätzt werden.
-
-Wenn auch Du Lust hast, in unserem Team zu arbeiten, dann bewirb dich jetzt!
-
-#Group
-
-
+T: 0541 3303 1042
+Studyheads
+Möserstraße 2-3
+49074 Osnabrück
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

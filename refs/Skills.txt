@@ -1,0 +1,10 @@
+CORE SKILLS
+	•	Robotics Software Engineering | ROS | ROS2 | Autonomous Systems | Mobile Robotics | Robot Navigation | SLAM
+	•	Computer Vision | Machine Learning | Robot Control Systems | Autonomous Navigation | Gazebo | Webots
+	•	Sensor Fusion | Robot Perception | Motion Planning | Path Planning | Point Cloud Processing | LiDAR
+	•	Isaac Sim | Robot Simulation | OpenCV | PyTorch | Open3D | CUDA | Manipulator Integration
+	•	Embedded Systems | Coordinate Frames & Transforms | MuJoCo
+TECHNICAL SKILLS
+	•	Python | C++ | ROS | ROS2 | OpenCV | PyTorch | Open3D | CUDA | NumPy | Pandas | FastAPI | Git
+	•	Docker | Linux | Gazebo | Webots | Isaac Sim | MoveIt | KDL | Nav2 | RTAB-Map | JSON | YAML
+	•	MediaPipe | MATLAB | Simulink | Arduino | Fusion 360 | SolidWorks | CATIA

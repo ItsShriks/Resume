@@ -8,47 +8,35 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 About the job
-Neues entdecken, Projekte vorantreiben, Verantwortung übernehmen: An der Hochschule Bonn-Rhein-Sieg (H-BRS) zählen wir auf Mitarbeitende, die genau dies tun. Gemeinsam mit unseren rund 1.000 Kolleginnen und Kollegen finden wir neue Lösungen, um daran mitzuarbeiten, passende Antworten auf die vielfältigen Herausforderungen unserer Zeit zu finden. Wir tun dies, damit die H-BRS mit ihren rund 9.000 Studierenden aus mehr als 100 Nationen in rund 40 Studiengängen noch besser wird. Nehmen Sie die Herausforderung an?
+Visualisierung von Objekten in der Intralogistik mit AR-Brillen
+Im Rahmen des Projekts "MouSe" wird ein mobiles, umfeldüberwachendes Sensorsystem für manuell geführte Flurförderzeuge (FFZ) entwickelt, um die Sicherheit und die Arbeitseffizienz in der Intralogistik zu verbessern.Ziel der Arbeit ist es, den Einsatz einer AR-Brille für die ortsgenaue Visualisierung von Objekten für Staplerführende zu erproben. Über ein drohnengeführtes Sensorsystem werden Objekte im Umfeld des Gabelstaplers aufgenommen und mittels KI-basierter Bildverarbeitung klassifiziert. Die AR-Brille soll dazu dienen, die erkannten Objekte perspektivisch korrekt in Bereichen einzublenden, die aus der Sicht des Staplerführenden nicht einsehbar sind („Wallhack“). Detektierte Objekte sollen dabei als Ersatzobjekte angezeigt werden, um Datenmengen und somit die Latenz zu reduzieren.
+Deine Aufgaben: 
+Literaturrecherche zu bestehenden Ansätzen zur AR-Brillen-basierten Visualisierung von Objekten
+Konzeption einer ROS2-basierten Systemarchitektur zur Verarbeitung der Sensordaten
+Anwendung von Algorithmen zur Objekterkennung
+Integration und Visualisierung der Ergebnisse mittels AR-Brille („Wallhack“)
+Evaluation des entwickelten Systems hinsichtlich Genauigkeit, Robustheit, Rechenaufwand und Latenz
+Die Evaluation der Ergebnisse kann auch in Form einer Abschlussarbeit durchgeführt werden.
 
-Wir suchen ab dem 01.10.2026 im Dezernat Facility Management, Bauen und Sicherheit am Campus Sankt Augustin eine
+Dein Profil:Du studierst eines der folgenden Fächer:
+Maschinenbau
+Wirtschaftsingenieurwesen
+Produktion und Logistik
+Mechatronik und Robotik
+oder ähnliches
+Du hast Interesse an Robotik, Bildverarbeitung und Algorithmen? Und Dir macht es Spaß, sich eigenständig in neue Themen einzuarbeiten? Dann bewirb dich gerne bei mir!Du solltest bereits grundlegende Kenntnisse erste Programmiererfahrungen haben und dich etwas mit Python und ROS2 auskennen.Gute Deutsch- und Englischkenntnisse in Wort und Schrift werden vorausgesetzt.
+Wir bieten:
+angemessene Vergütung
+eigenverantwortliches Arbeiten
+flexible Arbeitszeiten
+gut ausgestattete Arbeitsplätze
+Home-Office nach Absprache
+Versuchsdurchführung
+ggf. langfristige Zusammenarbeit
 
-Aushilfe (d/m/w) zur Unterstützung in der technischen Datenerfassung
 
-Ihre Aufgaben
-
-Sie
-
-bereiten vorhandene Informationen und technische Dokumentationen zu Gebäuden und Anlagen auf und pflegen diese strukturiert in unsere Software ein.
-erfassen neue technische Anlagen am Standort Rheinbach und dokumentieren diese vollständig in unserer Software.
-erstellen aussagekräftige Fotos sämtlicher Anlagen und hinterlegen diese entsprechend in der Software.
-
-Unsere Erwartungen:
-
-Sie 
-
- verfügen über sehr gute PC-Kenntnisse, insbesondere Word / Excel.
-haben eine Affinität oder Kenntnisse im Umgang mit Datenbanken.
- bringen eine selbständige, zuverlässige und genaue Arbeitsweise mit.
-
-Unser Angebot:
-
-Wir als Arbeitgeberin
-
- bieten eine spannende und abwechslungsreiche Tätigkeit: In einem modernen Umfeld in Teilzeit mit 16 Stunden wöchentlich, vergütet nach Entgeltgruppe 3 TV-L und befristet für 1 Jahr.
- ermöglichen Verlässlichkeit: Die Bezahlung nach Tarifvertrag und eine betriebliche Altersvorsorge geben Ihnen heute und in Zukunft finanzielle Sicherheit. Sie haben 30 Tage Urlaub pro Jahr und der 24. Dezember, der 31. Dezember und der Rosenmontag sind zusätzlich arbeitsfrei. 
- gestalten Ihre Karriere: Wir legen großen Wert auf Ihre berufliche und persönliche Entwicklung. Dazu bieten wir Ihnen eine Vielzahl an Fort- und Weiterbildungsmöglichkeiten. Sie arbeiten dabei in einer innovativen und dynamischen Wissenschaftseinrichtung, an der Menschen mit verschiedensten beruflichen und kulturellen Hintergründen tätig sind. Zusätzlich haben Sie auch als Beschäftigte die Möglichkeit, an einem über Erasmus geförderten Auslandsaufenthalt teilzunehmen.
- setzen uns für Work-Life-Balance und Gesundheit ein: Wir bieten flexible Arbeitszeitmodelle, mobiles Arbeiten und familiengerechte Arbeitsbedingungen. Unser umfassendes Gesundheitsprogramm fördert Fitness und Entspannung – sogar während Ihrer Arbeitszeit.
- leben Werte und Miteinander : Wir arbeiten gemeinsam an Lösungen. Nachhaltigkeit ist für uns mehr als ein Wort. Als Forschungs- und Bildungseinrichtung widmen wir uns den aktuellen globalen Themen, übernehmen gesellschaftliche Verantwortung und fördern dabei Innovationen.
-
-Die H-BRS macht sich stark für Chancengleichheit und Diversität. Bewerbungen von Frauen sind ausdrücklich erwünscht. Frauen werden bei gleicher Eignung, Befähigung und fachlicher Leistung bevorzugt berücksichtigt.Die H-BRS ist eine zertifizierte familiengerechte Hochschule – und stolz darauf. Schwerbehinderte und diesen gleichgestellte Menschen sind Teil unserer Hochschule – Inklusion ist uns ein wichtiges Anliegen.
-
-Bei fachlichen Fragen wenden Sie sich gerne an Ute Schmitz unter der Telefonnummer +49 2241 865 646 oder per Mail an ute.schmitz@h-brs.de. Gleichstellungsbeauftragte und Schwerbehindertenvertretung sind in das Verfahren eingebunden und beantworten im Vorfeld gerne Ihre Fragen. Informationen und Ansprechpartnerinnen finden Sie unter Gleichstellung , familiengerechte Hochschule und Schwerbehinderung .
-
-Werden Sie Teil der Hochschule Bonn-Rhein-Sieg (H-BRS) und bewerben Sie sich jetzt über unser Onlineformular bis zum 24.09.2026 (Referenz 74/26).
-
-Allgemeine Informationen zur Karriere an der H-BRS finden Sie unter: www.h-brs.de/karriere
-
-Translate
+Bitte sende deine aussagekräftige Bewerbung in einer einzigen PDF-Datei an jobs@iph-hannover.de und kennzeichne deine Bewerbung entsprechend, solltest du KI-Tools verwendet haben. Die Bewerbung muss Anschreiben, Lebenslauf sowie Prüfungsleistungen des Studiums / Zeugnisse enthalten.
+Bei Fragen zu den Aufgaben kannst du dich an Torben Mente (0511 27976-236) wenden, die das Projekt betreut.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -78,7 +66,7 @@ CANDIDATE PROFILE (do not change any of these facts)
 
 Current positions (real, do not fabricate):
   - EDEKA, Bonn — Student Assistant, Food Retail (Aug 2025 – Present)
-  - Navilan Solutions, Bonn — Student Assistant (Jul 2025 – Present)
+  - Navilan Solutions, Bonn — Student Assistant (Jul 2025 – Jan 2026)
   - b-it bots @Home, H-BRS — Perception & Navigation Core Member (Oct 2024 – Present)
   - H-BRS — Research Assistant (Oct 2024 – Apr 2025)
   - Sakar Robotics — Robotics Engineer / Centre Manager (May 2021 – May 2023)
@@ -116,10 +104,9 @@ STEP 1 — ANALYSE THE JOB DESCRIPTION
   - Note the tone: formal / startup / technical / customer-facing.
 
 STEP 2 — AUDIT THE RESUME AGAINST THE JOB
-  - Read each file in tex/ and identify which bullet points are already strong
-    matches, which are weak matches, and which are irrelevant.
-  - Note any genuine experience Shrikar has that is under-represented but
-    directly relevant to this role.
+  - Read each file in refs/ (the master source of truth) and identify which bullet points are strong matches, which are weak matches, and which are irrelevant.
+  - Note any genuine experience Shrikar has in refs/ that is directly relevant to this role.
+  - IMPORTANT: ALL updates written to tex/ MUST be based on the content in refs/ and MUST be translated into GERMAN.
 
 STEP 3 — UPDATE tex/Personal_Info.tex (Summary)
   - Rewrite the 3-4 sentence summary to lead with what this employer cares

@@ -1,3 +1,4 @@
+\iffalse
 % NEVER DELETE or EDIT THIS SECTION
 %-----------PROJECTS-----------------
 \section{Projects}
@@ -36,5 +37,34 @@
 
 \resumeSubHeadingListEnd
 % NEVER DELETE or EDIT THIS SECTION
+\fi
 
 % Instead build another one here based upon the above
+% Tailored: DHL GROW Trainee Innovations -- CoE Automation of Operations
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubItem{Autonomous Mobile Robot Navigation Stack \& Commissioning (ROS 2, Nav2, SLAM, EKF)}{
+\resumeItemListStart
+    \resumeItemPlain{Integrated and validated an \textbf{AMR} navigation stack on physical mobile robots; configured costmaps, path planners, recovery behaviours and multi-sensor localization (LiDAR, IMU, Encoders).}
+    \resumeItemPlain{Ran real-robot commissioning, mapping and trajectory validation; isolated edge cases using rosbag, RViz and Docker logs and documented root causes in structured QA reports.}
+\resumeItemListEnd}
+
+\resumeSubItem{Robot Butler \& Semantic Object Tagging (ROS 2, Nav2, RTAB-Map, PyTorch, YOLO)}{
+\resumeItemListStart
+    \resumeItemPlain{Built ROS 2 bring-up pipelines for a \textbf{Neobotix MMO700} mobile manipulator; combined 3D SLAM (RTAB-Map) with \textbf{YOLO} object detection for semantic mapping and object retrieval.}
+    \resumeItemPlain{Created sensor feeds, annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
+\resumeItemListEnd}
+
+\resumeSubItem{Continuous Mobile Manipulation Architecture (ROS 2, C++17, MPC, TSID)}{(Master Thesis Project)
+\resumeItemListStart
+    \resumeItemPlain{Designing a control architecture coupling a visibility-aware MPC planner with a high-frequency whole-body TSID controller so a mobile robot can manipulate objects while moving.}
+\resumeItemListEnd}
+
+\resumeSubItem{UR5 Robot Arm Kinematics \& Motion Planning (ROS Noetic, KDL, MoveIt)}{
+\resumeItemListStart
+    \resumeItemPlain{Implemented inverse kinematics (KDL) for a 6-DOF UR5 industrial arm and benchmarked collision-free trajectory generation with \textbf{MoveIt} and custom collision meshes.}
+\resumeItemListEnd}
+
+\resumeSubHeadingListEnd

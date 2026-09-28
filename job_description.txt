@@ -8,35 +8,89 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-About the job
-About the roleAs one of our Software & Robotics Engineers, you are the technical bridge between our motion planning software and real machines and production systems. You take projects from software through to hardware on your own, connect execution logic with real kinematics and sensors, and get our systems running reproducibly.
-What you will do
-Run projects end to end, from software through to the hardware setup
-Own build and release, including configuration and commissioning of our systems
-Dockerise and document deployments so that every setup stays reproducible
-Bring software and hardware together so that execution logic, kinematics, sensor data and control loops work efficiently
-Test technical workflows and sensor integrations on the real robot arm before new features and fixes go into the field
-Keep code quality high through defined structures, tests, code reviews and CI/CD
+* 
+* 
+* 
+* 
 
-What you bring
-Confident with C++, C# and Python
-Routine in build and release processes as well as configuration management
-Proven experience in problem solving and hands-on troubleshooting on hardware and sensors
-Strong systems thinking
-Knowledge of robot calibration
-Confident presence and the ability to explain technical topics clearly
-High level of ownership and constructive teamwork
-Comfortable with changing areas of responsibility
-English at C1 or above, German at B1 or above
+* 
 
-What you can expect from usEVASIVE ROBOTICS is defining the new category in motion planning for industrial robots. Together with leading companies, our agile team works on increasing the productivity of robot installations while keeping complexity manageable. That is how we will set the new standard for what automation can do.
-Fast growing startup with a highly qualified team. Not a typical 9-to-5 job.
-Demanding tasks and projects with real impact
-Flexible working hours and hybrid work
-Flat hierarchies and direct communication
-Team events, public transport pass and further benefits
-Requirements added by the job poster
-• Authorized to work in Deutschland
+-
+-
+[ Zurück zu den Suchergebnissen](https://www.google.com/?s=1)
+Trainee Innovations - CoE Automation of Operations (m/f/x)
+ AV-374358 Bonn,Nordrhein-Westfalen,Germany Vollzeit Befristet Post & PaketDeutsche Post AG
+ Copy job link
+ Share
+ 
+OUR GRADUATE PROGRAM GROW OFFERS INTERESTING OPPORTUNITIES IN GERMANY, BONN, FROM APRIL 1st 2027 FOR 18 MONTHS, AIMING TO KEEP YOU ON AFTER PROGRAM COMPLETION FOR
+TRAINEE INNOVATIONS INTERNATIONAL IN CENTER OF EXCELLENCE (CoE) AUTOMATION OF OPERATIONS (M/F/X)
+Shape the future of operations through automation and robotics
+Digitalization is transforming our industry at an unprecedented pace. From creating better experiences for our customers and employees to making operations more efficient, smarter technologies are opening up new opportunities across DHL Group.
+The Center of Excellence (CoE) for Automation of Operations is at the heart of this transformation. Based within Corporate Development at DHL Group Headquarters, our team works globally with the divisions to identify, test and scale innovative, cost-efficient robotic and computer vision technologies that can make our operations smarter, safer and more efficient.
+We explore emerging technologies, turn promising ideas into practical solutions and support their successful integration into our operations. In doing so, we work closely with colleagues across the Group, our divisions and Corporate Procurement to move innovations from initial concepts to scalable solutions.
+Our work is closely aligned with the strategic priorities of the divisions through the Automation & Robotics Group, an advisory board and community platform for all stakeholders.
+Your opportunity to shape what’s next
+As part of the CoE Automation of Operations, you will work at the intersection of technology, innovation and real-world operations. You’ll have the opportunity to explore technologies that are still emerging today and help determine how they can create value for DHL Group tomorrow.
+Our key areas of technological expertise include:
+
+* Automated unloading – developing solutions to automate and optimize the unloading of shipments and goods.
+* Autonomous Mobile Robots (AMRs) – exploring and scaling intelligent robots that can move goods efficiently through our operations.
+* Robotic arm solutions – testing and integrating robotic systems for handling, sorting and other operational processes.
+* Computer Vision – using advanced vision technologies to enable smarter, more automated processes and decision-making.
+* Humanoid robotics – evaluating and testing emerging humanoid robotic technologies and exploring their potential applications within our operations.
+
+
+From innovation to impact
+Our ambition goes beyond simply testing new technologies. We identify solutions with real potential, validate them in operational environments and help scale successful concepts across divisions and locations.
+You’ll collaborate with experts and decision-makers across DHL Group and work on technologies that have the potential to shape the future of logistics. Whether it’s robotics, computer vision, autonomous systems or the next generation of humanoid robots, you’ll help turn innovation into practical solutions with a tangible impact on our operations.
+Join us and help shape the future of automated operations at DHL Group.
+Your tasks
+
+* Explore emerging technologies worldwide and identify innovative solutions with the potential to shape the future of our operations.
+* Contribute to innovation projects and Proof of Concepts (PoCs), helping turn promising ideas and technologies into practical solutions.
+
+
+Your profile
+
+* Master Graduation before April 1st, 2027 in Logistics, Supply Chain Management, Engineering, Economy
+* First professional experience (up to 3 years) in Project Management; international experience
+* Fluent English skills; fluent/good German skills
+* Very good communication skills
+
+
+Your benefits
+
+* Appealing salary package: With us you will earn an annual salary of € 57.000 gross – including Christmas and vacation allowance as well as an annual bonus.
+* Individual career development: After an induction week, you will dive into the world of logistics in three individual program phases in Germany and around the world.
+* Training and support: We support you in your individual career development through integrated training, personal support and regular feedback.
+* Network: Build up a valuable network in one of the leading mail and logistics service provider.
+* Diverse opportunities: Work on varied and challenging projects that will enhance your professional development.
+
+
+Your contact
+For further questions please contact Steffi Koch, GROW Recruiting, [grow@dhl.com](mailto:grow@dhl.com).
+Interested in this exciting opportunity? Please apply online now until November 26th, 2026  via [careers.dhl.com/global/en/grow](https://careers.dhl.com/global/en/grow) for the business area Innovations international including a cover letter, CV and references. You will find there more detailed information on the application process, program schedule and typical project positions in the various business areas.
+We are looking forward to your application.
+CONNECTING PEOPLE. IMPROVING LIVES.
+#trainee #growprogram #growinn
+Erhalte maßgeschneiderte Job-Empfehlungen basierend auf deinen Interessen.
+Sicherheits- und Phishinginformationen
+Ihre Sicherheit ist uns wichtig. [Auf dieser Seite](https://careers.dhl.com/eu/de/sicherheits-und-phishinginformationen)finden Sie hilfreiche Informationen, um den Bewerbungsprozess bei DHL besser zu verstehen, legitime Kommunikation zu erkennen und sich vor möglichen betrügerischen Aktivitäten im Zusammenhang mit der Personalgewinnung zu schützen.
+Ähnliche Jobs
+
+* [Global Business Owner – Manhattan Active WMS/Service Logistics SCS (m/f/x/) ](https://careers.dhl.com/eu/de/job/DPDHGLOBALAV377794DEEUEXTERNAL/Global-Business-Owner-Manhattan-Active-WMS-Service-Logistics-SCS-m-f-x)
+Standort Bonn, Nordrhein-Westfalen, Germany
+BE AN ESSENTIAL PART OF EVERYDAY LIFE. Position: Global Business Owner – Manhattan Active WMS (m/f/x/)Contract Type: PermanentTravel Required: less 50%Location: EMEA/UKI. At DHL our business is log...
+* [Senior Expert (m/f/d) 893-2 Compliance Specialist / AT-Level 1 ](https://careers.dhl.com/eu/de/job/DPDHGLOBALAV365981DEEUEXTERNAL/Senior-Expert-m-f-d-893-2-Compliance-Specialist-AT-Level-1)
+Standort Bonn, Nordrhein-Westfalen, Germany
+DHL eCommerce is one of the divisions of DHL, dedicated to both domestic and international parcel delivery through our cutting-edge cross border products. Compliance is about doing the right thing,...
+* [IT Operations Manager (m/f/x) ](https://careers.dhl.com/eu/de/job/DPDHGLOBALAV345347DEEUEXTERNAL/IT-Operations-Manager-m-f-x)
+Standort Bonn, Nordrhein-Westfalen, Germany
+JOIN OUR TEAM IN BONN FOR A FULL-TIME POSITION, STARTING IMMEDIATELY. IT OPERATIONS MANAGER (M/F/X). DHL Group team is the leading mail and logistics service provider for the world. We are one of t...
+* [Key Account Manager (m/w/d) - Vertrieb Asia eCommerce ](https://careers.dhl.com/eu/de/job/DPDHGLOBALAV378004DEEUEXTERNAL/Key-Account-Manager-m-w-d-Vertrieb-Asia-eCommerce)
+Standort Bonn, Nordrhein-Westfalen, Germany
+The position is located in BONN, permanent full/- or parttime and to be filled at the earliest possible date. KEY ACCOUNT MANAGER (M/f/D) – Vertrieb Asia eCommerce, Post & Paket Deutschland. Are yo...
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MODULAR REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

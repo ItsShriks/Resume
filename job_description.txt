@@ -8,35 +8,48 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 About the job
-Visualisierung von Objekten in der Intralogistik mit AR-Brillen
-Im Rahmen des Projekts "MouSe" wird ein mobiles, umfeldüberwachendes Sensorsystem für manuell geführte Flurförderzeuge (FFZ) entwickelt, um die Sicherheit und die Arbeitseffizienz in der Intralogistik zu verbessern.Ziel der Arbeit ist es, den Einsatz einer AR-Brille für die ortsgenaue Visualisierung von Objekten für Staplerführende zu erproben. Über ein drohnengeführtes Sensorsystem werden Objekte im Umfeld des Gabelstaplers aufgenommen und mittels KI-basierter Bildverarbeitung klassifiziert. Die AR-Brille soll dazu dienen, die erkannten Objekte perspektivisch korrekt in Bereichen einzublenden, die aus der Sicht des Staplerführenden nicht einsehbar sind („Wallhack“). Detektierte Objekte sollen dabei als Ersatzobjekte angezeigt werden, um Datenmengen und somit die Latenz zu reduzieren.
-Deine Aufgaben: 
-Literaturrecherche zu bestehenden Ansätzen zur AR-Brillen-basierten Visualisierung von Objekten
-Konzeption einer ROS2-basierten Systemarchitektur zur Verarbeitung der Sensordaten
-Anwendung von Algorithmen zur Objekterkennung
-Integration und Visualisierung der Ergebnisse mittels AR-Brille („Wallhack“)
-Evaluation des entwickelten Systems hinsichtlich Genauigkeit, Robustheit, Rechenaufwand und Latenz
-Die Evaluation der Ergebnisse kann auch in Form einer Abschlussarbeit durchgeführt werden.
+Baue mit uns die Hardware für unsere Smart Factory: Als Werkstudent (m/w/d) in Bornheim montierst und testest du Prototypen, fertigst Bauteile per 3D-Druck und unterstützt beim Aufbau unserer Produktionsanlagen. Ideal sind 15–20 Std./Woche.
 
-Dein Profil:Du studierst eines der folgenden Fächer:
-Maschinenbau
-Wirtschaftsingenieurwesen
-Produktion und Logistik
-Mechatronik und Robotik
-oder ähnliches
-Du hast Interesse an Robotik, Bildverarbeitung und Algorithmen? Und Dir macht es Spaß, sich eigenständig in neue Themen einzuarbeiten? Dann bewirb dich gerne bei mir!Du solltest bereits grundlegende Kenntnisse erste Programmiererfahrungen haben und dich etwas mit Python und ROS2 auskennen.Gute Deutsch- und Englischkenntnisse in Wort und Schrift werden vorausgesetzt.
-Wir bieten:
-angemessene Vergütung
-eigenverantwortliches Arbeiten
-flexible Arbeitszeiten
-gut ausgestattete Arbeitsplätze
-Home-Office nach Absprache
-Versuchsdurchführung
-ggf. langfristige Zusammenarbeit
+Was du machen wirst:
+
+Bei suppify in Bornheim baust du an den Maschinen für unsere automatisierte Nahrungsergänzungsmittelproduktion mit. Dein Schwerpunkt liegt in der Werkstatt: mechanische Baugruppen montieren, Prototypen aufbauen und testen sowie Anlagen umbauen. Dazu kommen CAD, 3D-Druck und der Anschluss von Sensoren und Aktuatoren unter Anleitung. Du studierst Maschinenbau, Mechatronik oder Elektrotechnik, bringst handwerkliches Geschick mit und hast idealerweise 15–20 Std./Woche Zeit.
+
+Was wir bieten
 
 
-Bitte sende deine aussagekräftige Bewerbung in einer einzigen PDF-Datei an jobs@iph-hannover.de und kennzeichne deine Bewerbung entsprechend, solltest du KI-Tools verwendet haben. Die Bewerbung muss Anschreiben, Lebenslauf sowie Prüfungsleistungen des Studiums / Zeugnisse enthalten.
-Bei Fragen zu den Aufgaben kannst du dich an Torben Mente (0511 27976-236) wenden, die das Projekt betreut.
+Arbeitszeiten nach Absprache passend zu deinem Stundenplan
+Angenehmes Arbeitsumfeld
+Praxiserfahrung in Prototypenbau, 3D-Druck und Automatisierung
+Raum für eigene Ideen und deren praktische Umsetzung
+Direkte Zusammenarbeit mit unserem Entwicklungsteam
+Gut erreichbar: direkt am Bahnhof Roisdorf
+
+
+Was wir erwarten
+
+
+Eingeschriebene:r Student:in an einer staatlich anerkannten Hochschule
+Teamfähigkeit
+Problemlösung
+Kommunikation
+Lernbereitschaft
+
+
+Bewerben
+
+Dieser Job passt perfekt zu dir? Dann bewirb dich jetzt und wir werden dich so schnell wie möglich kontaktieren.
+
+Extra Informationen
+
+Wir sind die Personalized Nutrition Systems GmbH, das Unternehmen hinter suppify. In Bornheim entwickeln wir eigene Maschinen für die Herstellung individueller Nahrungsergänzungsmittel. Unser Ziel ist eine weitgehend automatisierte Produktion – von der Dosierung über das Mischen bis zum Abfüllen.
+
+Du unterstützt uns auch beim Aufbau von Arbeitsplätzen und Vorrichtungen sowie bei praktischen Anpassungen in Werkstatt und Halle. Testläufe, die Dokumentation der Ergebnisse und Ordnung am Arbeitsplatz gehören ebenfalls dazu.
+
+Bewirb dich mit einem kurzen Lebenslauf oder ein paar Zeilen zu deinem Studium, deinem möglichen Starttermin und deiner zeitlichen Verfügbarkeit. Zeig uns gerne, was du schon gebaut hast: Fotos, Studienprojekte, eigene Konstruktionen oder ein Link zu deinem Projekt sind willkommen.
+
+Status Offen Ausbildungsniveau Abitur, Fachabitur, Hochschule/Universität Standort Bornheim Arbeitsstunden pro Woche 15 - 20 Jobart Werkstudentenstelle Gehaltsangabe Zwischen 15.00€ und 20.00€ pro Stunde Verantwortlich für Aufbau, Montage und Erprobung von Prototypen und Produktionsanlagen Veröffentlicht am 08-09-2026 Tätigkeitsbereich Maschinenbau / Ingenieur Führerschein erforderlich? Nein Auto erforderlich? Nein Motivationsschreiben erforderlich? Nein
+
+#Jobster
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

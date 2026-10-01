@@ -1,6 +1,18 @@
-*.fdb_latexmk
-*.fls
-*.log
+# LaTeX build output
+build/
 *.pdf
 *.aux
+*.log
 *.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Local-only files (old .docx/.pages CVs etc.)
+archive/
+
+# OS / Python
+.DS_Store
+__pycache__/
+*.pyc
+.env

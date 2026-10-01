@@ -1,5 +1,0 @@
-PUBLICATIONS
-	•	Techniques in Improving Quality and Speed of 3D Printing
-	•	Design and Analysis of Strawberry-Picking Industrial Robotic Arm
-	•	Waste Management Robotic Arm using MATLAB and Raspberry Pi
-	•	Development of Low-Cost LiDAR Scanner for Indoor Mapping

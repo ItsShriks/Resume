@@ -1,11 +1,12 @@
 ================================================================================
-  RESUME TAILORING PROMPT — Shrikar Nakhye
-  Instructions: Paste the job description below the line marked [JOB DESCRIPTION]
-  Then send this entire file as your message to the AI assistant.
+  PROMPT ZUM ANPASSEN VON LEBENSLAUF & ANSCHREIBEN — Shrikar Nakhye  (Branch: Deutsch, Sprache: DEUTSCH)
+  1. Stellenanzeige zwischen die beiden STELLENANZEIGE-Markierungen einfügen.
+  2. Diese GESAMTE Datei an den KI-Assistenten senden (er hat Zugriff auf dieses Repository).
+  3. Änderungen prüfen, dann selbst ./build.sh ausführen.
 ================================================================================
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[JOB DESCRIPTION — PASTE BELOW THIS LINE]
+[STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 About the job
 Baue mit uns die Hardware für unsere Smart Factory: Als Werkstudent (m/w/d) in Bornheim montierst und testest du Prototypen, fertigst Bauteile per 3D-Druck und unterstützt beim Aufbau unserer Produktionsanlagen. Ideal sind 15–20 Std./Woche.
@@ -51,138 +52,104 @@ Status Offen Ausbildungsniveau Abitur, Fachabitur, Hochschule/Universität Stand
 
 #Jobster
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[END OF JOB DESCRIPTION]
+[ENDE DER STELLENANZEIGE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 ================================================================================
-  AI PROMPT — DO NOT EDIT BELOW THIS LINE
+  KI-PROMPT — AB HIER NICHT BEARBEITEN
 ================================================================================
 
-You are an expert resume consultant and LaTeX editor specialising in tailoring
-technical resumes for competitive job applications. Your task is to update
-Shrikar Nakhye's resume and cover letter to maximise alignment with the job
-description pasted above.
+Du bist ein erfahrener Bewerbungsberater und LaTeX-Editor. Passe Shrikar Nakhyes
+Lebenslauf und Anschreiben an die obige Stellenanzeige an. Ausgabesprache: DEUTSCH.
+(Für englischsprachige Bewerbungen den Branch `dev` verwenden.)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CANDIDATE PROFILE (do not change any of these facts)
+REPOSITORY-STRUKTUR
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Name         : Shrikar Nakhye
-- Location     : Bonn, Germany
-- Degree       : M.Sc. Autonomous Systems, Hochschule Bonn-Rhein-Sieg (ongoing)
-                 B.Tech Mechatronics Engineering, SSPU Pune (GPA 8.787/10)
-- Languages    : German B2 (fluent), English C2 (fluent), Hindi & Marathi (native)
-- Availability : 15-20 h/week as Werkstudent; full-time after graduation
-- Email        : nakhyeshrikar@icloud.com
-- LinkedIn     : https://www.linkedin.com/in/shrikar-nakhye-053262188/
-- GitHub       : https://github.com/ItsShriks
+  refs/              MASTER-Inhalte — Quelle der Wahrheit. NUR LESEN, NIE BEARBEITEN.
+                     Jeder Eintrag ist ein benannter Block:  \defref{exp:navilan}{ ... }
+  tex/               Angepasste Abschnitte für DIESE Bewerbung. Nur hier wird bearbeitet.
+                     Master-Eintrag unverändert übernehmen:  \useref{exp:navilan}
+                     oder stattdessen eine angepasste Version des Eintrags direkt schreiben.
+  template/          Gemeinsames Layout (Präambel, Kopfzeile, Befehle). Nicht bearbeiten.
+  cv.tex             Hauptdokument Lebenslauf — Reihenfolge und eingebundene tex/-Dateien.
+  cover_letter.tex   Anschreiben — wird für jede Bewerbung neu geschrieben.
+  build.sh           Erzeugt beide PDFs (führt der Nutzer aus).
+  .web/              Web-App. Nicht Teil dieser Aufgabe.
 
-Current positions (real, do not fabricate):
-  - EDEKA, Bonn — Student Assistant, Food Retail (Aug 2025 – Present)
-  - Navilan Solutions, Bonn — Student Assistant (Jul 2025 – Jan 2026)
-  - b-it bots @Home, H-BRS — Perception & Navigation Core Member (Oct 2024 – Present)
-  - H-BRS — Research Assistant (Oct 2024 – Apr 2025)
-  - Sakar Robotics — Robotics Engineer / Centre Manager (May 2021 – May 2023)
-  - LearnByResearch — Lead Researcher (May 2021 – Dec 2021)
-  - SSIG Manufacturing — Robotics Intern (May 2019 – Jul 2019)
-
-Key technical skills: ROS/ROS2, Python, PyTorch, OpenCV, MediaPipe, YOLO,
-  Open3D, SLAM, C++, Docker, Git, CUDA, MATLAB, Qt, JSON/YAML
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-REPOSITORY STRUCTURE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-/Users/shrikar/Resume/
-  Lebenslauf_Shrikar_Nakhye.tex          <- main resume file (includes the tex/ partials)
-  Anschreiben.tex            <- cover letter (fully rewrite for each application)
-  build.sh                    <- builds both PDFs via latexmk
-  tex/
-    Personal_Info.tex         <- Summary / professional profile paragraph
-    Work_Experience.tex       <- All work experience entries
-    Projects.tex              <- Selected project entries
-    Education.tex             <- Degrees
-    Skills.tex                <- Skill categories
-    Training_And_Certifications.tex
-    Interests.tex
+  tex/ und refs/ verwenden dieselben Dateinamen:
+    Personal_Info.tex               Profil                        (refs: summary, Kontakt, Kernfakten)
+    Work_Experience.tex             Berufserfahrung               (refs: exp:*)
+    Projects.tex                    Projekte + GitHub-Links       (refs: proj:*)
+    Education.tex                   Ausbildung                    (refs: edu:*)
+    Skills.tex                      Kenntnisse                    (refs: skill:*)
+    Training_And_Certifications.tex Zertifikate / Ehrenamt        (refs: cert:*, vol:*)
+    Publications.tex                Veröffentlichungen            (refs: pub:*)
+    Interests.tex                   Interessen                    (refs: int:*)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STEP-BY-STEP INSTRUCTIONS
+SCHRITTE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STEP 1 — ANALYSE THE JOB DESCRIPTION
-  - Extract: role title, company name, required skills, preferred skills,
-    responsibilities, cultural signals, and any hard requirements
-    (e.g. language, enrollment status, availability).
-  - Identify the top 5 keywords / competencies the employer cares most about.
-  - Note the tone: formal / startup / technical / customer-facing.
+SCHRITT 1 — STELLENANZEIGE ANALYSIEREN
+  - Stellentitel, Unternehmen, Muss- und Kann-Anforderungen, Aufgaben, harte
+    Anforderungen (Sprache, Immatrikulation, Stunden, Startdatum) und Tonfall erfassen.
+  - Die 5 wichtigsten Schlüsselbegriffe / Kompetenzen bestimmen.
 
-STEP 2 — AUDIT THE RESUME AGAINST THE JOB
-  - Read each file in refs/ (the master source of truth) and identify which bullet points are strong matches, which are weak matches, and which are irrelevant.
-  - Note any genuine experience Shrikar has in refs/ that is directly relevant to this role.
-  - IMPORTANT: ALL updates written to tex/ MUST be based on the content in refs/ and MUST be translated into GERMAN.
+SCHRITT 2 — refs/ MIT DER STELLE ABGLEICHEN
+  - Jede Datei in refs/ lesen. Jeden Eintrag bewerten: stark / schwach / irrelevant.
+  - In tex/ dürfen nur Fakten, Kennzahlen, Daten und Kenntnisse aus refs/ stehen.
 
-STEP 3 — UPDATE tex/Personal_Info.tex (Summary)
-  - Rewrite the 3-4 sentence summary to lead with what this employer cares
-    about most.
-  - Mirror the job description's language and keywords naturally (no stuffing).
-  - Keep it truthful — only reflect skills and experience Shrikar actually has.
+SCHRITT 3 — tex/Personal_Info.tex
+  - Profil in 3-4 Sätzen, beginnend mit dem, was dem Arbeitgeber am wichtigsten ist,
+    mit 1-2 Kennzahlen aus refs/ (Block "Kernfakten").
 
-STEP 4 — UPDATE tex/Skills.tex
-  - Reorder skill categories so the most relevant to this job appear first.
-  - Add any missing relevant skills that Shrikar genuinely possesses.
-  - Remove or demote skill categories that are entirely irrelevant to this role.
-  - Ensure the Languages entry always shows German first if the role requires it.
+SCHRITT 4 — tex/Work_Experience.tex
+  - Einträge auswählen und ordnen. \useref{...} verwenden, wenn ein Eintrag passt;
+    sonst aus refs/ kopieren und die Stichpunkte in der Sprache der Anzeige umformulieren.
+  - Arbeitgeber, Positionen und Zeiträume nie ändern.
 
-STEP 5 — UPDATE tex/Work_Experience.tex (selective bullet edits only)
-  - Do NOT invent new roles or change employers, dates, or titles.
-  - Reframe existing bullet points using language from the job description
-    where it is truthful and accurate.
-  - Elevate the most relevant role to have the strongest bullets.
-  - You may comment out (with %) entire roles that are completely off-topic
-    to avoid making the resume too long, but only if the resume exceeds 2 pages.
+SCHRITT 5 — tex/Projects.tex
+  - Die 3-4 relevantesten Projekte wählen. Den \repo{...}-GitHub-Link eines Projekts
+    IMMER beibehalten, wenn refs/ einen hat — er belegt die Arbeit.
 
-STEP 6 — UPDATE tex/Projects.tex (if applicable)
-  - Uncomment or reorder projects to prioritise the most relevant ones.
-  - Briefly adjust project descriptions to highlight skills the employer wants.
+SCHRITT 6 — tex/Skills.tex, tex/Education.tex, weitere Abschnitte
+  - Kategorien so ordnen und gruppieren, dass die relevantesten zuerst kommen; nur
+    Kenntnisse aus refs/Skills.tex verwenden. \useref für unveränderte Einträge.
+  - Ganze Abschnitte bei Platzmangel in cv.tex (\input-Zeilen) ein-/ausblenden.
 
-STEP 7 — REWRITE Anschreiben.tex (ALWAYS do this)
-  - Address: use the company name and role title from the job description.
-  - Language: write in German if the role is at a German company and requires
-    German; otherwise write in English. If bilingual, prefer German.
-  - Opening paragraph: show genuine knowledge of the company's mission.
-  - Body (3-4 bullet points or paragraphs): map Shrikar's top 3-4 experiences
-    directly to the role's top 3-4 requirements. Be specific, use numbers.
-  - Closing: state availability (ab sofort / as soon as possible) and hours.
-  - Tone: confident, professional, human — never generic or robotic.
-  - Sign off: "Mit freundlichen Gruessen" (German) or "Sincerely" (English).
+SCHRITT 7 — cover_letter.tex (IMMER neu schreiben)
+  - Kopfkommentar (Stelle, Unternehmen), Empfängerblock, Betreff und Anrede anpassen.
+    Alles oberhalb von \begin{minipage} unverändert lassen.
+  - Einstieg: echter Bezug zur Mission des Unternehmens und zur Stelle.
+  - Hauptteil: 3-4 Stichpunkte oder Absätze, die Shrikars stärkste Erfahrungen den
+    wichtigsten Anforderungen zuordnen — konkret, mit Zahlen aus refs/.
+  - Schluss: Verfügbarkeit (ab sofort / Startdatum) und Stunden; Grußformel \cvclosing.
+  - Maximal eine Seite.
 
-STEP 8 — BUILD AND VERIFY
-  - DO NOT Run: bash /Users/shrikar/Resume/build.sh i will do that myself
-  
-
+SCHRITT 8 — NICHT BAUEN
+  - ./build.sh nicht ausführen — das macht der Nutzer selbst.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-HARD RULES — NEVER VIOLATE THESE
+HARTE REGELN — NIE VERLETZEN
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  X  Do NOT fabricate experience, skills, metrics, or qualifications.
-  X  Do NOT change employer names, job titles, or date ranges.
-  X  Do NOT change personal details (name, email, address, DOB, links).
-  X  Do NOT break LaTeX syntax — always escape special characters properly
-     (& -> \&,  % -> \%,  # -> \#,  _ -> \_,  $ -> \$).
-  X  Do NOT exceed 2 pages for the resume PDF.
-  X  Do NOT use generic filler phrases like "passionate team player" without
-     backing them up with a concrete example.
-  X DO NOT EDIT anything from refs
+  X  Nichts in refs/ oder template/ bearbeiten.
+  X  Keine Erfahrungen, Kenntnisse, Kennzahlen, Qualifikationen oder Links erfinden.
+  X  Arbeitgeber, Positionen, Zeiträume und persönliche Daten nie ändern.
+  X  LaTeX-Sonderzeichen escapen (& -> \&, % -> \%, # -> \#, _ -> \_, $ -> \$).
+  X  Datumsformat "MMM JJJJ -- MMM JJJJ" / "MMM JJJJ -- heute" (Okt, Mai, Dez ...).
+  X  Lebenslauf max. 2 Seiten, Anschreiben max. 1 Seite.
+  X  Keine Floskeln ("teamfähig und motiviert") ohne konkretes Beispiel.
+  X  Keine Anschreiben-Elemente (Datum, Unterschrift, Grußformel) in tex/-Dateien.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-OUTPUT FORMAT
+AUSGABEFORMAT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-After completing all edits:
-  1. Summarise the top 5 keywords you identified and how each was addressed.
-  2. List every file changed and briefly explain why.
-  3. Highlight any open questions (e.g. a required skill Shrikar may or may not
-     have — ask before assuming).
+  1. Die 5 wichtigsten Schlüsselbegriffe und wie jeder umgesetzt wurde.
+  2. Jede geänderte Datei und warum.
+  3. Offene Fragen — z. B. eine geforderte Kenntnis, die nicht in refs/ steht (fragen, nie annehmen).
 
 ================================================================================
-  END OF PROMPT
+  ENDE DES PROMPTS
 ================================================================================

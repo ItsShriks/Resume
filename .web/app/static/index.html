@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>AI Resume & Cover Letter Tailor | Shrikar Nakhye</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+  <!-- App Container -->
+  <div class="app-wrapper">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="nav-brand">
+        <div class="logo-icon">
+          <i data-lucide="sparkles"></i>
+        </div>
+        <div>
+          <h1 class="nav-title">CV & Cover Letter Tailor</h1>
+          <p class="nav-subtitle">AI-Powered ATS Alignment & Real-Time LaTeX Compiler</p>
+        </div>
+      </div>
+      
+      <div class="nav-actions">
+        <button id="profileBtn" class="candidate-pill" style="cursor: pointer;" title="Edit or Import Candidate Profile">
+          <span class="status-dot"></span>
+          <span id="activeCandidateName">Shrikar Nakhye</span>
+          <i data-lucide="user-edit" style="width: 14px; height: 14px; margin-left: 4px;"></i>
+        </button>
+        <button id="settingsBtn" class="btn btn-secondary" title="Configure API Key and Model">
+          <i data-lucide="settings"></i>
+          <span>Settings</span>
+        </button>
+        <button id="themeToggleBtn" class="btn btn-icon" title="Toggle Theme">
+          <i data-lucide="sun" id="themeIcon"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Bar (Visible only on mobile/tablet) -->
+    <nav class="mobile-nav-bar" id="mobileNavBar">
+      <button class="mobile-tab-btn" id="mobileProfileTabBtn" title="Change or Import Candidate Profile">
+        <i data-lucide="user-check"></i>
+        <span>Profile</span>
+      </button>
+      <button class="mobile-tab-btn active" data-mobile-panel="left">
+        <i data-lucide="file-text"></i>
+        <span>1. Job Spec</span>
+      </button>
+      <button class="mobile-tab-btn" data-mobile-panel="center">
+        <i data-lucide="bar-chart-3"></i>
+        <span>2. Analysis</span>
+      </button>
+      <button class="mobile-tab-btn" data-mobile-panel="right">
+        <i data-lucide="file-check"></i>
+        <span>3. PDF</span>
+      </button>
+    </nav>
+
+    <!-- Main Workspace Layout -->
+    <main class="workspace-grid">
+      <!-- Left Column: Input & Controls -->
+      <aside class="panel panel-left">
+        <div class="panel-header">
+          <div class="panel-title">
+            <i data-lucide="file-text"></i>
+            <span>Job Specification</span>
+          </div>
+          <button id="loadSampleJDBtn" class="btn btn-xs btn-ghost" title="Load sample job description">
+            <i data-lucide="file-plus"></i>
+            <span>Load Sample</span>
+          </button>
+        </div>
+
+        <div class="panel-body">
+          <!-- Active Candidate Banner -->
+          <div class="candidate-card-banner" id="candidateBannerBtn" title="Click to edit or import resume">
+            <div class="candidate-banner-left">
+              <span class="status-dot"></span>
+              <div class="candidate-banner-text">
+                <span class="candidate-banner-label">Active Candidate Profile:</span>
+                <strong id="bannerCandidateName">Shrikar Nakhye</strong>
+              </div>
+            </div>
+            <button class="btn btn-xs btn-outline-primary" style="pointer-events: none;">
+              <i data-lucide="user-edit"></i>
+              <span>Change</span>
+            </button>
+          </div>
+
+          <div class="form-group">
+            <label for="jdInput">Job Description <span class="required">*</span></label>
+            <textarea id="jdInput" placeholder="Paste the job description, role requirements, or company info here..." rows="10"></textarea>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="roleTitleInput">Target Role (Optional)</label>
+              <input type="text" id="roleTitleInput" placeholder="e.g. Robotics Engineer / AI Specialist">
+            </div>
+            <div class="form-group">
+              <label for="companyInput">Company Name</label>
+              <input type="text" id="companyInput" placeholder="e.g. BMW Group / RWS">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="languageSelect">Language</label>
+              <select id="languageSelect">
+                <option value="English">🇬🇧 English</option>
+                <option value="German">🇩🇪 Deutsch (Anschreiben)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="focusSelect">Industry / Domain</label>
+              <select id="focusSelect">
+                <option value="Auto-Detect (AI)" selected>✨ Auto-Detect (AI)</option>
+                <option value="Software Engineering & Cloud">💻 Software Engineering & Cloud</option>
+                <option value="Data Science & AI/ML">📊 Data Science & AI/ML</option>
+                <option value="Product & Project Management">📈 Product & Project Management</option>
+                <option value="Robotics & Autonomous Systems">🤖 Robotics & Autonomous Systems</option>
+                <option value="Embedded Systems & C++">⚡ Embedded Systems & C++</option>
+                <option value="Mobile App Development">📱 Mobile App Development</option>
+                <option value="Business, Finance & Consulting">💼 Business, Finance & Consulting</option>
+                <option value="Marketing, Growth & Content">📣 Marketing, Growth & Content</option>
+                <option value="UI/UX & Creative Design">🎨 UI/UX & Creative Design</option>
+                <option value="Science, Research & Healthcare">🔬 Science, Research & Healthcare</option>
+                <option value="General Professional">🌐 General Professional</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="action-stack">
+            <button id="analyzeBtn" class="btn btn-outline-primary btn-block">
+              <i data-lucide="scan-search"></i>
+              <span>1. Analyze Job Spec</span>
+            </button>
+            <button id="tailorResumeBtn" class="btn btn-primary btn-block">
+              <i data-lucide="wand-2"></i>
+              <span>2. Tailor Resume & Compile PDF</span>
+            </button>
+            <button id="generateCoverLetterBtn" class="btn btn-secondary btn-block">
+              <i data-lucide="mail"></i>
+              <span>3. Generate Cover Letter</span>
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Center Column: Analysis & Section Editor -->
+      <section class="panel panel-center">
+        <div class="panel-header">
+          <div class="tab-nav">
+            <button class="tab-btn active" data-tab="analysisTab">
+              <i data-lucide="bar-chart-3"></i>
+              <span>ATS Analysis</span>
+            </button>
+            <button class="tab-btn" data-tab="resumeEditorTab">
+              <i data-lucide="edit-3"></i>
+              <span>Tailored Sections</span>
+            </button>
+            <button class="tab-btn" data-tab="coverLetterEditorTab">
+              <i data-lucide="file-check"></i>
+              <span>Cover Letter</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="panel-body tab-content-wrapper">
+          <!-- Tab 1: ATS Analysis -->
+          <div id="analysisTab" class="tab-pane active">
+            <!-- Score Card -->
+            <div class="score-card">
+              <div class="score-dial-wrapper">
+                <svg class="score-dial" viewBox="0 0 100 100">
+                  <circle class="score-dial-bg" cx="50" cy="50" r="42"></circle>
+                  <circle class="score-dial-progress" id="scoreDialProgress" cx="50" cy="50" r="42"></circle>
+                </svg>
+                <div class="score-text">
+                  <span id="scoreValue">--</span>
+                  <span class="score-unit">/ 100</span>
+                </div>
+              </div>
+              <div class="score-info">
+                <div class="score-header">
+                  <h3 id="analysisJobTitle">Target Job</h3>
+                  <span class="badge" id="analysisCompanyBadge">Company</span>
+                </div>
+                <p id="analysisSummary" class="score-desc">Paste a job description and click <strong>Analyze Job Spec</strong> to get an ATS alignment score and keyword breakdown.</p>
+              </div>
+            </div>
+
+            <!-- Keyword Breakdown -->
+            <div class="analysis-section">
+              <h4><i data-lucide="check-circle-2" class="text-success"></i> Matching Strengths & Skills</h4>
+              <div id="matchingStrengthsTags" class="tag-cloud">
+                <span class="tag tag-neutral">Run analysis to see matches</span>
+              </div>
+            </div>
+
+            <div class="analysis-section">
+              <h4><i data-lucide="alert-triangle" class="text-warning"></i> Key JD Requirements & ATS Keywords</h4>
+              <div id="requiredKeywordsTags" class="tag-cloud">
+                <span class="tag tag-neutral">Run analysis to see keywords</span>
+              </div>
+            </div>
+
+            <div class="analysis-section">
+              <h4><i data-lucide="lightbulb" class="text-info"></i> Tailoring Strategy & Tips</h4>
+              <ul id="actionableTipsList" class="tips-list">
+                <li>Paste your job description on the left to see recommendations.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Tab 2: Resume Sections Editor -->
+          <div id="resumeEditorTab" class="tab-pane">
+            <div class="editor-toolbar">
+              <span class="editor-info"><i data-lucide="info"></i> Edit LaTeX sections below & recompile instantly</span>
+              <button id="recompileResumeBtn" class="btn btn-sm btn-primary">
+                <i data-lucide="refresh-cw"></i>
+                <span>Recompile Resume PDF</span>
+              </button>
+            </div>
+
+            <!-- Accordion Sections -->
+            <div class="accordion">
+              <!-- Summary Section -->
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span>Summary (Personal_Info.tex)</span>
+                  <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                  <textarea id="sectionSummaryTex" class="code-editor" rows="6"></textarea>
+                </div>
+              </div>
+
+              <!-- Work Experience Section -->
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span>Work Experience (Work_Experience.tex)</span>
+                  <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                  <textarea id="sectionExperienceTex" class="code-editor" rows="12"></textarea>
+                </div>
+              </div>
+
+              <!-- Projects Section -->
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span>Projects (Projects.tex)</span>
+                  <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                  <textarea id="sectionProjectsTex" class="code-editor" rows="10"></textarea>
+                </div>
+              </div>
+
+              <!-- Skills Section -->
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <span>Skills (Skills.tex)</span>
+                  <i data-lucide="chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                  <textarea id="sectionSkillsTex" class="code-editor" rows="8"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 3: Cover Letter Editor -->
+          <div id="coverLetterEditorTab" class="tab-pane">
+            <div class="editor-toolbar">
+              <span class="editor-info"><i data-lucide="info"></i> Customized Cover Letter LaTeX</span>
+              <button id="recompileCoverLetterBtn" class="btn btn-sm btn-secondary">
+                <i data-lucide="refresh-cw"></i>
+                <span>Recompile Cover Letter PDF</span>
+              </button>
+            </div>
+            <textarea id="coverLetterTex" class="code-editor" rows="22"></textarea>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Column: Live PDF Preview & Export -->
+      <aside class="panel panel-right">
+        <div class="panel-header">
+          <div class="preview-mode-switch">
+            <button id="viewResumePdfBtn" class="btn btn-xs btn-primary">Resume PDF</button>
+            <button id="viewCoverLetterPdfBtn" class="btn btn-xs btn-ghost">Cover Letter PDF</button>
+          </div>
+
+          <div class="panel-actions">
+            <button id="downloadPdfBtn" class="btn btn-sm btn-primary" title="Download compiled PDF">
+              <i data-lucide="download"></i>
+              <span>Download PDF</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="panel-body pdf-preview-container">
+          <div id="pdfLoadingSpinner" class="spinner-overlay" style="display: none;">
+            <div class="spinner"></div>
+            <p id="spinnerText">Compiling LaTeX to PDF...</p>
+          </div>
+          
+          <iframe id="pdfFrame" class="pdf-frame" src="about:blank"></iframe>
+
+          <div id="pdfPlaceholder" class="pdf-placeholder">
+            <i data-lucide="file-search" class="placeholder-icon"></i>
+            <h3>Live PDF Preview</h3>
+            <p>Click <strong>Tailor Resume</strong> or <strong>Recompile</strong> to build and preview the PDF.</p>
+          </div>
+        </div>
+
+        <div class="panel-footer" id="compileStatusFooter">
+          <div class="status-indicator">
+            <span class="dot ready" id="statusDot"></span>
+            <span id="statusMessage">Ready</span>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <!-- Profile & Resume Import Modal -->
+  <div id="profileModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card" style="max-width: 520px;">
+      <div class="modal-header">
+        <div class="modal-title">
+          <i data-lucide="user-check"></i>
+          <span>Candidate Profile & Resume Importer</span>
+        </div>
+        <button id="closeProfileBtn" class="btn-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="form-hint" style="margin-bottom: 12px; font-size: 0.8rem; color: var(--text-secondary);">
+          Anyone can use this app! Paste your existing resume text to auto-convert your background, or edit your profile fields below.
+        </p>
+
+        <div class="form-group">
+          <label for="rawResumeInput">📥 Paste Existing CV / Resume Text (Optional AI Auto-Import)</label>
+          <textarea id="rawResumeInput" placeholder="Paste your raw CV, LinkedIn text, or past experience bullets here to automatically parse your profile..." rows="6"></textarea>
+          <button id="parseResumeBtn" class="btn btn-sm btn-outline-primary btn-block" style="margin-top: 6px;">
+            <i data-lucide="sparkles"></i>
+            <span>✨ AI Auto-Import & Set as My Profile</span>
+          </button>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid var(--border-color); margin: 16px 0;">
+
+        <div class="form-group">
+          <label for="candidateNameInput">Candidate Full Name</label>
+          <input type="text" id="candidateNameInput" placeholder="e.g. Shrikar Nakhye / Your Name">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="candidateTitleInput">Professional Title</label>
+            <input type="text" id="candidateTitleInput" placeholder="e.g. Software Engineer / Data Scientist">
+          </div>
+          <div class="form-group">
+            <label for="candidateLocationInput">Location</label>
+            <input type="text" id="candidateLocationInput" placeholder="e.g. Bonn, Germany">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="candidateEmailInput">Email</label>
+            <input type="text" id="candidateEmailInput" placeholder="e.g. name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="candidateLinkedinInput">LinkedIn URL / Handle</label>
+            <input type="text" id="candidateLinkedinInput" placeholder="e.g. linkedin.com/in/username">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="photoModeSelect">Profile Photo on CV</label>
+          <select id="photoModeSelect">
+            <option value="none" selected>🚫 No Photo (Standard ATS Clean Header - Default)</option>
+            <option value="custom">📷 Upload Custom Photo (JPG / PNG)</option>
+          </select>
+        </div>
+
+        <div class="form-group" id="customPhotoUploadGroup" style="display: none;">
+          <label for="photoFileInput">Upload Custom Photo (JPG / PNG)</label>
+          <input type="file" id="photoFileInput" accept="image/jpeg,image/png,image/webp">
+          <div id="photoPreviewContainer" style="margin-top: 8px; display: none;">
+            <img id="photoPreviewImg" src="" alt="Preview" style="width: 50px; height: 65px; object-fit: cover; border-radius: 4px; border: 1px solid var(--border-color);">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: space-between;">
+        <button id="resetToDefaultProfileBtn" class="btn btn-sm btn-ghost" title="Reset back to Shrikar's master profile">
+          <i data-lucide="rotate-ccw"></i>
+          <span>Reset to Default Profile</span>
+        </button>
+        <button id="saveProfileBtn" class="btn btn-primary">Save Profile</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title">
+          <i data-lucide="key"></i>
+          <span>API & Model Settings</span>
+        </div>
+        <button id="closeSettingsBtn" class="btn-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="apiKeyInput">Google Gemini API Key</label>
+          <input type="password" id="apiKeyInput" placeholder="AIzaSy...">
+          <p class="form-hint">Stored locally in your browser. Get your free key at <a href="https://aistudio.google.com/" target="_blank" rel="noopener">Google AI Studio</a>.</p>
+        </div>
+
+        <div class="form-group">
+          <label for="modelSelect">Gemini Model</label>
+          <select id="modelSelect">
+            <option value="gemini-3.6-flash" selected>Gemini 3.6 Flash (Recommended / Latest)</option>
+            <option value="gemini-1.5-flash">Gemini 1.5 Flash (Ultra Fast)</option>
+            <option value="gemini-1.5-pro">Gemini 1.5 Pro (Deep Reasoning)</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="saveSettingsBtn" class="btn btn-primary">Save Settings</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Script -->
+  <script src="app.js"></script>
+</body>
+</html>

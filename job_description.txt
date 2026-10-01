@@ -1,8 +1,8 @@
 ================================================================================
-  RESUME & COVER LETTER TAILORING PROMPT — Shrikar Nakhye
-  Instructions:
-  1. Paste the Job Description in the marked section below.
-  2. Copy and send this ENTIRE block to the AI assistant.
+  CV & COVER LETTER TAILORING PROMPT — Shrikar Nakhye  (branch: dev, language: ENGLISH)
+  1. Paste the job description between the two JOB DESCRIPTION markers.
+  2. Send this ENTIRE file to the AI assistant (it has access to this repository).
+  3. Review the changes, then run ./build.sh yourself.
 ================================================================================
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -92,69 +92,104 @@ JOIN OUR TEAM IN BONN FOR A FULL-TIME POSITION, STARTING IMMEDIATELY. IT OPERATI
 Standort Bonn, Nordrhein-Westfalen, Germany
 The position is located in BONN, permanent full/- or parttime and to be filled at the earliest possible date. KEY ACCOUNT MANAGER (M/f/D) – Vertrieb Asia eCommerce, Post & Paket Deutschland. Are yo...
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-MODULAR REPOSITORY STRUCTURE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-/Users/shrikar/Resume/
-├── Shrikar_Nakhye.tex                  <- Main resume wrapper (imports tex/ files)
-├── cover_letter.tex                    <- Generated letter (rewritten per application)
-├── build.sh                            <- Build pipeline script (latexmk / pdflatex)
-└── tex/
-    ├── Personal_Info.tex               <- Summary / Professional profile paragraph
-    ├── Work_Experience.tex             <- Work experience entries (\resumeSubheading)
-    ├── Projects.tex                    <- Selective project listings (\resumeSubItem)
-    ├── Education.tex                   <- Educational background
-    ├── Skills.tex                      <- Skills listing by prioritized categories
-    ├── Training_And_Certifications.tex <- Certifications & training courses
-    └── Interests.tex                   <- Technical and personal interests
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-EXECUTION STEPS
+[END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STEP 0 — PRE-TAILORING SANITY & CONSISTENCY AUDIT
-  - Inspect `Personal_Info.tex` to ensure absolute alignment with Shrikar's background in Robotics, Perception, and Autonomous Systems. Instantly remove/rewrite any artifact or text referencing unrelated fields (e.g., medical/surgical robotics, non-mechatronics domains, or mismatched company names).
-  - Verify zero cover-letter components (stray signature blocks, location stamps like "Bonn, den...", closing salutations) exist in any `tex/*.tex` files.
-  - Standardize all date strings across `Work_Experience.tex` and `Education.tex` to the exact uniform format: "MMM YYYY -- MMM YYYY" or "MMM YYYY -- Present" (e.g., "Oct 2024 -- Present").
 
-STEP 1 — JOB DESCRIPTION ANALYSIS
-  - Extract the target Role Title, Target Company Name, Primary Required Skills, Secondary/Preferred Skills, and Core Responsibilities.
-  - Identify top 5 core keywords/competencies expected by ATS scanners and hiring managers.
-  - Determine optimal language for Cover Letter (German if German-speaking company/posting; English otherwise).
+================================================================================
+  AI PROMPT — DO NOT EDIT BELOW THIS LINE
+================================================================================
 
-STEP 2 — TARGETED MODULAR REWRITES
-  - `tex/Personal_Info.tex`: Rewrite the 2-3 sentence summary leading with the target job's highest priority skills. Pull 1-2 key quantified achievements (e.g., "95% tracking success rate", "15% accuracy improvement").
-  - `tex/Skills.tex`: Prioritize and reorder categories so the skills most relevant to the JD appear first. Ensure language proficiency reflects "Deutsch (B2)" prominently for DACH roles.
-  - `tex/Work_Experience.tex`: Keep all official company names and dates untouched. Rephrase standard bullet points using action verbs and technical keywords directly aligned with the job description. Do not delete non-matching entries; comment them out using `%` only if space requires it.
-  - `tex/Projects.tex`: Reorder project entries to highlight relevant frameworks (e.g., Nav2, Whole Body Control, CUDA/Point Cloud, MoveIt, or Meta Quest VR depending on role).
-  - `tex/Training_And_Certifications.tex` & `tex/Interests.tex`: Comment out lower-priority entries if necessary to fit the single-page or tight two-page format target.
-
-STEP 3 — GENERATE `cover_letter.tex`
-  - Address directly to the target company and hiring team.
-  - Paragraph 1: High-impact introduction connecting Shrikar’s Master’s at H-BRS and relevant experience directly to the target role.
-  - Paragraphs 2-3: Core match proof points mapping key achievements (ROS2 pipelines, SLAM, multi-sensor calibration, 3D perception) to the position requirements.
-  - Closing Paragraph: State availability (as Werkstudent or Full-Time as applicable) and confirm immediate readiness.
-
-STEP 4 — BUILD VERIFICATION & OUTPUT GENERATION
-  - Provide full, ready-to-save code blocks for every updated `.tex` file.
-  - Output exact updated code for `tex/Personal_Info.tex`, `tex/Skills.tex`, `tex/Work_Experience.tex`, `tex/Projects.tex`, and `cover_letter.tex`.
+You are an expert resume consultant and LaTeX editor. Tailor Shrikar Nakhye's CV
+and cover letter to the job description above. Output language: ENGLISH.
+(For German-language applications use the `Deutsch` branch instead.)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-HARD CONSTRAINTS & RULES
+REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1. NEVER Fabricate Experience: Do not add unearned metrics, false employers, or unverified job titles.
-  2. NEVER Remove Raw Lines: Comment out unneeded lines using LaTeX `%` tags instead of deleting source text.
-  3. Proper LaTeX Escaping: Always escape special LaTeX symbols (`&` -> `\&`, `%` -> `\%`, `_` -> `\_`, `#` -> `\#`, `$` -> `\$`).
-  4. Date Uniformity: Enforce standard formatting across all resume entries ("MMM YYYY -- MMM YYYY").
-  5. Strict Page Limit: Keep resume output concise (aim for 1-2 pages maximum).
+  refs/              MASTER content — source of truth. READ ONLY, NEVER EDIT.
+                     Every entry is a named block:  \defref{exp:navilan}{ ... }
+  tex/               Tailored sections for THIS application. This is what you edit.
+                     Include a master entry unchanged:  \useref{exp:navilan}
+                     or write a tailored version of that entry inline instead.
+  template/          Shared layout (preamble, header, commands). Do not edit.
+  cv.tex             Main CV document — section order and which tex/ files are included.
+  cover_letter.tex   Cover letter — rewritten for every application.
+  build.sh           Builds both PDFs (the user runs it).
+  .web/              Web app. Not part of this task.
+
+  tex/ and refs/ use the same file names:
+    Personal_Info.tex               Summary paragraph            (refs: summary, contact, key facts)
+    Work_Experience.tex             Experience                   (refs: exp:*)
+    Projects.tex                    Projects + GitHub links      (refs: proj:*)
+    Education.tex                   Degrees                      (refs: edu:*)
+    Skills.tex                      Skill categories             (refs: skill:*)
+    Training_And_Certifications.tex Certificates / volunteering  (refs: cert:*, vol:*)
+    Publications.tex                Publications                 (refs: pub:*)
+    Interests.tex                   Interests                    (refs: int:*)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-REQUIRED OUTPUT FORMAT
+STEPS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-At the end of your response, provide a summary structured as follows:
-  1. Top 5 Target Keywords Identified & How Implemented
-  2. Summary of File Updates (`Personal_Info.tex`, `Skills.tex`, `Work_Experience.tex`, `Projects.tex`, `cover_letter.tex`)
-  3. Step 0 Consistency Verification (Confirmed clean dates, no domain mismatches, no cover letter text in resume)
-  4. Open Questions / Clarification Requests (if any)
+
+STEP 1 — ANALYSE THE JOB DESCRIPTION
+  - Extract role title, company, required and preferred skills, responsibilities,
+    hard requirements (language, enrolment, availability, start date) and tone.
+  - Identify the top 5 keywords / competencies.
+
+STEP 2 — AUDIT refs/ AGAINST THE JOB
+  - Read every file in refs/. Rate each entry: strong / weak / irrelevant.
+  - Only facts, metrics, dates and skills that exist in refs/ may appear in tex/.
+
+STEP 3 — tex/Personal_Info.tex
+  - 3-4 sentence summary that leads with what this employer cares about most,
+    with 1-2 quantified achievements from refs/ (key facts block).
+
+STEP 4 — tex/Work_Experience.tex
+  - Choose and order entries. Use \useref{...} when an entry fits as-is;
+    otherwise copy it from refs/ and reword the bullets with the job's language.
+  - Never change employers, titles or dates.
+
+STEP 5 — tex/Projects.tex
+  - Pick the 3-4 most relevant projects. ALWAYS keep the \repo{...} GitHub link
+    of a project when refs/ has one — it is evidence of the work.
+
+STEP 6 — tex/Skills.tex, tex/Education.tex, other sections
+  - Reorder and regroup skill categories so the most relevant come first; only use
+    skills listed in refs/Skills.tex. Use \useref for unchanged entries.
+  - Enable/disable whole sections in cv.tex (\input lines) if space requires.
+
+STEP 7 — cover_letter.tex (ALWAYS rewrite)
+  - Update the header comment (position, company), recipient block, subject line
+    and salutation. Keep everything above \begin{minipage} unchanged.
+  - Opening: genuine connection to the company's mission and the role.
+  - Body: 3-4 bullets or paragraphs mapping Shrikar's strongest experiences to the
+    role's top requirements — specific, with numbers from refs/.
+  - Closing: availability / start date and hours; sign off with "Kind regards,".
+  - Must fit on one page.
+
+STEP 8 — DO NOT BUILD
+  - Do not run ./build.sh — the user does that.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HARD RULES — NEVER VIOLATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  X  Never edit anything in refs/ or template/.
+  X  Never fabricate experience, skills, metrics, qualifications or links.
+  X  Never change employer names, job titles, date ranges or personal details.
+  X  Escape LaTeX special characters (& -> \&, % -> \%, # -> \#, _ -> \_, $ -> \$).
+  X  Dates in the format "MMM YYYY -- MMM YYYY" / "MMM YYYY -- Present".
+  X  CV max 2 pages, cover letter max 1 page.
+  X  No generic filler ("passionate team player") without a concrete example.
+  X  No cover-letter text (dates, signatures, salutations) inside tex/ files.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTPUT FORMAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1. Top 5 keywords identified and how each was addressed.
+  2. Every file changed, and why.
+  3. Open questions — e.g. a required skill not found in refs/ (ask, never assume).
+
 ================================================================================
   END OF PROMPT
 ================================================================================

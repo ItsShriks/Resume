@@ -1,0 +1,7 @@
+.git
+build
+archive
+portfolio
+**/__pycache__
+**/.DS_Store
+*.pdf

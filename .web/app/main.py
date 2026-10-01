@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from app.services.profile_service import ProfileService
 from app.services.gemini_service import GeminiService
 from app.services.latex_service import LatexService
-from app.config import WORKSPACE_DIR
+from app.config import STATIC_DIR
 
 app = FastAPI(title="AI Resume & Cover Letter Tailor", version="1.0.0")
 
@@ -359,6 +359,4 @@ def download_cover_letter():
     )
 
 # Mount static web directory
-static_dir = WORKSPACE_DIR / "app" / "static"
-static_dir.mkdir(parents=True, exist_ok=True)
-app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
+app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static")

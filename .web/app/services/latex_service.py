@@ -1,53 +1,45 @@
-import os
-import re
 import base64
 import shutil
 import subprocess
 import tempfile
 from pathlib import Path
 from typing import Dict, Optional, Tuple, Any
-from app.config import WORKSPACE_DIR, IMAGES_DIR, LATEXMK_PATH, PDFLATEX_PATH
+from app.config import TEX_DIR, REFS_DIR, TEMPLATE_DIR, IMAGES_DIR, LATEXMK_PATH, PDFLATEX_PATH
+from app.services.profile_service import SECTION_FILES
+
+
+def _escape(text: str) -> str:
+    for ch in ("&", "%", "#", "_", "$"):
+        text = text.replace(ch, "\\" + ch)
+    return text
+
 
 class LatexService:
     @staticmethod
     def inject_candidate_header(main_tex: str, candidate_data: Optional[Dict[str, Any]] = None) -> str:
-        """Dynamically substitutes candidate metadata and strictly hides photos unless explicitly uploaded."""
-        updated_tex = main_tex
-        
-        candidate_meta = candidate_data or {}
-        name = candidate_meta.get("name") or candidate_meta.get("candidate_name")
-        location = candidate_meta.get("location") or candidate_meta.get("candidate_location")
-        email = candidate_meta.get("email") or candidate_meta.get("candidate_email")
-        linkedin = candidate_meta.get("linkedin") or candidate_meta.get("candidate_linkedin")
-        github = candidate_meta.get("github") or candidate_meta.get("candidate_github")
-        photo_mode = candidate_meta.get("photo_mode", "none")  # Default is 'none' for privacy
-        has_custom_photo = bool(candidate_meta.get("photo_base64")) and photo_mode == "custom"
-
-        if name:
-            updated_tex = re.sub(r"\{\\Huge\s*\\textbf\{[^}]+\}\}", lambda m: f"{{\\Huge \\textbf{{{name}}}}}", updated_tex)
-        if location:
-            updated_tex = re.sub(r"Address:\s*[^\\\n]+", lambda m: f"Address: {location}", updated_tex)
-        if email:
-            updated_tex = re.sub(r"\\href\{mailto:[^}]+\}\{[^}]+\}", lambda m: f"\\href{{mailto:{email}}}{{{email}}}", updated_tex)
-        if linkedin:
-            updated_tex = re.sub(r"\\href\{https://www\.linkedin\.com/[^}]+\}", lambda m: f"\\href{{{linkedin}}}", updated_tex)
-        if github:
-            updated_tex = re.sub(r"\\href\{https://github\.com/[^}]+\}", lambda m: f"\\href{{{github}}}", updated_tex)
-
-        # Unless the user explicitly uploaded a custom photo, remove photo box and expand header to full width
+        """Overrides the header macros from refs/Personal_Info.tex (\\cvname, \\cvemail, ...)
+        right before \\begin{document}, and hides the photo unless one was explicitly uploaded."""
+        meta = candidate_data or {}
+        overrides = {
+            "cvname": meta.get("name") or meta.get("candidate_name"),
+            "cvlocation": meta.get("location") or meta.get("candidate_location"),
+            "cvemail": meta.get("email") or meta.get("candidate_email"),
+            "cvlinkedin": meta.get("linkedin") or meta.get("candidate_linkedin"),
+            "cvgithub": meta.get("github") or meta.get("candidate_github"),
+        }
+        lines = []
+        for macro, value in overrides.items():
+            if value:
+                value = value if macro in ("cvemail", "cvlinkedin", "cvgithub") else _escape(value)
+                lines.append(f"\\renewcommand{{\\{macro}}}{{{value}}}")
+        has_custom_photo = bool(meta.get("photo_base64")) and meta.get("photo_mode", "none") == "custom"
         if not has_custom_photo:
-            updated_tex = re.sub(
-                r"\\begin\{minipage\}\[c\]\{0\.72\\origtextwidth\}",
-                lambda m: "\\begin{minipage}[c]{\\origtextwidth}",
-                updated_tex
-            )
-            updated_tex = re.sub(
-                r"\\hfill\s*\\begin\{minipage\}\[c\]\{0\.20\\origtextwidth\}[\s\S]*?\\end\{minipage\}%",
-                "",
-                updated_tex
-            )
+            lines.append("\\cvphotofalse")
 
-        return updated_tex
+        marker = "\\begin{document}"
+        if marker not in main_tex:
+            return main_tex
+        return main_tex.replace(marker, "\n".join(lines) + "\n" + marker, 1)
 
     @classmethod
     def compile_latex(
@@ -68,6 +60,11 @@ class LatexService:
             tex_subfolder.mkdir(parents=True, exist_ok=True)
             images_subfolder.mkdir(parents=True, exist_ok=True)
             
+            # Shared layout and master content, needed by every document
+            for src, name in ((TEMPLATE_DIR, "template"), (REFS_DIR, "refs")):
+                if src.exists():
+                    shutil.copytree(src, temp_path / name, dirs_exist_ok=True)
+
             # Copy only icon images (linkedin, github, scholar) - NEVER copy Self_Pic.jpg
             if IMAGES_DIR.exists():
                 for icon_file in IMAGES_DIR.glob("*.png"):
@@ -87,25 +84,13 @@ class LatexService:
                     print(f"Warning: Failed to process uploaded photo: {e}")
 
             # Write modular section files if provided
+            if TEX_DIR.exists():
+                shutil.copytree(TEX_DIR, tex_subfolder, dirs_exist_ok=True)
             if section_files:
-                filename_map = {
-                    "personal_info": "Personal_Info.tex",
-                    "work_experience": "Work_Experience.tex",
-                    "projects": "Projects.tex",
-                    "education": "Education.tex",
-                    "skills": "Skills.tex",
-                    "certifications": "Training_And_Certifications.tex",
-                    "publications": "Publications.tex",
-                    "interests": "Interests.tex"
-                }
                 for key, content in section_files.items():
-                    target_name = filename_map.get(key, f"{key}.tex")
+                    target_name = SECTION_FILES.get(key, f"{key}.tex")
                     (tex_subfolder / target_name).write_text(content, encoding="utf-8")
-            else:
-                workspace_tex = WORKSPACE_DIR / "tex"
-                if workspace_tex.exists():
-                    shutil.copytree(workspace_tex, tex_subfolder, dirs_exist_ok=True)
-                    
+
             # Apply dynamic candidate header & strict photo privacy
             processed_main_tex = cls.inject_candidate_header(main_tex_content, candidate_data)
 

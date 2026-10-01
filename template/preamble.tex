@@ -1,0 +1,92 @@
+%------------------------
+% Shared preamble for cv.tex and cover_letter.tex
+% Based on: Resume Template by Anubhav Singh (https://github.com/xprilion), MIT
+%
+% This file is language-independent and must stay IDENTICAL on every branch.
+% Language-specific text (labels, dates, contact details) lives in refs/.
+%------------------------
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+\newlength{\origtextwidth}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Horizontal margins (vertical ones are set per document)
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\setlength{\footskip}{3.60004pt}
+
+\urlstyle{rm}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------SECTION FORMAT-----------------
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+%-----------RESUME COMMANDS-----------------
+\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{: #2}}}
+\newcommand{\resumeItemPlain}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-1pt}}
+\renewcommand{\labelitemii}{$\circ$}
+% Public evidence for a project: \repo{ItsShriks/ur5_simulation}
+\newcommand{\repo}[1]{\href{https://github.com/#1}{\raisebox{-1pt}{\includegraphics[height=8pt]{images/github.png}}\,\nolinkurl{github.com/#1}}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,itemsep=0.5pt,parsep=0pt,topsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0.5pt,parsep=0pt,topsep=1pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+%-----------REFS MECHANISM-----------------
+% refs/*.tex hold the master content as named entries:
+%     \defref{exp:navilan}{ ...LaTeX... }
+% tex/*.tex pull an entry in unchanged with:
+%     \useref{exp:navilan}
+% or write a tailored version of it inline instead.
+\newcommand{\defref}[2]{\expandafter\newcommand\csname cvref@#1\endcsname{#2}}
+\newcommand{\useref}[1]{%
+  \ifcsname cvref@#1\endcsname
+    \csname cvref@#1\endcsname
+  \else
+    \errmessage{Unknown ref `#1' -- check refs/*.tex}%
+  \fi}
+
+%-----------CANDIDATE DATA (overridable)-----------------
+\newif\ifcvphoto
+\cvphototrue
+\newcommand{\cvdob}{}  % shown in the header only when non-empty
+
+\input{refs/Personal_Info.tex}
+\input{refs/Work_Experience.tex}
+\input{refs/Projects.tex}
+\input{refs/Education.tex}
+\input{refs/Skills.tex}
+\input{refs/Training_And_Certifications.tex}
+\input{refs/Publications.tex}
+\input{refs/Interests.tex}
+
+\input{template/header.tex}

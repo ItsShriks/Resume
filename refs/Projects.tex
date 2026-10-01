@@ -1,0 +1,71 @@
+%===========================================================================
+% refs/Projects.tex  --  MASTER (English)
+% Source of truth. Never tailor this file; tailor tex/Projects.tex.
+% Entry format: \resumeSubItem{Title (Tech)}{\repo{owner/name} \resumeItemListStart ... \resumeItemListEnd}
+% Only link repositories that are public and contain the work described.
+%===========================================================================
+
+\defref{proj:thesis}{
+\resumeSubItem{Continuous Mobile Manipulation Architecture (ROS 2, C++17, MPC, TSID, MuJoCo)}{(Master Thesis Project) \repo{ItsShriks/porta_ros2_ws}
+\resumeItemListStart
+    \resumeItemPlain{Designing a unified control and motion planning architecture coupling a visibility-aware MPC planner with a high-frequency TSID controller for continuous autonomous manipulation on mobile robot platforms.}
+    \resumeItemPlain{Developing an asynchronous ROS 2 bridge and software adapters in \textbf{C++17} for trajectory interpolation, execution logic and real-time rigid-body dynamics validation.}
+    \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
+\resumeItemListEnd}
+}
+
+\defref{proj:ur5}{
+\resumeSubItem{UR5 Robot Kinematics \& Motion Planning (ROS Noetic, KDL, MoveIt)}{\repo{ItsShriks/ur5_simulation}
+\resumeItemListStart
+    \resumeItemPlain{Developed a comprehensive kinematics simulation framework for a 6-DOF UR5 industrial robotic arm; implemented analytical inverse kinematics algorithms using \textbf{KDL}.}
+    \resumeItemPlain{Designed and benchmarked collision-free trajectory generation and motion planning workflows using \textbf{MoveIt} and customized collision meshes.}
+\resumeItemListEnd}
+}
+
+\defref{proj:amr-nav}{
+\resumeSubItem{Autonomous Mobile Robot Navigation Stack \& Commissioning (ROS 2, Nav2, SLAM, EKF)}{
+\resumeItemListStart
+    \resumeItemPlain{Integrated and validated an autonomous navigation stack using \textbf{ROS 2} and \textbf{Nav2} on a physical omnidirectional industrial platform; configured costmaps, path planners, recovery behaviors and multi-sensor localization (LiDAR, IMU, Encoders).}
+    \resumeItemPlain{Designed and deployed a custom \textbf{Extended Kalman Filter (EKF)} node for sensor fusion and state estimation; supported frontier exploration.}
+    \resumeItemPlain{Executed real-robot commissioning, map generation and trajectory validation; isolated edge-case anomalies using \textbf{rosbag, RViz and Docker logs}, documenting root causes in structured QA reports.}
+\resumeItemListEnd}
+}
+
+\defref{proj:butler}{
+\resumeSubItem{Robot Butler \& Semantic Object Tagging (ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM)}{\repo{ItsShriks/steve_hardware_bringup}
+\resumeItemListStart
+    \resumeItemPlain{Engineered ROS 2 bring-up pipelines and hardware interfaces for a domestic service robot (\textbf{Neobotix MMO-700}: omnidirectional base, UR5e arm, Robotiq gripper, LiDARs, RealSense L515, IMU) with hands-off auto-start on boot.}
+    \resumeItemPlain{Configured Nav2 and 3D SLAM (\textbf{RTAB-Map}) and integrated computer vision (\textbf{YOLO}, OpenYOLO3D, Mask3D) with LLM and vision-language models for semantic object retrieval and task planning.}
+    \resumeItemPlain{Constructed automated sensor feeds, bounding-box annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
+\resumeItemListEnd}
+}
+
+\defref{proj:junglelook}{
+\resumeSubItem{JungleLook -- Label-free LiDAR Point Cloud Segmentation (Python, PyTorch, CUDA, PointNet++)}{\repo{ItsShriks/JungleLook}
+\resumeItemListStart
+    \resumeItemPlain{Developed a label-free segmentation pipeline for UAV forest point clouds: geometric features (DTM, height above ground, eigenvalues) generate pseudo-labels that train \textbf{PointNet / PointNet++}, producing labelled clouds and a tree-stump inventory.}
+    \resumeItemPlain{Packaged as a CI-tested Python library running on CPU, CUDA and Apple MPS.}
+    % CONFIRM: is this the same work as the H-BRS research job (15% accuracy improvement)? If yes, add the metric here.
+\resumeItemListEnd}
+}
+
+\defref{proj:prithvivision}{
+\resumeSubItem{PrithviVision -- Shadow-Casting Object Segmentation in Aerial Imagery (U-Net, YOLO, Mask R-CNN)}{\repo{ItsShriks/PrithviVision}
+\resumeItemListStart
+    \resumeItemPlain{Curated and annotated (YOLO format) an aerial-image dataset of Bonn and compared \textbf{U-Net, YOLO and Mask R-CNN} for detection and pixel-level segmentation of shadow-casting objects.}
+\resumeItemListEnd}
+}
+
+\defref{proj:robocompanion}{
+\resumeSubItem{RoboCompanion -- Person-Following Assistive Robot (ROS, YOLOv8, RGB-D, Docker)}{\repo{ItsShriks/RoboCompanion}
+\resumeItemListStart
+    \resumeItemPlain{Built a modular, ROS-compatible person-tracking stack using \textbf{YOLOv8} and pose estimation with RGB-D (OpenNI2) cameras, packaged as a reproducible \textbf{Docker} deployment.}
+\resumeItemListEnd}
+}
+
+\defref{proj:robograsp}{
+\resumeSubItem{RoboGrasp -- Object Recognition for Adaptive Grasping (Python, RGB-D, Point Clouds, EM)}{\repo{ItsShriks/RoboGrasp}
+\resumeItemListStart
+    \resumeItemPlain{Classified objects from RGB-D images and 3D point clouds with \textbf{Mixture-of-Gaussians} models trained via Expectation-Maximization to select grasp strategies.}
+\resumeItemListEnd}
+}

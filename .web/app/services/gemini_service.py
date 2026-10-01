@@ -4,6 +4,7 @@ import os
 import requests
 from typing import Dict, Any, Optional
 from app.config import DEFAULT_GEMINI_MODEL, GEMINI_API_KEY
+from app.services.profile_service import ProfileService
 
 class GeminiService:
     @staticmethod
@@ -148,6 +149,8 @@ Provide an in-depth analysis formatted as strict JSON with the following keys:
             "2. Reword, sharpen, and reorder bullet points to prominently feature relevant keywords, metrics, and responsibilities from the JD.\n"
             "3. Output valid LaTeX for each section matching the exact commands used in the original LaTeX snippets "
             "(\\resumeSubheading, \\resumeItem, \\resumeItemPlain, \\resumeSubItem, \\resumeSubHeadingListStart, \\resumeItemListStart, etc.).\n"
+            "Master entries live in refs/ as \\defref{key}{...}. A section may include a master entry unchanged with \\useref{key}; "
+            "anything you reword must be written out in full instead. Never use facts that are not in refs/.\n"
             "4. Escape special LaTeX characters properly (e.g. \\& for &, \\% for %, \\_ for _).\n"
             "5. Return a strict JSON object containing the updated LaTeX code for each section."
         )
@@ -160,7 +163,10 @@ TARGET ROLE: {target_role or 'As deduced from JD'}
 PRIMARY FOCUS AREA: {focus_area or 'Auto-align to JD industry and role'}
 LANGUAGE: {language}
 
-CANDIDATE'S ORIGINAL MASTER LATEX SECTIONS:
+CANDIDATE'S MASTER CONTENT (refs/, source of truth):
+{ProfileService.refs_text(master_profile)}
+
+CANDIDATE'S CURRENT TAILORED LATEX SECTIONS (tex/):
 
 --- [Personal_Info.tex (Summary)] ---
 {sections.get('personal_info', '')}
@@ -251,6 +257,8 @@ Projects:
 {sections.get('projects', '')}
 Skills:
 {sections.get('skills', '')}
+Master content (refs/, source of truth):
+{ProfileService.refs_text(master_profile)}
 
 REFERENCE LATEX TEMPLATE:
 {template_tex}

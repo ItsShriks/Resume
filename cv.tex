@@ -1,0 +1,27 @@
+%! jobname = Shrikar_Nakhye_CV
+%------------------------
+% CV (English) -- layout lives in template/, master content in refs/,
+% per-application content in tex/.
+%------------------------
+\documentclass[a4paper,10pt]{article}
+\input{template/preamble.tex}
+
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.45in}
+
+\begin{document}
+
+\cvheader
+\vspace{5pt}
+
+\input{tex/Personal_Info.tex}
+\input{tex/Work_Experience.tex}
+\newpage
+\input{tex/Projects.tex}
+\input{tex/Education.tex}
+\input{tex/Skills.tex}
+\input{tex/Training_And_Certifications.tex}
+\input{tex/Publications.tex}
+% \input{tex/Interests.tex}
+
+\end{document}

@@ -53,12 +53,16 @@
 }
 
 \defref{proj:junglelook}{
-\resumeSubItem{JungleLook -- Label-freie Segmentierung von LiDAR-Punktwolken (Python, PyTorch, CUDA, PointNet++)}{\repo{ItsShriks/JungleLook}
+\resumeSubItem{JungleLook -- Label-freie Segmentierung von LiDAR-Waldpunktwolken (Python, PyTorch, PointNet++, Open3D)}{\repo{ItsShriks/JungleLook}
 \resumeItemListStart
-    \resumeItemPlain{Label-freie Segmentierungspipeline für UAV-Waldpunktwolken: Geometrische Merkmale (DTM, Höhe über Grund, Eigenwerte) erzeugen Pseudo-Labels zum Training von \textbf{PointNet / PointNet++}; Ergebnis sind gelabelte Punktwolken und ein Baumstumpf-Inventar.}
-    \resumeItemPlain{Als CI-getestete Python-Bibliothek umgesetzt, lauffähig auf CPU, CUDA und Apple MPS.}
-    % BESTÄTIGEN: Ist das dieselbe Arbeit wie die wissenschaftliche Hilfskraft an der H-BRS (15 % Genauigkeitssteigerung)? Falls ja, Kennzahl hier ergänzen.
+    \resumeItemPlain{Label-freie Segmentierungspipeline für UAV-Punktwolken: Geometrische Merkmale (DTM, Höhe über Grund, Eigenwerte) erzeugen Pseudo-Labels zum Training von \textbf{PointNet / PointNet++}; \textbf{0,80 mIoU} in der Validierung (vorläufig, gegen Pseudo-Labels).}
+    \resumeItemPlain{Registrierung von Feldannotationen auf die LiDAR-Daten mit \textbf{RANSAC + ICP}: \textbf{98,8\,\% Inlier} bei \textbf{0,11\,m RMS}; CI-getestete Bibliothek für CPU, CUDA und Apple MPS.}
 \resumeItemListEnd}
+    % Gemessene Werte (nur diese verwenden):
+    %   0,80 mIoU Validierung gegen Pseudo-Labels (Boden 0,99, Sonstiges 0,95, Baumstumpf 0,46) -- immer "vorläufig, gegen Pseudo-Labels"
+    %   98,8 % Inlier / 0,11 m RMS bei der Annotations-LiDAR-Registrierung -- stärkste harte Kennzahl
+    %   F1 0,31 regelbasierte Stumpferkennung vs. 129 annotierte Stümpfe -- nur mit Hinweis "durch Datenlage begrenzt"
+    %   NICHT verwenden: 11,8 % / 93 % aus dem fehlerhaften v1-Notebook; KEINE 15 % in diesem Projekt gemessen
 }
 
 \defref{proj:prithvivision}{

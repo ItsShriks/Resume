@@ -1,6 +1,6 @@
 .git
-build
-archive
+.build
+docs
 portfolio
 **/__pycache__
 **/.DS_Store

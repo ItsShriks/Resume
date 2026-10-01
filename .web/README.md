@@ -2,7 +2,7 @@
 
 Self-contained FastAPI app that tailors the CV in this repository to a job description
 (Gemini) and compiles the result to PDF. It only **reads** the CV sources in the repo root
-(`cv.tex`, `cover_letter.tex`, `tex/`, `refs/`, `template/`, `images/`) and never writes to them.
+(`cv.tex`, `cover_letter.tex`, `tex/`, `refs/`, `images/`) and never writes to them.
 
 | Run | Command |
 |---|---|

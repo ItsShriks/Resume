@@ -7,7 +7,6 @@ REPO_DIR = Path(os.getenv("RESUME_REPO_DIR", WEB_DIR.parent))  # CV repo root
 
 TEX_DIR = REPO_DIR / "tex"
 REFS_DIR = REPO_DIR / "refs"
-TEMPLATE_DIR = REPO_DIR / "template"
 IMAGES_DIR = REPO_DIR / "images"
 CV_TEX = REPO_DIR / "cv.tex"
 COVER_LETTER_TEX = REPO_DIR / "cover_letter.tex"

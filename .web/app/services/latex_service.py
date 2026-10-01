@@ -4,7 +4,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 from typing import Dict, Optional, Tuple, Any
-from app.config import TEX_DIR, REFS_DIR, TEMPLATE_DIR, IMAGES_DIR, LATEXMK_PATH, PDFLATEX_PATH
+from app.config import TEX_DIR, REFS_DIR, IMAGES_DIR, LATEXMK_PATH, PDFLATEX_PATH
 from app.services.profile_service import SECTION_FILES
 
 
@@ -60,10 +60,9 @@ class LatexService:
             tex_subfolder.mkdir(parents=True, exist_ok=True)
             images_subfolder.mkdir(parents=True, exist_ok=True)
             
-            # Shared layout and master content, needed by every document
-            for src, name in ((TEMPLATE_DIR, "template"), (REFS_DIR, "refs")):
-                if src.exists():
-                    shutil.copytree(src, temp_path / name, dirs_exist_ok=True)
+            # Master content, needed by every document (layout comes with tex/ below)
+            if REFS_DIR.exists():
+                shutil.copytree(REFS_DIR, temp_path / "refs", dirs_exist_ok=True)
 
             # Copy only icon images (linkedin, github, scholar) - NEVER copy Self_Pic.jpg
             if IMAGES_DIR.exists():

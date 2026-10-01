@@ -70,9 +70,9 @@ REPOSITORY-STRUKTUR
   refs/              MASTER-Inhalte — Quelle der Wahrheit. NUR LESEN, NIE BEARBEITEN.
                      Jeder Eintrag ist ein benannter Block:  \defref{exp:navilan}{ ... }
   tex/               Angepasste Abschnitte für DIESE Bewerbung. Nur hier wird bearbeitet.
+                     (außer tex/preamble.tex und tex/header.tex: gemeinsames Layout, nicht bearbeiten)
                      Master-Eintrag unverändert übernehmen:  \useref{exp:navilan}
                      oder stattdessen eine angepasste Version des Eintrags direkt schreiben.
-  template/          Gemeinsames Layout (Präambel, Kopfzeile, Befehle). Nicht bearbeiten.
   cv.tex             Hauptdokument Lebenslauf — Reihenfolge und eingebundene tex/-Dateien.
   cover_letter.tex   Anschreiben — wird für jede Bewerbung neu geschrieben.
   build.sh           Erzeugt beide PDFs (führt der Nutzer aus).
@@ -134,7 +134,7 @@ SCHRITT 8 — NICHT BAUEN
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 HARTE REGELN — NIE VERLETZEN
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  X  Nichts in refs/ oder template/ bearbeiten.
+  X  refs/, tex/preamble.tex und tex/header.tex nie bearbeiten.
   X  Keine Erfahrungen, Kenntnisse, Kennzahlen, Qualifikationen oder Links erfinden.
   X  Arbeitgeber, Positionen, Zeiträume und persönliche Daten nie ändern.
   X  LaTeX-Sonderzeichen escapen (& -> \&, % -> \%, # -> \#, _ -> \_, $ -> \$).

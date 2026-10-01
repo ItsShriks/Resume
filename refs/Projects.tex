@@ -1,63 +1,75 @@
 %===========================================================================
 % refs/Projects.tex  --  MASTER (Deutsch)
 % Quelle der Wahrheit. Nie anpassen -- tex/Projects.tex anpassen.
-% Format: \resumeSubItem{Titel (Technik)}{\repo{owner/name} \resumeItemListStart ... \resumeItemListEnd}
+% Format: \resumeSubheading{Titel}{\repo{owner/name} oder Zeitraum}{Technik}{Hinweis}, danach Stichpunktliste
 % Nur öffentliche Repositories verlinken, die die beschriebene Arbeit enthalten.
 %===========================================================================
 
 % Official team member, not employment -- list under Projects, never Experience.
 \defref{proj:bitbots}{
-\resumeSubItem{b-it bots @Home -- RoboCup@Home-Team, Kernmitglied Perception \& Navigation (ROS 2, MediaPipe, OpenCV)}{(Okt 2024 -- heute, studentisches Engagement)
-\resumeItemListStart
-    \resumeItemPlain{Entwicklung eines multimodalen Person-Following- und Intentionserkennungs-Frameworks auf dem Toyota HSR mit \textbf{ROS 2, MediaPipe und OpenCV}; Tracking-Erfolgsquote von \textbf{95\%}.}
-    \resumeItemPlain{Entwicklung einer Echtzeit-Erkennung von Zeigegesten (Strahlschnitt, \textbf{TF}-Transformation zwischen Kamera-, Basis- und Manipulator-Frames); damit absolvierte das Team die Aufgabe \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025} (@Home).}
-    \resumeItemPlain{Kalibrierung von Multisensor-Systemen (RGB-D, LiDAR, Odometrie) und Fehleranalyse an Hardware-Software-Schnittstellen mit \textbf{rosbag, RViz und Foxglove Studio}.}
-    \resumeItemPlain{Integration von 3D-Objektsegmentierung und räumlicher Kartierung mit LiDAR- und Punktwolkendaten; Visualisierungstools für Erreichbarkeit, Frame-Ausrichtung und Kamerasicht.}
-    \resumeItemPlain{Entwicklung modularer Hardware-Adapter in \textbf{Modern C++ (C++17) und Python}; reproduzierbare Container-Deployments mit \textbf{Docker} und Git.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
+      {Kernmitglied Perception \& Navigation $\cdot$ ROS 2, MediaPipe, OpenCV}{Studentisches Engagement}
+      \resumeItemListStart
+        \resumeItemPlain{Entwicklung eines multimodalen Person-Following- und Intentionserkennungs-Frameworks auf dem Toyota HSR mit \textbf{ROS 2, MediaPipe und OpenCV}; Tracking-Erfolgsquote von \textbf{95\%}.}
+        \resumeItemPlain{Entwicklung einer Echtzeit-Erkennung von Zeigegesten (Strahlschnitt, \textbf{TF}-Transformation zwischen Kamera-, Basis- und Manipulator-Frames); damit absolvierte das Team die Aufgabe \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025} (@Home).}
+        \resumeItemPlain{Kalibrierung von Multisensor-Systemen (RGB-D, LiDAR, Odometrie) und Fehleranalyse an Hardware-Software-Schnittstellen mit \textbf{rosbag, RViz und Foxglove Studio}.}
+        \resumeItemPlain{Integration von 3D-Objektsegmentierung und räumlicher Kartierung mit LiDAR- und Punktwolkendaten; Visualisierungstools für Erreichbarkeit, Frame-Ausrichtung und Kamerasicht.}
+        \resumeItemPlain{Entwicklung modularer Hardware-Adapter in \textbf{Modern C++ (C++17) und Python}; reproduzierbare Container-Deployments mit \textbf{Docker} und Git.}
+      \resumeItemListEnd
 }
 
 \defref{proj:thesis}{
-\resumeSubItem{Kontinuierliche Mobile Manipulation (ROS 2, C++17, MPC, TSID, MuJoCo)}{(Masterarbeits-Projekt) \repo{ItsShriks/porta_ros2_ws}
-\resumeItemListStart
-    \resumeItemPlain{Entwurf einer Regelungs- und Bewegungsplanungsarchitektur, die einen sichtbarkeitsbewussten \textbf{MPC}-Planer mit einem hochfrequenten \textbf{TSID}-Controller für kontinuierliche autonome Manipulation auf mobilen Robotern koppelt.}
-    \resumeItemPlain{Entwicklung einer asynchronen ROS-2-Bridge und Software-Adapter in \textbf{C++17} für Trajektorieninterpolation, Ausführungslogik und Echtzeit-Validierung der Starrkörperdynamik.}
-    \resumeItemPlain{Aufbau einer \textbf{MuJoCo}-Simulation des mobilen Manipulators MMO-700 (MPO-700-Basis, UR5e-Arm, Robotiq-2F-85-Greifer) mit vollständig autonomer Anfahr-, Greif- und Hebe-Pipeline.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
+      {ROS 2, C++17, MPC, TSID, MuJoCo}{Masterarbeit}
+      \resumeItemListStart
+        \resumeItemPlain{Entwurf einer Regelungs- und Bewegungsplanungsarchitektur, die einen sichtbarkeitsbewussten \textbf{MPC}-Planer mit einem hochfrequenten \textbf{TSID}-Controller für kontinuierliche autonome Manipulation auf mobilen Robotern koppelt.}
+        \resumeItemPlain{Entwicklung einer asynchronen ROS-2-Bridge und Software-Adapter in \textbf{C++17} für Trajektorieninterpolation, Ausführungslogik und Echtzeit-Validierung der Starrkörperdynamik.}
+        \resumeItemPlain{Aufbau einer \textbf{MuJoCo}-Simulation des mobilen Manipulators MMO-700 (MPO-700-Basis, UR5e-Arm, Robotiq-2F-85-Greifer) mit vollständig autonomer Anfahr-, Greif- und Hebe-Pipeline.}
+      \resumeItemListEnd
 }
 
 \defref{proj:ur5}{
-\resumeSubItem{UR5 Roboterkinematik \& Bewegungsplanung (ROS Noetic, KDL, MoveIt)}{\repo{ItsShriks/ur5_simulation}
-\resumeItemListStart
-    \resumeItemPlain{Entwicklung eines Kinematik-Simulations-Frameworks für einen 6-DOF-UR5-Industrieroboter; analytische inverse Kinematik mit \textbf{KDL}.}
-    \resumeItemPlain{Entwurf und Benchmarking kollisionsfreier Trajektoriengenerierung und Bewegungsplanung mit \textbf{MoveIt} und angepassten Kollisionsmodellen.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {UR5 Roboterkinematik \& Bewegungsplanung}{\repo{ItsShriks/ur5_simulation}}
+      {ROS Noetic, KDL, MoveIt}{}
+      \resumeItemListStart
+        \resumeItemPlain{Entwicklung eines Kinematik-Simulations-Frameworks für einen 6-DOF-UR5-Industrieroboter; analytische inverse Kinematik mit \textbf{KDL}.}
+        \resumeItemPlain{Entwurf und Benchmarking kollisionsfreier Trajektoriengenerierung und Bewegungsplanung mit \textbf{MoveIt} und angepassten Kollisionsmodellen.}
+      \resumeItemListEnd
 }
 
 \defref{proj:amr-nav}{
-\resumeSubItem{Autonomer Mobiler Roboter -- Navigation \& Inbetriebnahme (ROS 2, Nav2, SLAM, EKF)}{
-\resumeItemListStart
-    \resumeItemPlain{Integration und Validierung eines autonomen Navigations-Stacks mit \textbf{ROS 2} und \textbf{Nav2} auf einer omnidirektionalen Industrieplattform; Konfiguration von Costmaps, Pfadplanern, Recovery Behaviors und Multisensor-Lokalisierung (LiDAR, IMU, Encoder).}
-    \resumeItemPlain{Entwicklung eines eigenen \textbf{Extended-Kalman-Filter}-Knotens zur Sensorfusion und Zustandsschätzung; Unterstützung der Frontier Exploration.}
-    \resumeItemPlain{Inbetriebnahme am realen Roboter, Kartierung und Trajektorienvalidierung; Fehleranalyse mit \textbf{rosbag, RViz und Docker-Logs} und Dokumentation in strukturierten QA-Berichten.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {Autonomer Mobiler Roboter -- Navigation \& Inbetriebnahme}{}
+      {ROS 2, Nav2, SLAM, EKF}{}
+      \resumeItemListStart
+        \resumeItemPlain{Integration und Validierung eines autonomen Navigations-Stacks mit \textbf{ROS 2} und \textbf{Nav2} auf einer omnidirektionalen Industrieplattform; Konfiguration von Costmaps, Pfadplanern, Recovery Behaviors und Multisensor-Lokalisierung (LiDAR, IMU, Encoder).}
+        \resumeItemPlain{Entwicklung eines eigenen \textbf{Extended-Kalman-Filter}-Knotens zur Sensorfusion und Zustandsschätzung; Unterstützung der Frontier Exploration.}
+        \resumeItemPlain{Inbetriebnahme am realen Roboter, Kartierung und Trajektorienvalidierung; Fehleranalyse mit \textbf{rosbag, RViz und Docker-Logs} und Dokumentation in strukturierten QA-Berichten.}
+      \resumeItemListEnd
 }
 
 \defref{proj:butler}{
-\resumeSubItem{Robot Butler \& Semantische Objekterkennung (ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM)}{\repo{ItsShriks/steve_hardware_bringup}
-\resumeItemListStart
-    \resumeItemPlain{Entwicklung von ROS-2-Bring-up-Pipelines und Hardware-Schnittstellen für einen Serviceroboter (\textbf{Neobotix MMO-700}: omnidirektionale Basis, UR5e-Arm, Robotiq-Greifer, LiDARs, RealSense L515, IMU) mit automatischem Start beim Einschalten.}
-    \resumeItemPlain{Konfiguration von Nav2 und 3D-SLAM (\textbf{RTAB-Map}); Integration von Computer Vision (\textbf{YOLO}, OpenYOLO3D, Mask3D) mit LLM- und Vision-Language-Modellen für semantische Objektsuche und Aufgabenplanung.}
-    \resumeItemPlain{Aufzeichnung von Sensordaten, Erstellung von \textbf{Bounding-Box-Annotationen} und Auswertungsskripten zur Validierung der Multi-Klassen-Erkennung und dynamischen Hindernisvermeidung.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {Robot Butler \& Semantische Objekterkennung}{\repo{ItsShriks/steve_hardware_bringup}}
+      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      \resumeItemListStart
+        \resumeItemPlain{Entwicklung von ROS-2-Bring-up-Pipelines und Hardware-Schnittstellen für einen Serviceroboter (\textbf{Neobotix MMO-700}: omnidirektionale Basis, UR5e-Arm, Robotiq-Greifer, LiDARs, RealSense L515, IMU) mit automatischem Start beim Einschalten.}
+        \resumeItemPlain{Konfiguration von Nav2 und 3D-SLAM (\textbf{RTAB-Map}); Integration von Computer Vision (\textbf{YOLO}, OpenYOLO3D, Mask3D) mit LLM- und Vision-Language-Modellen für semantische Objektsuche und Aufgabenplanung.}
+        \resumeItemPlain{Aufzeichnung von Sensordaten, Erstellung von \textbf{Bounding-Box-Annotationen} und Auswertungsskripten zur Validierung der Multi-Klassen-Erkennung und dynamischen Hindernisvermeidung.}
+      \resumeItemListEnd
 }
 
 \defref{proj:junglelook}{
-\resumeSubItem{JungleLook -- Label-freie Segmentierung von LiDAR-Waldpunktwolken (Python, PyTorch, PointNet++, Open3D)}{\repo{ItsShriks/JungleLook}
-\resumeItemListStart
-    \resumeItemPlain{Label-freie Segmentierungspipeline für UAV-Punktwolken: Geometrische Merkmale (DTM, Höhe über Grund, Eigenwerte) erzeugen Pseudo-Labels zum Training von \textbf{PointNet / PointNet++}; \textbf{0,80 mIoU} in der Validierung (vorläufig, gegen Pseudo-Labels).}
-    \resumeItemPlain{Registrierung von Feldannotationen auf die LiDAR-Daten mit \textbf{RANSAC + ICP}: \textbf{98,8\,\% Inlier} bei \textbf{0,11\,m RMS}; CI-getestete Bibliothek für CPU, CUDA und Apple MPS.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {JungleLook -- Label-freie Segmentierung von LiDAR-Waldpunktwolken}{\repo{ItsShriks/JungleLook}}
+      {Python, PyTorch, PointNet++, Open3D}{}
+      \resumeItemListStart
+        \resumeItemPlain{Label-freie Segmentierungspipeline für UAV-Punktwolken: Geometrische Merkmale (DTM, Höhe über Grund, Eigenwerte) erzeugen Pseudo-Labels zum Training von \textbf{PointNet / PointNet++}; \textbf{0,80 mIoU} in der Validierung (vorläufig, gegen Pseudo-Labels).}
+        \resumeItemPlain{Registrierung von Feldannotationen auf die LiDAR-Daten mit \textbf{RANSAC + ICP}: \textbf{98,8\,\% Inlier} bei \textbf{0,11\,m RMS}; CI-getestete Bibliothek für CPU, CUDA und Apple MPS.}
+      \resumeItemListEnd
     % Gemessene Werte (nur diese verwenden):
     %   0,80 mIoU Validierung gegen Pseudo-Labels (Boden 0,99, Sonstiges 0,95, Baumstumpf 0,46) -- immer "vorläufig, gegen Pseudo-Labels"
     %   98,8 % Inlier / 0,11 m RMS bei der Annotations-LiDAR-Registrierung -- stärkste harte Kennzahl
@@ -66,22 +78,28 @@
 }
 
 \defref{proj:prithvivision}{
-\resumeSubItem{PrithviVision -- Segmentierung schattenwerfender Objekte in Luftbildern (U-Net, YOLO, Mask R-CNN)}{\repo{ItsShriks/PrithviVision}
-\resumeItemListStart
-    \resumeItemPlain{Aufbau und Annotation (YOLO-Format) eines Luftbild-Datensatzes von Bonn; Vergleich von \textbf{U-Net, YOLO und Mask R-CNN} für Detektion und pixelgenaue Segmentierung schattenwerfender Objekte.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {PrithviVision -- Segmentierung schattenwerfender Objekte in Luftbildern}{\repo{ItsShriks/PrithviVision}}
+      {U-Net, YOLO, Mask R-CNN}{}
+      \resumeItemListStart
+        \resumeItemPlain{Aufbau und Annotation (YOLO-Format) eines Luftbild-Datensatzes von Bonn; Vergleich von \textbf{U-Net, YOLO und Mask R-CNN} für Detektion und pixelgenaue Segmentierung schattenwerfender Objekte.}
+      \resumeItemListEnd
 }
 
 \defref{proj:robocompanion}{
-\resumeSubItem{RoboCompanion -- Assistenzroboter mit Person-Following (ROS, YOLOv8, RGB-D, Docker)}{\repo{ItsShriks/RoboCompanion}
-\resumeItemListStart
-    \resumeItemPlain{Modularer, ROS-kompatibler Personen-Tracking-Stack mit \textbf{YOLOv8} und Posenschätzung für RGB-D-Kameras (OpenNI2), als reproduzierbares \textbf{Docker}-Deployment.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {RoboCompanion -- Assistenzroboter mit Person-Following}{\repo{ItsShriks/RoboCompanion}}
+      {ROS, YOLOv8, RGB-D, Docker}{}
+      \resumeItemListStart
+        \resumeItemPlain{Modularer, ROS-kompatibler Personen-Tracking-Stack mit \textbf{YOLOv8} und Posenschätzung für RGB-D-Kameras (OpenNI2), als reproduzierbares \textbf{Docker}-Deployment.}
+      \resumeItemListEnd
 }
 
 \defref{proj:robograsp}{
-\resumeSubItem{RoboGrasp -- Objekterkennung für adaptives Greifen (Python, RGB-D, Punktwolken, EM)}{\repo{ItsShriks/RoboGrasp}
-\resumeItemListStart
-    \resumeItemPlain{Klassifikation von Objekten aus RGB-D-Bildern und 3D-Punktwolken mit \textbf{Gaußschen Mischmodellen} (EM-Algorithmus) zur Auswahl der Greifstrategie.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {RoboGrasp -- Objekterkennung für adaptives Greifen}{\repo{ItsShriks/RoboGrasp}}
+      {Python, RGB-D, Punktwolken, EM}{}
+      \resumeItemListStart
+        \resumeItemPlain{Klassifikation von Objekten aus RGB-D-Bildern und 3D-Punktwolken mit \textbf{Gaußschen Mischmodellen} (EM-Algorithmus) zur Auswahl der Greifstrategie.}
+      \resumeItemListEnd
 }

@@ -1,4 +1,4 @@
-# Build from the repository root so the CV sources (tex/, refs/, template/, images/) are included:
+# Build from the repository root so the CV sources (tex/, refs/, images/) are included:
 #   docker build -f .web/Dockerfile -t resume-tailor .
 #   docker run -p 8000:8000 -e GEMINI_API_KEY=... resume-tailor
 FROM python:3.11-slim

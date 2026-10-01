@@ -53,12 +53,16 @@
 }
 
 \defref{proj:junglelook}{
-\resumeSubItem{JungleLook -- Label-free LiDAR Point Cloud Segmentation (Python, PyTorch, CUDA, PointNet++)}{\repo{ItsShriks/JungleLook}
+\resumeSubItem{JungleLook -- Label-free LiDAR Forest Point Cloud Segmentation (Python, PyTorch, PointNet++, Open3D)}{\repo{ItsShriks/JungleLook}
 \resumeItemListStart
-    \resumeItemPlain{Developed a label-free segmentation pipeline for UAV forest point clouds: geometric features (DTM, height above ground, eigenvalues) generate pseudo-labels that train \textbf{PointNet / PointNet++}, producing labelled clouds and a tree-stump inventory.}
-    \resumeItemPlain{Packaged as a CI-tested Python library running on CPU, CUDA and Apple MPS.}
-    % CONFIRM: is this the same work as the H-BRS research job (15% accuracy improvement)? If yes, add the metric here.
+    \resumeItemPlain{Built a label-free segmentation pipeline for UAV point clouds: geometric features (DTM, height above ground, eigenvalues) generate pseudo-labels that train \textbf{PointNet / PointNet++}, reaching \textbf{0.80 validation mIoU} (preliminary, vs. pseudo-labels).}
+    \resumeItemPlain{Registered field annotations to the LiDAR data with \textbf{RANSAC + ICP} at \textbf{98.8\% inliers} and \textbf{0.11\,m RMS}; packaged as a CI-tested library for CPU, CUDA and Apple MPS.}
 \resumeItemListEnd}
+    % Measured numbers (use only these):
+    %   0.80 mIoU validation vs. pseudo-labels (ground 0.99, other 0.95, stump 0.46) -- always say "preliminary, vs. pseudo-labels"
+    %   98.8% inliers / 0.11 m RMS annotation-to-LiDAR registration -- strongest hard number
+    %   F1 0.31 rule-based stump detection vs. 129 annotated stumps -- only with "limited by data" context
+    %   DO NOT USE: 11.8% / 93% from the broken v1 notebook; NO 15% was measured in this project
 }
 
 \defref{proj:prithvivision}{

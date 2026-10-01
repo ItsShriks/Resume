@@ -1,39 +1,32 @@
 %------------------------
-% Shared page header (name, contact, photo). Must stay IDENTICAL on every branch.
+% Shared page header. Must stay IDENTICAL on every branch.
 % All text comes from macros defined in refs/Personal_Info.tex.
+%   without photo: name and contact line centred
+%   with photo   : name and contact left, photo right (German convention)
 %------------------------
-\definecolor{headerbg}{RGB}{241, 244, 248}
+\newcommand{\cvcontactline}{%
+  \cvlocation\ \textbar\ \href{mailto:\cvemail}{\cvemail}\ \textbar\
+  \href{\cvlinkedin}{LinkedIn}\ \textbar\ \href{\cvgithub}{github.com/ItsShriks}\ \textbar\
+  \href{\cvscholar}{Google Scholar}%
+  \ifx\cvdob\empty\else\ \textbar\ \cvlabeldob: \cvdob\fi}
 
 \newcommand{\cvheader}{%
-  \setlength{\origtextwidth}{\textwidth}%
-  \vspace*{-\dimexpr\topmargin+1in\relax}%
-  \noindent
-  \makebox[\origtextwidth][c]{%
-    \colorbox{headerbg}{%
-      \begin{minipage}{\paperwidth}
-        \vspace*{22pt}
-        \hspace{\dimexpr\oddsidemargin+1in\relax}%
-        \begin{minipage}[c]{\ifcvphoto 0.72\fi\origtextwidth}
-            \raggedright
-            {\fontsize{26}{30}\selectfont\bfseries\color{accent}\cvname} \\[8pt]
-            \small
-            {\color{accent}\faMapMarker*}\ \cvlocation \quad
-            {\color{accent}\faEnvelope}\ \href{mailto:\cvemail}{\cvemail}
-            \ifx\cvdob\empty\else \quad {\color{accent}\faCalendar*}\ \cvlabeldob: \cvdob\fi \\[4pt]
-            {\color{accent}\faLinkedin}\ \href{\cvlinkedin}{LinkedIn} \quad
-            {\color{accent}\faGithub}\ \href{\cvgithub}{GitHub} \quad
-            {\color{accent}\faGraduationCap}\ \href{\cvscholar}{Google Scholar}
-        \end{minipage}%
-        \ifcvphoto
-        \hfill
-        \begin{minipage}[c]{0.20\origtextwidth}
-            \raggedleft
-            {\setlength{\fboxsep}{0pt}\fcolorbox{accent}{white}{\includegraphics[width=2.4cm,height=3.1cm,keepaspectratio]{images/Self_Pic.jpg}}}
-        \end{minipage}%
-        \fi
-        \hspace{\dimexpr\oddsidemargin+1in\relax}%
-        \vspace{14pt}
-      \end{minipage}%
-    }%
-  }%
+  \vspace*{-14pt}%
+  \ifcvphoto
+    \noindent
+    \begin{minipage}[c]{0.8\textwidth}
+      {\fontsize{24}{28}\selectfont \cvname}\\[4pt]
+      \cvcontactline
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.18\textwidth}
+      \raggedleft\includegraphics[width=2.2cm,height=2.8cm,keepaspectratio]{images/Self_Pic.jpg}
+    \end{minipage}\par
+  \else
+    \begin{center}
+      {\fontsize{24}{28}\selectfont \cvname}\\[3pt]
+      \cvcontactline
+    \end{center}
+  \fi
+  \vspace{-6pt}%
 }

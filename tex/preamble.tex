@@ -7,7 +7,7 @@
 %------------------------
 
 \usepackage[T1]{fontenc}  % real umlauts in the PDF text layer (copy/paste, ATS parsing)
-\usepackage{XCharter}     % Charter: darker and more readable than Computer Modern, on screen and in print
+\usepackage[sfdefault,lf]{carlito}  % Calibri-metric sans serif: clean, ATS-friendly, familiar to recruiters
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -16,7 +16,8 @@
 \usepackage{fontawesome5}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{tabularx}
 \usepackage{fancyhdr}
 \usepackage{tabularx}
 \usepackage{graphicx}
@@ -35,41 +36,44 @@
 \addtolength{\textwidth}{1in}
 \setlength{\footskip}{3.60004pt}
 
-\urlstyle{rm}
+\urlstyle{same}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-%-----------COLOURS-----------------
-\definecolor{accent}{RGB}{28,57,98}     % name, section titles, rules, icons, bullets
-\definecolor{subtle}{RGB}{90,90,90}     % second line of entries (organisation / tech stack)
+%-----------COLOURS & LINKS-----------------
+\definecolor{linkblue}{RGB}{5,99,193}
+\definecolor{subtle}{RGB}{85,85,85}
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=black, pdfborder={0 0 0}}
 
 %-----------SECTION FORMAT-----------------
-\titleformat{\section}{\color{accent}\scshape\raggedright\large\bfseries}{}{0em}{}[{\color{accent}\titlerule[0.6pt]}]
-\titlespacing*{\section}{0pt}{7pt}{4pt}
+\titleformat{\section}{\large}{}{0em}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
 
 %-----------RESUME COMMANDS-----------------
-% Entry with a two-line header (jobs, degrees, projects):
-%   \resumeSubheading{Bold title}{right: dates / link}{second line}{right: place / note}
-\newcommand{\resumeSubheading}[4]{
-  \item[]
-    \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
-      \textbf{#1} & \small #2 \\
-      \small\textit{\color{subtle}#3} & \small\textit{\color{subtle}#4} \\
-    \end{tabular*}\vspace{-1pt}
+% Entry with a one-line header (jobs, degrees, projects):
+%   \resumeSubheading{Bold title}{right: dates / link}{after the dash: organisation / degree / tech}{note in brackets: place / "Master Thesis"}
+% renders as   **Title** — Organisation (Note)                    Dates
+\newcommand{\resumeSubheading}[4]{%
+  \item[]\hspace*{-1.1em}%   flush with the section title
+  \begin{tabularx}{\dimexpr\linewidth+1.1em}{@{}>{\raggedright\arraybackslash}X@{\hspace{8pt}}r@{}}
+    \textbf{#1}\if\relax\detokenize{#3}\relax\else\ \textbf{---}\ #3\fi
+    \if\relax\detokenize{#4}\relax\else\ {\color{subtle}(#4)}\fi
+    & #2 \\
+  \end{tabularx}%
 }
 % One-line "Label: text" entry (skills, certificates, publications, interests)
-\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{: #2}}}
+\newcommand{\resumeItem}[2]{\item{\textbf{#1}{: #2}}}
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
-\newcommand{\resumeItemPlain}[1]{\item\small{#1}}
-\renewcommand{\labelitemi}{{\color{accent}\small\textbullet}}
-\renewcommand{\labelitemii}{{\color{accent}\small\textbullet}}
+\newcommand{\resumeItemPlain}[1]{\item{#1}}
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textbullet}
 % Public evidence for a project: \repo{ItsShriks/ur5_simulation}
-\newcommand{\repo}[1]{\href{https://github.com/#1}{{\color{accent}\faGithub}\,\nolinkurl{github.com/#1}}}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=1em,labelsep=0.4em,itemsep=1pt,parsep=0pt,topsep=0pt]}
+\newcommand{\repo}[1]{\href{https://github.com/#1}{\nolinkurl{github.com/#1}}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=1.1em,labelsep=0.5em,itemsep=0pt,parsep=0pt,topsep=0pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=1.1em,labelsep=0.4em,itemsep=0.5pt,parsep=0pt,topsep=1pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{3pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=1.1em,labelsep=0.5em,itemsep=0pt,parsep=0pt,topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{2pt}}
 
 %-----------REFS MECHANISM-----------------
 % refs/*.tex hold the master content as named entries:

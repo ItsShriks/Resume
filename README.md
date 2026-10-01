@@ -39,7 +39,7 @@ A tailored section either pulls it in unchanged or writes its own version of it:
 % tex/Work_Experience.tex
 \section{Experience}
 \resumeSubHeadingListStart
-  \useref{exp:bitbots}          % master version, as-is
+  \useref{exp:hbrs-ra}          % master version, as-is
   \resumeSubheading{...}        % tailored rewrite of exp:navilan
 \resumeSubHeadingListEnd
 ```

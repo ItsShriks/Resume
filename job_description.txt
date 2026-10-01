@@ -110,9 +110,9 @@ REPOSITORY STRUCTURE
   refs/              MASTER content — source of truth. READ ONLY, NEVER EDIT.
                      Every entry is a named block:  \defref{exp:navilan}{ ... }
   tex/               Tailored sections for THIS application. This is what you edit.
+                     (except tex/preamble.tex and tex/header.tex: shared layout, do not edit)
                      Include a master entry unchanged:  \useref{exp:navilan}
                      or write a tailored version of that entry inline instead.
-  template/          Shared layout (preamble, header, commands). Do not edit.
   cv.tex             Main CV document — section order and which tex/ files are included.
   cover_letter.tex   Cover letter — rewritten for every application.
   build.sh           Builds both PDFs (the user runs it).
@@ -174,7 +174,7 @@ STEP 8 — DO NOT BUILD
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 HARD RULES — NEVER VIOLATE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  X  Never edit anything in refs/ or template/.
+  X  Never edit refs/, tex/preamble.tex or tex/header.tex.
   X  Never fabricate experience, skills, metrics, qualifications or links.
   X  Never change employer names, job titles, date ranges or personal details.
   X  Escape LaTeX special characters (& -> \&, % -> \%, # -> \#, _ -> \_, $ -> \$).

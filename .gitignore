@@ -1,5 +1,5 @@
 # LaTeX build output
-build/
+.build/
 *.pdf
 *.aux
 *.log
@@ -7,9 +7,6 @@ build/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-
-# Local-only files (old .docx/.pages CVs etc.)
-archive/
 
 # OS / Python
 .DS_Store

@@ -12,16 +12,16 @@ Each commit is one application (`<Company> - <Role>`), so the git history is the
 ## Layout
 
 ```
-refs/              MASTER content: every job, project, degree, skill… (never tailored)
 tex/               TAILORED sections for the current application
-template/          shared layout: preamble, commands, header        (identical on all branches)
-.web/              AI tailoring web app, fully standalone            (identical on all branches)
-images/            icons + photo
-portfolio/         personal website
+                   + preamble.tex / header.tex: shared layout (identical on all branches)
+refs/              MASTER content: every job, project, degree, skill… (never tailored)
+.web/              AI tailoring web app (standalone) + portfolio website
+images/            photo
+docs/              old CV versions (.docx / .pages)
 cv.tex             CV: section order, which tex/ files are included
 cover_letter.tex   cover letter, rewritten per application
 job_description.txt  paste a job ad here and hand the file to an AI assistant
-build.sh           builds the PDFs
+build.sh           builds the PDFs (temporary files go to the hidden .build/)
 ```
 
 ## How refs → tex works
@@ -57,7 +57,8 @@ GitHub link as evidence; keep it when tailoring.
 
 ## Keeping branches in sync
 
-- `template/`, `.web/`, `build.sh`, `README.md`, `.gitignore` are identical on both branches.
+- `tex/preamble.tex`, `tex/header.tex`, `.web/`, `docs/`, `build.sh`, `README.md`, `.gitignore`
+  are identical on both branches.
   Change them in a separate commit and `git cherry-pick` it to the other branch.
 - `refs/` holds the same facts on both branches, only translated. When something changes
   (new job, new project, new date), update `refs/` on **both** branches.

@@ -1,63 +1,75 @@
 %===========================================================================
 % refs/Projects.tex  --  MASTER (English)
 % Source of truth. Never tailor this file; tailor tex/Projects.tex.
-% Entry format: \resumeSubItem{Title (Tech)}{\repo{owner/name} \resumeItemListStart ... \resumeItemListEnd}
+% Entry format: \resumeSubheading{Title}{\repo{owner/name} or dates}{Tech stack}{Note}, then a bullet list
 % Only link repositories that are public and contain the work described.
 %===========================================================================
 
 % Official team member, not employment -- list under Projects, never Experience.
 \defref{proj:bitbots}{
-\resumeSubItem{b-it bots @Home -- RoboCup@Home Team, Perception \& Navigation Core Member (ROS 2, MediaPipe, OpenCV)}{(Oct 2024 -- Present, extracurricular)
-\resumeItemListStart
-    \resumeItemPlain{Developed a multimodal person-following and intention-awareness framework on the Toyota HSR robot using \textbf{ROS 2, MediaPipe and OpenCV}, achieving a \textbf{95\% tracking success rate}.}
-    \resumeItemPlain{Engineered real-time pointing-gesture detection (ray intersection, \textbf{TF} transforms across camera, base and manipulator links), enabling the team to complete the \textbf{Help Me Carry} task at \textbf{RoboCup German Open 2025} (@Home).}
-    \resumeItemPlain{Calibrated multi-sensor suites (RGB-D, LiDAR, odometry) and diagnosed hardware-software interface anomalies using \textbf{rosbag, RViz and Foxglove Studio}.}
-    \resumeItemPlain{Integrated 3D object segmentation and spatial mapping using LiDAR and large-scale point cloud data; built visualization tools for robot reachability, frame alignment and camera visibility.}
-    \resumeItemPlain{Engineered modular hardware adapters in \textbf{Modern C++ (C++17) and Python}; maintained reproducible containerized deployments via \textbf{Docker} and Git.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
+      {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
+      \resumeItemListStart
+        \resumeItemPlain{Developed a multimodal person-following and intention-awareness framework on the Toyota HSR robot using \textbf{ROS 2, MediaPipe and OpenCV}, achieving a \textbf{95\% tracking success rate}.}
+        \resumeItemPlain{Engineered real-time pointing-gesture detection (ray intersection, \textbf{TF} transforms across camera, base and manipulator links), enabling the team to complete the \textbf{Help Me Carry} task at \textbf{RoboCup German Open 2025} (@Home).}
+        \resumeItemPlain{Calibrated multi-sensor suites (RGB-D, LiDAR, odometry) and diagnosed hardware-software interface anomalies using \textbf{rosbag, RViz and Foxglove Studio}.}
+        \resumeItemPlain{Integrated 3D object segmentation and spatial mapping using LiDAR and large-scale point cloud data; built visualization tools for robot reachability, frame alignment and camera visibility.}
+        \resumeItemPlain{Engineered modular hardware adapters in \textbf{Modern C++ (C++17) and Python}; maintained reproducible containerized deployments via \textbf{Docker} and Git.}
+      \resumeItemListEnd
 }
 
 \defref{proj:thesis}{
-\resumeSubItem{Continuous Mobile Manipulation Architecture (ROS 2, C++17, MPC, TSID, MuJoCo)}{(Master Thesis Project) \repo{ItsShriks/porta_ros2_ws}
-\resumeItemListStart
-    \resumeItemPlain{Designing a unified control and motion planning architecture coupling a visibility-aware MPC planner with a high-frequency TSID controller for continuous autonomous manipulation on mobile robot platforms.}
-    \resumeItemPlain{Developing an asynchronous ROS 2 bridge and software adapters in \textbf{C++17} for trajectory interpolation, execution logic and real-time rigid-body dynamics validation.}
-    \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
+      {ROS 2, C++17, MPC, TSID, MuJoCo}{Master Thesis}
+      \resumeItemListStart
+        \resumeItemPlain{Designing a unified control and motion planning architecture coupling a visibility-aware MPC planner with a high-frequency TSID controller for continuous autonomous manipulation on mobile robot platforms.}
+        \resumeItemPlain{Developing an asynchronous ROS 2 bridge and software adapters in \textbf{C++17} for trajectory interpolation, execution logic and real-time rigid-body dynamics validation.}
+        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
+      \resumeItemListEnd
 }
 
 \defref{proj:ur5}{
-\resumeSubItem{UR5 Robot Kinematics \& Motion Planning (ROS Noetic, KDL, MoveIt)}{\repo{ItsShriks/ur5_simulation}
-\resumeItemListStart
-    \resumeItemPlain{Developed a comprehensive kinematics simulation framework for a 6-DOF UR5 industrial robotic arm; implemented analytical inverse kinematics algorithms using \textbf{KDL}.}
-    \resumeItemPlain{Designed and benchmarked collision-free trajectory generation and motion planning workflows using \textbf{MoveIt} and customized collision meshes.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {UR5 Robot Kinematics \& Motion Planning}{\repo{ItsShriks/ur5_simulation}}
+      {ROS Noetic, KDL, MoveIt}{}
+      \resumeItemListStart
+        \resumeItemPlain{Developed a comprehensive kinematics simulation framework for a 6-DOF UR5 industrial robotic arm; implemented analytical inverse kinematics algorithms using \textbf{KDL}.}
+        \resumeItemPlain{Designed and benchmarked collision-free trajectory generation and motion planning workflows using \textbf{MoveIt} and customized collision meshes.}
+      \resumeItemListEnd
 }
 
 \defref{proj:amr-nav}{
-\resumeSubItem{Autonomous Mobile Robot Navigation Stack \& Commissioning (ROS 2, Nav2, SLAM, EKF)}{
-\resumeItemListStart
-    \resumeItemPlain{Integrated and validated an autonomous navigation stack using \textbf{ROS 2} and \textbf{Nav2} on a physical omnidirectional industrial platform; configured costmaps, path planners, recovery behaviors and multi-sensor localization (LiDAR, IMU, Encoders).}
-    \resumeItemPlain{Designed and deployed a custom \textbf{Extended Kalman Filter (EKF)} node for sensor fusion and state estimation; supported frontier exploration.}
-    \resumeItemPlain{Executed real-robot commissioning, map generation and trajectory validation; isolated edge-case anomalies using \textbf{rosbag, RViz and Docker logs}, documenting root causes in structured QA reports.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {Autonomous Mobile Robot Navigation Stack \& Commissioning}{}
+      {ROS 2, Nav2, SLAM, EKF}{}
+      \resumeItemListStart
+        \resumeItemPlain{Integrated and validated an autonomous navigation stack using \textbf{ROS 2} and \textbf{Nav2} on a physical omnidirectional industrial platform; configured costmaps, path planners, recovery behaviors and multi-sensor localization (LiDAR, IMU, Encoders).}
+        \resumeItemPlain{Designed and deployed a custom \textbf{Extended Kalman Filter (EKF)} node for sensor fusion and state estimation; supported frontier exploration.}
+        \resumeItemPlain{Executed real-robot commissioning, map generation and trajectory validation; isolated edge-case anomalies using \textbf{rosbag, RViz and Docker logs}, documenting root causes in structured QA reports.}
+      \resumeItemListEnd
 }
 
 \defref{proj:butler}{
-\resumeSubItem{Robot Butler \& Semantic Object Tagging (ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM)}{\repo{ItsShriks/steve_hardware_bringup}
-\resumeItemListStart
-    \resumeItemPlain{Engineered ROS 2 bring-up pipelines and hardware interfaces for a domestic service robot (\textbf{Neobotix MMO-700}: omnidirectional base, UR5e arm, Robotiq gripper, LiDARs, RealSense L515, IMU) with hands-off auto-start on boot.}
-    \resumeItemPlain{Configured Nav2 and 3D SLAM (\textbf{RTAB-Map}) and integrated computer vision (\textbf{YOLO}, OpenYOLO3D, Mask3D) with LLM and vision-language models for semantic object retrieval and task planning.}
-    \resumeItemPlain{Constructed automated sensor feeds, bounding-box annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
+      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      \resumeItemListStart
+        \resumeItemPlain{Engineered ROS 2 bring-up pipelines and hardware interfaces for a domestic service robot (\textbf{Neobotix MMO-700}: omnidirectional base, UR5e arm, Robotiq gripper, LiDARs, RealSense L515, IMU) with hands-off auto-start on boot.}
+        \resumeItemPlain{Configured Nav2 and 3D SLAM (\textbf{RTAB-Map}) and integrated computer vision (\textbf{YOLO}, OpenYOLO3D, Mask3D) with LLM and vision-language models for semantic object retrieval and task planning.}
+        \resumeItemPlain{Constructed automated sensor feeds, bounding-box annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
+      \resumeItemListEnd
 }
 
 \defref{proj:junglelook}{
-\resumeSubItem{JungleLook -- Label-free LiDAR Forest Point Cloud Segmentation (Python, PyTorch, PointNet++, Open3D)}{\repo{ItsShriks/JungleLook}
-\resumeItemListStart
-    \resumeItemPlain{Built a label-free segmentation pipeline for UAV point clouds: geometric features (DTM, height above ground, eigenvalues) generate pseudo-labels that train \textbf{PointNet / PointNet++}, reaching \textbf{0.80 validation mIoU} (preliminary, vs. pseudo-labels).}
-    \resumeItemPlain{Registered field annotations to the LiDAR data with \textbf{RANSAC + ICP} at \textbf{98.8\% inliers} and \textbf{0.11\,m RMS}; packaged as a CI-tested library for CPU, CUDA and Apple MPS.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {JungleLook -- Label-free LiDAR Forest Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
+      {Python, PyTorch, PointNet++, Open3D}{}
+      \resumeItemListStart
+        \resumeItemPlain{Built a label-free segmentation pipeline for UAV point clouds: geometric features (DTM, height above ground, eigenvalues) generate pseudo-labels that train \textbf{PointNet / PointNet++}, reaching \textbf{0.80 validation mIoU} (preliminary, vs. pseudo-labels).}
+        \resumeItemPlain{Registered field annotations to the LiDAR data with \textbf{RANSAC + ICP} at \textbf{98.8\% inliers} and \textbf{0.11\,m RMS}; packaged as a CI-tested library for CPU, CUDA and Apple MPS.}
+      \resumeItemListEnd
     % Measured numbers (use only these):
     %   0.80 mIoU validation vs. pseudo-labels (ground 0.99, other 0.95, stump 0.46) -- always say "preliminary, vs. pseudo-labels"
     %   98.8% inliers / 0.11 m RMS annotation-to-LiDAR registration -- strongest hard number
@@ -66,22 +78,28 @@
 }
 
 \defref{proj:prithvivision}{
-\resumeSubItem{PrithviVision -- Shadow-Casting Object Segmentation in Aerial Imagery (U-Net, YOLO, Mask R-CNN)}{\repo{ItsShriks/PrithviVision}
-\resumeItemListStart
-    \resumeItemPlain{Curated and annotated (YOLO format) an aerial-image dataset of Bonn and compared \textbf{U-Net, YOLO and Mask R-CNN} for detection and pixel-level segmentation of shadow-casting objects.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {PrithviVision -- Shadow-Casting Object Segmentation in Aerial Imagery}{\repo{ItsShriks/PrithviVision}}
+      {U-Net, YOLO, Mask R-CNN}{}
+      \resumeItemListStart
+        \resumeItemPlain{Curated and annotated (YOLO format) an aerial-image dataset of Bonn and compared \textbf{U-Net, YOLO and Mask R-CNN} for detection and pixel-level segmentation of shadow-casting objects.}
+      \resumeItemListEnd
 }
 
 \defref{proj:robocompanion}{
-\resumeSubItem{RoboCompanion -- Person-Following Assistive Robot (ROS, YOLOv8, RGB-D, Docker)}{\repo{ItsShriks/RoboCompanion}
-\resumeItemListStart
-    \resumeItemPlain{Built a modular, ROS-compatible person-tracking stack using \textbf{YOLOv8} and pose estimation with RGB-D (OpenNI2) cameras, packaged as a reproducible \textbf{Docker} deployment.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {RoboCompanion -- Person-Following Assistive Robot}{\repo{ItsShriks/RoboCompanion}}
+      {ROS, YOLOv8, RGB-D, Docker}{}
+      \resumeItemListStart
+        \resumeItemPlain{Built a modular, ROS-compatible person-tracking stack using \textbf{YOLOv8} and pose estimation with RGB-D (OpenNI2) cameras, packaged as a reproducible \textbf{Docker} deployment.}
+      \resumeItemListEnd
 }
 
 \defref{proj:robograsp}{
-\resumeSubItem{RoboGrasp -- Object Recognition for Adaptive Grasping (Python, RGB-D, Point Clouds, EM)}{\repo{ItsShriks/RoboGrasp}
-\resumeItemListStart
-    \resumeItemPlain{Classified objects from RGB-D images and 3D point clouds with \textbf{Mixture-of-Gaussians} models trained via Expectation-Maximization to select grasp strategies.}
-\resumeItemListEnd}
+    \resumeSubheading
+      {RoboGrasp -- Object Recognition for Adaptive Grasping}{\repo{ItsShriks/RoboGrasp}}
+      {Python, RGB-D, Point Clouds, EM}{}
+      \resumeItemListStart
+        \resumeItemPlain{Classified objects from RGB-D images and 3D point clouds with \textbf{Mixture-of-Gaussians} models trained via Expectation-Maximization to select grasp strategies.}
+      \resumeItemListEnd
 }

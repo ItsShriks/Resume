@@ -7,12 +7,13 @@
 %------------------------
 
 \usepackage[T1]{fontenc}  % real umlauts in the PDF text layer (copy/paste, ATS parsing)
-\usepackage{lmodern}
+\usepackage{XCharter}     % Charter: darker and more readable than Computer Modern, on screen and in print
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontawesome5}
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -39,29 +40,36 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
+%-----------COLOURS-----------------
+\definecolor{accent}{RGB}{28,57,98}     % name, section titles, rules, icons, bullets
+\definecolor{subtle}{RGB}{90,90,90}     % second line of entries (organisation / tech stack)
+
 %-----------SECTION FORMAT-----------------
-\titleformat{\section}{
-  \vspace{-2pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+\titleformat{\section}{\color{accent}\scshape\raggedright\large\bfseries}{}{0em}{}[{\color{accent}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
 
 %-----------RESUME COMMANDS-----------------
-\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{: #2}}}
-\newcommand{\resumeItemPlain}[1]{\item\small{#1}}
+% Entry with a two-line header (jobs, degrees, projects):
+%   \resumeSubheading{Bold title}{right: dates / link}{second line}{right: place / note}
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{-2pt}
+  \item[]
+    \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+      \textbf{#1} & \small #2 \\
+      \small\textit{\color{subtle}#3} & \small\textit{\color{subtle}#4} \\
+    \end{tabular*}\vspace{-1pt}
 }
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-1pt}}
-\renewcommand{\labelitemii}{$\circ$}
+% One-line "Label: text" entry (skills, certificates, publications, interests)
+\newcommand{\resumeItem}[2]{\item\small{\textbf{#1}{: #2}}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
+\newcommand{\resumeItemPlain}[1]{\item\small{#1}}
+\renewcommand{\labelitemi}{{\color{accent}\small\textbullet}}
+\renewcommand{\labelitemii}{{\color{accent}\small\textbullet}}
 % Public evidence for a project: \repo{ItsShriks/ur5_simulation}
-\newcommand{\repo}[1]{\href{https://github.com/#1}{\raisebox{-1pt}{\includegraphics[height=8pt]{images/github.png}}\,\nolinkurl{github.com/#1}}}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,itemsep=0.5pt,parsep=0pt,topsep=1pt]}
+\newcommand{\repo}[1]{\href{https://github.com/#1}{{\color{accent}\faGithub}\,\nolinkurl{github.com/#1}}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=1em,labelsep=0.4em,itemsep=1pt,parsep=0pt,topsep=0pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0.5pt,parsep=0pt,topsep=1pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=1.1em,labelsep=0.4em,itemsep=0.5pt,parsep=0pt,topsep=1pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{3pt}}
 
 %-----------REFS MECHANISM-----------------
 % refs/*.tex hold the master content as named entries:
@@ -91,4 +99,4 @@
 \input{refs/Publications.tex}
 \input{refs/Interests.tex}
 
-\input{template/header.tex}
+\input{tex/header.tex}

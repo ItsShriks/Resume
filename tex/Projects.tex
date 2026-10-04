@@ -1,35 +1,32 @@
-% Tailored: Siemens -- Working Student Simulation for Physical AI (Garching)
+% Tailored: Siemens Energy India -- Robotics Engineer (Job ID 521069)
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2, C++17, MuJoCo, MPC, TSID}{Master Thesis}
+      {Autonomous Mobile Robot Navigation Stack \& Commissioning}{}
+      {ROS 2, Nav2, SLAM, EKF}{}
       \resumeItemListStart
-        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
-        \resumeItemPlain{Designing the control architecture: a visibility-aware \textbf{MPC} planner on a \textbf{reduced-order robot model} (weighted QP), coupled with a high-frequency \textbf{TSID} controller, so the robot can keep manipulating while its base moves.}
-        \resumeItemPlain{Writing an asynchronous \textbf{ROS 2} bridge and \textbf{C++17} adapters for trajectory interpolation, execution logic and real-time rigid-body dynamics checks.}
+        \resumeItemPlain{Integrated and validated a \textbf{ROS 2 / Nav2} navigation stack on a physical omnidirectional industrial platform: costmaps, path planners, recovery behaviours and localization from LiDAR, IMU and encoders.}
+        \resumeItemPlain{Wrote a custom \textbf{Extended Kalman Filter} node for sensor fusion; ran real-robot commissioning, mapping and trajectory validation, and documented edge-case root causes from rosbag, RViz and Docker logs in QA reports.}
       \resumeItemListEnd
     \resumeSubheading
       {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      {ROS 2, Nav2, RTAB-Map, YOLO}{}
       \resumeItemListStart
-        \resumeItemPlain{Wrote the ROS 2 bring-up and hardware interfaces for a Neobotix MMO-700 service robot (omnidirectional base, UR5e, Robotiq gripper, LiDARs, RealSense L515, IMU); the full stack starts on boot without manual steps.}
-        \resumeItemPlain{Connected YOLO, OpenYOLO3D and Mask3D detections to \textbf{LLM and vision-language models} for semantic object retrieval and task planning; set up Nav2 and RTAB-Map 3D SLAM.}
-        \resumeItemPlain{Wrote evaluation scripts, sensor feeds and annotations to check multi-class detection and dynamic obstacle avoidance.}
+        \resumeItemPlain{Wrote the ROS 2 bring-up and hardware interfaces for a \textbf{Neobotix MMO-700} (omnidirectional base, UR5e arm, Robotiq gripper, LiDARs, RealSense L515, IMU); the full stack starts on boot without manual steps.}
+        \resumeItemPlain{Set up Nav2 and RTAB-Map 3D SLAM, added YOLO / Mask3D object detection, and wrote evaluation scripts for detection and dynamic obstacle avoidance.}
       \resumeItemListEnd
     \resumeSubheading
       {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
       {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
       \resumeItemListStart
-        \resumeItemPlain{Developed person-following and intention-awareness on the Toyota HSR with \textbf{ROS 2, MediaPipe and OpenCV}; \textbf{95\% tracking success rate}.}
-        \resumeItemPlain{Built real-time pointing-gesture detection (ray intersection, TF transforms across camera, base and manipulator links), which let the team complete the \textbf{Help Me Carry} task at \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Wrote hardware adapters in C++17 and Python, calibrated RGB-D, LiDAR and odometry, and debugged with rosbag, RViz and Foxglove Studio; deployments run in Docker.}
+        \resumeItemPlain{Built person-following on the Toyota HSR with \textbf{95\% tracking success} and pointing-gesture detection (TF across camera, base and arm links) that helped the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{Calibrated RGB-D, LiDAR and odometry, debugged hardware-software issues with rosbag, RViz and Foxglove Studio, and wrote hardware adapters in C++17 and Python.}
       \resumeItemListEnd
     \resumeSubheading
-      {UR5 Robot Kinematics \& Motion Planning}{\repo{ItsShriks/ur5_simulation}}
-      {ROS Noetic, KDL, MoveIt}{}
+      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
+      {ROS 2, C++17, MPC, TSID, MuJoCo}{Master Thesis}
       \resumeItemListStart
-        \resumeItemPlain{Kinematics simulation for a 6-DOF UR5 arm: analytical inverse kinematics with KDL, plus collision-free trajectory generation in \textbf{MoveIt} benchmarked with custom collision meshes.}
+        \resumeItemPlain{Coupling a visibility-aware \textbf{MPC} planner with a high-frequency \textbf{TSID} controller so a mobile manipulator (MPO-700 base, UR5e arm, Robotiq 2F-85) can keep manipulating while its base moves; validated in a MuJoCo drive--reach--grasp--lift pipeline.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

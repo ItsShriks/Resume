@@ -4,35 +4,28 @@
 \resumeSubHeadingListStart
 
     \resumeSubheading
-      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
-      {Kernmitglied Perception \& Navigation $\cdot$ ROS 2, MediaPipe, OpenCV}{Studentisches Engagement}
-      \resumeItemListStart
-        \resumeItemPlain{Entwicklung eines multimodalen Person-Following-Frameworks auf dem Toyota HSR in \textbf{Python} mit \textbf{ROS, MediaPipe und OpenCV}; Tracking-Erfolgsquote von \textbf{95\%}.}
-        \resumeItemPlain{Entwicklung eines kamerabasierten Algorithmus zur Erkennung von Zeigegesten inkl. Transformation der Zielkoordinaten zwischen Kamera- und Roboter-Frames; damit absolvierte das Team die Aufgabe \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Integration von 3D-Objektsegmentierung und räumlicher Kartierung mit LiDAR- und Punktwolkendaten; Tests auf realer Hardware im Wettbewerbseinsatz.}
-      \resumeItemListEnd
-
-    \resumeSubheading
       {Robot Butler \& Semantische Objekterkennung}{\repo{ItsShriks/steve_hardware_bringup}}
-      {Python, PyTorch, YOLO, ROS 2, RTAB-Map}{}
+      {Python, LLM / VLM, YOLO, ROS 2}{}
       \resumeItemListStart
-        \resumeItemPlain{Kombination von \textbf{YOLO}-Objekterkennung mit 3D-SLAM (RTAB-Map) auf einem Neobotix MMO700 für semantische Kartierung und Objektsuche.}
-        \resumeItemPlain{Aufzeichnung von Sensordaten, Erstellung von \textbf{Bounding-Box-Annotationen} und Auswertungsskripten zur Validierung der Multi-Klassen-Erkennung.}
+        \resumeItemPlain{Integration von \textbf{LLM- und Vision-Language-Modellen} mit Computer Vision (YOLO, OpenYOLO3D, Mask3D) für semantische Objektsuche und \textbf{Aufgabenplanung} eines Serviceroboters.}
+        \resumeItemPlain{Aufzeichnung von Sensordaten, Erstellung von \textbf{Bounding-Box-Annotationen} und \textbf{Auswertungsskripten} zur Validierung der Multi-Klassen-Erkennung.}
+        \resumeItemPlain{Bring-up-Pipelines mit automatischem Start beim Einschalten für einen Neobotix MMO-700.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Autonomer Mobiler Roboter -- Navigation \& Inbetriebnahme}{}
-      {ROS 2, Nav2, SLAM, EKF}{}
+      {PrithviVision -- Segmentierung schattenwerfender Objekte in Luftbildern}{\repo{ItsShriks/PrithviVision}}
+      {U-Net, YOLO, Mask R-CNN}{}
       \resumeItemListStart
-        \resumeItemPlain{Umsetzung \textbf{autonomer Navigation} auf einer omnidirektionalen Industrieplattform; eigener \textbf{Extended-Kalman-Filter} zur Sensorfusion.}
-        \resumeItemPlain{\textbf{Robustheitstests unter Realbedingungen} inkl. Kartierung, Pfadplanung und Fehleranalyse mit rosbag und RViz.}
+        \resumeItemPlain{Aufbau und Annotation (YOLO-Format) eines eigenen Luftbild-Datensatzes von Bonn; systematischer \textbf{Vergleich von U-Net, YOLO und Mask R-CNN} für Detektion und pixelgenaue Segmentierung.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2, C++17, MPC, TSID}{Masterarbeit}
+      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
+      {Kernmitglied Perception \& Navigation $\cdot$ Python, ROS 2, MediaPipe, OpenCV}{Studentisches Engagement}
       \resumeItemListStart
-        \resumeItemPlain{Kopplung eines sichtbarkeitsbewussten \textbf{MPC}-Planers mit einem hochfrequenten \textbf{TSID}-Controller für kontinuierliche Manipulation auf mobilen Robotern.}
+        \resumeItemPlain{Entwicklung eines multimodalen Person-Following- und Intentionserkennungs-Frameworks auf dem Toyota HSR; Tracking-Erfolgsquote von \textbf{95\%}.}
+        \resumeItemPlain{Echtzeit-Erkennung von Zeigegesten; damit absolvierte das Team die Aufgabe \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{Fehleranalyse an Hardware-Software-Schnittstellen mit rosbag, RViz und Foxglove Studio; reproduzierbare Deployments mit \textbf{Docker} und Git.}
       \resumeItemListEnd
 
 \resumeSubHeadingListEnd

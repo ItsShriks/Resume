@@ -1,8 +1,8 @@
 %! jobname = Shrikar_Nakhye_Cover_Letter
 %------------------------
 % Cover Letter (English) -- rewritten for every application.
-% Position: Trainee Innovations - CoE Automation of Operations (m/f/x), GROW Graduate Program, AV-374358
-% Company : DHL Group (Deutsche Post AG), Bonn
+% Position: Working Student (f/m/d) Simulation for Physical AI
+% Company : Siemens AG, Garching
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -20,36 +20,29 @@
 \vspace{5pt}
 
 \textbf{To:} \\
-Steffi Koch, GROW Recruiting \\
-DHL Group (Deutsche Post AG), Bonn
+Siemens AG \\
+Garching, Germany
 
 \vspace{5pt}
-\textbf{Re: Application for Trainee Innovations -- CoE Automation of Operations (m/f/x), GROW Program (AV-374358)}
+\textbf{Re: Application for Working Student (f/m/d) Simulation for Physical AI}
 
 \vspace{5pt}
-Dear Ms. Koch,
+Dear Hiring Team,
 
 \vspace{5pt}
-Turning emerging robotics into solutions that work reliably in real operations is exactly the kind of work I want to do. As a Master of Science candidate in Autonomous Systems at Hochschule Bonn-Rhein-Sieg and a Mechatronics engineer by training, I have spent the past years building and testing autonomous mobile robots, robotic arms and computer vision systems on real hardware. I am therefore applying for the \textbf{Trainee Innovations position in the CoE Automation of Operations} within the GROW program.
+For my Master's thesis in Autonomous Systems at Hochschule Bonn-Rhein-Sieg I built a MuJoCo simulation of a mobile manipulator, and I now use it to test the controller I am developing. So when I read that your team in Garching sets up simulation environments, tries out tools like Isaac Sim and MuJoCo, and turns the results into robotics demonstrators, it sounded very close to the work I enjoy most. I would like to apply for the Working Student position in Simulation for Physical AI.
 
 \vspace{4pt}
-
-My experience maps directly onto the CoE's technology areas:
-\begin{itemize}[leftmargin=*,itemsep=1.5pt,parsep=0pt,topsep=2pt]
-    \item \textbf{Autonomous Mobile Robots:} I integrated and commissioned ROS 2 / Nav2 navigation stacks on physical mobile robots, including mapping, multi-sensor localization and validation of edge cases, and documented the results in structured QA reports.
-    \item \textbf{Robotic Arms \& Handling:} I programmed ABB IRB1320 industrial robots for pick-and-place sequences, benchmarked motion planning for a UR5 arm with MoveIt, and my Bachelor's thesis focused on a waste separation system with a robotic manipulator, which is essentially an automated sorting task.
-    \item \textbf{Computer Vision:} I built a person-following framework on the Toyota HSR that reached a \textbf{95\% tracking success rate}, built a label-free LiDAR segmentation pipeline (\textbf{0.80 validation mIoU}, \textbf{98.8\%} registration inliers), and delivered OCR-based document validation pipelines at Navilan Solutions.
-    \item \textbf{Mobile Manipulation \& Whole-Body Control:} In my Master's thesis I couple visibility-aware MPC with whole-body TSID control. The same methods underpin today's humanoid robots, which gives me a strong basis for evaluating that emerging field.
-\end{itemize}
+The simulation models the Neobotix MMO-700 (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) and runs a full autonomous drive, reach, grasp and lift sequence. On top of it I am building a control architecture that couples a visibility-aware MPC planner, which works on a reduced-order robot model formulated as a weighted QP, with a high-frequency TSID controller, connected through an asynchronous ROS~2 bridge that I write in C++17. The code is public at \href{https://github.com/ItsShriks/porta_ros2_ws}{github.com/ItsShriks/porta\_ros2\_ws}. Simulation was also part of my job before the Master's: at Sakar Robotics I converted Fusion 360 and Inventor assemblies into collision meshes and simulation-ready URDF models for the robots we built.
 
 \vspace{4pt}
-
-Beyond the technology, I know how to move projects forward. At Sakar Robotics I led a \textbf{10-member engineering team as Scrum Master}, taking autonomous robotic platforms from concept to hardware commissioning. That work taught me to balance technical depth with clear communication, priorities and delivery. Having studied and worked in both India and Germany, I am used to collaborating across cultures, which I see as essential for a CoE that works with divisions and locations worldwide.
+You also mention agentic and AI-driven workflows. On a service robot project I connected YOLO, OpenYOLO3D and Mask3D detections to LLM and vision-language models, so the robot can look for objects from a semantic request and plan the task around it. With the b-it bots RoboCup@Home team I write ROS~2 perception code for the Toyota HSR. My person-following framework reaches a \textbf{95\% tracking success rate}, and my pointing-gesture detection helped us complete the Help Me Carry task at RoboCup German Open 2025.
 
 \vspace{4pt}
+I mostly program in Python and C++17 and have also worked with C\#. As a research assistant at H-BRS I trained PointNet and PointNet++ for label-free LiDAR segmentation, kept the experiments and evaluation scripts organised and documented the results (\textbf{0.80 validation mIoU}, \textbf{98.8\%} registration inliers). At Sakar Robotics I was Scrum Master of a \textbf{10-member team} that worked on 7 robot platforms, so planning work and reporting progress to others is familiar to me.
 
-I am fluent in \textbf{English (C2)}, speak \textbf{German at B2 level}, which I continue to improve, and already live in Bonn.
-I will complete my Master's degree before the program start and would be glad to begin on \textbf{1 April 2027}. I would welcome the opportunity to discuss how I can help the CoE find, validate and scale the next generation of automation solutions for DHL Group.
+\vspace{4pt}
+I can work 15--20 hours a week. If remote work is possible at the beginning, I can start \textbf{immediately}; on site in Garching I can start in \textbf{January 2027}, when I will have moved to the Munich area. My English is fluent (C2) and my German is at B2 level. I would be happy to talk about how I could help build your simulation environments and demonstrators.
 
 \vspace{10pt}
 

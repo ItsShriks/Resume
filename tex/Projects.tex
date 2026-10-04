@@ -1,45 +1,35 @@
-% Tailored: DHL GROW Trainee Innovations -- CoE Automation of Operations
+% Tailored: Siemens -- Working Student Simulation for Physical AI (Garching)
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
-
+    \resumeSubheading
+      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
+      {ROS 2, C++17, MuJoCo, MPC, TSID}{Master Thesis}
+      \resumeItemListStart
+        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
+        \resumeItemPlain{Designing the control architecture: a visibility-aware \textbf{MPC} planner on a \textbf{reduced-order robot model} (weighted QP), coupled with a high-frequency \textbf{TSID} controller, so the robot can keep manipulating while its base moves.}
+        \resumeItemPlain{Writing an asynchronous \textbf{ROS 2} bridge and \textbf{C++17} adapters for trajectory interpolation, execution logic and real-time rigid-body dynamics checks.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
+      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      \resumeItemListStart
+        \resumeItemPlain{Wrote the ROS 2 bring-up and hardware interfaces for a Neobotix MMO-700 service robot (omnidirectional base, UR5e, Robotiq gripper, LiDARs, RealSense L515, IMU); the full stack starts on boot without manual steps.}
+        \resumeItemPlain{Connected YOLO, OpenYOLO3D and Mask3D detections to \textbf{LLM and vision-language models} for semantic object retrieval and task planning; set up Nav2 and RTAB-Map 3D SLAM.}
+        \resumeItemPlain{Wrote evaluation scripts, sensor feeds and annotations to check multi-class detection and dynamic obstacle avoidance.}
+      \resumeItemListEnd
     \resumeSubheading
       {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
       {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
       \resumeItemListStart
-        \resumeItemPlain{Developed a multimodal person-following and intention-awareness framework on the Toyota HSR mobile manipulator using \textbf{ROS 2, MediaPipe and OpenCV}, achieving a \textbf{95\% tracking success rate}.}
-        \resumeItemPlain{Built real-time \textbf{computer vision} pointing-gesture algorithms (TF transforms across camera, base and manipulator links), enabling the team to complete the \textbf{Help Me Carry} task at \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Tested and validated robot behaviour on physical hardware: calibrated multi-sensor suites (RGB-D, LiDAR, odometry) and diagnosed hardware-software issues using rosbag, RViz and Foxglove Studio.}
+        \resumeItemPlain{Developed person-following and intention-awareness on the Toyota HSR with \textbf{ROS 2, MediaPipe and OpenCV}; \textbf{95\% tracking success rate}.}
+        \resumeItemPlain{Built real-time pointing-gesture detection (ray intersection, TF transforms across camera, base and manipulator links), which let the team complete the \textbf{Help Me Carry} task at \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{Wrote hardware adapters in C++17 and Python, calibrated RGB-D, LiDAR and odometry, and debugged with rosbag, RViz and Foxglove Studio; deployments run in Docker.}
       \resumeItemListEnd
-
     \resumeSubheading
-      {Autonomous Mobile Robot Navigation Stack \& Commissioning}{}
-      {ROS 2, Nav2, SLAM, EKF}{}
-      \resumeItemListStart
-        \resumeItemPlain{Integrated and validated an \textbf{AMR} navigation stack on physical mobile robots; configured costmaps, path planners, recovery behaviours and multi-sensor localization (LiDAR, IMU, Encoders).}
-        \resumeItemPlain{Ran real-robot commissioning, mapping and trajectory validation; isolated edge cases using rosbag, RViz and Docker logs and documented root causes in structured QA reports.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO}{}
-      \resumeItemListStart
-        \resumeItemPlain{Built ROS 2 bring-up pipelines for a \textbf{Neobotix MMO700} mobile manipulator; combined 3D SLAM (RTAB-Map) with \textbf{YOLO} object detection for semantic mapping and object retrieval.}
-        \resumeItemPlain{Created sensor feeds, annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2, C++17, MPC, TSID}{Master Thesis}
-      \resumeItemListStart
-        \resumeItemPlain{Designing a control architecture coupling a visibility-aware MPC planner with a high-frequency whole-body TSID controller so a mobile robot can manipulate objects while moving.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {UR5 Robot Arm Kinematics \& Motion Planning}{\repo{ItsShriks/ur5_simulation}}
+      {UR5 Robot Kinematics \& Motion Planning}{\repo{ItsShriks/ur5_simulation}}
       {ROS Noetic, KDL, MoveIt}{}
       \resumeItemListStart
-        \resumeItemPlain{Implemented inverse kinematics (KDL) for a 6-DOF UR5 industrial arm and benchmarked collision-free trajectory generation with \textbf{MoveIt} and custom collision meshes.}
+        \resumeItemPlain{Kinematics simulation for a 6-DOF UR5 arm: analytical inverse kinematics with KDL, plus collision-free trajectory generation in \textbf{MoveIt} benchmarked with custom collision meshes.}
       \resumeItemListEnd
-
 \resumeSubHeadingListEnd

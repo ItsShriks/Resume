@@ -1,8 +1,8 @@
 %! jobname = Shrikar_Nakhye_Cover_Letter
 %------------------------
 % Cover Letter (English) -- rewritten for every application.
-% Position: Robotics Engineer, Job ID 521069
-% Company : Siemens Energy India Limited (Bangalore / Gurugram / Pune)
+% Position: Robotics Engineer -- learning-based control
+% Company : Miko, Mumbai (Dadar)
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -20,29 +20,29 @@
 \vspace{5pt}
 
 \textbf{To:} \\
-Siemens Energy India Limited \\
-Research \& Development, Robotics
+Miko \\
+Dadar, Mumbai
 
 \vspace{5pt}
-\textbf{Re: Application for Robotics Engineer (Job ID 521069)}
+\textbf{Re: Application for Robotics Engineer -- Learning-Based Control}
 
 \vspace{5pt}
 Dear Hiring Team,
 
 \vspace{5pt}
-I am applying for the Robotics Engineer position at Siemens Energy India. What stands out to me in this role is that it covers the whole life of an industrial robot, from judging whether a process is worth automating to debugging the robot on site. I have tried to work across that same range, first in industry in Pune and now during my M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg in Germany, which I complete in February 2027.
+I would like to apply for the Robotics Engineer role on your learning-based control team in Dadar. The part of your posting about the gap between where a model says to move and where the arm actually goes caught my attention, because my Master's thesis at Hochschule Bonn-Rhein-Sieg deals with a closely related problem: turning a planner's output into motion that a real controller can follow while the robot is moving. I would like to keep working on that with real robots, and to do it back in Mumbai, where I went to school.
 
 \vspace{4pt}
-My first robotics job was with industrial robots. As an intern at SSIG Manufacturing I programmed ABB IRB1320 robots in RAPID and RobotStudio for pick-and-place sequences, calibrated tool center points, connected industrial I/O and PLC monitoring, and worked with SCADA, MES and OPC UA integration and robot fleet management. I then spent two years at Sakar Robotics as Robotics Engineer and Scrum Master of a \textbf{10-member team}. We worked on \textbf{7 autonomous robotic platforms} and delivered 2 of them end-to-end. I was responsible for hardware commissioning and configuration management, designed robot parts in Fusion 360 and Inventor, worked with servo and BLDC motors, drives and gearboxes, and set up the ROS / ROS~2 navigation and sensor integration with LiDAR, encoders and IMUs.
+For the thesis I built a MuJoCo model of the Neobotix MMO-700 (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) that runs a full autonomous drive, reach, grasp and lift sequence. The control side couples a visibility-aware MPC planner, which uses a reduced-order robot model formulated as a weighted QP, with a high-frequency TSID controller. The ROS~2 bridge and the adapters for trajectory interpolation and execution are written in C++17, and the code is at \href{https://github.com/ItsShriks/porta_ros2_ws}{github.com/ItsShriks/porta\_ros2\_ws}. Earlier I wrote analytical inverse kinematics with KDL for a UR5 and benchmarked collision-free trajectories in MoveIt (\href{https://github.com/ItsShriks/ur5_simulation}{github.com/ItsShriks/ur5\_simulation}).
 
 \vspace{4pt}
-Most of my recent work is integration and testing on real robots. I wrote the ROS~2 bring-up for a Neobotix MMO-700 mobile manipulator with a UR5e arm, Robotiq gripper, LiDARs, a RealSense camera and an IMU, so the whole stack starts on boot. On an omnidirectional industrial platform I commissioned a Nav2 navigation stack, wrote a custom EKF for sensor fusion and documented edge cases from rosbag logs in QA reports. With the b-it bots RoboCup@Home team I built perception for the Toyota HSR that reaches a \textbf{95\% tracking success rate} and helped us complete the Help Me Carry task at RoboCup German Open 2025.
+Much of my work has also been on real hardware. On a real MMO-700 I wrote the ROS~2 bring-up and hardware interfaces for the base, UR5e arm, Robotiq gripper, LiDARs, RealSense L515 and IMU, and connected its object detection to LLM and vision-language models for semantic object retrieval and task planning. At Sakar Robotics I worked on 7 robot platforms: servo and BLDC motors, drives and gearboxes, LiDAR, encoder and IMU integration, and URDF models built from our CAD assemblies. With the b-it bots RoboCup@Home team I calibrate RGB-D, LiDAR and odometry on the Toyota HSR and debug hardware-software problems in rosbag and Foxglove; my person-following there reaches a \textbf{95\% tracking success rate}.
 
 \vspace{4pt}
-On the manipulation side, my Master's thesis couples a visibility-aware MPC planner with a TSID controller so a mobile robot can manipulate while its base moves, written in C++17 on ROS~2. Earlier I designed and analysed a 3-DOF picking manipulator in SolidWorks and CATIA, and I have published on robotic arm design in IEEE (a strawberry-picking industrial arm). My Bachelor's thesis was a waste separation system with a robotic manipulator, and my Master's coursework covered safety standards and risk assessment.
+You also ask for honest metrics. As a research assistant I trained PointNet++ on pseudo-labels for LiDAR segmentation and got 0.80 mIoU, but I always report that number as preliminary, because it is measured against the pseudo-labels and not real ground truth. The stronger result from that project was registering field annotations to the LiDAR data at 98.8\% inliers. Day to day I work in Python and C++17 on Linux, with Git and Docker.
 
 \vspace{4pt}
-I can join full-time and on site in India from \textbf{February 2027}, preferably in Pune, where I studied and worked before. My English is fluent (C2). I would be glad to talk about the automation projects your team is planning and where I could contribute.
+I can start full-time and on site in Mumbai from \textbf{February 2027}, after finishing my Master's. I would be happy to walk you through the MuJoCo model or the thesis code in a call.
 
 \vspace{10pt}
 

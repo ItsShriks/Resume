@@ -1,35 +1,26 @@
-% Tailored: Miko -- Robotics Engineer, learning-based control (Mumbai)
+% Tailored: Deutsche Telekom AG -- Start up! Trainee Focus Product & Technology (Job-ID 733423)
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2, C++17, MuJoCo, MPC, TSID}{Master Thesis}
+      {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
+      {Perception \& Navigation Core Member $\cdot$ Python, ROS 2, MediaPipe, OpenCV}{Extracurricular}
       \resumeItemListStart
-        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
-        \resumeItemPlain{Designing the control architecture: a visibility-aware \textbf{MPC} planner on a reduced-order robot model (weighted QP), coupled with a high-frequency \textbf{TSID} controller, so the arm keeps manipulating while the base moves.}
-        \resumeItemPlain{Writing an asynchronous ROS 2 bridge and \textbf{C++17} adapters for trajectory interpolation, execution logic and real-time rigid-body dynamics checks.}
-      \resumeItemListEnd
-    \resumeSubheading
-      {UR5 Robot Kinematics \& Motion Planning}{\repo{ItsShriks/ur5_simulation}}
-      {ROS Noetic, KDL, MoveIt}{}
-      \resumeItemListStart
-        \resumeItemPlain{Kinematics simulation framework for a 6-DOF UR5 arm with \textbf{analytical inverse kinematics} in KDL.}
-        \resumeItemPlain{Generated and benchmarked collision-free trajectories in \textbf{MoveIt} with custom collision meshes.}
+        \resumeItemPlain{Developed a multimodal person-following and intention-awareness framework on the Toyota HSR, achieving a \textbf{95\% tracking success rate}.}
+        \resumeItemPlain{Built real-time pointing-gesture detection that enabled the team to complete the \textbf{Help Me Carry} task at \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{Diagnosed hardware-software issues with rosbag, RViz and Foxglove Studio; maintained reproducible deployments via \textbf{Docker} and Git.}
       \resumeItemListEnd
     \resumeSubheading
       {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      {Python, LLM / VLM, YOLO, ROS 2}{}
       \resumeItemListStart
-        \resumeItemPlain{Wrote the ROS 2 bring-up and hardware interfaces for a real \textbf{Neobotix MMO-700} (omnidirectional base, \textbf{UR5e arm, Robotiq gripper}, LiDARs, RealSense L515, IMU); the full stack starts on boot without manual steps.}
-        \resumeItemPlain{Connected YOLO, OpenYOLO3D and Mask3D detections to \textbf{LLM and vision-language models} for semantic object retrieval and task planning; set up Nav2 and RTAB-Map 3D SLAM.}
-        \resumeItemPlain{Wrote evaluation scripts, sensor feeds and annotations to check multi-class detection and dynamic obstacle avoidance.}
+        \resumeItemPlain{Integrated \textbf{LLM and vision-language models} with computer vision (YOLO, OpenYOLO3D, Mask3D) for semantic object retrieval and task planning on a service robot.}
+        \resumeItemPlain{Built sensor feeds, bounding-box annotations and \textbf{evaluation scripts} to validate multi-class detection.}
       \resumeItemListEnd
     \resumeSubheading
-      {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
-      {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
+      {JungleLook -- Label-free LiDAR Forest Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
+      {Python, PyTorch, PointNet++, Open3D}{}
       \resumeItemListStart
-        \resumeItemPlain{Built person-following on the Toyota HSR with \textbf{95\% tracking success} and pointing-gesture detection (ray intersection, \textbf{TF} transforms across camera, base and arm links) that helped the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Calibrated RGB-D, LiDAR and odometry, debugged hardware-software issues with rosbag, RViz and Foxglove Studio, and wrote hardware adapters in C++17 and Python.}
+        \resumeItemPlain{Turned a research prototype into a \textbf{CI-tested Python library} for CPU, CUDA and Apple MPS; \textbf{0.80 validation mIoU} (preliminary, vs. pseudo-labels).}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

@@ -1,26 +1,33 @@
-% Tailored: Deutsche Telekom AG -- Start up! Trainee Focus Product & Technology (Job-ID 733423)
+% Tailored: Data Operator Intern (Teleops) -- AI Department, Aachen
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
-      {Perception \& Navigation Core Member $\cdot$ Python, ROS 2, MediaPipe, OpenCV}{Extracurricular}
-      \resumeItemListStart
-        \resumeItemPlain{Developed a multimodal person-following and intention-awareness framework on the Toyota HSR, achieving a \textbf{95\% tracking success rate}.}
-        \resumeItemPlain{Built real-time pointing-gesture detection that enabled the team to complete the \textbf{Help Me Carry} task at \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Diagnosed hardware-software issues with rosbag, RViz and Foxglove Studio; maintained reproducible deployments via \textbf{Docker} and Git.}
-      \resumeItemListEnd
-    \resumeSubheading
       {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
-      {Python, LLM / VLM, YOLO, ROS 2}{}
+      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
       \resumeItemListStart
-        \resumeItemPlain{Integrated \textbf{LLM and vision-language models} with computer vision (YOLO, OpenYOLO3D, Mask3D) for semantic object retrieval and task planning on a service robot.}
-        \resumeItemPlain{Built sensor feeds, bounding-box annotations and \textbf{evaluation scripts} to validate multi-class detection.}
+        \resumeItemPlain{Set up a real \textbf{Neobotix MMO-700} (omnidirectional base, \textbf{UR5e arm, Robotiq gripper}, LiDARs, RealSense L515, IMU): wrote the ROS 2 bring-up and hardware interfaces so the full stack starts on boot without manual steps.}
+        \resumeItemPlain{\textbf{Data collection \& testing:} built automated sensor feeds, bounding-box annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
+        \resumeItemPlain{Connected YOLO, OpenYOLO3D and Mask3D detections to \textbf{LLM and vision-language models} for semantic object retrieval and task planning.}
       \resumeItemListEnd
     \resumeSubheading
-      {JungleLook -- Label-free LiDAR Forest Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
-      {Python, PyTorch, PointNet++, Open3D}{}
+      {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
+      {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
       \resumeItemListStart
-        \resumeItemPlain{Turned a research prototype into a \textbf{CI-tested Python library} for CPU, CUDA and Apple MPS; \textbf{0.80 validation mIoU} (preliminary, vs. pseudo-labels).}
+        \resumeItemPlain{\textbf{Calibrated multi-sensor suites} (RGB-D, LiDAR, odometry) on the Toyota HSR and diagnosed hardware-software issues during robot sessions with \textbf{rosbag, RViz and Foxglove Studio}.}
+        \resumeItemPlain{Built person-following with a \textbf{95\% tracking success rate} and pointing-gesture detection (\textbf{TF} transforms across camera, base and arm links) that helped the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Autonomous Mobile Robot Navigation Stack \& Commissioning}{}
+      {ROS 2, Nav2, SLAM, EKF}{}
+      \resumeItemListStart
+        \resumeItemPlain{Commissioned a physical omnidirectional industrial platform: map generation and trajectory validation with multi-sensor localization (LiDAR, IMU, encoders) and a custom \textbf{EKF} node.}
+        \resumeItemPlain{Isolated edge-case anomalies using \textbf{rosbag, RViz and Docker logs} and documented root causes in \textbf{structured QA reports}.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
+      {ROS 2, C++17, MuJoCo, MPC, TSID}{Master Thesis}
+      \resumeItemListStart
+        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 (UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline; coupling an MPC planner with a TSID controller so the arm keeps manipulating while the base moves.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

@@ -8,42 +8,52 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Data Operator Intern (Teleops)(human)
-Location
+As a student, you work with your colleagues on an equal footing and create ideal conditions for your future career.
 
-Aachen
-Employment Type
+Step out of your comfort zone, excel and redefine the limits of what is possible. That’s just what our employees are doing every single day – in order to set the pace through our innovations and enable outstanding achievements. After all, behind every successful company are many great fascinating people.
 
-Full time
-Location Type
+In a spacious modern setting full of opportunities for further development, ZEISS employees work in a place where expert knowledge and team spirit reign supreme. All of this is supported by a special ownership structure and the long-term goal of the Carl Zeiss Foundation: to bring science and society into the future together.
 
-On-site
-Department
+Join us today. Inspire people tomorrow.
 
-AI
-Overview
-Application
-In the AI Department, you'll develop the cognitive abilities of our robots, enabling them to understand and interact with their surroundings. You'll work on algorithms that make machines intelligent and adaptive—ranging from object recognition and language processing to decision-making in complex environments. You'll be part of a team that pushes technological boundaries and collaborates closely with software, hardware, and product management teams. Using cutting-edge tools and methods from machine learning and AI, you'll work on projects that have a direct impact on our products. If you're excited about making machines smarter and shaping the future of human-machine interaction, the AI Department is the perfect place for you.
-Your Mission & Challenges
-As a Teleoperations Intern, you will support the setup, operation, and monitoring of teleoperated robotic systems used for demonstrations, internal projects, testing, and AI data collection.
-Your responsibilities may include:
-Support the operation of humanoid and dual-arm robotic systems during teleoperation sessions
-Assist with robot setup, calibration, and preparation for demos, customer showcases, and internal testing
-Help monitor teleoperation workflows and ensure stable robot performance during operation
-Collaborate with AI and robotics teams on teleoperation-based data collection activities
-Assist with troubleshooting hardware, sensor, or operational issues during robot sessions
-Support testing activities involving robotic perception systems, sensors, and manipulation tasks
-Help maintain documentation, operational procedures, and testing protocols
-Work closely with multidisciplinary teams across AI, robotics, and applications
-What We Can Look Forward To
-Currently pursuing a Bachelor’s or Master’s degree in Robotics, Mechanical Engineering, Computer Science, AI, Electrical Engineering, or a related technical field
-Strong interest in robotics, humanoid systems, AI, or teleoperation technologies
-Hands-on mindset and enthusiasm for working with real robotic hardware
-Basic understanding of robotics systems, sensors, or robot control concepts is a plus
-Familiarity with ROS, robotic platforms, or simulation tools is beneficial but not required
-Strong problem-solving skills and willingness to learn in a fast-paced environment
-Ability to work collaboratively in interdisciplinary teams
-Good communication skills in English; German is a plus
+Diversity is a part of ZEISS. We look forward to receiving your application regardless of gender, nationality, ethnic and social origin, religion, philosophy of life, disability, age, sexual orientation or identity.
+
+Apply now! It takes less than 10 minutes.
+Your role
+We are seeking passionate and talented students who want to shape next-generation products at ZEISS. Integrated in a team of scientists and research engineers, you will work (for at least 4 months) on research projects in 3D computer vision for next-generation ZEISS systems. These projects cover a broad range of computer vision topics, including object classification, keypoint and pose estimation, multi-view perception, visual inspection, transfer learning, synthetic data pipelines and dimensional accuracy measurement.
+
+What We Offer
+
+An opportunity to build the foundation for next-generation products
+
+The possibility to learn and implement cutting edge 3D computer vision methods
+
+Mentorship by experienced PhD-level experts
+
+The option to write a master thesis following the internship
+
+The possibility of continued employment as a working student for up to two years
+
+A modern working environment enabling hybrid work by offering remote workdays
+
+Your profile
+You are enrolled in Computer Science, Mechanical or Electrical Engineering, Robotics, or similar
+
+You are motivated to work on challenging tasks
+
+You have a strong computer science background with very good coding skills in Python and/or C++
+
+You also have some experiences in at least one of the topics listed above
+
+Experience with ROS2 is a plus
+
+You are willing to collaborate and work in complementary teams
+
+Good communication skills in English and/or German
+
+You are willing to learn and explore with a high degree of initiative and creativity
+
+Sounds exciting? Then become part of #teamZEISS and help us shape the future! Please provide your complete application documents (CV, transcript of records, etc.).
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

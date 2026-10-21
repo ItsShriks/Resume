@@ -1,33 +1,33 @@
-% Tailored: Data Operator Intern (Teleops) -- AI Department, Aachen
+% Tailored: ZEISS -- Internship, 3D Computer Vision research projects
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      {JungleLook -- Label-free LiDAR Forest Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
+      {Python, PyTorch, PointNet++, Open3D}{}
       \resumeItemListStart
-        \resumeItemPlain{Set up a real \textbf{Neobotix MMO-700} (omnidirectional base, \textbf{UR5e arm, Robotiq gripper}, LiDARs, RealSense L515, IMU): wrote the ROS 2 bring-up and hardware interfaces so the full stack starts on boot without manual steps.}
-        \resumeItemPlain{\textbf{Data collection \& testing:} built automated sensor feeds, bounding-box annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
-        \resumeItemPlain{Connected YOLO, OpenYOLO3D and Mask3D detections to \textbf{LLM and vision-language models} for semantic object retrieval and task planning.}
+        \resumeItemPlain{Label-free segmentation for UAV point clouds: geometric features (DTM, height above ground, eigenvalues) generate pseudo-labels that train \textbf{PointNet / PointNet++}; \textbf{0.80 validation mIoU}, reported as preliminary because it is measured against the pseudo-labels.}
+        \resumeItemPlain{Registered field annotations to the LiDAR data with \textbf{RANSAC + ICP} at \textbf{98.8\% inliers} and \textbf{0.11\,m RMS}; packaged as a CI-tested library that runs on CPU, CUDA and Apple MPS.}
       \resumeItemListEnd
     \resumeSubheading
       {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
       {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
       \resumeItemListStart
-        \resumeItemPlain{\textbf{Calibrated multi-sensor suites} (RGB-D, LiDAR, odometry) on the Toyota HSR and diagnosed hardware-software issues during robot sessions with \textbf{rosbag, RViz and Foxglove Studio}.}
-        \resumeItemPlain{Built person-following with a \textbf{95\% tracking success rate} and pointing-gesture detection (\textbf{TF} transforms across camera, base and arm links) that helped the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{Person-following and intention awareness on the Toyota HSR with \textbf{MediaPipe and OpenCV}; \textbf{95\% tracking success rate}.}
+        \resumeItemPlain{Real-time pointing-gesture detection by ray intersection with \textbf{TF} transforms across camera, base and arm frames, which helped the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{Calibrated RGB-D, LiDAR and odometry; integrated 3D object segmentation and spatial mapping from LiDAR point clouds, with tools to visualise frame alignment and camera visibility.}
       \resumeItemListEnd
     \resumeSubheading
-      {Autonomous Mobile Robot Navigation Stack \& Commissioning}{}
-      {ROS 2, Nav2, SLAM, EKF}{}
+      {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
+      {ROS 2, PyTorch, YOLO, OpenYOLO3D, Mask3D}{}
       \resumeItemListStart
-        \resumeItemPlain{Commissioned a physical omnidirectional industrial platform: map generation and trajectory validation with multi-sensor localization (LiDAR, IMU, encoders) and a custom \textbf{EKF} node.}
-        \resumeItemPlain{Isolated edge-case anomalies using \textbf{rosbag, RViz and Docker logs} and documented root causes in \textbf{structured QA reports}.}
+        \resumeItemPlain{Combined 2D and 3D detection (\textbf{YOLO, OpenYOLO3D, Mask3D}) with RTAB-Map 3D SLAM and vision-language models for semantic object retrieval on a Neobotix MMO-700 with a RealSense L515.}
+        \resumeItemPlain{Recorded sensor data, created bounding-box annotations and wrote evaluation scripts for multi-class detection.}
       \resumeItemListEnd
     \resumeSubheading
-      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2, C++17, MuJoCo, MPC, TSID}{Master Thesis}
+      {PrithviVision -- Shadow-Casting Object Segmentation in Aerial Imagery}{\repo{ItsShriks/PrithviVision}}
+      {U-Net, YOLO, Mask R-CNN}{}
       \resumeItemListStart
-        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 (UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline; coupling an MPC planner with a TSID controller so the arm keeps manipulating while the base moves.}
+        \resumeItemPlain{Curated and annotated (YOLO format) an aerial-image dataset of Bonn and compared \textbf{U-Net, YOLO and Mask R-CNN} for detection and pixel-level segmentation.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

@@ -1,8 +1,8 @@
 %! jobname = Shrikar_Nakhye_Cover_Letter
 %------------------------
 % Cover Letter (English) -- rewritten for every application.
-% Position: Data Operator Intern (Teleops) (human) -- AI Department
-% Company : NEURA Robotics GmbH, Aachen
+% Position: Internship in 3D Computer Vision (f/m/x)
+% Company : ZEISS, Oberkochen
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -20,38 +20,29 @@
 \vspace{5pt}
 
 \textbf{To:} \\
-NEURA Robotics GmbH -- AI Department \\
-Aachen
+ZEISS \\
+Oberkochen
 
 \vspace{5pt}
-\textbf{Re: Application for Data Operator Intern (Teleops) (human)}
+\textbf{Re: Application for Internship in 3D Computer Vision (f/m/x)}
 
 \vspace{5pt}
 Dear Hiring Team,
 
 \vspace{5pt}
-Robots only get smarter when the data they learn from is collected carefully, on hardware that is set up and running reliably. That is the part of robotics I enjoy most: getting a real robot calibrated, keeping it stable through a session, and making sure what we record is worth training on. I am finishing my M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg and would like to bring that hands-on experience to your teleoperation and AI data-collection work in Aachen.
+At ZEISS, measurement accuracy is part of the product, and that is why this internship stands out to me. Most of my vision work so far has been about 3D data from real sensors, and the step from ``the model found the object'' to ``we know where it is, and how precisely'' is the part I find most interesting. I am studying for an M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg and would like to apply for the internship on your 3D computer vision research projects.
 
 \vspace{4pt}
-What I would bring to the role:
-
-\begin{itemize}[leftmargin=*, itemsep=2.5pt, topsep=2pt]
-
-    \item \textbf{Robot setup and bring-up:} On a real Neobotix MMO-700 with a UR5e arm and Robotiq gripper, I wrote the ROS~2 bring-up and hardware interfaces for the base, arm, gripper, LiDARs, RealSense L515 and IMU, so the whole system starts on boot without manual steps. At Sakar Robotics I owned hardware commissioning across \textbf{7 robotic platforms}, 2 of them delivered end-to-end.
-
-    \item \textbf{Calibration and troubleshooting during sessions:} With the b-it bots RoboCup@Home team I calibrate RGB-D, LiDAR and odometry on the Toyota HSR and debug hardware-software problems in rosbag, RViz and Foxglove Studio. My person-following there reaches a \textbf{95\% tracking success rate}, and our pointing-gesture detection helped the team complete \textbf{Help Me Carry} at RoboCup German Open 2025. As an intern at SSIG I calibrated Tool Center Points on ABB industrial arms and verified sensors.
-
-    \item \textbf{Data collection and testing for AI:} For the MMO-700 I built sensor feeds, bounding-box annotations and evaluation scripts to check multi-class detection. As a research assistant at H-BRS I traced sensor timing jitter to its root cause and registered field annotations to LiDAR data at \textbf{98.8\% inliers}, so the training data could be trusted.
-
-    \item \textbf{Documentation and procedures:} I record commissioning results and root causes in structured QA reports, and as Scrum Master of a \textbf{10-member team} at Sakar I kept hardware and software work aligned across disciplines.
-
-\end{itemize}
+The closest match to your topics is JungleLook, which grew out of my research assistant job at H-BRS. I built a label-free segmentation pipeline for UAV LiDAR point clouds: geometric features such as height above ground and eigenvalues create pseudo-labels, which then train PointNet and PointNet++. That reached 0.80 validation mIoU, which I report as preliminary because it is measured against the pseudo-labels and not against real ground truth. The more solid number is the registration step, where I aligned field annotations to the point clouds with RANSAC and ICP at \textbf{98.8\% inliers} and \textbf{0.11\,m RMS}. The code runs on CPU, CUDA and Apple MPS and is public at \href{https://github.com/ItsShriks/JungleLook}{github.com/ItsShriks/JungleLook}.
 
 \vspace{4pt}
-I have not yet operated a humanoid or a teleoperation rig, but I have spent a lot of time next to manipulators and mobile robots during live sessions and would pick up your workflows quickly.
+For keypoints and pose, my main work is with the b-it bots RoboCup@Home team. On the Toyota HSR I built person-following with MediaPipe and OpenCV that reaches a \textbf{95\% tracking success rate}, and pointing-gesture detection that intersects a ray with the scene through TF transforms between camera, base and arm frames. It helped us complete the Help Me Carry task at RoboCup German Open 2025. I have also built a YOLOv8-based person tracker with pose estimation on RGB-D cameras (RoboCompanion), and on a service robot I combined YOLO, OpenYOLO3D and Mask3D detections with RTAB-Map 3D SLAM.
 
 \vspace{4pt}
-I can start \textbf{full-time and on site in Aachen from December 2026}, commuting from Bonn. I speak English at C2 and German at B2. I would be glad to discuss how I can support your team.
+Inspection under tight compute limits is something I did at Navilan Solutions, where I built an offline layout-detection and OCR pipeline that reaches \textbf{90--95\% accuracy} on low-end CPUs. For the PadhLO project I generated synthetic invoice images as training data and fine-tuned a pretrained YOLOv11 to detect document fields, which covers two more of your topics (\href{https://github.com/ItsShriks/Padh_Lo}{github.com/ItsShriks/Padh\_Lo}). I write Python and C++17 daily, use PyTorch and Open3D for 3D work, and run most of my robot code on ROS~2. For PrithviVision I annotated my own aerial dataset and compared U-Net, YOLO and Mask R-CNN on it, so building a dataset and benchmarking methods on it is familiar to me.
+
+\vspace{4pt}
+I can start immediately and am enrolled until my graduation in February 2027. After that I am looking for a full-time position, so I would be very interested in staying on with the team. My English is fluent (C2) and my German is at B2 level. I would be glad to talk about which of your projects my experience fits best.
 
 \vspace{10pt}
 

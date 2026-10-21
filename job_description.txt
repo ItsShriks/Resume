@@ -8,51 +8,71 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Einleitung
-Aufgaben
 
-Über uns
+Job Description - Werkstudententätigkeit im Bereich Automation Technology (m/w/x) (345510)
 
-Die SunBrush mobil GmbH, mit Sitz in Lachen, ist ein führender Entwickler und Hersteller innovativer Reinigungstechnik für Photovoltaik- und Solaranlagen sowie weiterer professioneller Reinigungssysteme für unterschiedlichste Einsatzbereiche.
+Werkstudententätigkeit im Bereich Automation Technology (m/w/x)
+(Job Number: 345510)
 
-Zum Portfolio gehören neben klassischen Reinigungssystemen auch spezialisierte Robotik Lösungen zur effizienten Reinigung von Photovoltaikanlagen. Die Produkte werden in Deutschland gefertigt und tragen das Qualitätsmerkmal „Made in Germany“, das für Zuverlässigkeit, Langlebigkeit und technische Präzision steht. Mit ihren innovativen und professionellen Systemen beliefert die SunBrush mobil GmbH weltweit qualitätsbewusste Kunden, steigert die Effizienz und Werterhaltung von Photovoltaikanlagen und unterstützt Betreiber aktiv bei der nachhaltigen Nutzung erneuerbarer Energien.
+Kautex ist ein globales Unternehmen mit über 30 Werken in 13 Ländern. Als führender Tier-One-Automobilzulieferer sind wir Vorreiter in der Entwicklung und Herstellung von Kunststoffkraftstoffsystemen und darüber hinaus. Von Batteriegehäusen für Hybrid- und vollelektrische Fahrzeuganwendungen bis hin zu autonomen Reinigungssystemen treiben wir Lösungen für das Zeitalter der neuen Mobilität voran. Unser Portfolio umfasst außerdem hochwertige Industrie­verpackungen und gegossene Nockenwellen. Als Teil eines Netzwerks globaler Unternehmen bietet Kautex einige der fortschrittlichsten Technologien und Dienstleistungen, die die Welt je gesehen hat.
 
-Das Unternehmen ist bekannt für seinen technisch hohen Standard, einen absolut zuverlässigen Kundenservice sowie Lösungen, die in der Branche Maßstäbe setzen.
+Wir fördern berufliches Wachstum, entwickeln wegweisende Talentprogramme und setzen uns für Chancengleichheit und Nachhaltigkeit in unseren Geschäftsprozessen und Produkten ein. Wenn wir als ein Team zusammenarbeiten und uns gegenseitig unterstützen, können großartige Dinge entstehen. Wir verschieben Grenzen des Möglichen, erreichen neue Höhen und streben nach Außergewöhnlichem – und werden dafür mit renommierten Auszeichnungen wie Fair Company, Great Place to Work (Silao), MINT Minded Company oder Ecovadis Platinum gewürdigt. Wir freuen uns darauf, Sie kennenzulernen und Ihnen mehr über unsere Werte und lokalen Vorteile zu erzählen.
 
-Aufgaben
-Entwicklung von Algorithmen zur Verarbeitung von LiDAR-Punktwolken zur zuverlässigen Erkennung relevanter Strukturen und Hindernisse in der Umgebung
-Sicherstellung robuster Erkennung unter realen Outdoor-Bedingungen: Regen, Staub, unterschiedliche Geländeprofile und Umgebungsbedingungen
-Übersetzung der Erkennungsergebnisse in Entscheidungen zur Pfadplanung und Positionierung im Gelände
-Verarbeitung und Fusion von LiDAR- und IMU-Daten zu einem konsistenten Umgebungsmodell
-Aufbau und Pflege der ROS2-basierten Softwarearchitektur für Wahrnehmung und Entscheidungsfindung
-Validierung des Systems im Feld, Auswertung von Fehlerfällen und iterative Verbesserung der Erkennungsrobustheit
-Enge Zusammenarbeit mit Hardware-/Elektronik-Team zur Sensor- und Systemintegration
-Voraussetzungen
-Erfahrung in der Verarbeitung von LiDAR-Punktwolken – Clustering, Segmentierung, Ebenenerkennung
-Sicherer Umgang mit Python; ROS/ROS2-Kenntnisse von Vorteil
-Verständnis dafür, wie man Erkennungsalgorithmen robust gegen reale, verrauschte Außenbedingungen macht – nicht nur unter Laborbedingungen
-Strukturierte, eigenständige Arbeitsweise bei der Analyse von Fehlerfällen
-Bereitschaft zu gelegentlichen Einsätzen im Außenbereich vor Ort
-Darüber hinaus wünschenswert, aber nicht erforderlich
 
-Erfahrung mit Sensorfusion, Path-Planning oder Regelungstechnik für mobile Roboter
-Kenntnisse in ML-basierter 3D-Objekterkennung – PointNet, Voxel-basierte Verfahren
-Erfahrung mit LiDAR-Kalibrierung oder Embedded-Systemen
-Erfahrung mit Reflexionseigenschaften von Glas- und Panel-Oberflächen in LiDAR-Daten
-Was wir bieten
-Gestaltungsspielraum beim Tech-Stack
-Direkte Mitwirkung an einem Produkt von der Entwicklung bis zum Feldeinsatz
-Flexibles Arbeiten
-Flache Hierarchien
-Attraktives Gehaltspaket
-Festanstellung mit unbefristetem Arbeitsvertrag
-Erholungsbeihilfe
-30 Tage Urlaub, Gleitzeit
-Weiterbildungsmöglichkeiten
-Mitarbeiterevents
-Betriebliche Altersvorsorge
-Individuelles Bike oder E-Bike zu günstigen Leasing- und Übernahmekonditionen
-Moderne Kommunikationsmittel, neues Bürogebäude sowie neue Fertigungshallen
+Was Sie erwartet:
+
+Du arbeitest direkt an realen Automatisierungsprojekten in unserer Produktion und unterstützt uns dabei, neue Lösungen von der Idee bis zur Umsetzung zu entwickeln. Dabei übernimmst du Schritt für Schritt eigene Aufgabenpakete.
+
+Entwickle und konstruiere mit uns Greifer, Vorrichtungen und Anlagenkomponenten in SolidWorks und begleite deren Umsetzung in der Produktion.
+
+Arbeite an Robotik- und KI-Bildverarbeitungsanwendungen und unterstütze bei Programmierung, Tests und Optimierungen an Universal-Robots Cobots und kamerabasierten Anwendungen.
+
+Begleite neue Automatisierungslösungen von der Idee bis zur Umsetzung, zum Beispiel durch technische Konzepte, Lastenhefte, Taktzeitbetrachtungen und Wirtschaftlichkeitsrechnungen.
+
+Bewerte technische Lösungen und Komponenten verschiedener Lieferanten und unterstütze uns bei der Auswahl geeigneter Technologien und Partner.
+
+Erlebe industrielle Sicherheit und CE-Konformität in der Praxis und unterstütze bei Risikoanalysen und der Dokumentation neuer Anlagen.
+
+Bereite technische und wirtschaftliche Projektdaten verständlich auf, beispielsweise für Projektentscheidungen und Management-Präsentationen.
+
+
+
+Was Sie benötigen, um sich erfolgreich zu bewerben:
+
+Du studierst Maschinenbau, Mechatronik, Automatisierungstechnik, Elektrotechnik oder einen vergleichbaren technischen Studiengang.
+Du interessierst dich für Robotik, Produktionsautomatisierung und die Optimierung technischer Prozesse und hast idealerweise erste Programmiererfahrung
+Erste Erfahrungen mit CAD-Software sind von Vorteil, idealerweise mit SolidWorks.
+Kenntnisse in der Microsoft Power Platform (Power BI, Power Automate, Power Apps) wünschenswert
+Grundlegendes Verständnis von Fertigungs- und Produktionsprozessen
+Analytisches Denkvermögen sowie ausgeprägte Problemlösungskompetenz
+Strukturierte, selbstständige Arbeitsweise sowie Teamfähigkeit
+Sehr gute Deutsch und Englisch Kenntnisse
+
+
+Benefits
+Benefits:
+
+Attraktive Vergütung
+Flexible Arbeitszeiten und Möglichkeiten zum mobilen Arbeiten
+Langfristige Karriere- und Entwicklungsperspektiven in einem internationalen Unternehmen
+Vielfältige Weiterbildungs- und Qualifizierungsangebote
+Ein vielfältiges, globales Team mit Möglichkeiten, funktionsübergreifende Erfahrungen zu sammeln
+Anspruchsvolle und abwechslungsreiche Aufgaben
+Umfangreiche Angebote zu Gesundheit & Mental Wellbeing
+Subventionierte Kantine
+Vergünstigte Mitgliedschaften bei Fitness- und Sportpartnern
+
+
+
+
+
+Recruiting Company Kautex
+Primary Location Germany-North Rhine Westphalia-Bonn - Holzlar HQ
+Job Field Engineering
+Schedule Part-time
+Job Level Individual Contributor
+Shift First Shift
+Job Posting 10/19/2026, 10:14:10 AM
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [ENDE DER STELLENANZEIGE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

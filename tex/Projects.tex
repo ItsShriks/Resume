@@ -1,33 +1,30 @@
-%-----------PROJECTS-----------------
+% Angepasst: Kautex -- Werkstudent Automation Technology (Job Number 345510), Bonn-Holzlar
+%-----------PROJEKTE-----------------
 \section{Projekte}
-
 \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {JungleLook -- Label-freie Segmentierung von LiDAR-Waldpunktwolken}{\repo{ItsShriks/JungleLook}}
-      {Python, PyTorch, PointNet++, Open3D}{}
-      \resumeItemListStart
-        \resumeItemPlain{Label-freie Segmentierungspipeline für reale UAV-Punktwolken aus Waldgebieten: Geometrische Merkmale (DTM, Höhe über Grund, Eigenwerte) erzeugen Pseudo-Labels zum Training von \textbf{PointNet / PointNet++}; \textbf{0,80 mIoU} in der Validierung (vorläufig, gegen Pseudo-Labels).}
-        \resumeItemPlain{Registrierung von Feldannotationen auf die LiDAR-Daten mit \textbf{RANSAC + ICP}: \textbf{98,8\,\% Inlier} bei \textbf{0,11\,m RMS}; CI-getestete Bibliothek für CPU, CUDA und Apple MPS.}
-      \resumeItemListEnd
-
-    \useref{proj:amr-nav}
-
-    \resumeSubheading
-      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
-      {Kernmitglied Perception \& Navigation $\cdot$ ROS 2, Python, C++17}{Studentisches Engagement}
-      \resumeItemListStart
-        \resumeItemPlain{Integration von \textbf{3D-Objektsegmentierung} und räumlicher Kartierung mit LiDAR- und Punktwolkendaten; \textbf{Kalibrierung von Multisensor-Systemen} (RGB-D, LiDAR, Odometrie).}
-        \resumeItemPlain{Fehleranalyse an Hardware-Software-Schnittstellen mit \textbf{rosbag, RViz und Foxglove Studio}; reproduzierbare Container-Deployments mit Docker.}
-        \resumeItemPlain{Multimodales Person-Following auf dem Toyota HSR mit \textbf{95\%} Tracking-Erfolgsquote; Zeigegesten-Erkennung (TF-Transformationen), mit der das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025} absolvierte.}
-      \resumeItemListEnd
-
     \resumeSubheading
       {Robot Butler \& Semantische Objekterkennung}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO}{}
+      {ROS 2, YOLO, PyTorch, RTAB-Map}{}
       \resumeItemListStart
-        \resumeItemPlain{ROS-2-Bring-up-Pipelines und Hardware-Schnittstellen für einen Serviceroboter (\textbf{Neobotix MMO-700}: omnidirektionale Basis, UR5e-Arm, \textbf{LiDARs}, RealSense L515, \textbf{IMU}) mit automatischem Start beim Einschalten.}
-        \resumeItemPlain{Konfiguration von Nav2 und 3D-SLAM (\textbf{RTAB-Map}); Auswertungsskripte zur Validierung der Multi-Klassen-Erkennung und \textbf{dynamischen Hindernisvermeidung}.}
+        \resumeItemPlain{ROS-2-Bring-up und Hardware-Schnittstellen für einen Neobotix MMO-700 mit \textbf{UR5e-Arm und Robotiq-Greifer}, LiDARs, RealSense-L515-Kamera und IMU; das System startet beim Einschalten automatisch.}
+        \resumeItemPlain{Kamerabasierte Objekterkennung mit \textbf{YOLO}, OpenYOLO3D und Mask3D; Auswertungsskripte und Annotationen zur Validierung der Erkennung.}
       \resumeItemListEnd
-
+    \resumeSubheading
+      {UR5 Roboterkinematik \& Bewegungsplanung}{\repo{ItsShriks/ur5_simulation}}
+      {ROS Noetic, KDL, MoveIt}{}
+      \resumeItemListStart
+        \resumeItemPlain{Analytische inverse Kinematik mit KDL für einen 6-DOF-\textbf{UR5}; kollisionsfreie Bahnplanung mit \textbf{MoveIt} und eigenen Kollisionsmodellen, inkl. Benchmarking.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {RoboGrasp -- Objekterkennung für adaptives Greifen}{\repo{ItsShriks/RoboGrasp}}
+      {Python, RGB-D, Punktwolken, EM}{}
+      \resumeItemListStart
+        \resumeItemPlain{Klassifikation von Objekten aus RGB-D-Bildern und 3D-Punktwolken mit Gaußschen Mischmodellen (EM-Algorithmus) zur Auswahl der \textbf{Greifstrategie}.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
+      {ROS 2, C++17, MPC, TSID, MuJoCo}{Masterarbeit}
+      \resumeItemListStart
+        \resumeItemPlain{Kopplung eines MPC-Planers mit einem TSID-Controller, damit ein mobiler Manipulator (UR5e, Robotiq 2F-85) während der Fahrt greifen kann; Simulation der Anfahr-, Greif- und Hebe-Pipeline in \textbf{MuJoCo}.}
+      \resumeItemListEnd
 \resumeSubHeadingListEnd

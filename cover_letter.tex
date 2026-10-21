@@ -1,8 +1,8 @@
 %! jobname = Anschreiben_Shrikar_Nakhye
 %------------------------
 % Anschreiben (Deutsch) -- wird für jede Bewerbung neu geschrieben.
-% Stelle      : Trainee (m/f/d/x) Focus Product \& Technology -- Start up! Programm (Job-ID 733423)
-% Unternehmen : Deutsche Telekom AG, Bonn
+% Stelle      : Robotics / Perception Engineer -- LiDAR-Wahrnehmung \& ROS 2 (Titel in der Anzeige nicht genannt)
+% Unternehmen : SunBrush mobil GmbH, Lachen
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -21,56 +21,56 @@
 \vspace{4pt}
 
 \textbf{An:} \\
-Deutsche Telekom AG \\
-Start up! Trainee-Programm \\
-Bonn \\
+SunBrush mobil GmbH \\
+Personalabteilung \\
+Lachen \\
 
 \vspace{5pt}
 
-\textbf{Betreff: Bewerbung als Trainee (m/f/d/x) Focus Product \& Technology -- Job-ID 733423}
+\textbf{Betreff: Bewerbung als Entwickler (m/w/d) LiDAR-Wahrnehmung \& ROS 2 für autonome PV-Reinigungsroboter}
 
 \vspace{5pt}
 
-Liebes Start up!-Team,
+Sehr geehrte Damen und Herren,
 
 \vspace{3pt}
 
-eure Produkte verbinden Menschen und verbessern ihren Alltag -- und genau daran messe ich Technik: nicht an der Demo, sondern daran, ob sie im Betrieb zuverlässig funktioniert und einen messbaren Unterschied macht. Seit über vier Jahren entwickle ich Software, KI-Modelle und Datenpipelines in Indien und Deutschland. Mit meinem Masterstudium in \textit{Autonomous Systems} an der Hochschule Bonn-Rhein-Sieg auf der Zielgeraden möchte ich nun breiter werden: über Software Engineering und KI hinaus verstehen, wie Technologie bei der Telekom Geschäftsziele erreicht. Ein Programm mit fünf Einsätzen, Auslandsstation und Magenta Friday ist dafür genau der richtige Rahmen.
+ein Reinigungsroboter auf einer Photovoltaikanlage muss Modulreihen, Gelände und Hindernisse zuverlässig aus Punktwolken erkennen, die durch Staub, Regen und spiegelnde Oberflächen verrauscht sind -- und daraus sichere Fahrentscheidungen ableiten. Genau diese Kette von der LiDAR-Wahrnehmung bis zur Pfadplanung reizt mich an Ihrer Stelle, zumal ich sie bei Ihnen vom Algorithmus bis zum Feldeinsatz mitgestalten kann. Ich studiere \textit{Autonomous Systems} an der Hochschule Bonn-Rhein-Sieg und arbeite seit über vier Jahren an Wahrnehmung und Navigation realer Roboter.
 
 \vspace{3pt}
 
-Was ich mitbringe:
+Was ich für Ihre Anforderungen mitbringe:
 
 \vspace{2pt}
 
 \begin{itemize}[leftmargin=*, itemsep=2.5pt, topsep=2pt]
 
-    \item \textbf{KI mit messbarem Ergebnis:} Bei Navilan Solutions habe ich eine vollständig offline laufende Dokumentenerkennung aus drei OCR-Modellen entwickelt, die auf leistungsschwachen CPUs \textbf{90--95\,\% Genauigkeit} erreicht. An der H-BRS habe ich Deep-Learning-Modelle in PyTorch trainiert (\textbf{0,80 mIoU}, vorläufig) und die Datengrundlage selbst kritisch geprüft (\textbf{98,8\,\% Inlier}).
+    \item \textbf{LiDAR-Punktwolken -- Segmentierung und Geländeerkennung:} An der H-BRS habe ich in Python (PyTorch, Open3D) eine Segmentierungspipeline für reale UAV-LiDAR-Daten aus Waldgebieten entwickelt. Geometrische Merkmale wie Geländemodell, Höhe über Grund und Eigenwerte dienen als Pseudo-Labels für PointNet++ (\textbf{0,80 mIoU}, vorläufig). Feldannotationen habe ich mit RANSAC + ICP auf die Punktwolken registriert -- \textbf{98,8\,\% Inlier} bei 0,11\,m RMS (\href{https://github.com/ItsShriks/JungleLook}{github.com/ItsShriks/JungleLook}).
 
-    \item \textbf{Software Engineering \& DevOps:} Meine Dienste bei Navilan habe ich mit automatisierten Tests, CI/CD-Quality-Gates und Docker-Deployments abgesichert; mein Forschungsprojekt JungleLook habe ich zu einer CI-getesteten Python-Bibliothek für CPU, CUDA und Apple MPS ausgebaut.
+    \item \textbf{Robustheit und Fehleranalyse an realen Daten:} Reale Messdaten sind nie sauber. Ich habe Timing-Jitter und Messanomalien strukturiert auf ihre Ursache zurückgeführt und im RoboCup@Home-Team b-it bots Fehler an Hardware-Software-Schnittstellen mit rosbag, RViz und Foxglove Studio eingegrenzt. Bei der Inbetriebnahme eines autonomen mobilen Roboters habe ich Kartierung und Trajektorien am realen System validiert und in QA-Berichten dokumentiert.
 
-    \item \textbf{Verantwortung im Team:} Bei Sakar Robotics habe ich als Scrum Master ein \textbf{10-köpfiges Ingenieurteam} geführt und an \textbf{7 Roboterplattformen} mitgewirkt, von denen 2 vollständig ausgeliefert wurden. Als Centre Manager habe ich Automatisierungslabore aufgebaut und Teams in IndiaSkills-Programmen betreut.
+    \item \textbf{Sensorfusion, Pfadplanung und ROS 2:} Für eine omnidirektionale Industrieplattform habe ich einen eigenen \textbf{EKF-Knoten} zur Fusion von LiDAR-, IMU- und Encoderdaten entwickelt und den Nav2-Stack mit Costmaps, Pfadplanern und Recovery Behaviors konfiguriert. Für einen Neobotix MMO-700 mit LiDARs, IMU und RealSense habe ich die ROS-2-Bring-up-Pipelines und Hardware-Schnittstellen aufgebaut; in meiner Masterarbeit koppele ich einen MPC-Planer mit einem TSID-Controller.
 
-    \item \textbf{Engagement \& Gestaltungswille:} Ich habe an meiner Universität in Indien den Robo Club und den Solar Club mitgegründet und bei WorldSkills India 2021 als Workshop-Manager Wettbewerbsaufgaben organisiert. Heute entwickle ich im RoboCup@Home-Team b-it bots mit -- unsere Lösung hat bei den RoboCup German Open 2025 die Aufgabe \textbf{Help Me Carry} absolviert.
+    \item \textbf{Sensor- und Systemintegration mit Hardware-Teams:} Bei Sakar Robotics habe ich an \textbf{7 autonomen Roboterplattformen} mitgewirkt, von denen 2 vollständig ausgeliefert wurden, und war für Hardware-Inbetriebnahme sowie LiDAR-, Encoder- und IMU-Integration verantwortlich. Bei b-it bots kalibriere ich Multisensor-Systeme (RGB-D, LiDAR, Odometrie); zuvor habe ich einen kostengünstigen LiDAR-Scanner für die Innenraumkartierung entwickelt und veröffentlicht.
 
 \end{itemize}
 
 \vspace{3pt}
 
-Den Schritt von Indien nach Deutschland -- als DAAD-Stipendiat und mit Nebenjobs neben dem Studium -- habe ich bewusst gewählt. Er hat mir gezeigt, wie viel ich lerne, wenn ich meine Komfortzone verlasse; diese Haltung möchte ich in eure internationale Trainee-Community einbringen.
+Mit Reflexionseffekten von Glas- und Paneloberflächen in LiDAR-Daten habe ich noch nicht gearbeitet -- gerade diese Herausforderung möchte ich mit meiner Erfahrung in Merkmalsextraktion und Fehleranalyse systematisch angehen.
 
 \vspace{3pt}
 
 \textbf{Rahmendaten:}
 \begin{itemize}[leftmargin=*, itemsep=1.5pt, topsep=1pt]
-    \item \textbf{Start:} Ab Januar 2027 (Quartalsstart Q1) in Vollzeit; wohnhaft in Bonn.
-    \item \textbf{Sprachkenntnisse:} Verhandlungssicheres Englisch (\textbf{C2}) und fließendes Deutsch (\textbf{B2}), das ich im Programm gern weiter ausbaue.
-    \item \textit{Hinweis zur KI-Nutzung:} Bei der sprachlichen Formulierung und Strukturierung dieses Anschreibens habe ich mich punktuell durch KI-Tools (LLM) unterstützen lassen.
+    \item \textbf{Start:} In Vollzeit nach meinem Masterabschluss (vorauss.\ Februar 2027); ein früherer Einstieg als Werkstudent mit 15--20 Std./Woche ist möglich.
+    \item \textbf{Feldeinsätze:} Einsätze im Außenbereich vor Ort sind für mich selbstverständlich.
+    \item \textbf{Sprachen:} Deutsch (\textbf{B2}), Englisch (\textbf{C2}); Arbeitserlaubnis für Deutschland.
 \end{itemize}
 
 \vspace{3pt}
 
-Ich freue mich darauf, euch in einem persönlichen Gespräch kennenzulernen.
+Ich freue mich darauf, Ihnen in einem persönlichen Gespräch zu zeigen, wie ich Ihre Wahrnehmung robuster machen kann.
 
 \vspace{8pt}
 

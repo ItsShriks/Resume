@@ -4,27 +4,30 @@
 \resumeSubHeadingListStart
 
     \resumeSubheading
-      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
-      {Kernmitglied Perception \& Navigation $\cdot$ Python, ROS 2, MediaPipe, OpenCV}{Studentisches Engagement}
+      {JungleLook -- Label-freie Segmentierung von LiDAR-Waldpunktwolken}{\repo{ItsShriks/JungleLook}}
+      {Python, PyTorch, PointNet++, Open3D}{}
       \resumeItemListStart
-        \resumeItemPlain{Entwicklung eines multimodalen Person-Following- und Intentionserkennungs-Frameworks auf dem Toyota HSR; Tracking-Erfolgsquote von \textbf{95\%}.}
-        \resumeItemPlain{Echtzeit-Erkennung von Zeigegesten; damit absolvierte das Team die Aufgabe \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Fehleranalyse an Hardware-Software-Schnittstellen mit rosbag, RViz und Foxglove Studio; reproduzierbare Deployments mit \textbf{Docker} und Git.}
+        \resumeItemPlain{Label-freie Segmentierungspipeline für reale UAV-Punktwolken aus Waldgebieten: Geometrische Merkmale (DTM, Höhe über Grund, Eigenwerte) erzeugen Pseudo-Labels zum Training von \textbf{PointNet / PointNet++}; \textbf{0,80 mIoU} in der Validierung (vorläufig, gegen Pseudo-Labels).}
+        \resumeItemPlain{Registrierung von Feldannotationen auf die LiDAR-Daten mit \textbf{RANSAC + ICP}: \textbf{98,8\,\% Inlier} bei \textbf{0,11\,m RMS}; CI-getestete Bibliothek für CPU, CUDA und Apple MPS.}
+      \resumeItemListEnd
+
+    \useref{proj:amr-nav}
+
+    \resumeSubheading
+      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
+      {Kernmitglied Perception \& Navigation $\cdot$ ROS 2, Python, C++17}{Studentisches Engagement}
+      \resumeItemListStart
+        \resumeItemPlain{Integration von \textbf{3D-Objektsegmentierung} und räumlicher Kartierung mit LiDAR- und Punktwolkendaten; \textbf{Kalibrierung von Multisensor-Systemen} (RGB-D, LiDAR, Odometrie).}
+        \resumeItemPlain{Fehleranalyse an Hardware-Software-Schnittstellen mit \textbf{rosbag, RViz und Foxglove Studio}; reproduzierbare Container-Deployments mit Docker.}
+        \resumeItemPlain{Multimodales Person-Following auf dem Toyota HSR mit \textbf{95\%} Tracking-Erfolgsquote; Zeigegesten-Erkennung (TF-Transformationen), mit der das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025} absolvierte.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Robot Butler \& Semantische Objekterkennung}{\repo{ItsShriks/steve_hardware_bringup}}
-      {Python, LLM / VLM, YOLO, ROS 2}{}
+      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO}{}
       \resumeItemListStart
-        \resumeItemPlain{Integration von \textbf{LLM- und Vision-Language-Modellen} mit Computer Vision (YOLO, OpenYOLO3D, Mask3D) für semantische Objektsuche und Aufgabenplanung eines Serviceroboters.}
-        \resumeItemPlain{Aufzeichnung von Sensordaten, Erstellung von Bounding-Box-Annotationen und \textbf{Auswertungsskripten} zur Validierung der Multi-Klassen-Erkennung.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {JungleLook -- Label-freie Segmentierung von LiDAR-Waldpunktwolken}{\repo{ItsShriks/JungleLook}}
-      {Python, PyTorch, PointNet++, Open3D}{}
-      \resumeItemListStart
-        \resumeItemPlain{Ausbau eines Forschungsprototyps zu einer \textbf{CI-getesteten Python-Bibliothek} für CPU, CUDA und Apple MPS; \textbf{0,80 mIoU} (vorläufig, gegen Pseudo-Labels).}
+        \resumeItemPlain{ROS-2-Bring-up-Pipelines und Hardware-Schnittstellen für einen Serviceroboter (\textbf{Neobotix MMO-700}: omnidirektionale Basis, UR5e-Arm, \textbf{LiDARs}, RealSense L515, \textbf{IMU}) mit automatischem Start beim Einschalten.}
+        \resumeItemPlain{Konfiguration von Nav2 und 3D-SLAM (\textbf{RTAB-Map}); Auswertungsskripte zur Validierung der Multi-Klassen-Erkennung und \textbf{dynamischen Hindernisvermeidung}.}
       \resumeItemListEnd
 
 \resumeSubHeadingListEnd

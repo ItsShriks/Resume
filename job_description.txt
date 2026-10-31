@@ -9,70 +9,37 @@
 [STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Job Description - Werkstudententätigkeit im Bereich Automation Technology (m/w/x) (345510)
+Minijob für E-Mail Kundensupport 10h / Woche (m/w/d)
+Global Treats GmbH (Marke: Vernasche die Welt) -- Homeoffice (DE/AT/CH), 13--16 EUR/Stunde (geschätzt)
+Quelle: https://talents.studysmarter.de/companies/global-treats-gmbh/minijob-fuer-e-mail-kundensupport-10h-woche-m-w-d-1099000/
 
-Werkstudententätigkeit im Bereich Automation Technology (m/w/x)
-(Job Number: 345510)
+Vernasche die Welt ist die angesagte Marke für internationale Süßigkeiten und Snacks, die sich zusammen mit einer entzückenden Community und Kundschaft für die leckersten und aufregendsten Snacks aus aller Welt begeistert.
 
-Kautex ist ein globales Unternehmen mit über 30 Werken in 13 Ländern. Als führender Tier-One-Automobilzulieferer sind wir Vorreiter in der Entwicklung und Herstellung von Kunststoffkraftstoffsystemen und darüber hinaus. Von Batteriegehäusen für Hybrid- und vollelektrische Fahrzeuganwendungen bis hin zu autonomen Reinigungssystemen treiben wir Lösungen für das Zeitalter der neuen Mobilität voran. Unser Portfolio umfasst außerdem hochwertige Industrie­verpackungen und gegossene Nockenwellen. Als Teil eines Netzwerks globaler Unternehmen bietet Kautex einige der fortschrittlichsten Technologien und Dienstleistungen, die die Welt je gesehen hat.
+Als rasant wachsendes Startup faszinieren wir unsere große und Social Media begeisterte Zielgruppe mit innovativen und vor allem spannenden Produkten aus der ganzen Welt. Erstklassiger Geschmack und höchste Qualitätsansprüche werden bei Vernasche die Welt in Einklang gebracht.
 
-Wir fördern berufliches Wachstum, entwickeln wegweisende Talentprogramme und setzen uns für Chancengleichheit und Nachhaltigkeit in unseren Geschäftsprozessen und Produkten ein. Wenn wir als ein Team zusammenarbeiten und uns gegenseitig unterstützen, können großartige Dinge entstehen. Wir verschieben Grenzen des Möglichen, erreichen neue Höhen und streben nach Außergewöhnlichem – und werden dafür mit renommierten Auszeichnungen wie Fair Company, Great Place to Work (Silao), MINT Minded Company oder Ecovadis Platinum gewürdigt. Wir freuen uns darauf, Sie kennenzulernen und Ihnen mehr über unsere Werte und lokalen Vorteile zu erzählen.
+Aufgaben
+Als Werkstudent/in im Kundensupport bist du ein wichtiger Bestandteil unseres Teams und unterstützt unsere Kunden bei ihren Anfragen per E-Mail. Du sorgst dafür, dass unsere Kunden stets eine professionelle und effiziente Hilfe erhalten und trägst so zu ihrer Zufriedenheit und dem Erfolg unseres Unternehmens bei.
+- Beantwortung von Kundenanfragen per E-Mail / Chat.
+- Erfassung und Dokumentation der Kundenanliegen in unserem Support-System.
+- Enge Zusammenarbeit mit anderen Abteilungen zur Lösungsfindung bei komplexen Anfragen.
+- Mitwirkung bei der Optimierung unserer Support-Prozesse.
+- Gelegentliche Unterstützung bei weiteren Projekten.
 
-
-Was Sie erwartet:
-
-Du arbeitest direkt an realen Automatisierungsprojekten in unserer Produktion und unterstützt uns dabei, neue Lösungen von der Idee bis zur Umsetzung zu entwickeln. Dabei übernimmst du Schritt für Schritt eigene Aufgabenpakete.
-
-Entwickle und konstruiere mit uns Greifer, Vorrichtungen und Anlagenkomponenten in SolidWorks und begleite deren Umsetzung in der Produktion.
-
-Arbeite an Robotik- und KI-Bildverarbeitungsanwendungen und unterstütze bei Programmierung, Tests und Optimierungen an Universal-Robots Cobots und kamerabasierten Anwendungen.
-
-Begleite neue Automatisierungslösungen von der Idee bis zur Umsetzung, zum Beispiel durch technische Konzepte, Lastenhefte, Taktzeitbetrachtungen und Wirtschaftlichkeitsrechnungen.
-
-Bewerte technische Lösungen und Komponenten verschiedener Lieferanten und unterstütze uns bei der Auswahl geeigneter Technologien und Partner.
-
-Erlebe industrielle Sicherheit und CE-Konformität in der Praxis und unterstütze bei Risikoanalysen und der Dokumentation neuer Anlagen.
-
-Bereite technische und wirtschaftliche Projektdaten verständlich auf, beispielsweise für Projektentscheidungen und Management-Präsentationen.
-
-
-
-Was Sie benötigen, um sich erfolgreich zu bewerben:
-
-Du studierst Maschinenbau, Mechatronik, Automatisierungstechnik, Elektrotechnik oder einen vergleichbaren technischen Studiengang.
-Du interessierst dich für Robotik, Produktionsautomatisierung und die Optimierung technischer Prozesse und hast idealerweise erste Programmiererfahrung
-Erste Erfahrungen mit CAD-Software sind von Vorteil, idealerweise mit SolidWorks.
-Kenntnisse in der Microsoft Power Platform (Power BI, Power Automate, Power Apps) wünschenswert
-Grundlegendes Verständnis von Fertigungs- und Produktionsprozessen
-Analytisches Denkvermögen sowie ausgeprägte Problemlösungskompetenz
-Strukturierte, selbstständige Arbeitsweise sowie Teamfähigkeit
-Sehr gute Deutsch und Englisch Kenntnisse
-
+Qualifikation
+- Sehr gute Deutschkenntnisse in Wort und Schrift sowie gute Englischkenntnisse.
+- Starke Kommunikationsfähigkeiten und Freude am Umgang mit Kunden.
+- Selbstständige, strukturierte und lösungsorientierte Arbeitsweise.
+- Du verfügst über einen Laptop/PC.
+- Teamplayer-Mentalität und hohe Motivation.
+- Gute EDV-Kenntnisse und schnelle Auffassungsgabe bei neuen Systemen.
 
 Benefits
-Benefits:
+- Eine spannende Tätigkeit in einem schnell wachsenden Unternehmen.
+- Eine teamorientierte Arbeitsumgebung mit flachen Hierarchien.
+- Die Möglichkeit, eigene Ideen einzubringen und umzusetzen.
+- Flexible Wahl von Arbeitsbeginn und -ende.
+- Home-Office: Du bist nicht an einen festen Standort gebunden.
 
-Attraktive Vergütung
-Flexible Arbeitszeiten und Möglichkeiten zum mobilen Arbeiten
-Langfristige Karriere- und Entwicklungsperspektiven in einem internationalen Unternehmen
-Vielfältige Weiterbildungs- und Qualifizierungsangebote
-Ein vielfältiges, globales Team mit Möglichkeiten, funktionsübergreifende Erfahrungen zu sammeln
-Anspruchsvolle und abwechslungsreiche Aufgaben
-Umfangreiche Angebote zu Gesundheit & Mental Wellbeing
-Subventionierte Kantine
-Vergünstigte Mitgliedschaften bei Fitness- und Sportpartnern
-
-
-
-
-
-Recruiting Company Kautex
-Primary Location Germany-North Rhine Westphalia-Bonn - Holzlar HQ
-Job Field Engineering
-Schedule Part-time
-Job Level Individual Contributor
-Shift First Shift
-Job Posting 10/19/2026, 10:14:10 AM
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [ENDE DER STELLENANZEIGE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

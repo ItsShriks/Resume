@@ -1,14 +1,16 @@
 %! jobname = Shrikar_Nakhye_Cover_Letter
 %------------------------
 % Cover Letter (English) -- rewritten for every application.
-% Position: Internship in 3D Computer Vision (f/m/x)
-% Company : ZEISS, Oberkochen
+% GENERIC technical version: fill in \clcompany / \clrole (and the first paragraph) when sending.
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
 
 \addtolength{\topmargin}{-0.65in}
 \addtolength{\textheight}{1.3in}
+
+\newcommand{\clcompany}{[Company]}
+\newcommand{\clrole}{[Position]}
 
 \begin{document}
 
@@ -20,29 +22,29 @@
 \vspace{5pt}
 
 \textbf{To:} \\
-ZEISS \\
-Oberkochen
+\clcompany \\
+Hiring Team
 
 \vspace{5pt}
-\textbf{Re: Application for Internship in 3D Computer Vision (f/m/x)}
+\textbf{Re: Application for \clrole}
 
 \vspace{5pt}
 Dear Hiring Team,
 
 \vspace{5pt}
-At ZEISS, measurement accuracy is part of the product, and that is why this internship stands out to me. Most of my vision work so far has been about 3D data from real sensors, and the step from ``the model found the object'' to ``we know where it is, and how precisely'' is the part I find most interesting. I am studying for an M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg and would like to apply for the internship on your 3D computer vision research projects.
+I am a robotics and software engineer finishing my M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg (graduating February 2027), and I would like to apply for the \clrole{} position. Over the past four years I have worked on robot perception, navigation, motion control and machine learning, and the part I enjoy most is taking an idea from simulation to a robot that works reliably on real hardware.
 
 \vspace{4pt}
-The closest match to your topics is JungleLook, which grew out of my research assistant job at H-BRS. I built a label-free segmentation pipeline for UAV LiDAR point clouds: geometric features such as height above ground and eigenvalues create pseudo-labels, which then train PointNet and PointNet++. That reached 0.80 validation mIoU, which I report as preliminary because it is measured against the pseudo-labels and not against real ground truth. The more solid number is the registration step, where I aligned field annotations to the point clouds with RANSAC and ICP at \textbf{98.8\% inliers} and \textbf{0.11\,m RMS}. The code runs on CPU, CUDA and Apple MPS and is public at \href{https://github.com/ItsShriks/JungleLook}{github.com/ItsShriks/JungleLook}.
+My largest project is Steve, an autonomous butler robot at the Humanoid Robots Lab of the University of Bonn: a Neobotix MMO-700 omnidirectional base with a UR5e arm, a RealSense camera on a pan-tilt unit and two SICK LiDARs. I am the main contributor to its ROS~2 stack, from hands-off hardware bring-up and safety stop to MoveIt~2 manipulation, Nav2 and grasping with interchangeable grippers and dexterous hands. For it I wrote a 9-DOF whole-body controller as a strict hierarchical QP with joint, velocity and collision constraints. In a kinematic check it tracks the end effector with \textbf{0.01\,cm RMS} error while the base moves (0.55\,cm for a weighted single QP), solving in 10--13\,ms, and the same controller runs in MuJoCo, Gazebo and on the real robot (\href{https://github.com/ItsShriks/steve_wbc}{github.com/ItsShriks/steve\_wbc}). My master thesis continues this direction by coupling a visibility-aware MPC planner with a TSID controller for continuous mobile manipulation.
 
 \vspace{4pt}
-For keypoints and pose, my main work is with the b-it bots RoboCup@Home team. On the Toyota HSR I built person-following with MediaPipe and OpenCV that reaches a \textbf{95\% tracking success rate}, and pointing-gesture detection that intersects a ray with the scene through TF transforms between camera, base and arm frames. It helped us complete the Help Me Carry task at RoboCup German Open 2025. I have also built a YOLOv8-based person tracker with pose estimation on RGB-D cameras (RoboCompanion), and on a service robot I combined YOLO, OpenYOLO3D and Mask3D detections with RTAB-Map 3D SLAM.
+On the perception side, I am a core member of the b-it bots RoboCup@Home team, where I built person-following on the Toyota HSR with a \textbf{95\% tracking success rate} and pointing-gesture detection through TF transforms that helped us complete the Help Me Carry task at RoboCup German Open 2025. As a research assistant I worked on 3D point cloud segmentation for UAV LiDAR data (JungleLook), registering field annotations to the point clouds with RANSAC and ICP at \textbf{98.8\% inliers}. At Navilan Solutions I built a fully offline OCR and layout-detection pipeline that reaches \textbf{90--95\% accuracy} on low-end CPUs, together with C++/Qt applications, Docker deployment and CI/CD.
 
 \vspace{4pt}
-Inspection under tight compute limits is something I did at Navilan Solutions, where I built an offline layout-detection and OCR pipeline that reaches \textbf{90--95\% accuracy} on low-end CPUs. For the PadhLO project I generated synthetic invoice images as training data and fine-tuned a pretrained YOLOv11 to detect document fields, which covers two more of your topics (\href{https://github.com/ItsShriks/Padh_Lo}{github.com/ItsShriks/Padh\_Lo}). I write Python and C++17 daily, use PyTorch and Open3D for 3D work, and run most of my robot code on ROS~2. For PrithviVision I annotated my own aerial dataset and compared U-Net, YOLO and Mask R-CNN on it, so building a dataset and benchmarking methods on it is familiar to me.
+Before my master's, I spent two years at Sakar Robotics in Pune as a robotics engineer and Scrum Master for a 10-member team, contributing to seven autonomous robotic platforms and delivering two of them end-to-end. That taught me to plan work with a team, commission hardware and track down problems where software and hardware meet. I write Python and C++17 every day and work with ROS~2, PyTorch, OpenCV, Open3D and Docker.
 
 \vspace{4pt}
-I can start immediately and am enrolled until my graduation in February 2027. After that I am looking for a full-time position, so I would be very interested in staying on with the team. My English is fluent (C2) and my German is at B2 level. I would be glad to talk about which of your projects my experience fits best.
+I am available for an internship or working-student position now and for a full-time role from February 2027. I am authorised to work in Germany, my English is fluent (C2) and my German is at B2 level. I would be glad to discuss how I can contribute to your team.
 
 \vspace{10pt}
 

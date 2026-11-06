@@ -51,14 +51,67 @@
       \resumeItemListEnd
 }
 
+%-----------STEVE BUTLER ROBOT (Humanoid Robots Lab, University of Bonn)-----------------
+% Lab project (WS 2025/26 student lab "ws2526_butler", continued since). Team project:
+% Shrikar is the main contributor (137 of 163 commits on steve_ros2_ws, sole author of steve_wbc).
+% Robot: Neobotix MMO-700 omnidirectional base + UR5e + Robotiq 2F-85, RealSense L515 on a
+% pan-tilt unit, wrist D415/D405, dual SICK S300 LiDARs, IMU. ROS 2 Humble.
+% Repos: steve_ros2_ws (workspace), steve_hardware_bringup, steve_essentials (drivers),
+%        steve_wbc, steve_grasping, steve_manipulation, steve_simulation (fork of neo_simulation2),
+%        steve_navigation (fork of neo_nav2_bringup).
+% Measured numbers (use only these, always say "kinematic check"):
+%   strict-hierarchy WBC: EE tracking 0.01 cm RMS / 0.03 cm max, 0.00 deg while the base orbits
+%   (weighted single QP on the same test: 0.55 / 1.90 cm, 1.30 deg); QP solve ~10--13 ms.
+% Dates: started with the WS 2025/26 lab (Oct 2025) -- confirm with Shrikar before using a start month.
+
+% Umbrella entry -- use when only one line of space for Steve.
 \defref{proj:butler}{
     \resumeSubheading
-      {Robot Butler \& Semantic Object Tagging}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      {Steve -- Autonomous Butler Mobile Manipulator}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2, Nav2, MoveIt 2, MuJoCo, Gazebo, PyTorch, YOLO}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Engineered ROS 2 bring-up pipelines and hardware interfaces for a domestic service robot (\textbf{Neobotix MMO-700}: omnidirectional base, UR5e arm, Robotiq gripper, LiDARs, RealSense L515, IMU) with hands-off auto-start on boot.}
-        \resumeItemPlain{Configured Nav2 and 3D SLAM (\textbf{RTAB-Map}) and integrated computer vision (\textbf{YOLO}, OpenYOLO3D, Mask3D) with LLM and vision-language models for semantic object retrieval and task planning.}
-        \resumeItemPlain{Constructed automated sensor feeds, bounding-box annotations and evaluation scripts to validate multi-class detection and dynamic obstacle avoidance.}
+        \resumeItemPlain{Main contributor to the full ROS 2 software stack of a \textbf{Neobotix MMO-700} butler robot (omnidirectional base, \textbf{UR5e}, Robotiq gripper, RealSense L515 on a pan-tilt unit, dual SICK LiDARs), running the same code in \textbf{MuJoCo, Gazebo and on the real robot}.}
+        \resumeItemPlain{Wrote a 9-DOF \textbf{whole-body controller} as a strict hierarchical QP (end effector $>$ base $>$ posture) with joint, velocity and collision constraints: \textbf{0.01\,cm RMS} end-effector tracking error in a kinematic check while the base orbits (0.55\,cm for a weighted single QP), solving in \textbf{10--13\,ms}.}
+        \resumeItemPlain{Built active perception with \textbf{MPC interception} of moving objects, eye-in-hand camera calibration and grasping with interchangeable tools (Robotiq 2F-85, PSYONIC Ability Hand, Unitree Dex5) on top of \textbf{MoveIt 2}, Nav2 and RTAB-Map / SLAM Toolbox.}
+        \resumeItemPlain{Hands-off hardware bring-up on boot (auto-start, safety stop via EM-stop or LiDAR fallback) and integrated \textbf{YOLO}, OpenYOLO3D, Mask3D and vision-language models for semantic object retrieval.}
+      \resumeItemListEnd
+}
+
+\defref{proj:steve-wbc}{
+    \resumeSubheading
+      {Steve -- Whole-Body Control \& Active Perception}{\repo{ItsShriks/steve_wbc}}
+      {Python, MuJoCo, QP, MPC, ROS 2}{Humanoid Robots Lab, Uni Bonn}
+      \resumeItemListStart
+        \resumeItemPlain{Unified velocity-level \textbf{whole-body controller} over all 9 DOF of an MMO-700 base + UR5e as a \textbf{strict task hierarchy} (one constrained least-squares problem per level), with velocity, acceleration, joint-limit and collision constraints (table, obstacles, floor, self).}
+        \resumeItemPlain{Exact whole-body Jacobian from the MuJoCo model; \textbf{0.01\,cm RMS / 0.03\,cm max} end-effector error in a kinematic check while the base orbits, vs. 0.55 / 1.90\,cm for a weighted QP; \textbf{10--13\,ms} per solve. Same controller in MuJoCo, Gazebo and on the real robot.}
+        \resumeItemPlain{Active perception pipeline: drive, detect from the first tick (head + wrist RGB-D), constant-velocity tracking, receding-horizon \textbf{MPC interception} of the predicted object path, grasp, lift and hold check; plus VGN grasp planning and marker-free eye-in-hand calibration.}
+      \resumeItemListEnd
+}
+
+\defref{proj:steve-grasping}{
+    \resumeSubheading
+      {Steve -- Multi-Tool Grasping}{\repo{ItsShriks/steve_grasping}}
+      {Python, MuJoCo, MJCF, ROS 2}{Humanoid Robots Lab, Uni Bonn}
+      \resumeItemListStart
+        \resumeItemPlain{Interchangeable end-effector framework that composes tool models onto the robot at runtime (camera-only, \textbf{Robotiq 2F-85}, \textbf{PSYONIC Ability Hand}, \textbf{Unitree Dex5-1}); generated MuJoCo models from vendor URDFs; Ability Hand grasps static, cluttered and rolling balls in simulation.}
+      \resumeItemListEnd
+}
+
+\defref{proj:steve-manipulation}{
+    \resumeSubheading
+      {Steve -- Arm Manipulation with MoveIt 2}{\repo{ItsShriks/steve_manipulation}}
+      {ROS 2, MoveIt 2, OMPL, UR Driver}{Humanoid Robots Lab, Uni Bonn}
+      \resumeItemListStart
+        \resumeItemPlain{MoveIt 2 configuration (SRDF, kinematics, OMPL) and a Python manipulator API/CLI for the UR5e + Robotiq gripper in Gazebo and on hardware; shared safety stop and detection of running bring-ups to avoid duplicate UR drivers.}
+      \resumeItemListEnd
+}
+
+\defref{proj:steve-bringup}{
+    \resumeSubheading
+      {Steve -- Hardware Bring-up, Simulation \& Navigation}{\repo{ItsShriks/steve_hardware_bringup}}
+      {ROS 2, Nav2, SLAM Toolbox, AMCL, Gazebo}{Humanoid Robots Lab, Uni Bonn}
+      \resumeItemListStart
+        \resumeItemPlain{Hands-off boot-time bring-up of base, arm, gripper, LiDARs, RealSense L515 and joystick; consolidated drivers and interfaces (\repo{ItsShriks/steve_essentials}); Gazebo simulation with pan-tilt camera and Nav2 with SLAM Toolbox / AMCL for the MMO-700.}
       \resumeItemListEnd
 }
 

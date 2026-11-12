@@ -9,36 +9,37 @@
 [STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Minijob für E-Mail Kundensupport 10h / Woche (m/w/d)
-Global Treats GmbH (Marke: Vernasche die Welt) -- Homeoffice (DE/AT/CH), 13--16 EUR/Stunde (geschätzt)
-Quelle: https://talents.studysmarter.de/companies/global-treats-gmbh/minijob-fuer-e-mail-kundensupport-10h-woche-m-w-d-1099000/
-
-Vernasche die Welt ist die angesagte Marke für internationale Süßigkeiten und Snacks, die sich zusammen mit einer entzückenden Community und Kundschaft für die leckersten und aufregendsten Snacks aus aller Welt begeistert.
-
-Als rasant wachsendes Startup faszinieren wir unsere große und Social Media begeisterte Zielgruppe mit innovativen und vor allem spannenden Produkten aus der ganzen Welt. Erstklassiger Geschmack und höchste Qualitätsansprüche werden bei Vernasche die Welt in Einklang gebracht.
+Automation Engineer - Robotics & Motion Control (m/w/d)
+Schüco -- Projekt ExMachina (industrieller Einsatz humanoider Robotik)
+Quelle: https://www.linkedin.com/jobs/view/4490357397/
 
 Aufgaben
-Als Werkstudent/in im Kundensupport bist du ein wichtiger Bestandteil unseres Teams und unterstützt unsere Kunden bei ihren Anfragen per E-Mail. Du sorgst dafür, dass unsere Kunden stets eine professionelle und effiziente Hilfe erhalten und trägst so zu ihrer Zufriedenheit und dem Erfolg unseres Unternehmens bei.
-- Beantwortung von Kundenanfragen per E-Mail / Chat.
-- Erfassung und Dokumentation der Kundenanliegen in unserem Support-System.
-- Enge Zusammenarbeit mit anderen Abteilungen zur Lösungsfindung bei komplexen Anfragen.
-- Mitwirkung bei der Optimierung unserer Support-Prozesse.
-- Gelegentliche Unterstützung bei weiteren Projekten.
 
-Qualifikation
-- Sehr gute Deutschkenntnisse in Wort und Schrift sowie gute Englischkenntnisse.
-- Starke Kommunikationsfähigkeiten und Freude am Umgang mit Kunden.
-- Selbstständige, strukturierte und lösungsorientierte Arbeitsweise.
-- Du verfügst über einen Laptop/PC.
-- Teamplayer-Mentalität und hohe Motivation.
-- Gute EDV-Kenntnisse und schnelle Auffassungsgabe bei neuen Systemen.
+Im Projekt ExMachina testen wir den industriellen Einsatz humanoider Robotik. Als Automation Engineer - Robotics & Motion Control (m/w/d) entwickelst du die Bewegungssoftware, mit der unser humanoides Robotersystem sicher navigiert, greift, trägt und mit seiner industriellen Umgebung interagiert. Dabei begleitest du die Entwicklung vom Digital Twin und der Simulation bis zur Umsetzung auf dem realen Roboter.
 
-Benefits
-- Eine spannende Tätigkeit in einem schnell wachsenden Unternehmen.
-- Eine teamorientierte Arbeitsumgebung mit flachen Hierarchien.
-- Die Möglichkeit, eigene Ideen einzubringen und umzusetzen.
-- Flexible Wahl von Arbeitsbeginn und -ende.
-- Home-Office: Du bist nicht an einen festen Standort gebunden.
+- Du entwickelst die Bewegungssteuerung für humanoide Robotersysteme und überführst komplexe Aufgaben in sichere, robuste und reproduzierbare Bewegungsabläufe.
+- Du konzipierst und implementierst Verfahren für Motion Planning, Whole-Body Control, Kinematik, Dynamik und Trajektorienplanung.
+- Du entwickelst Bewegungsabläufe für Stehen, Gehen, Drehen, Greifen, Tragen und die koordinierte Manipulation von Objekten.
+- Du entwickelst und optimierst unsere Simulations- und Digital-Twin-Umgebung und gestaltest die Sim-to-Real-Pipeline bis zur realen Hardware.
+- Du integrierst Sensorik und Roboterschnittstellen, insbesondere Gelenk-, IMU- sowie Kraft- und Momentendaten, in die Bewegungsregelung.
+- Du überträgst und validierst entwickelte Funktionen auf realen humanoiden Robotersystemen und analysierst Abweichungen zwischen Simulation und Realität.
+- Du entwickelst unsere Robotik-Software mit C++ und Python auf Basis von ROS 2 kontinuierlich weiter und stellst durch automatisierte Tests, Logging und Telemetrie eine hohe Softwarequalität sicher.
+- Du arbeitest eng mit Kolleg:innen aus Robotik, Automatisierung, Softwareentwicklung, Maschinenbau und Safety zusammen.
+
+Profil
+
+- Du hast ein Studium im Bereich Robotik, Mechatronik, Automatisierungstechnik, Informatik, Elektrotechnik, Maschinenbau oder einer vergleichbaren Fachrichtung abgeschlossen.
+- Du bringst praktische Erfahrung in der Entwicklung von Robotik-, Automatisierungs- oder Motion-Control-Systemen mit.
+- Du verfügst über fundierte Kenntnisse in mindestens einem der Bereiche Roboterkinematik, Roboterdynamik, Regelungstechnik, Bewegungsplanung oder Optimierungsverfahren.
+- Du programmierst sicher in Python und verfügst über gute Kenntnisse in C++ sowie idealerweise Erfahrung mit ROS 2.
+- Du hast Erfahrung mit Simulationsumgebungen wie NVIDIA Isaac Sim, MuJoCo oder Gazebo und kennst dich mit Sim-to-Real-Ansätzen aus.
+- Idealerweise kennst du Verfahren wie Whole-Body Control, Model Predictive Control, Trajectory Optimization, Inverse Kinematics oder State Estimation.
+- Erfahrungen mit humanoiden oder laufenden Robotern, industrieller Robotik, Kraft-/Momentensensorik oder funktionaler Sicherheit sind ein Plus.
+- Du arbeitest strukturiert, lösungsorientiert und sicherheitsbewusst und hast Freude daran, komplexe mathematische und technische Konzepte in robuste Anwendungen zu überführen.
+- Du kommunizierst sicher auf Deutsch oder Englisch und arbeitest gerne in interdisziplinären Teams.
+
+Gute Gründe für Schüco als Arbeitgeber
+Flexible Arbeitszeiten (Gleitzeitmodell) | Mobiles Arbeiten | 30 Tage Urlaub | Sabbatical | Jobticket | Jobrad | Betriebliche Altersvorsorge | Attraktive Vergütung mit außertariflichen Leistungen | „Schüco Lounge" (Betriebsrestaurant) | Moderner Campus mit eigenem Café | Individuelle Weiterbildungsangebote | Kindernotfallbetreuung sowie Ferienprogramme | Vergünstigungen (Corporate Benefits) | Einführungstage für neue Mitarbeitende | Fundiertes Onboarding | Hardware-Leasing
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [ENDE DER STELLENANZEIGE]

@@ -1,30 +1,34 @@
-% Angepasst: Kautex -- Werkstudent Automation Technology (Job Number 345510), Bonn-Holzlar
+% Angepasst: Schüco -- Automation Engineer - Robotics & Motion Control (m/w/d), Projekt ExMachina
 %-----------PROJEKTE-----------------
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Robot Butler \& Semantische Objekterkennung}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, YOLO, PyTorch, RTAB-Map}{}
+      {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
+      {ROS 2, C++17, MPC, TSID, MuJoCo}{Masterarbeit}
       \resumeItemListStart
-        \resumeItemPlain{ROS-2-Bring-up und Hardware-Schnittstellen für einen Neobotix MMO-700 mit \textbf{UR5e-Arm und Robotiq-Greifer}, LiDARs, RealSense-L515-Kamera und IMU; das System startet beim Einschalten automatisch.}
-        \resumeItemPlain{Kamerabasierte Objekterkennung mit \textbf{YOLO}, OpenYOLO3D und Mask3D; Auswertungsskripte und Annotationen zur Validierung der Erkennung.}
+        \resumeItemPlain{Regelungs- und Bewegungsplanungsarchitektur, die einen sichtbarkeitsbewussten \textbf{MPC}-Planer mit einem hochfrequenten \textbf{TSID}-Controller (Task-Space Inverse Dynamics) koppelt, damit der Roboter kontinuierlich und ohne Stopp greifen kann.}
+        \resumeItemPlain{Asynchrone ROS-2-Bridge und Software-Adapter in \textbf{C++17} für \textbf{Trajektorieninterpolation}, Ausführungslogik und Echtzeit-Validierung der \textbf{Starrkörperdynamik}.}
+        \resumeItemPlain{\textbf{MuJoCo}-Simulation des MMO-700 (MPO-700-Basis, UR5e-Arm, Robotiq 2F-85) mit vollständig autonomer Anfahr-, Greif- und Hebe-Pipeline.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
+      {ROS 2, C++17, Python, Toyota HSR}{Studentisches Engagement}
+      \resumeItemListStart
+        \resumeItemPlain{Person-Following auf dem \textbf{Toyota HSR} mit \textbf{95\,\% Tracking-Erfolgsquote}; Zeigegesten-Erkennung mit \textbf{TF}-Transformationen zwischen Kamera-, Basis- und Manipulator-Frames, mit der das Team die Aufgabe \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025} absolvierte.}
+        \resumeItemPlain{Kalibrierung von Multisensor-Systemen und Analyse von \textbf{Abweichungen an Hardware-Software-Schnittstellen} mit \textbf{rosbag, RViz und Foxglove Studio} (Logging \& Telemetrie).}
+        \resumeItemPlain{Modulare Hardware-Adapter in \textbf{Modern C++ (C++17) und Python}; reproduzierbare Deployments mit Docker.}
       \resumeItemListEnd
     \resumeSubheading
       {UR5 Roboterkinematik \& Bewegungsplanung}{\repo{ItsShriks/ur5_simulation}}
       {ROS Noetic, KDL, MoveIt}{}
       \resumeItemListStart
-        \resumeItemPlain{Analytische inverse Kinematik mit KDL für einen 6-DOF-\textbf{UR5}; kollisionsfreie Bahnplanung mit \textbf{MoveIt} und eigenen Kollisionsmodellen, inkl. Benchmarking.}
+        \resumeItemPlain{Kinematik-Simulation eines 6-DOF-UR5 mit analytischer \textbf{inverser Kinematik} (KDL); kollisionsfreie \textbf{Trajektoriengenerierung} mit MoveIt und eigenen Kollisionsmodellen, inkl. Benchmarking.}
       \resumeItemListEnd
     \resumeSubheading
-      {RoboGrasp -- Objekterkennung für adaptives Greifen}{\repo{ItsShriks/RoboGrasp}}
-      {Python, RGB-D, Punktwolken, EM}{}
+      {Autonomer Mobiler Roboter -- Navigation \& Inbetriebnahme}{}
+      {ROS 2, Nav2, EKF}{}
       \resumeItemListStart
-        \resumeItemPlain{Klassifikation von Objekten aus RGB-D-Bildern und 3D-Punktwolken mit Gaußschen Mischmodellen (EM-Algorithmus) zur Auswahl der \textbf{Greifstrategie}.}
-      \resumeItemListEnd
-    \resumeSubheading
-      {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2, C++17, MPC, TSID, MuJoCo}{Masterarbeit}
-      \resumeItemListStart
-        \resumeItemPlain{Kopplung eines MPC-Planers mit einem TSID-Controller, damit ein mobiler Manipulator (UR5e, Robotiq 2F-85) während der Fahrt greifen kann; Simulation der Anfahr-, Greif- und Hebe-Pipeline in \textbf{MuJoCo}.}
+        \resumeItemPlain{Eigener \textbf{Extended-Kalman-Filter}-Knoten zur \textbf{Zustandsschätzung} aus LiDAR, \textbf{IMU} und Encodern; Nav2-Stack auf einer omnidirektionalen Industrieplattform.}
+        \resumeItemPlain{\textbf{Inbetriebnahme am realen Roboter} und Trajektorienvalidierung; Fehleranalyse mit rosbag, RViz und Docker-Logs, dokumentiert in strukturierten QA-Berichten.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

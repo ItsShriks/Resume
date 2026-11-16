@@ -1,22 +1,30 @@
-% Tailored: GENERIC technical CV
+% Tailored: GENERIC Robotics Software Engineer CV
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
+      {Steve -- Autonomous Butler Mobile Manipulator}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2, C++, Python, Nav2, MoveIt 2, MuJoCo, Gazebo}{Humanoid Robots Lab, Uni Bonn}
+      \resumeItemListStart
+        \resumeItemPlain{Main contributor to the full \textbf{ROS 2} software stack of a \textbf{Neobotix MMO-700} butler robot (omnidirectional base, \textbf{UR5e}, Robotiq gripper, RealSense L515 on a pan-tilt unit, dual SICK LiDARs); the same code runs in \textbf{MuJoCo, Gazebo and on the real robot}.}
+        \resumeItemPlain{Wrote a 9-DOF \textbf{whole-body controller} as a strict hierarchical QP (end effector $>$ base $>$ posture) with joint, velocity and collision constraints: \textbf{0.01\,cm RMS} end-effector error in a kinematic check while the base orbits (0.55\,cm for a weighted single QP), solving in \textbf{10--13\,ms}.}
+        \resumeItemPlain{Built active perception with \textbf{MPC interception} of moving objects, eye-in-hand calibration and multi-tool grasping on top of \textbf{MoveIt 2}, Nav2 and RTAB-Map / SLAM Toolbox; integrated YOLO and vision-language models for semantic object retrieval.}
+        \resumeItemPlain{Hands-off hardware bring-up on boot (auto-start, safety stop via EM-stop or LiDAR fallback) and consolidated drivers and interfaces (\repo{ItsShriks/steve_essentials}).}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/steve_ros2_ws}}
       {ROS 2, C++17, MPC, TSID, MuJoCo}{Master Thesis}
       \resumeItemListStart
-        \resumeItemPlain{Designing a control architecture that couples a visibility-aware \textbf{MPC} planner with a high-frequency \textbf{TSID} controller for continuous manipulation on mobile robots; asynchronous ROS 2 bridge and adapters in \textbf{C++17}.}
-        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (UR5e arm, Robotiq gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
+        \resumeItemPlain{Designing a control architecture that couples a visibility-aware \textbf{MPC} planner with a high-frequency \textbf{TSID} controller for continuous manipulation on mobile robots; asynchronous ROS 2 bridge and adapters in \textbf{C++17} for trajectory interpolation and execution logic.}
+        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (UR5e arm, Robotiq 2F-85 gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
       \resumeItemListEnd
-    \useref{proj:butler}
     \resumeSubheading
       {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
-      {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
+      {Perception \& Navigation Core Member $\cdot$ ROS 2, C++17, Python}{Extracurricular}
       \resumeItemListStart
         \resumeItemPlain{Person-following and intention awareness on the Toyota HSR with \textbf{ROS 2, MediaPipe and OpenCV}, reaching a \textbf{95\% tracking success rate}.}
         \resumeItemPlain{Real-time pointing-gesture detection using \textbf{TF} transforms across camera, base and arm frames, which helped the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Calibrated RGB-D, LiDAR and odometry; debugged hardware-software issues with rosbag, RViz and Foxglove; containerised deployments with \textbf{Docker}.}
+        \resumeItemPlain{Modular hardware adapters in \textbf{C++17 and Python}; calibrated RGB-D, LiDAR and odometry; debugged with rosbag, RViz and Foxglove; reproducible \textbf{Docker} deployments.}
       \resumeItemListEnd
     \resumeSubheading
       {JungleLook -- Label-free LiDAR Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}

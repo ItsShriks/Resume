@@ -1,7 +1,7 @@
 %! jobname = Shrikar_Nakhye_Cover_Letter
 %------------------------
 % Cover Letter (English) -- rewritten for every application.
-% GENERIC technical version: fill in \clcompany / \clrole (and the first paragraph) when sending.
+% Position: Robotics Engineer -- RoboService GmbH, Berlin (humanoid robots for industrial manufacturing).
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -9,8 +9,8 @@
 \addtolength{\topmargin}{-0.65in}
 \addtolength{\textheight}{1.3in}
 
-\newcommand{\clcompany}{[Company]}
-\newcommand{\clrole}{[Position]}
+\newcommand{\clcompany}{RoboService GmbH}
+\newcommand{\clrole}{Robotics Engineer}
 
 \begin{document}
 
@@ -23,28 +23,32 @@
 
 \textbf{To:} \\
 \clcompany \\
-Hiring Team
+Hiring Team \\
+Berlin, Germany
 
 \vspace{5pt}
-\textbf{Re: Application for \clrole}
+\textbf{Re: Application for the \clrole{} position}
 
 \vspace{5pt}
-Dear Hiring Team,
+Dear RoboService Hiring Team,
 
 \vspace{5pt}
-I am a robotics and software engineer finishing my M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg (graduating February 2027), and I would like to apply for the \clrole{} position. Over the past four years I have worked on robot perception, navigation, motion control and machine learning, and the part I enjoy most is taking an idea from simulation to a robot that works reliably on real hardware.
+Putting humanoid robots onto real European manufacturing lines is exactly the step I want to work on: robots that leave the lab and do useful, reliable work in a factory. I am a robotics engineer finishing my M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg (February 2027), with 4+ years of hands-on robotics, and I would like to apply for the \clrole{} position in your Berlin team.
 
 \vspace{4pt}
-My largest project is Steve, an autonomous butler robot at the Humanoid Robots Lab of the University of Bonn: a Neobotix MMO-700 omnidirectional base with a UR5e arm, a RealSense camera on a pan-tilt unit and two SICK LiDARs. I am the main contributor to its ROS~2 stack, from hands-off hardware bring-up and safety stop to MoveIt~2 manipulation, Nav2 and grasping with interchangeable grippers and dexterous hands. For it I wrote a 9-DOF whole-body controller as a strict hierarchical QP with joint, velocity and collision constraints. In a kinematic check it tracks the end effector with \textbf{0.01\,cm RMS} error while the base moves (0.55\,cm for a weighted single QP), solving in 10--13\,ms, and the same controller runs in MuJoCo, Gazebo and on the real robot (\href{https://github.com/ItsShriks/steve_wbc}{github.com/ItsShriks/steve\_wbc}). My master thesis continues this direction by coupling a visibility-aware MPC planner with a TSID controller for continuous mobile manipulation.
+\textbf{ROS~2 on a non-standard platform, from drivers to manipulation.} At the Humanoid Robots Lab of the University of Bonn I am the main developer of the ROS~2 stack for Steve, a custom mobile manipulator: a Neobotix MMO-700 omnidirectional base, a UR5e arm, a Robotiq gripper, a RealSense camera on a Dynamixel pan-tilt unit and two SICK LiDARs. I wrote the hardware bring-up so every driver starts hands-off at power-on, with a drive heartbeat watchdog, LiDARs identified by serial number and a shared safety stop, and integrated Nav2, MoveIt~2 and swap-in end effectors, including the PSYONIC Ability Hand on the real robot. The same code runs in MuJoCo, Gazebo and on the hardware (\href{https://github.com/ItsShriks/steve_ros2_ws}{github.com/ItsShriks/steve\_ros2\_ws}).
 
 \vspace{4pt}
-On the perception side, I am a core member of the b-it bots RoboCup@Home team, where I built person-following on the Toyota HSR with a \textbf{95\% tracking success rate} and pointing-gesture detection through TF transforms that helped us complete the Help Me Carry task at RoboCup German Open 2025. As a research assistant I worked on 3D point cloud segmentation for UAV LiDAR data (JungleLook), registering field annotations to the point clouds with RANSAC and ICP at \textbf{98.8\% inliers}. At Navilan Solutions I built a fully offline OCR and layout-detection pipeline that reaches \textbf{90--95\% accuracy} on low-end CPUs, together with C++/Qt applications, Docker deployment and CI/CD.
+\textbf{From simulation to a precise real robot.} Steve has to grasp from a table while its base keeps moving, but with a weighted single QP the arm and base tasks fought each other and the gripper drifted by 0.55\,cm RMS. I wrote a 9-DOF whole-body controller as a strict task hierarchy with the exact Jacobian from the MuJoCo model plus joint, velocity and collision constraints. In the same check the error dropped to \textbf{0.01\,cm RMS} at 10--13\,ms per solve. On the real robot I switched the UR5e to velocity commands, which cut figure-8 tracking error from 0.17 to \textbf{0.12\,cm RMS}, and calibrated the wrist camera without markers to 0.17\,cm RMS. Steve now completes full grasps on the real robot (\href{https://github.com/ItsShriks/steve_wbc}{github.com/ItsShriks/steve\_wbc}).
 
 \vspace{4pt}
-Before my master's, I spent two years at Sakar Robotics in Pune as a robotics engineer and Scrum Master for a 10-member team, contributing to seven autonomous robotic platforms and delivering two of them end-to-end. That taught me to plan work with a team, commission hardware and track down problems where software and hardware meet. I write Python and C++17 every day and work with ROS~2, PyTorch, OpenCV, Open3D and Docker.
+\textbf{Reliability under competition conditions.} In the b-it bots RoboCup@Home team I built person following and pointing-gesture detection on the Toyota HSR with ROS~2, MediaPipe and TF transforms, reaching a \textbf{95\% tracking success rate}. I calibrated RGB-D, LiDAR and odometry, debugged hardware--software issues with rosbag, RViz and Foxglove, and helped the team complete the Help Me Carry task at RoboCup German Open 2025.
 
 \vspace{4pt}
-I am available for an internship or working-student position now and for a full-time role from February 2027. I am authorised to work in Germany, my English is fluent (C2) and my German is at B2 level. I would be glad to discuss how I can contribute to your team.
+\textbf{Industrial roots.} I started on the factory side: programming ABB IRB1320 robots in RAPID with TCP calibration and PLC I/O at SSIG Manufacturing, then two years at Sakar Robotics as robotics engineer and Scrum Master of a 10-member team, commissioning hardware across seven autonomous platforms and delivering two end-to-end. I write Python every day, and C++17 where performance matters.
+
+\vspace{4pt}
+I am available full time from January 2027. I am authorised to work in Germany, happy to relocate to Berlin to work in person with your team, and my English is fluent (C2), with German at B2. I would be glad to show you Steve's stack in more detail.
 
 \vspace{10pt}
 

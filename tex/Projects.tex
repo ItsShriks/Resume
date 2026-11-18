@@ -1,31 +1,26 @@
-% Tailored: GENERIC technical CV -- lean version
+% Tailored: RoboService GmbH -- Robotics Engineer (ROS 2 driver integration, sim-to-real, hw/sw debugging)
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Autonomous Butler Mobile Manipulator}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ MuJoCo $\cdot$ Gazebo $\cdot$ YOLO}{Humanoid Robots Lab, Uni Bonn}
+      {Steve -- Mobile Manipulator: ROS 2 Stack \& Hardware Bring-up}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2 Humble $\cdot$ Python $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ MuJoCo $\cdot$ Gazebo $\cdot$ CANopen}{Humanoid Robots Lab, Uni Bonn -- main developer}
       \resumeItemListStart
-        \resumeItemPlain{Built, as main contributor, the \textbf{ROS 2} stack of a \textbf{Neobotix MMO-700} butler robot (UR5e, Robotiq gripper, RealSense, dual LiDARs); the same code runs in \textbf{MuJoCo, Gazebo and on the real robot}.}
-        \resumeItemPlain{Designed a 9-DOF \textbf{whole-body controller} (strict hierarchical QP) so the arm stays precise while the base moves: \textbf{0.01\,cm RMS} end-effector error in a kinematic check (vs 0.55\,cm for a weighted QP), \textbf{10--13\,ms} per solve.}
+        \resumeItemPlain{Brought up a \textbf{Neobotix MMO-700} (omni base, UR5e, Robotiq 2F-85, RealSense, dual SICK LiDARs) in \textbf{ROS 2} so every driver starts hands-off at power-on, with a drive heartbeat watchdog and safety stop.}
+        \resumeItemPlain{Integrated \textbf{Nav2} (SLAM Toolbox, AMCL), \textbf{MoveIt 2} and swap-in end effectors incl. the \textbf{PSYONIC Ability Hand}; the same code runs in \textbf{MuJoCo, Gazebo and on the real robot}.}
       \resumeItemListEnd
     \resumeProject
-      {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2 $\cdot$ C++17 $\cdot$ MPC $\cdot$ TSID $\cdot$ MuJoCo}{Master Thesis}
+      {Steve -- Whole-Body Control from Simulation to the Real Robot}{\repo{ItsShriks/steve_wbc}}
+      {Python $\cdot$ MuJoCo $\cdot$ Hierarchical QP $\cdot$ ROS 2 $\cdot$ UR5e}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Designing an \textbf{MPC} + \textbf{TSID} control architecture with an asynchronous ROS 2 bridge in \textbf{C++17} so a mobile robot can grasp while driving; autonomous drive--reach--grasp--lift pipeline running in \textbf{MuJoCo}.}
+        \resumeItemPlain{Designed a 9-DOF \textbf{whole-body controller} (strict task hierarchy, base + arm) so the gripper stays precise while the base moves: \textbf{0.01\,cm RMS} error vs 0.55\,cm for a weighted QP, \textbf{10--13\,ms} per solve.}
+        \resumeItemPlain{Switched the real UR5e to the \textbf{velocity interface}, cutting figure-8 tracking error to \textbf{0.12\,cm RMS} (from 0.17\,cm); Steve now completes \textbf{full grasps on the real robot}.}
       \resumeItemListEnd
     \resumeProject
       {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
-      {Perception \& Navigation core member $\cdot$ ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ Toyota HSR}{Extracurricular}
+      {ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ C++17 $\cdot$ Docker $\cdot$ Toyota HSR}{Perception \& Navigation core member}
       \resumeItemListStart
-        \resumeItemPlain{Built person following on the Toyota HSR with ROS 2, MediaPipe and OpenCV: \textbf{95\% tracking success rate}.}
-        \resumeItemPlain{Added \textbf{TF}-based pointing-gesture detection, helping the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
-      \resumeItemListEnd
-    \resumeProject
-      {JungleLook -- Label-free LiDAR Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
-      {Python $\cdot$ PyTorch $\cdot$ PointNet++ $\cdot$ Open3D}{}
-      \resumeItemListStart
-        \resumeItemPlain{Trained \textbf{PointNet++} on automatically generated geometric labels so UAV forest scans need no manual annotation: \textbf{0.80 validation mIoU} (preliminary); registered field annotations with \textbf{RANSAC + ICP} at \textbf{98.8\% inliers}.}
+        \resumeItemPlain{Built person following and \textbf{TF}-based pointing detection on the Toyota HSR: \textbf{95\% tracking success}; helped complete \textbf{Help Me Carry} at RoboCup German Open 2025.}
+        \resumeItemPlain{Calibrated RGB-D, LiDAR and odometry and \textbf{debugged hardware--software issues} with rosbag, RViz and Foxglove, shipped as reproducible \textbf{Docker} deployments.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

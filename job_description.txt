@@ -94,6 +94,8 @@ REPOSITORY-STRUKTUR
                      "## Titel"-Block mit When / Where / Link / Tech, Stichpunkten und Notes.
                      Notes sind Anweisungen zu diesem Eintrag (z. B. "diese Zahl nie verwenden")
                      — befolgen, nie abschreiben. Format: refs/README.txt.
+                     "STAR:"-Blöcke sind ganze Geschichten fürs Anschreiben; alles unter
+                     "Missing:" ist eine offene Frage, KEIN Fakt — nie verwenden.
                      Beim Schreiben ins DEUTSCHE übersetzen; Fakten, Zahlen, Namen von
                      Arbeitgebern und Positionen bleiben unverändert.
   tex/               Angepasste LaTeX-Abschnitte für DIESE Bewerbung. Nur hier wird bearbeitet.
@@ -135,6 +137,9 @@ SCHRITT 3 — tex/Personal_Info.tex
 SCHRITT 4 — tex/Projects.tex  (steht im Lebenslauf ZUERST, direkt nach dem Profil)
   - Die 2-3 Projekte wählen, die dieses Unternehmen am meisten interessieren, das
     relevanteste zuerst. Max. 2 Stichpunkte je Projekt, möglichst je 1 Zeile.
+  - Für jedes Projekt \resumeProject{Titel}{\repo{...} oder Zeitraum}{Technik $\cdot$ Technik ...}{Kontext}
+    verwenden (zweizeiliger Kopf: Titel + Kontext + Link, darunter die Technik in Grau).
+    \resumeSubheading nur für Stellen und Abschlüsse.
   - Den GitHub-Link eines Projekts (als \repo{ItsShriks/<repo>}) IMMER beibehalten, wenn refs/ einen
     hat — er belegt die Arbeit.
   - Bei nicht-technischen Stellen (z. B. Einzelhandel, Kundenservice) darf der

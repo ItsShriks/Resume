@@ -18,6 +18,18 @@ How to add something
       - Numbers if I have them (e.g. "95% tracking success").
       Notes: anything the AI should know (e.g. "team of 2", "don't use this number").
 
+- For your strongest entries, add a STAR story. The CV only uses short bullets, but the
+  AI uses these stories for cover letters, and they double as interview answers:
+
+      STAR:
+        Situation: the problem or setting, in one or two sentences.
+        Task: what you had to achieve.
+        Action: what YOU did (not the team).
+        Result: what came out of it -- numbers if you have them.
+        Missing: questions you still need to answer (delete when done).
+
+  Anything under "Missing:" is not a fact yet, so the AI must not use it.
+
 - Only write things that are true. The AI copies facts from here and never invents
   new ones, so if it is not here, it will not appear on a CV.
 - Dates: "Mon YYYY -- Mon YYYY" or "Mon YYYY -- Present".

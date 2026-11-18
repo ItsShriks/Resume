@@ -4,7 +4,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 from typing import Dict, Optional, Tuple, Any
-from app.config import TEX_DIR, REFS_DIR, IMAGES_DIR, LATEXMK_PATH, PDFLATEX_PATH
+from app.config import TEX_DIR, IMAGES_DIR, LATEXMK_PATH, PDFLATEX_PATH
 from app.services.profile_service import SECTION_FILES
 
 
@@ -17,7 +17,7 @@ def _escape(text: str) -> str:
 class LatexService:
     @staticmethod
     def inject_candidate_header(main_tex: str, candidate_data: Optional[Dict[str, Any]] = None) -> str:
-        """Overrides the header macros from refs/Personal_Info.tex (\\cvname, \\cvemail, ...)
+        """Overrides the header macros from tex/Contact.tex (\\cvname, \\cvemail, ...)
         right before \\begin{document}, and hides the photo unless one was explicitly uploaded."""
         meta = candidate_data or {}
         overrides = {
@@ -60,10 +60,6 @@ class LatexService:
             tex_subfolder.mkdir(parents=True, exist_ok=True)
             images_subfolder.mkdir(parents=True, exist_ok=True)
             
-            # Master content, needed by every document (layout comes with tex/ below)
-            if REFS_DIR.exists():
-                shutil.copytree(REFS_DIR, temp_path / "refs", dirs_exist_ok=True)
-
             # Copy only icon images (linkedin, github, scholar) - NEVER copy Self_Pic.jpg
             if IMAGES_DIR.exists():
                 for icon_file in IMAGES_DIR.glob("*.png"):

@@ -3,7 +3,7 @@
 % Based on: Resume Template by Anubhav Singh (https://github.com/xprilion), MIT
 %
 % This file is language-independent and must stay IDENTICAL on every branch.
-% Language-specific text (labels, dates, contact details) lives in refs/.
+% Language-specific text (labels, dates, contact details) lives in tex/Contact.tex.
 %------------------------
 
 \usepackage[T1]{fontenc}  % real umlauts in the PDF text layer (copy/paste, ATS parsing)
@@ -75,32 +75,11 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=1.1em,labelsep=0.5em,itemsep=0pt,parsep=0pt,topsep=0pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{2pt}}
 
-%-----------REFS MECHANISM-----------------
-% refs/*.tex hold the master content as named entries:
-%     \defref{exp:navilan}{ ...LaTeX... }
-% tex/*.tex pull an entry in unchanged with:
-%     \useref{exp:navilan}
-% or write a tailored version of it inline instead.
-\newcommand{\defref}[2]{\expandafter\newcommand\csname cvref@#1\endcsname{#2}}
-\newcommand{\useref}[1]{%
-  \ifcsname cvref@#1\endcsname
-    \csname cvref@#1\endcsname
-  \else
-    \errmessage{Unknown ref `#1' -- check refs/*.tex}%
-  \fi}
-
 %-----------CANDIDATE DATA (overridable)-----------------
 \newif\ifcvphoto
 \cvphototrue
 \def\cvdob{}  % shown in the header only when non-empty
 
-\input{refs/Personal_Info.tex}
-\input{refs/Work_Experience.tex}
-\input{refs/Projects.tex}
-\input{refs/Education.tex}
-\input{refs/Skills.tex}
-\input{refs/Training_And_Certifications.tex}
-\input{refs/Publications.tex}
-\input{refs/Interests.tex}
+\input{tex/Contact.tex}
 
 \input{tex/header.tex}

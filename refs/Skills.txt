@@ -1,0 +1,28 @@
+SKILLS
+======
+Every skill I genuinely have. A CV may only list skills from here.
+
+Robotics & autonomous systems: ROS / ROS 2 (Humble), ROS Noetic, Nav2, SLAM (RTAB-Map,
+  SLAM Toolbox), AMCL, EKF localisation, motion & path planning, MoveIt / MoveIt 2, OMPL, KDL,
+  MPC, TSID, whole-body control (hierarchical QP), mobile manipulation, grasp planning (VGN),
+  eye-in-hand calibration, coordinate frames & transforms (TF), robot calibration &
+  commissioning, behaviour trees (py_trees), state machines (SMACH), swarm robotics
+Industrial robotics: ABB RAPID, RobotStudio, UR5 / UR5e (UR driver, URCap), Robotiq grippers,
+  dexterous hands (PSYONIC Ability Hand, Unitree Dex5), pick-and-place, TCP calibration,
+  PLC & industrial I/O monitoring
+Computer vision & perception: object detection (YOLO, YOLOv8, YOLOv11), 2D / 3D semantic
+  segmentation, OCR (DocTR, Tesseract, EasyOCR), OpenCV, MediaPipe, face detection,
+  point cloud processing (Open3D), RANSAC / ICP registration, multi-sensor fusion
+  (LiDAR, RGB-D, IMU, encoders, radar, GPS)
+Machine learning: PyTorch, TensorFlow, CUDA, PointNet / PointNet++, behavioural cloning,
+  model training & evaluation, dataset creation & annotation, LLM / VLM integration,
+  Bayesian networks, Gaussian mixture models
+Human-robot interaction: Pepper (qiBullet), Rasa chatbot, text-to-speech
+Simulation: MuJoCo, Gazebo, Isaac Sim, Webots, ARGoS, URDF / Xacro / MJCF, PX4, ArduPilot
+Software & tools: Python, Modern C++ (C++17), C#, Qt, Linux, Git, Docker, CI/CD, FastAPI,
+  NumPy, Pandas, JSON / YAML, rosbag, RViz, Foxglove Studio, ONNX
+Hardware & CAD: embedded systems, NVIDIA Jetson, Arduino, Raspberry Pi, Dynamixel,
+  Fusion 360, Inventor, SolidWorks, CATIA, MATLAB, Simulink
+Project management & teamwork: Scrum / Agile (Scrum Master, 10-member team), prototype
+  testing, root-cause analysis, technical documentation & QA reports, international teams
+Languages: English (C2 -- fluent), German (B2 -- proficient), Hindi (native), Marathi (native)

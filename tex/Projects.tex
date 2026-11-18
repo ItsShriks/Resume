@@ -1,27 +1,30 @@
-% Tailored: GENERIC technical CV
+% Tailored: GENERIC technical CV -- lean version
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeSubheading
+      {Steve -- Autonomous Butler Mobile Manipulator}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2, Nav2, MoveIt 2, MuJoCo, Gazebo, YOLO}{Humanoid Robots Lab, Uni Bonn}
+      \resumeItemListStart
+        \resumeItemPlain{Main contributor to the full \textbf{ROS 2} stack of a \textbf{Neobotix MMO-700} (UR5e, Robotiq gripper, RealSense, dual LiDARs), running the same code in \textbf{MuJoCo, Gazebo and on the real robot}.}
+        \resumeItemPlain{Wrote a 9-DOF \textbf{whole-body controller} (strict hierarchical QP): \textbf{0.01\,cm RMS} end-effector tracking in a kinematic check while the base orbits, solving in \textbf{10--13\,ms}.}
+      \resumeItemListEnd
+    \resumeSubheading
       {Continuous Mobile Manipulation Architecture}{\repo{ItsShriks/porta_ros2_ws}}
       {ROS 2, C++17, MPC, TSID, MuJoCo}{Master Thesis}
       \resumeItemListStart
-        \resumeItemPlain{Designing a control architecture that couples a visibility-aware \textbf{MPC} planner with a high-frequency \textbf{TSID} controller for continuous manipulation on mobile robots; asynchronous ROS 2 bridge and adapters in \textbf{C++17}.}
-        \resumeItemPlain{Built a \textbf{MuJoCo} simulation of the MMO-700 mobile manipulator (UR5e arm, Robotiq gripper) with a full autonomous drive--reach--grasp--lift pipeline.}
+        \resumeItemPlain{Coupling a visibility-aware \textbf{MPC} planner with a high-frequency \textbf{TSID} controller via an asynchronous ROS 2 bridge in \textbf{C++17}; MuJoCo drive--reach--grasp--lift pipeline on the MMO-700.}
       \resumeItemListEnd
-    \useref{proj:butler}
     \resumeSubheading
       {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
       {Perception \& Navigation Core Member $\cdot$ ROS 2, MediaPipe, OpenCV}{Extracurricular}
       \resumeItemListStart
-        \resumeItemPlain{Person-following and intention awareness on the Toyota HSR with \textbf{ROS 2, MediaPipe and OpenCV}, reaching a \textbf{95\% tracking success rate}.}
-        \resumeItemPlain{Real-time pointing-gesture detection using \textbf{TF} transforms across camera, base and arm frames, which helped the team complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
-        \resumeItemPlain{Calibrated RGB-D, LiDAR and odometry; debugged hardware-software issues with rosbag, RViz and Foxglove; containerised deployments with \textbf{Docker}.}
+        \resumeItemPlain{Person-following on the Toyota HSR at a \textbf{95\% tracking success rate}; pointing-gesture detection with \textbf{TF} that helped complete \textbf{Help Me Carry} at \textbf{RoboCup German Open 2025}.}
       \resumeItemListEnd
     \resumeSubheading
       {JungleLook -- Label-free LiDAR Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
       {Python, PyTorch, PointNet++, Open3D}{}
       \resumeItemListStart
-        \resumeItemPlain{Geometric pseudo-labels train \textbf{PointNet / PointNet++} on UAV point clouds (\textbf{0.80 validation mIoU}, preliminary); field annotations registered to LiDAR with \textbf{RANSAC + ICP} at \textbf{98.8\% inliers} (0.11\,m RMS). CI-tested library for CPU, CUDA and Apple MPS.}
+        \resumeItemPlain{\textbf{PointNet++} trained on geometric pseudo-labels (\textbf{0.80 validation mIoU}, preliminary); annotations registered to LiDAR with \textbf{RANSAC + ICP} at \textbf{98.8\% inliers}.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

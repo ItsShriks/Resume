@@ -1,0 +1,200 @@
+PROJECTS
+========
+Only link repositories that are public and contain the work described.
+Keep the Link when a project is used on a CV -- it is the evidence.
+
+---------------------------------------------------------------------------
+MASTER THESIS & LAB WORK
+---------------------------------------------------------------------------
+
+## Master Thesis -- Continuous Mobile Manipulation Architecture
+When: Apr 2026 -- Present
+Where: Master Thesis, H-BRS (on the Steve robot, Humanoid Robots Lab, Uni Bonn)
+Link: github.com/ItsShriks/porta_ros2_ws
+Tech: ROS 2, C++17, Python, MPC, TSID, MuJoCo, VGN
+- Thesis title: "Coupling Visibility-Aware MPC with TSID for Continuous Mobile Manipulation".
+- Designing a control architecture that couples a visibility-aware MPC planner with a
+  high-frequency TSID controller, so a mobile robot can grasp while it keeps moving.
+- Asynchronous ROS 2 bridge and adapters in C++17 for trajectory interpolation, execution logic
+  and real-time rigid-body dynamics checks.
+- MuJoCo model of the MMO-700 (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a fully
+  autonomous drive -> reach -> grasp -> lift pipeline (numerical and differential IK).
+- Figure-8 ("arc-8") whole-body-control validation and VGN grasp-planning integration.
+
+## Steve -- Autonomous Butler Mobile Manipulator (umbrella entry)
+When: 2025 -- Present
+Where: Humanoid Robots Lab, University of Bonn
+Link: github.com/ItsShriks/steve_ros2_ws
+Tech: ROS 2 Humble, Python, MuJoCo, Gazebo, Nav2, MoveIt 2, RTAB-Map, SLAM Toolbox, YOLO
+- Robot: Neobotix MMO-700 omnidirectional base + UR5e arm + Robotiq 2F-85 gripper,
+  RealSense L515 on a Dynamixel pan-tilt unit, wrist D415 / D435i camera, dual SICK S300 LiDARs, IMU.
+- Main developer of the full ROS 2 stack: same code runs in MuJoCo, Gazebo and on the real robot
+  (sim-to-real confirmed on the real robot, Oct 2026).
+- Workspace tooling: package repos mirrored between the lab GitLab and GitHub, one script to
+  clone / sync / push everything.
+Notes: started as the WS 2025/26 student lab, continued since. Team project; I am the main
+contributor (137 of 163 commits on steve_ros2_ws; sole author of steve_wbc, steve_grasping,
+steve_hardware_bringup, steve_manipulation and steve_essentials). steve_perception: minor
+contributor (8 of 72 commits). steve_command_grounding: NOT my work -- do not claim it.
+Use this umbrella entry when there is room for only one Steve entry.
+
+## Steve -- Whole-Body Control & Active Perception
+Link: github.com/ItsShriks/steve_wbc
+Tech: Python, MuJoCo, QP, MPC, EKF, VGN, ROS 2
+- 9-DOF velocity-level whole-body controller (base + UR5e) as a strict task hierarchy
+  (end effector > base > posture), one constrained least-squares problem per level, with
+  velocity, acceleration, joint-limit and collision constraints (table, obstacles, floor, self).
+- Exact whole-body Jacobian from the MuJoCo model. Kinematic check: 0.01 cm RMS / 0.03 cm max
+  end-effector error while the base orbits, vs 0.55 / 1.90 cm for a weighted single QP;
+  10--13 ms per solve.
+- Active perception: drive, detect from the first tick (head + wrist RGB-D), track the object,
+  MPC interception of a moving (rolling) object, grasp, lift and hold check.
+- Visibility task keeps the camera on the object: 100% of the time vs 29% without it
+  (simulation, static ball, 1-view VGN).
+- Smooth orbit planner around the table, occlusion map, VGN grasp planning with "try another
+  side" exploration, EKF baseline vs least-squares tracker + MPC comparison.
+- Real robot: switched the UR5e to velocity commands (quieter, small figure-8 tracked at 0.12 cm
+  RMS vs 0.17 cm); marker-free eye-in-hand calibration at 0.17 cm RMS over 8 poses; EM-stop and
+  LiDAR protective-field safety stop.
+
+## Steve -- Multi-Tool Grasping
+Link: github.com/ItsShriks/steve_grasping
+Tech: Python, MuJoCo, MJCF, URDF, ROS 2
+- Swap-in end-effector framework: camera-only, Robotiq 2F-85, PSYONIC Ability Hand and
+  Unitree Dex5-1, composed onto the robot at runtime; MuJoCo models generated from vendor URDFs.
+- Ability Hand grasps static, cluttered and rolling balls in simulation; Ability Hand and
+  Robotiq 2F-85 (via the UR tool connector / URCap) running on the real robot.
+
+## Steve -- Arm Manipulation with MoveIt 2
+Link: github.com/ItsShriks/steve_manipulation
+Tech: ROS 2, MoveIt 2, OMPL, UR driver
+- MoveIt 2 setup (SRDF, kinematics, OMPL) and a Python manipulator API / CLI for the UR5e and
+  gripper in Gazebo and on hardware; shared safety stop; explore behaviour; table probing.
+
+## Steve -- Hardware Bring-up, Simulation & Navigation
+Link: github.com/ItsShriks/steve_hardware_bringup  (also github.com/ItsShriks/steve_essentials)
+Tech: ROS 2, Nav2, SLAM Toolbox, AMCL, RTAB-Map, Gazebo, CANopen
+- Hands-off start at power-on: base, arm, gripper, LiDARs, cameras and joystick come up
+  automatically; drive heartbeat watchdog, LiDARs identified by serial number.
+- Collected drivers and message definitions in steve_essentials; Gazebo simulation with the
+  pan-tilt camera; Nav2 with SLAM Toolbox / AMCL and 3D SLAM with RTAB-Map.
+- Integrated YOLO, OpenYOLO3D, Mask3D and vision-language models for semantic object search.
+
+## b-it bots @Home -- RoboCup@Home Team
+When: Oct 2024 -- Present
+Where: H-BRS (extracurricular, official team member -- not a job)
+Tech: ROS 2, MediaPipe, OpenCV, C++17, Python, Docker, Toyota HSR
+- Person following and intention awareness on the Toyota HSR with ROS 2, MediaPipe and OpenCV:
+  95% tracking success rate.
+- Real-time pointing-gesture detection (ray intersection, TF transforms across camera, base and
+  arm frames); helped the team complete "Help Me Carry" at RoboCup German Open 2025 (@Home).
+- Calibrated RGB-D, LiDAR and odometry; debugged hardware-software issues with rosbag, RViz and
+  Foxglove Studio.
+- 3D object segmentation and spatial mapping from LiDAR / point clouds; tools to visualise
+  reachability, frame alignment and camera visibility.
+- Hardware adapters in Modern C++ (C++17) and Python; reproducible Docker deployments.
+
+---------------------------------------------------------------------------
+PERSONAL & RESEARCH PROJECTS
+---------------------------------------------------------------------------
+
+## JungleLook -- Label-free LiDAR Forest Point Cloud Segmentation
+When: Oct 2024 -- Sep 2026 (grew out of the H-BRS research assistant job)
+Link: github.com/ItsShriks/JungleLook
+Tech: Python, PyTorch, PointNet / PointNet++, Open3D, RANSAC, ICP, DBSCAN, Docker, CI
+- Turns unlabelled UAV LiDAR clouds into labelled clouds plus a tree-stump inventory without
+  manual annotation: geometric features (ground model, height above ground, eigenvalues) make
+  pseudo-labels that train PointNet / PointNet++.
+- PointNet and PointNet++ written from scratch in pure PyTorch; run on CPU, CUDA and Apple MPS.
+- Results: 0.80 validation mIoU (preliminary, vs. pseudo-labels; ground 0.99, other 0.95,
+  stump 0.46); annotation-to-LiDAR registration with RANSAC + ICP at 98.8% inliers, 0.11 m RMS.
+- Packaged as a library with one CLI, YAML configs, CI, Docker and tests on synthetic forests.
+Notes: rule-based stump detection F1 0.31 vs 129 annotated stumps -- only mention with
+"limited by the data". NEVER use 15%, 11.8% or 93%.
+
+## Padh_Lo -- Offline Document OCR & Field Detection
+When: Jun 2025 -- Nov 2025
+Link: github.com/ItsShriks/Padh_Lo
+Tech: Python, C++, Qt, YOLOv11, DocTR, Tesseract, EasyOCR, PaddleOCR, Detectron2, LayoutLM, ONNX
+- Synthetic invoice generator (HTML templates -> PDF / PNG) to build a training dataset.
+- Fine-tuned YOLOv11 to detect invoice fields; ensemble of OCR engines (DocTR, Tesseract,
+  EasyOCR) running offline; ONNX export; C++ / Qt GUI.
+Notes: my public prototype of the Navilan work -- the 90--95% number belongs to the Navilan job.
+
+## RoboCompanion -- Person-Following Assistive Robot
+When: Dec 2024 -- Sep 2025
+Link: github.com/ItsShriks/RoboCompanion
+Tech: ROS Noetic, Python, YOLOv8, pose estimation, RGB-D (OpenNI2), Docker
+- Modular, ROS-compatible person tracking with YOLOv8 and pose estimation on RGB-D cameras,
+  as a reproducible Docker deployment; also runs on macOS.
+
+## UR5 Robot Motion Library & LLM Co-Pilot
+When: Jan 2025
+Link: github.com/ItsShriks/ur5_simulation
+Tech: ROS Noetic, Gazebo, MoveIt, KDL, Python, Hugging Face Transformers
+- Gazebo simulation of a UR5 driven by a custom ROS node (sine-wave joint commands).
+- Motion library: joint-space motion and linear Cartesian motion with velocity and acceleration
+  limits; IK with KDL; collision-free planning with MoveIt.
+- Python API to read the robot state and run the motion primitives, plus a small LLM "co-pilot"
+  that suggests code for that API using open-source models.
+Notes: done as a coding challenge (acknowledges Neura Robotics).
+
+## PrithviVision -- Shadow-Casting Object Segmentation in Aerial Images
+Link: github.com/ItsShriks/PrithviVision
+Tech: U-Net, YOLO, Mask R-CNN
+- Built and annotated (YOLO format) an aerial-image dataset of Bonn; compared U-Net, YOLO and
+  Mask R-CNN for detection and pixel-level segmentation of shadow-casting objects.
+
+## RoboGrasp -- Object Recognition for Adaptive Grasping
+Link: github.com/ItsShriks/RoboGrasp
+Tech: Python, RGB-D, point clouds, Gaussian mixture models (EM)
+- Classified objects from RGB-D images and 3D point clouds with Gaussian mixture models trained
+  with Expectation-Maximization, to choose a grasp strategy.
+
+## Autonomous Mobile Robot Navigation Stack & Commissioning
+Tech: ROS 2, Nav2, SLAM, EKF
+- Integrated and validated a ROS 2 / Nav2 navigation stack on a real omnidirectional industrial
+  platform: costmaps, planners, recovery behaviours, LiDAR / IMU / encoder localisation.
+- Wrote a custom Extended Kalman Filter node for sensor fusion; supported frontier exploration.
+- Real-robot commissioning, mapping and trajectory checks; debugging with rosbag, RViz and
+  Docker logs; root causes written up in QA reports.
+
+## ProTeen -- Nutrition-Aware Meal Planner
+When: Nov 2025 -- Present
+Link: github.com/ItsShriks/ProTeen
+Tech: Python, CSV, iCalendar (.ics), HTML / JS, Apple Shortcuts
+- Reads meals from a CSV and builds a meal plan as a calendar file (Apple / Google / Outlook).
+- Nutrition mode picks meals that best fill daily goals (protein, calories, fat, carbs, iron,
+  fibre); also makes a shopping list, nutrition report and an HTML planner.
+Notes: personal side project, not robotics -- use only for general software / Python roles.
+
+---------------------------------------------------------------------------
+UNIVERSITY COURSE PROJECTS (M.Sc. Autonomous Systems, H-BRS)
+---------------------------------------------------------------------------
+
+## Collective (Swarm) Robotics -- Course Project
+When: Apr 2025 -- Jun 2025 (Summer Semester 2025)
+Link: github.com/ItsShriks/Collective_Robotics
+Tech: ARGoS (C++), Python, NumPy, NetworkX, Matplotlib
+- Behaviour-based controllers in the ARGoS simulator: collision avoidance, wall following,
+  vacuum-cleaning coverage, and swarm aggregation.
+- Swarm models in Python: synchronisation, anti-agents for aggregation, locust-swarm simulation
+  reduced to a Markov model and rate (delay differential) equations, collective
+  decision-making (urn model) and a foraging controller.
+Notes: team of 2 (with Trushar Ghanekar).
+
+## Human-Centered Interaction in Robotics -- Pepper Social Robot
+When: Apr 2024 -- Jul 2024 (Summer Semester 2024)
+Link: github.com/ItsShriks/HCIR---Human-centered-Interaction-in-Robotics
+Tech: Python, qiBullet (Pepper simulation), OpenCV, Rasa, gTTS, Teachable Machine
+- Pepper robot (in simulation) that detects and recognises a person's face, greets them with
+  gestures and speech, and holds a conversation through a Rasa chatbot.
+- Behaviour scripts (gesture + speech timing) and a Bayesian network for course recommendation.
+Notes: team of 2 (with Trushar Ghanekar).
+
+## Behaviour Trees & State Machines for Robot Safety
+When: Nov 2023 (Winter Semester 2023/24, Autonomous Systems course)
+Link: github.com/ItsShriks/AST-Assignments
+Tech: ROS 2, Python, py_trees_ros, SMACH
+- Safety monitoring for a mobile robot (low battery, collision avoidance) built twice: as a
+  SMACH state machine and as a py_trees behaviour tree, packaged as a ROS 2 package.

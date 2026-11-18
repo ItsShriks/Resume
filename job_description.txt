@@ -68,28 +68,43 @@ and cover letter to the job description above. Output language: ENGLISH.
 (For German-language applications use the `Deutsch` branch instead.)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GUIDING PRINCIPLE — LESS IS MORE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  refs/ is the MAIN CV (think of it as the main branch in git). Every application
+  is a BRANCH of it: a lean, company-specific version, not a copy of everything.
+  - Lead with the projects THIS company would care about, then the common skill
+    set they are looking for. Generic or unrelated content comes last or goes.
+  - Cut anything that does not help this specific application. A shorter CV where
+    every line is relevant beats a complete one.
+  - Target: ONE page. Use a second page only if the extra content is directly
+    relevant to this job (never more than 1.5 pages of real content).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  refs/              MASTER content — source of truth. READ ONLY, NEVER EDIT.
-                     Every entry is a named block:  \defref{exp:navilan}{ ... }
-  tex/               Tailored sections for THIS application. This is what you edit.
-                     (except tex/preamble.tex and tex/header.tex: shared layout, do not edit)
-                     Include a master entry unchanged:  \useref{exp:navilan}
-                     or write a tailored version of that entry inline instead.
+  refs/*.txt         MASTER content in PLAIN ENGLISH — source of truth. READ ONLY, NEVER EDIT.
+                     Every job / project / degree is a "## Title" block with When / Where /
+                     Link / Tech lines, bullet points and Notes. Notes are instructions about
+                     that entry (e.g. "never use this number") — follow them, never copy them.
+                     refs/README.txt explains the format.
+  tex/               Tailored LaTeX sections for THIS application. This is what you edit.
+                     Write every entry out in full LaTeX, using the commands already in tex/
+                     (\resumeSubheading, \resumeItemPlain, \resumeSubItem, \repo{...}, ...).
+                     Do not edit tex/preamble.tex, tex/header.tex or tex/Contact.tex.
   cv.tex             Main CV document — section order and which tex/ files are included.
   cover_letter.tex   Cover letter — rewritten for every application.
   build.sh           Builds both PDFs (the user runs it).
   .web/              Web app. Not part of this task.
 
-  tex/ and refs/ use the same file names:
-    Personal_Info.tex               Summary paragraph            (refs: summary, contact, key facts)
-    Work_Experience.tex             Experience                   (refs: exp:*)
-    Projects.tex                    Projects + GitHub links      (refs: proj:*)
-    Education.tex                   Degrees                      (refs: edu:*)
-    Skills.tex                      Skill categories             (refs: skill:*)
-    Training_And_Certifications.tex Certificates / volunteering  (refs: cert:*, vol:*)
-    Publications.tex                Publications                 (refs: pub:*)
-    Interests.tex                   Interests                    (refs: int:*)
+  refs/ and tex/ use the same file names (.txt vs .tex):
+    Personal_Info                   Summary paragraph            (refs: contact, key facts, summary)
+    Work_Experience                 Experience
+    Projects                        Projects + GitHub links
+    Education                       Degrees
+    Skills                          Skill categories
+    Training_And_Certifications     Certificates / volunteering
+    Publications                    Publications
+    Interests                       Interests
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 STEPS
@@ -105,22 +120,29 @@ STEP 2 — AUDIT refs/ AGAINST THE JOB
   - Only facts, metrics, dates and skills that exist in refs/ may appear in tex/.
 
 STEP 3 — tex/Personal_Info.tex
-  - 3-4 sentence summary that leads with what this employer cares about most,
-    with 1-2 quantified achievements from refs/ (key facts block).
+  - 2-3 sentence summary (max ~60 words) that leads with what this employer cares
+    about most, with 1-2 quantified achievements from refs/Personal_Info.txt
+    ("Key facts and numbers").
 
-STEP 4 — tex/Work_Experience.tex
-  - Choose and order entries. Use \useref{...} when an entry fits as-is;
-    otherwise copy it from refs/ and reword the bullets with the job's language.
+STEP 4 — tex/Projects.tex  (comes FIRST in the CV, right after the summary)
+  - Pick the 2-3 projects this company would be most interested in, most
+    relevant first. Max 2 bullets each, 1 line per bullet where possible.
+  - ALWAYS keep the GitHub link of a project (as \repo{ItsShriks/<repo>}) when refs/ has one —
+    it is evidence of the work.
+
+STEP 5 — tex/Work_Experience.tex
+  - Choose and order entries from refs/Work_Experience.txt and write them in LaTeX,
+    rewording the bullets with the job's language.
+  - Relevant roles: max 2-3 bullets. Less relevant roles: 1 bullet. Unrelated
+    roles (e.g. short internships far from the job): drop them.
   - Never change employers, titles or dates.
 
-STEP 5 — tex/Projects.tex
-  - Pick the 3-4 most relevant projects. ALWAYS keep the \repo{...} GitHub link
-    of a project when refs/ has one — it is evidence of the work.
-
 STEP 6 — tex/Skills.tex, tex/Education.tex, other sections
-  - Reorder and regroup skill categories so the most relevant come first; only use
-    skills listed in refs/Skills.tex. Use \useref for unchanged entries.
-  - Enable/disable whole sections in cv.tex (\input lines) if space requires.
+  - Skills = the common skill set THIS job asks for: max 4 categories, the JD's
+    technologies first, ~8 items per category. Leave out skills the job does not
+    care about. Only use skills listed in refs/Skills.txt.
+  - Certifications, publications, interests: keep only if relevant to the job;
+    otherwise disable the section in cv.tex (comment out its \input line).
 
 STEP 7 — cover_letter.tex (ALWAYS rewrite)
   - Update the header comment (position, company), recipient block, subject line
@@ -137,12 +159,12 @@ STEP 8 — DO NOT BUILD
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 HARD RULES — NEVER VIOLATE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  X  Never edit refs/, tex/preamble.tex or tex/header.tex.
+  X  Never edit refs/, tex/preamble.tex, tex/header.tex or tex/Contact.tex.
   X  Never fabricate experience, skills, metrics, qualifications or links.
   X  Never change employer names, job titles, date ranges or personal details.
   X  Escape LaTeX special characters (& -> \&, % -> \%, # -> \#, _ -> \_, $ -> \$).
   X  Dates in the format "MMM YYYY -- MMM YYYY" / "MMM YYYY -- Present".
-  X  CV max 2 pages, cover letter max 1 page.
+  X  CV: aim for 1 page, hard max 2 pages. Cover letter max 1 page.
   X  No generic filler ("passionate team player") without a concrete example.
   X  No cover-letter text (dates, signatures, salutations) inside tex/ files.
 

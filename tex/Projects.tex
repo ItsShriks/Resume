@@ -1,26 +1,25 @@
-% Tailored: prefix.dev -- robot fleet management (deploying software to real robots, packaging, Linux, C++)
+% Tailored: NEURA Robotics -- Locomotion & Whole-Body Control Engineer
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Mobile Manipulator: ROS 2 Stack \& Deployment}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 Humble $\cdot$ Pixi $\cdot$ RoboStack $\cdot$ Python $\cdot$ C++ $\cdot$ Linux $\cdot$ macOS $\cdot$ MuJoCo $\cdot$ Gazebo}{Humanoid Robots Lab, Uni Bonn -- main developer}
+      {Steve -- Whole-Body Control on a Mobile Manipulator}{\repo{ItsShriks/steve_wbc}}
+      {Python $\cdot$ Hierarchical QP $\cdot$ MPC $\cdot$ MuJoCo $\cdot$ EKF $\cdot$ ROS 2 $\cdot$ UR5e}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Built the robot's \textbf{ROS 2} stack as main developer (\textbf{137 of 163 commits}) with a \textbf{hands-off driver start at power-on}; the same code runs in MuJoCo, Gazebo and on the real robot, which now completes full grasps.}
-        \resumeItemPlain{Set up a \textbf{Pixi} workspace on \textbf{RoboStack} (ROS 2 Humble, osx-arm64) with tasks to build, visualise and run the whole-body controller on the \textbf{real robot from a Mac}.}
+        \resumeItemPlain{Designed a 9-DOF \textbf{strict task hierarchy} (end effector $>$ base $>$ posture) with the exact \textbf{whole-body Jacobian} from MuJoCo, joint / velocity / acceleration / collision constraints and \textbf{warm-started} levels: \textbf{0.01\,cm RMS} error vs 0.55\,cm for a \textbf{weighted QP}, 10--13\,ms per solve.}
+        \resumeItemPlain{Deployed it on the \textbf{real robot}: moved the UR5e to velocity commands (figure-8 at \textbf{0.12\,cm RMS} vs 0.17\,cm), calibrated the wrist camera to 0.17\,cm RMS, and reached full grasps on hardware.}
       \resumeItemListEnd
     \resumeProject
-      {JungleLook -- Label-free LiDAR Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
-      {Python $\cdot$ PyTorch $\cdot$ Open3D $\cdot$ Docker $\cdot$ CI $\cdot$ CLI}{Research project, H-BRS}
+      {Continuous Mobile Manipulation -- MPC + TSID}{\repo{ItsShriks/steve_ros2_ws}}
+      {C++17 $\cdot$ ROS 2 $\cdot$ MPC $\cdot$ TSID $\cdot$ MuJoCo / MJCF $\cdot$ VGN}{Master Thesis}
       \resumeItemListStart
-        \resumeItemPlain{Packaged the pipeline as a \textbf{tested library with one CLI}, YAML configs, \textbf{Docker and CI}, turning raw UAV LiDAR scans into labelled clouds without manual annotation.}
-        \resumeItemPlain{Wrote PointNet / PointNet++ from scratch to run on \textbf{CPU, CUDA and Apple MPS}: \textbf{0.80 validation mIoU} (preliminary, vs.\ pseudo-labels).}
+        \resumeItemPlain{Designing a visibility-aware \textbf{MPC} planner coupled to a high-frequency \textbf{TSID} controller so the robot grasps while its base keeps moving (\textbf{base--arm coordination}): \textbf{about 12\,s to grasp}.}
+        \resumeItemPlain{Wrote a C++17 ROS 2 bridge with real-time rigid-body dynamics checks and modelled the drives in MuJoCo with \textbf{gravity / Coriolis feed-forward} so simulated joints track commands like the real robot.}
       \resumeItemListEnd
     \resumeProject
-      {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
-      {ROS 2 $\cdot$ C++17 $\cdot$ Python $\cdot$ Docker $\cdot$ Toyota HSR}{Perception \& Navigation core member}
+      {UR5 Robot Motion Library}{\repo{ItsShriks/ur5_simulation}}
+      {ROS $\cdot$ KDL $\cdot$ MoveIt $\cdot$ Gazebo $\cdot$ Python}{}
       \resumeItemListStart
-        \resumeItemPlain{Wrote hardware adapters in \textbf{C++17} and Python, shipped as \textbf{reproducible Docker deployments}, and debugged hardware--software issues on the robot with rosbag, RViz and Foxglove.}
-        \resumeItemPlain{Built person following on the Toyota HSR: \textbf{95\% tracking success}; helped complete Help Me Carry at RoboCup German Open 2025.}
+        \resumeItemPlain{Built joint-space and linear Cartesian motion primitives with \textbf{velocity and acceleration limits} and \textbf{KDL inverse kinematics}, exposed through a Python API for collision-free UR5 motion in Gazebo.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

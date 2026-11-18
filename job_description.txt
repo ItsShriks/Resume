@@ -8,24 +8,53 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Company logo for, NEURA Robotics.
+NEURA Robotics
+
+Locomotion & Whole-Body Control Engineer (human)
+Greater Bielefeld Area · Reposted 2 weeks ago · 28 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
 About the job
-About usWe build package management for the Conda ecosystem. Our open source tools (Pixi, rattler, rattler-build) are written in Rust and used by hundreds of thousands of developers. You'll find them in finance, at CERN, at biotech companies, and more and more in robotics. We also maintain RoboStack, which packages ROS for Conda so it runs on any OS from a single lockfile.The engineering team is spread across Europe (Netherlands, Germany, UK, Moldova). This new project is based in Berlin, and so is this role.The projectWe're starting a new product: fleet management for robots, built on Pixi. If every robot in a fleet runs a Pixi environment, deploying, updating and rolling back software across the fleet gets a lot easier. You describe what the fleet should run, and the robots get there, whether they sit in one lab or across several sites with bad connectivity.The robot-side agent and the coordination layer are written in Rust. Our goal is that robots, edge nodes and operators talk to each other peer to peer, so things keep working without a central server or a stable internet connection. Pixi handles environments, artifact distribution and atomic updates on the device. Operators use a web frontend (Next.js or Svelte) to see the fleet, follow deployments, read logs and control rollouts.The project is partially funded through Berlin's Pro FIT programme, meaning the role is on-site in our Berlin office.What you'll work on
-The on-robot agent in Rust: reconciling environments, reporting health, orchestrating updates
-The networking layer: peer discovery, sharing fleet state, distributing packages between robots
-The operator web UI and its connection to the Rust backend
-Testing on real hardware. We have robots in the office and partners running ROS 2 in the field
-Upstream changes to Pixi, rattler and RoboStack when the fleet work needs them
-Talking to users, writing docs, and helping decide what the product becomes
+Your mission & challenges
 
-What we're looking forYou don't need years of experience. You do need solid fundamentals and the ability to pick things up quickly.
-Rust, or a strong background in C++ or Go and the wish to switch. Async Rust (tokio) helps
-Some frontend work with React/Next.js, Svelte or Vue. You don't have to be a designer, but you should care whether the UI is pleasant to use
-Some robotics background: ROS or ROS 2, a university project, a hobby robot, or a job at a robotics company
-Comfort with Linux, basic networking and the command line
-You like owning things end to end in a small team
-You live in Berlin or are willing to move here
+We are growing our legged-robotics capability on NEURA's humanoid quadruped platforms. This role spans both core layers of the legged control stack: trajectory optimization and MPC for kino-dynamic motion generation, and QP-based instantaneous whole-body control for executing those motions on real hardware at 1 kHz.
 
-It's a plus if you know distributed systems or P2P (gossip protocols, CRDTs, content-addressed storage), have used conda or Pixi, have shipped software to devices in the field, or have contributed to open source. None of this is required.What we offerYou'll build a new product from the start, together with the people who created Mamba, Pixi, rattler and RoboStack. A lot of your work will be open source and public. We pay a competitive Berlin salary, with 30 days of vacation, the hardware you want, a conference budget, and time for upstream open source work. We help with relocation within the EU.
+The work is focused on contact-rich dynamics, real-time optimization, and reliable execution on physical robots. You will collaborate closely with state estimation, simulation, low-level control, and hardware stakeholders, and with the application teams whose tasks ultimately depend on robust, predictable locomotion and whole-body behaviour.
+
+Whole-body motion generation and control for floating-base legged platforms — locomotion, balance, contact transitions, and loco-manipulation (walking while manipulating).
+Trajectory optimization and model-predictive control pipelines over robot state, contact schedules, ground reaction forces, centroidal momentum, and joint trajectories — using reduced-order locomotion models such as LIPM, SRBD, and centroidal dynamics.
+QP-based task-space inverse dynamics for executing instantaneous whole-body control from MPC and trajectory-optimization references at 1 kHz on the real robot.
+Whole-body modelling for the platform: floating-base rigid-body dynamics from URDF / MJCF, joint configuration, FK / IK, Jacobians, and mass / Coriolis / gravity computation.
+Constraint formulation across the MPC and QP layers — contact, friction, torque, joint, kinematic, and stability constraints — with task-hierarchy design appropriate to the platform.
+Solver performance work across both layers: warm-starting, numerical conditioning, constraint handling, and real-time reliability at 500 Hz – 1 kHz.
+Deployment, tuning, and debugging of MPC, trajectory optimization, IK, and inverse dynamics pipelines on physical robots — including platform-specific contact-model calibration and validation against real robot data.
+High-performance C++ for real-time execution; Python tooling for analysis, prototyping, and debugging.
+
+What We Can Look Forward To
+
+MSc or PhD in robotics, controls, mechanical or electrical engineering, computer science, or a related field.
+4+ years of hands-on experience developing trajectory optimization, MPC for locomotion, and / or whole-body control on physical robots.
+Strong foundation in floating-base articulated rigid-body dynamics and contact modelling.
+Strong working knowledge of reduced-order locomotion models (LIPM, SRBD, centroidal dynamics, or equivalents) and their use inside MPC.
+Strong foundation in optimal control, constrained numerical optimization, and model-predictive control for legged robots.
+Hands-on experience with whole-body QP / TSID frameworks on real robot data — including QP / DDP solver internals.
+Hands-on experience deploying real-time control / MPC / WBC pipelines at 500 Hz – 1 kHz on hardware.
+Strong C++ for real-time robotics software; Python for analysis, tooling, prototyping, and debugging.
+Practical understanding of how contact dynamics, actuator limits, latency, state-estimation error, solver failure modes, and model mismatch behave on real hardware.
+A collaborative working style: shared design, constructive code review, proactive communication, and reliable coordination across control, estimation, simulation, low-level control, and hardware disciplines. Strong teamwork is essential for this role.
+
+Nice to Have
+
+Hands-on experience on humanoids, quadrupeds, or other high-DOF legged robots.
+Familiarity with Pinocchio, MuJoCo, Crocoddyl, IPOPT, TSID, OCS2, or similar open-source tools.
+Hierarchical QP, weighted QP, task prioritization, contact force optimization, or operational-space control.
+Contact planning, gait optimization, balance recovery; CPG-based or hybrid CPG / MPC controllers.
+Multi-contact WBC: foot contact, bimanual grasping, or base-arm coordination.
+Contact-consistent dynamics and impact-aware control transitions.
+Experience with torque-controlled robots and high-bandwidth electric actuation.
+Publications at RSS, ICRA, IROS, or CoRL in legged locomotion or whole-body control.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

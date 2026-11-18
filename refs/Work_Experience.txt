@@ -1,0 +1,75 @@
+WORK EXPERIENCE
+===============
+Never change the employer, job title or dates when writing a CV.
+
+## Student Assistant
+When: Jul 2025 -- Apr 2026
+Where: Navilan Solutions, Bonn, Germany
+Link: github.com/ItsShriks/Padh_Lo   (my own public prototype of the OCR work, see Projects)
+Tech: C++, Qt, Python, DocTR, Tesseract, EasyOCR, YOLOv11, Docker, CI/CD
+- Built C++ / Qt desktop applications and automated Python services for document validation
+  and vision pipelines.
+- Built a fully offline document layout detector and OCR ensemble (DocTR, Tesseract, EasyOCR)
+  with image preprocessing: 90--95% accuracy on multilingual text and tables on low-end CPUs.
+- Fine-tuned YOLOv11 on synthetic invoice images for document-field detection.
+- Dockerized deployment, automated test suites and CI/CD quality gates for reproducible builds
+  and reliable releases.
+Notes: no other numbers -- release / usage figures are confidential.
+
+## Research Assistant
+When: Oct 2024 -- Apr 2025
+Where: Hochschule Bonn-Rhein-Sieg, Bonn, Germany
+Tech: C++, Python, PyTorch, Open3D, CUDA
+- CUDA-accelerated 3D point cloud segmentation for UAV datasets in C++, Python (PyTorch) and
+  Open3D on embedded Linux / GPU hardware. (This research became JungleLook, see Projects.)
+- Trained PointNet / PointNet++ on geometric pseudo-labels: 0.80 validation mIoU (preliminary);
+  registered field annotations to LiDAR with RANSAC + ICP at 98.8% inliers (0.11 m RMS).
+- Root-caused sensor timing jitter and measurement anomalies; kept experiment tracking,
+  evaluation scripts and technical documentation.
+
+## Robotics Engineer, Technical Associate & Centre Manager
+When: May 2021 -- May 2023
+Where: Sakar Robotics / HunarPro Hub, Pune, India
+Tech: ROS / ROS 2, YOLO, TensorFlow, Fusion 360, Inventor, URDF
+- Scrum Master for a 10-member engineering team; contributed to 7 autonomous robotic platforms,
+  2 delivered end-to-end; owned hardware commissioning and configuration management.
+- Set up coordinate frames, LiDAR / encoder / IMU integration and navigation in ROS / ROS 2;
+  built object detection with YOLO and TensorFlow.
+- Designed robot parts in Fusion 360 / Inventor and turned CAD assemblies into collision meshes
+  and simulation-ready URDF models.
+- Mentored robotics teams, helped build automation labs, supported IndiaSkills Mobile Robotics
+  training.
+
+## Lead Researcher / Hardware Development Researcher
+When: May 2021 -- Dec 2021
+Where: LearnByResearch, Remote
+Tech: SolidWorks, CATIA, LiDAR, SLAM
+- Designed and analysed a 3-DOF robotic manipulator for picking; kinematic analysis and
+  simulation in SolidWorks and CATIA.
+- Built a low-cost LiDAR scanner and SLAM workflow for indoor mapping; published in IEEE and
+  international journals (see Publications).
+
+## Robotics System Intern
+When: May 2019 -- Jul 2019
+Where: SSIG Manufacturing Advancements Pvt. Ltd., Pune, India
+Tech: ABB IRB1320, RAPID, RobotStudio, PLC
+- Programmed ABB IRB1320 industrial robots in RAPID / RobotStudio: motion sequences and
+  pick-and-place, with execution monitoring.
+- Calibrated tool center points (TCP), integrated industrial I/O and PLC monitoring; hands-on
+  hardware troubleshooting and sensor checks.
+
+--- Side jobs: use ONLY for non-technical jobs (retail, customer service) ---
+
+## Cashier
+When: Oct 2023 -- Present
+Where: REWE, Alnatura, Primark (mini-job and via Jobvalley / Zenjob), Bonn, Germany
+- Cashier duties and accurate till reconciliation in food and fashion retail.
+- Friendly, competent customer service at the checkout, also at peak hours.
+- Quick to adapt to different stores, POS systems and teams in flexible assignments.
+
+## Student Assistant -- Food Retail
+When: Aug 2025 -- Present
+Where: EDEKA, Bonn, Germany
+- Stocked shelves; checked goods for completeness, quality and best-before dates.
+- Kept the sales floor and shelves clean and organised.
+- Advised customers and supported daily operations in shift work.

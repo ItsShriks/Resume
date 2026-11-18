@@ -1,0 +1,33 @@
+EDUCATION
+=========
+
+## M.Sc. Autonomous Systems
+When: Oct 2023 -- Feb 2027 (expected)
+Where: Hochschule Bonn-Rhein-Sieg, Bonn, Germany
+- Thesis: Coupling Visibility-Aware MPC with TSID for Continuous Mobile Manipulation.
+- Official member of the b-it bots @Home team since Oct 2024.
+- DAAD scholarship.
+- Relevant courses: Autonomous Systems (behaviour trees / state machines), Human-Centered
+  Interaction in Robotics, Collective Robotics (see Projects for each).
+
+## B.Tech. Mechatronics Engineering
+When: Jul 2018 -- Jun 2022
+Where: Symbiosis Skills And Professional University, Pune, India
+Grade: CGPA 8.787 / 10
+- Thesis: Waste Separation System with a Robotic Manipulator.
+- Co-founder of the Robo Club and Solar Club; student volunteer at the Automotive Skills
+  Development Council, India; team mentor for the IndiaSkills Mobile Robotics team.
+
+## Higher Secondary Certificate (Science)
+When: Jun 2016 -- May 2018
+Where: Saket College, Mumbai, India
+Grade: 60%
+- Focus: Mathematics, Physics, Chemistry.
+
+## Secondary School Certificate
+When: Apr 2003 -- Apr 2016
+Where: Swami Vivekanand Vidyamandir, Mumbai, India
+Grade: 75.6%
+- Best Student Representative; co-founder and president of the Technology Club; Best Science
+  Club Vice President; district-level chess tournaments.
+Notes: school entries are only for German CVs that ask for a full history.

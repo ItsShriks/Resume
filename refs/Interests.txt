@@ -1,0 +1,7 @@
+INTERESTS
+=========
+
+- General: continuous learning, travelling & exploring, driving, emerging technologies, chess,
+  robotics prototyping.
+- For AI / safety-minded roles: safety & robustness of AI systems, autonomous systems,
+  open-source robotics, chess, travelling.

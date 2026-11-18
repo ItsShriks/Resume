@@ -149,8 +149,9 @@ Provide an in-depth analysis formatted as strict JSON with the following keys:
             "2. Reword, sharpen, and reorder bullet points to prominently feature relevant keywords, metrics, and responsibilities from the JD.\n"
             "3. Output valid LaTeX for each section matching the exact commands used in the original LaTeX snippets "
             "(\\resumeSubheading, \\resumeItem, \\resumeItemPlain, \\resumeSubItem, \\resumeSubHeadingListStart, \\resumeItemListStart, etc.).\n"
-            "Master entries live in refs/ as \\defref{key}{...}. A section may include a master entry unchanged with \\useref{key}; "
-            "anything you reword must be written out in full instead. Never use facts that are not in refs/.\n"
+            "The master content in refs/ is plain English notes (\"## Title\" blocks with When / Where / Link / Tech lines, "
+            "bullets and Notes). Write every entry out in full LaTeX; follow the Notes but never copy them. "
+            "Never use facts that are not in refs/.\n"
             "4. Escape special LaTeX characters properly (e.g. \\& for &, \\% for %, \\_ for _).\n"
             "5. Return a strict JSON object containing the updated LaTeX code for each section."
         )

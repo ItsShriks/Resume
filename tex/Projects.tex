@@ -1,30 +1,30 @@
-% Angepasst: Kautex -- Werkstudent Automation Technology (Job Number 345510), Bonn-Holzlar
+% Angepasst: ALLGEMEINER technischer Lebenslauf -- schlanke Version
 %-----------PROJEKTE-----------------
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeSubheading
       {Robot Butler \& Semantische Objekterkennung}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, YOLO, PyTorch, RTAB-Map}{}
+      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
       \resumeItemListStart
-        \resumeItemPlain{ROS-2-Bring-up und Hardware-Schnittstellen für einen Neobotix MMO-700 mit \textbf{UR5e-Arm und Robotiq-Greifer}, LiDARs, RealSense-L515-Kamera und IMU; das System startet beim Einschalten automatisch.}
-        \resumeItemPlain{Kamerabasierte Objekterkennung mit \textbf{YOLO}, OpenYOLO3D und Mask3D; Auswertungsskripte und Annotationen zur Validierung der Erkennung.}
-      \resumeItemListEnd
-    \resumeSubheading
-      {UR5 Roboterkinematik \& Bewegungsplanung}{\repo{ItsShriks/ur5_simulation}}
-      {ROS Noetic, KDL, MoveIt}{}
-      \resumeItemListStart
-        \resumeItemPlain{Analytische inverse Kinematik mit KDL für einen 6-DOF-\textbf{UR5}; kollisionsfreie Bahnplanung mit \textbf{MoveIt} und eigenen Kollisionsmodellen, inkl. Benchmarking.}
-      \resumeItemListEnd
-    \resumeSubheading
-      {RoboGrasp -- Objekterkennung für adaptives Greifen}{\repo{ItsShriks/RoboGrasp}}
-      {Python, RGB-D, Punktwolken, EM}{}
-      \resumeItemListStart
-        \resumeItemPlain{Klassifikation von Objekten aus RGB-D-Bildern und 3D-Punktwolken mit Gaußschen Mischmodellen (EM-Algorithmus) zur Auswahl der \textbf{Greifstrategie}.}
+        \resumeItemPlain{ROS-2-Bring-up und Hardware-Schnittstellen für einen \textbf{Neobotix MMO-700} (UR5e-Arm, Robotiq-Greifer, LiDARs, RealSense L515, IMU) mit automatischem Start beim Einschalten.}
+        \resumeItemPlain{Nav2, 3D-SLAM (\textbf{RTAB-Map}) und \textbf{YOLO} / Mask3D mit Vision-Language-Modellen für semantische Objektsuche.}
       \resumeItemListEnd
     \resumeSubheading
       {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
       {ROS 2, C++17, MPC, TSID, MuJoCo}{Masterarbeit}
       \resumeItemListStart
-        \resumeItemPlain{Kopplung eines MPC-Planers mit einem TSID-Controller, damit ein mobiler Manipulator (UR5e, Robotiq 2F-85) während der Fahrt greifen kann; Simulation der Anfahr-, Greif- und Hebe-Pipeline in \textbf{MuJoCo}.}
+        \resumeItemPlain{Kopplung eines sichtbarkeitsbewussten \textbf{MPC}-Planers mit einem hochfrequenten \textbf{TSID}-Controller über eine asynchrone ROS-2-Bridge in \textbf{C++17}; Anfahr-, Greif- und Hebe-Pipeline in \textbf{MuJoCo}.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
+      {Kernmitglied Perception \& Navigation $\cdot$ ROS 2, MediaPipe, OpenCV}{Studentisches Engagement}
+      \resumeItemListStart
+        \resumeItemPlain{Person-Following auf dem Toyota HSR mit \textbf{95\,\% Tracking-Erfolgsquote}; Zeigegesten-Erkennung mit \textbf{TF}, mit der das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025} absolvierte.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {JungleLook -- Label-freie Segmentierung von LiDAR-Punktwolken}{\repo{ItsShriks/JungleLook}}
+      {Python, PyTorch, PointNet++, Open3D}{}
+      \resumeItemListStart
+        \resumeItemPlain{\textbf{PointNet++} auf geometrischen Pseudo-Labels (\textbf{0,80 mIoU}, vorläufig); Registrierung von Annotationen auf LiDAR-Daten mit \textbf{RANSAC + ICP} bei \textbf{98,8\,\% Inliern}.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

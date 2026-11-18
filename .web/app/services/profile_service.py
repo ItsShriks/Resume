@@ -1,7 +1,7 @@
 import re
 from app.config import TEX_DIR, REFS_DIR, CV_TEX, COVER_LETTER_TEX
 
-# section key -> file name, shared by tex/ (tailored) and refs/ (master)
+# section key -> file name in tex/ (tailored LaTeX); refs/ (master, plain text) uses the same name with .txt
 SECTION_FILES = {
     "personal_info": "Personal_Info.tex",
     "work_experience": "Work_Experience.tex",
@@ -29,8 +29,8 @@ class ProfileService:
     def get_master_profile():
         """Reads tailored sections (tex/), master content (refs/) and the main documents."""
         sections = {key: _read(TEX_DIR / name) for key, name in SECTION_FILES.items()}
-        refs = {key: _read(REFS_DIR / name) for key, name in SECTION_FILES.items()}
-        info = refs["personal_info"]
+        refs = {key: _read(REFS_DIR / name.replace(".tex", ".txt")) for key, name in SECTION_FILES.items()}
+        info = _read(TEX_DIR / "Contact.tex")
 
         return {
             "name": _macro(info, "cvname") or "Candidate",
@@ -50,5 +50,5 @@ class ProfileService:
     def refs_text(profile):
         """All master refs as one block, for AI prompts."""
         return "\n\n".join(
-            f"--- [refs/{SECTION_FILES[k]}] ---\n{v}" for k, v in profile.get("refs", {}).items() if v
+            f"--- [refs/{SECTION_FILES[k].replace('.tex', '.txt')}] ---\n{v}" for k, v in profile.get("refs", {}).items() if v
         )

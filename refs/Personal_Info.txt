@@ -1,0 +1,52 @@
+PERSONAL INFO
+=============
+
+## Contact
+Name: Shrikar Nakhye
+Location: Bonn, Germany
+Email: nakhyeshrikar@icloud.com
+Phone: +49 152 19520308
+LinkedIn: https://www.linkedin.com/in/shrikar-nakhye-053262188/
+GitHub: https://github.com/ItsShriks
+Google Scholar: https://scholar.google.com/citations?user=-kVcoO8AAAAJ&hl=en
+Date of birth: 30 August 2000 (shown on German CVs only, with the photo)
+
+## Job titles I go for
+Robotics Software Engineer, Autonomous Systems Engineer, Robot Navigation Engineer,
+Robotics Simulation Engineer, Robotics Integration Engineer, Mobile Manipulation Engineer
+
+## Key facts and numbers (the only numbers the AI may use)
+- 4+ years of robotics experience (Sakar Robotics, internships, research, lab work).
+- M.Sc. Autonomous Systems at H-BRS, expected to finish Feb 2027.
+- 95% tracking success rate: person following on the Toyota HSR (b-it bots).
+- Completed the "Help Me Carry" task at RoboCup German Open 2025 (@Home, b-it bots).
+- Steve whole-body controller, kinematic check: 0.01 cm RMS end-effector error
+  (0.03 cm max) while the base orbits, vs 0.55 cm for a weighted QP; 10--13 ms per solve.
+- Steve on the real robot: velocity interface tracked a small figure-8 at 0.12 cm RMS
+  (vs 0.17 cm with trajectory streaming); wrist camera calibrated to 0.17 cm RMS over 8 poses.
+- Steve visibility task (simulation, static ball, 1-view VGN): camera kept on the object
+  100% of the time with the task vs 29% without.
+- JungleLook: 98.8% annotation-to-LiDAR registration inliers (0.11 m RMS);
+  0.80 validation mIoU -- always say "preliminary, vs. pseudo-labels".
+  NEVER use 15%, 11.8% or 93% (wrong numbers from an old notebook).
+- Navilan: 90--95% accuracy, fully offline OCR / layout ensemble on low-end CPUs.
+  Release and usage figures are confidential -- do not ask or invent them.
+- Sakar Robotics: Scrum Master of a 10-member engineering team; contributed to
+  7 robotic platforms, 2 delivered end-to-end.
+
+## Summary (long master version -- shorten it for each CV)
+Robotics engineer with 4+ years of experience in robotics software, robot perception,
+autonomous navigation, simulation, machine learning and system integration. Currently doing
+an M.Sc. in Autonomous Systems in Germany, building ROS and ROS 2 software for mobile robots,
+manipulators and autonomous platforms. Strong in navigation, SLAM, sensor fusion, coordinate
+frames, point cloud processing, computer vision, whole-body control and robot simulation, using
+ROS 2, OpenCV, PyTorch, Open3D, MuJoCo and Gazebo. Main developer of a mobile-manipulator
+butler robot's ROS 2 stack, running the same code in simulation and on the real robot.
+
+## Practical details
+- Languages: English C2, German B2, Hindi native, Marathi native.
+- Work permit: Germany.
+- Availability: 15--20 h/week as a working student now; full time after graduating (Feb 2027).
+- Preferred locations: Munich, Stuttgart, anywhere in Germany, remote.
+- b-it bots @Home is an official team membership (extracurricular), NOT a job --
+  list it under Projects, never under Experience.

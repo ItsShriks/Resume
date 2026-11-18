@@ -1,26 +1,26 @@
-% Tailored: RoboService GmbH -- Robotics Engineer (ROS 2 driver integration, sim-to-real, hw/sw debugging)
+% Tailored: prefix.dev -- robot fleet management (deploying software to real robots, packaging, Linux, C++)
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Mobile Manipulator: ROS 2 Stack \& Hardware Bring-up}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 Humble $\cdot$ Python $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ MuJoCo $\cdot$ Gazebo $\cdot$ CANopen}{Humanoid Robots Lab, Uni Bonn -- main developer}
+      {Steve -- Mobile Manipulator: ROS 2 Stack \& Deployment}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2 Humble $\cdot$ Pixi $\cdot$ RoboStack $\cdot$ Python $\cdot$ C++ $\cdot$ Linux $\cdot$ macOS $\cdot$ MuJoCo $\cdot$ Gazebo}{Humanoid Robots Lab, Uni Bonn -- main developer}
       \resumeItemListStart
-        \resumeItemPlain{Brought up a \textbf{Neobotix MMO-700} (omni base, UR5e, Robotiq 2F-85, RealSense, dual SICK LiDARs) in \textbf{ROS 2} so every driver starts hands-off at power-on, with a drive heartbeat watchdog and safety stop.}
-        \resumeItemPlain{Integrated \textbf{Nav2} (SLAM Toolbox, AMCL), \textbf{MoveIt 2} and swap-in end effectors incl. the \textbf{PSYONIC Ability Hand}; the same code runs in \textbf{MuJoCo, Gazebo and on the real robot}.}
+        \resumeItemPlain{Built the robot's \textbf{ROS 2} stack as main developer (\textbf{137 of 163 commits}) with a \textbf{hands-off driver start at power-on}; the same code runs in MuJoCo, Gazebo and on the real robot, which now completes full grasps.}
+        \resumeItemPlain{Set up a \textbf{Pixi} workspace on \textbf{RoboStack} (ROS 2 Humble, osx-arm64) with tasks to build, visualise and run the whole-body controller on the \textbf{real robot from a Mac}.}
       \resumeItemListEnd
     \resumeProject
-      {Steve -- Whole-Body Control from Simulation to the Real Robot}{\repo{ItsShriks/steve_wbc}}
-      {Python $\cdot$ MuJoCo $\cdot$ Hierarchical QP $\cdot$ ROS 2 $\cdot$ UR5e}{Humanoid Robots Lab, Uni Bonn}
+      {JungleLook -- Label-free LiDAR Point Cloud Segmentation}{\repo{ItsShriks/JungleLook}}
+      {Python $\cdot$ PyTorch $\cdot$ Open3D $\cdot$ Docker $\cdot$ CI $\cdot$ CLI}{Research project, H-BRS}
       \resumeItemListStart
-        \resumeItemPlain{Designed a 9-DOF \textbf{whole-body controller} (strict task hierarchy, base + arm) so the gripper stays precise while the base moves: \textbf{0.01\,cm RMS} error vs 0.55\,cm for a weighted QP, \textbf{10--13\,ms} per solve.}
-        \resumeItemPlain{Switched the real UR5e to the \textbf{velocity interface}, cutting figure-8 tracking error to \textbf{0.12\,cm RMS} (from 0.17\,cm); Steve now completes \textbf{full grasps on the real robot}.}
+        \resumeItemPlain{Packaged the pipeline as a \textbf{tested library with one CLI}, YAML configs, \textbf{Docker and CI}, turning raw UAV LiDAR scans into labelled clouds without manual annotation.}
+        \resumeItemPlain{Wrote PointNet / PointNet++ from scratch to run on \textbf{CPU, CUDA and Apple MPS}: \textbf{0.80 validation mIoU} (preliminary, vs.\ pseudo-labels).}
       \resumeItemListEnd
     \resumeProject
       {b-it bots @Home -- RoboCup@Home Team}{Oct 2024 -- Present}
-      {ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ C++17 $\cdot$ Docker $\cdot$ Toyota HSR}{Perception \& Navigation core member}
+      {ROS 2 $\cdot$ C++17 $\cdot$ Python $\cdot$ Docker $\cdot$ Toyota HSR}{Perception \& Navigation core member}
       \resumeItemListStart
-        \resumeItemPlain{Built person following and \textbf{TF}-based pointing detection on the Toyota HSR: \textbf{95\% tracking success}; helped complete \textbf{Help Me Carry} at RoboCup German Open 2025.}
-        \resumeItemPlain{Calibrated RGB-D, LiDAR and odometry and \textbf{debugged hardware--software issues} with rosbag, RViz and Foxglove, shipped as reproducible \textbf{Docker} deployments.}
+        \resumeItemPlain{Wrote hardware adapters in \textbf{C++17} and Python, shipped as \textbf{reproducible Docker deployments}, and debugged hardware--software issues on the robot with rosbag, RViz and Foxglove.}
+        \resumeItemPlain{Built person following on the Toyota HSR: \textbf{95\% tracking success}; helped complete Help Me Carry at RoboCup German Open 2025.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

@@ -9,30 +9,23 @@
 [JOB DESCRIPTION — PASTE BELOW THIS LINE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 About the job
-About RoboService GmbHRoboService GmbH brings humanoid robots to industrial facilities. We program robotics applications that work on the manufacturing lines of European manufacturing companies.Your first months at RoboService GmbHYou will be working hands on with humanoid robots. As a robotics engineer, you will work on the software that automates real manufacturing tasks. Embedded in an interdisciplinary team of engineers, you will be working on specific automation projects, as well as the core stack of RoboService. You will work in a team among the best robotic talents.What you bring
-Experience in robotics and software engineering
-Excitement for humanoid robots and a passion for automation
-Commitment to building reliable systems for industrial applications.
-Qualifications matching the profile description below
+About usWe build package management for the Conda ecosystem. Our open source tools (Pixi, rattler, rattler-build) are written in Rust and used by hundreds of thousands of developers. You'll find them in finance, at CERN, at biotech companies, and more and more in robotics. We also maintain RoboStack, which packages ROS for Conda so it runs on any OS from a single lockfile.The engineering team is spread across Europe (Netherlands, Germany, UK, Moldova). This new project is based in Berlin, and so is this role.The projectWe're starting a new product: fleet management for robots, built on Pixi. If every robot in a fleet runs a Pixi environment, deploying, updating and rolling back software across the fleet gets a lot easier. You describe what the fleet should run, and the robots get there, whether they sit in one lab or across several sites with bad connectivity.The robot-side agent and the coordination layer are written in Rust. Our goal is that robots, edge nodes and operators talk to each other peer to peer, so things keep working without a central server or a stable internet connection. Pixi handles environments, artifact distribution and atomic updates on the device. Operators use a web frontend (Next.js or Svelte) to see the fleet, follow deployments, read logs and control rollouts.The project is partially funded through Berlin's Pro FIT programme, meaning the role is on-site in our Berlin office.What you'll work on
+The on-robot agent in Rust: reconciling environments, reporting health, orchestrating updates
+The networking layer: peer discovery, sharing fleet state, distributing packages between robots
+The operator web UI and its connection to the Rust backend
+Testing on real hardware. We have robots in the office and partners running ROS 2 in the field
+Upstream changes to Pixi, rattler and RoboStack when the fleet work needs them
+Talking to users, writing docs, and helping decide what the product becomes
 
-Benefits
-Stock Options: You will be compensated in salary and generous stock options -- we want you to feel like an integral part of the success and growth of the company
-Berlin based: We’re an in-person team and we work out of our office in downtown Berlin. If you’re not in Berlin, we would like to help you move here.
-Access to Cutting Edge Tech: Work daily on the latest software and hardware that will shape our future.
-Impact: Work in real projects with manufacturers to bring robots onto manufacturing floors.
-Startup Environment: We are a fast-moving startup with high growth ambitions.
-Team of Experts: We are a team of experts where every voice matters. Work with professionals that are leading their field.
+What we're looking forYou don't need years of experience. You do need solid fundamentals and the ability to pick things up quickly.
+Rust, or a strong background in C++ or Go and the wish to switch. Async Rust (tokio) helps
+Some frontend work with React/Next.js, Svelte or Vue. You don't have to be a designer, but you should care whether the UI is pleasant to use
+Some robotics background: ROS or ROS 2, a university project, a hobby robot, or a job at a robotics company
+Comfort with Linux, basic networking and the command line
+You like owning things end to end in a small team
+You live in Berlin or are willing to move here
 
-Qualifications
-Education: Bachelor’s or Master’s degree in Robotics, Computer Science, Engineering, or a related field.
-Experience: 1-3+ years of hands-on work experience in robotics;
-Core Skills: Python and agentic coding
-Robotics Stack: ROS2, including navigation, manipulation, and driver integration.
-Simulation: Proven experience with physics-based simulators, specifically NVIDIA Isaac Sim or similar (Gazebo, MuJoCo).
-Pioneering: Experience debugging hardware/software interfaces on non-standard platforms.
-Full working proficiency in English
-
-Your path forwardIf you match most of these requirements and are ready to work in a highly paced team from the heart of Berlin, we encourage you to apply.You will work on the hottest topics in robotics and software.Apply now!
+It's a plus if you know distributed systems or P2P (gossip protocols, CRDTs, content-addressed storage), have used conda or Pixi, have shipped software to devices in the field, or have contributed to open source. None of this is required.What we offerYou'll build a new product from the start, together with the people who created Mamba, Pixi, rattler and RoboStack. A lot of your work will be open source and public. We pay a competitive Berlin salary, with 30 days of vacation, the hardware you want, a conference budget, and time for upstream open source work. We help with relocation within the EU.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF JOB DESCRIPTION]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

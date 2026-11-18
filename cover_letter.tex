@@ -1,7 +1,7 @@
 %! jobname = Shrikar_Nakhye_Cover_Letter
 %------------------------
 % Cover Letter (English) -- rewritten for every application.
-% Position: Robotics Engineer -- RoboService GmbH, Berlin (humanoid robots for industrial manufacturing).
+% Position: Software Engineer, Robot Fleet Management -- prefix.dev (Pixi / rattler / RoboStack), Berlin.
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -9,8 +9,8 @@
 \addtolength{\topmargin}{-0.65in}
 \addtolength{\textheight}{1.3in}
 
-\newcommand{\clcompany}{RoboService GmbH}
-\newcommand{\clrole}{Robotics Engineer}
+\newcommand{\clcompany}{prefix.dev GmbH}
+\newcommand{\clrole}{Software Engineer -- Robot Fleet Management}
 
 \begin{document}
 
@@ -27,28 +27,28 @@ Hiring Team \\
 Berlin, Germany
 
 \vspace{5pt}
-\textbf{Re: Application for the \clrole{} position}
+\textbf{Re: Application for \clrole}
 
 \vspace{5pt}
-Dear RoboService Hiring Team,
+Dear prefix.dev Team,
 
 \vspace{5pt}
-Putting humanoid robots onto real European manufacturing lines is exactly the step I want to work on: robots that leave the lab and do useful, reliable work in a factory. I am a robotics engineer finishing my M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg (February 2027), with 4+ years of hands-on robotics, and I would like to apply for the \clrole{} position in your Berlin team.
+I already use your tools: I work on a Mac, and for our lab robot I set up a Pixi workspace on the RoboStack Humble channel so I can build our ROS~2 packages and run RViz and the whole-body controller against the real robot straight from macOS. A fleet manager built on that foundation, where robots converge on the environment you describe even across sites with bad connectivity, is a product I would like to help build from the start. I am a robotics software engineer finishing my M.Sc. in Autonomous Systems at Hochschule Bonn-Rhein-Sieg, and I would like to apply for the role in your Berlin office.
 
 \vspace{4pt}
-\textbf{ROS~2 on a non-standard platform, from drivers to manipulation.} At the Humanoid Robots Lab of the University of Bonn I am the main developer of the ROS~2 stack for Steve, a custom mobile manipulator: a Neobotix MMO-700 omnidirectional base, a UR5e arm, a Robotiq gripper, a RealSense camera on a Dynamixel pan-tilt unit and two SICK LiDARs. I wrote the hardware bring-up so every driver starts hands-off at power-on, with a drive heartbeat watchdog, LiDARs identified by serial number and a shared safety stop, and integrated Nav2, MoveIt~2 and swap-in end effectors, including the PSYONIC Ability Hand on the real robot. The same code runs in MuJoCo, Gazebo and on the hardware (\href{https://github.com/ItsShriks/steve_ros2_ws}{github.com/ItsShriks/steve\_ros2\_ws}).
+\textbf{Shipping software to a real robot.} At the Humanoid Robots Lab of the University of Bonn I am the main developer (137 of 163 commits) of the ROS~2 stack for Steve, a custom mobile manipulator with an omnidirectional base, a UR5e arm, grippers, cameras and two LiDARs. The goal was one codebase that runs unchanged in MuJoCo, Gazebo and on the hardware. I wrote the bring-up so every driver starts hands-off at power-on, with a heartbeat watchdog and LiDARs matched by serial number, and a script that clones, syncs and pushes all package repositories between the lab GitLab and GitHub. Sim-to-real is now confirmed on the real robot, which completes full grasps (\href{https://github.com/ItsShriks/steve_ros2_ws}{github.com/ItsShriks/steve\_ros2\_ws}).
 
 \vspace{4pt}
-\textbf{From simulation to a precise real robot.} Steve has to grasp from a table while its base keeps moving, but with a weighted single QP the arm and base tasks fought each other and the gripper drifted by 0.55\,cm RMS. I wrote a 9-DOF whole-body controller as a strict task hierarchy with the exact Jacobian from the MuJoCo model plus joint, velocity and collision constraints. In the same check the error dropped to \textbf{0.01\,cm RMS} at 10--13\,ms per solve. On the real robot I switched the UR5e to velocity commands, which cut figure-8 tracking error from 0.17 to \textbf{0.12\,cm RMS}, and calibrated the wrist camera without markers to 0.17\,cm RMS. Steve now completes full grasps on the real robot (\href{https://github.com/ItsShriks/steve_wbc}{github.com/ItsShriks/steve\_wbc}).
+\textbf{Reliable releases for offline machines.} At Navilan Solutions, documents had to be read by software running fully offline on low-end PCs. I combined DocTR, Tesseract and EasyOCR into an ensemble with image preprocessing, fine-tuned YOLOv11 on synthetic invoices, and shipped it as C++/Qt desktop applications and Python services with Docker, automated tests and CI/CD quality gates. The result reached \textbf{90--95\% accuracy} on multilingual text and tables on CPUs alone. In the same spirit I packaged my JungleLook research as a tested library with one CLI, Docker and CI that runs on CPU, CUDA and Apple MPS.
 
 \vspace{4pt}
-\textbf{Reliability under competition conditions.} In the b-it bots RoboCup@Home team I built person following and pointing-gesture detection on the Toyota HSR with ROS~2, MediaPipe and TF transforms, reaching a \textbf{95\% tracking success rate}. I calibrated RGB-D, LiDAR and odometry, debugged hardware--software issues with rosbag, RViz and Foxglove, and helped the team complete the Help Me Carry task at RoboCup German Open 2025.
+\textbf{Running several robots at once.} At Sakar Robotics I was robotics engineer and Scrum Master of a 10-member team, contributing to \textbf{seven autonomous platforms}, two of them delivered end-to-end. I owned hardware commissioning and configuration management there and integrated sensors into ROS / ROS~2 navigation.
 
 \vspace{4pt}
-\textbf{Industrial roots.} I started on the factory side: programming ABB IRB1320 robots in RAPID with TCP calibration and PLC I/O at SSIG Manufacturing, then two years at Sakar Robotics as robotics engineer and Scrum Master of a 10-member team, commissioning hardware across seven autonomous platforms and delivering two end-to-end. I write Python every day, and C++17 where performance matters.
+\textbf{Where I would grow.} My systems background is Modern C++17 and Python on Linux; I have not written Rust yet and would make the switch for this role. My robotics projects are public on GitHub, and I would enjoy owning the on-robot agent end to end while learning async Rust in a small team.
 
 \vspace{4pt}
-I am available full time from January 2027. I am authorised to work in Germany, happy to relocate to Berlin to work in person with your team, and my English is fluent (C2), with German at B2. I would be glad to show you Steve's stack in more detail.
+I am available full time from January 2027 and happy to relocate to Berlin to work on-site. I am authorised to work in Germany; my English is fluent (C2) and my German is at B2. I would be glad to talk about how a robotics lab like mine would use a Pixi-based fleet manager.
 
 \vspace{10pt}
 

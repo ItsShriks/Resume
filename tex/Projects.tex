@@ -3,28 +3,29 @@
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Robot Butler \& Semantische Objekterkennung}{\repo{ItsShriks/steve_hardware_bringup}}
-      {ROS 2, Nav2, RTAB-Map, PyTorch, YOLO, LLM}{}
+      {Steve -- Autonomer Butler-Mobilmanipulator}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2, Nav2, MoveIt 2, MuJoCo, Gazebo, YOLO}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{ROS-2-Bring-up und Hardware-Schnittstellen für einen \textbf{Neobotix MMO-700} (UR5e-Arm, Robotiq-Greifer, LiDARs, RealSense L515, IMU) mit automatischem Start beim Einschalten.}
-        \resumeItemPlain{Nav2, 3D-SLAM (\textbf{RTAB-Map}) und \textbf{YOLO} / Mask3D mit Vision-Language-Modellen für semantische Objektsuche.}
+        \resumeItemPlain{\textbf{ROS-2}-Stack eines \textbf{Neobotix MMO-700} (UR5e, Robotiq-Greifer, RealSense, zwei LiDARs) als Hauptentwickler aufgebaut; derselbe Code läuft in \textbf{MuJoCo, Gazebo und auf dem realen Roboter}.}
+        \resumeItemPlain{9-DOF-\textbf{Ganzkörperregler} (strikt hierarchisches QP) entworfen, damit der Arm bei fahrender Basis präzise bleibt: \textbf{0,01\,cm RMS} Endeffektorfehler im kinematischen Test (gewichtetes QP: 0,55\,cm), \textbf{10--13\,ms} pro Lösung.}
       \resumeItemListEnd
     \resumeSubheading
       {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
       {ROS 2, C++17, MPC, TSID, MuJoCo}{Masterarbeit}
       \resumeItemListStart
-        \resumeItemPlain{Kopplung eines sichtbarkeitsbewussten \textbf{MPC}-Planers mit einem hochfrequenten \textbf{TSID}-Controller über eine asynchrone ROS-2-Bridge in \textbf{C++17}; Anfahr-, Greif- und Hebe-Pipeline in \textbf{MuJoCo}.}
+        \resumeItemPlain{Entwurf einer \textbf{MPC}- + \textbf{TSID}-Architektur mit ROS-2-Bridge in \textbf{C++17}, damit ein mobiler Roboter während der Fahrt greift; Pipeline in \textbf{MuJoCo}.}
       \resumeItemListEnd
     \resumeSubheading
       {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
       {Kernmitglied Perception \& Navigation $\cdot$ ROS 2, MediaPipe, OpenCV}{Studentisches Engagement}
       \resumeItemListStart
-        \resumeItemPlain{Person-Following auf dem Toyota HSR mit \textbf{95\,\% Tracking-Erfolgsquote}; Zeigegesten-Erkennung mit \textbf{TF}, mit der das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025} absolvierte.}
+        \resumeItemPlain{Person-Following auf dem Toyota HSR mit ROS 2, MediaPipe und OpenCV entwickelt: \textbf{95\,\% Tracking-Erfolgsquote}.}
+        \resumeItemPlain{Zeigegesten-Erkennung mit \textbf{TF} ergänzt; damit absolvierte das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
       \resumeItemListEnd
     \resumeSubheading
       {JungleLook -- Label-freie Segmentierung von LiDAR-Punktwolken}{\repo{ItsShriks/JungleLook}}
       {Python, PyTorch, PointNet++, Open3D}{}
       \resumeItemListStart
-        \resumeItemPlain{\textbf{PointNet++} auf geometrischen Pseudo-Labels (\textbf{0,80 mIoU}, vorläufig); Registrierung von Annotationen auf LiDAR-Daten mit \textbf{RANSAC + ICP} bei \textbf{98,8\,\% Inliern}.}
+        \resumeItemPlain{\textbf{PointNet++} ohne manuelle Labels trainiert (\textbf{0,80 mIoU}, vorläufig); Annotationen mit \textbf{RANSAC + ICP} registriert: \textbf{98,8\,\% Inlier}.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

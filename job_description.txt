@@ -66,6 +66,27 @@ LEITPRINZIP — WENIGER IST MEHR
     für diese Stelle relevant ist (nie mehr als 1,5 Seiten echter Inhalt).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SO WIRD EIN STICHPUNKT GESCHRIEBEN — HANDLUNG, KONTEXT, ERGEBNIS (kompaktes STAR)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Jeder Stichpunkt ist EINE Zeile (max. zwei), aufgebaut als:
+      <Was> [mit <Werkzeugen>] [für / damit <Zweck>] <Verb im Partizip / Nomen>, <Ergebnis>.
+      z. B. "Offline-OCR-Ensemble mit DocTR und Tesseract entwickelt: 90--95 % Genauigkeit
+      auf leistungsschwachen CPUs."
+  - Deutscher Lebenslauf-Stil: Partizip ("entwickelt", "integriert", "geleitet") oder
+    Nominalstil ("Entwicklung von ...", "Leitung eines ..."), innerhalb eines Lebenslaufs
+    einheitlich. Keine reine Aufzählung von Begriffen.
+  - Am Ende das ERGEBNIS: eine Zahl aus refs/, wenn vorhanden (95 %, 0,01 cm, 2 von 7
+    Plattformen ausgeliefert). Ohne Zahl in refs/: das konkrete Ergebnis oder den Zweck
+    nennen (was es ermöglichte, wer es nutzte, was es ersetzte).
+    NIE eine Zahl, Prozentangabe oder ein Ergebnis erfinden, um das Muster zu füllen.
+  - Kontext = Situation oder Grund in wenigen Worten ("damit der Roboter während der
+    Fahrt greifen kann", "für den Offline-Einsatz"). Weglassen, wenn die Zeile zu lang wird.
+  - Schlüsselbegriffe der Anzeige einbauen, wo sie wahrheitsgemäß passen.
+  - Vollständige STAR-Geschichten (Situation, Aufgabe, Handlung, Ergebnis) gehören ins
+    Anschreiben und ins Vorstellungsgespräch, nicht in den Lebenslauf. Hat ein Eintrag in
+    refs/ einen "STAR:"-Block, diesen für das Anschreiben verwenden.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 REPOSITORY-STRUKTUR
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   refs/*.txt         MASTER-Inhalte in einfachem ENGLISCH — Quelle der Wahrheit. NUR LESEN,
@@ -138,7 +159,8 @@ SCHRITT 7 — cover_letter.tex (IMMER neu schreiben)
     Alles oberhalb von \begin{minipage} unverändert lassen.
   - Einstieg: echter Bezug zur Mission des Unternehmens und zur Stelle.
   - Hauptteil: 3-4 Stichpunkte oder Absätze, die Shrikars stärkste Erfahrungen den
-    wichtigsten Anforderungen zuordnen — konkret, mit Zahlen aus refs/.
+    wichtigsten Anforderungen zuordnen — konkret, mit Zahlen aus refs/. 1-2 davon als
+    kurze STAR-Geschichte erzählen (Situation, Aufgabe, Handlung, Ergebnis).
   - Schluss: Verfügbarkeit (ab sofort / Startdatum) und Stunden; Grußformel \cvclosing.
   - Maximal eine Seite.
 
@@ -155,6 +177,7 @@ HARTE REGELN — NIE VERLETZEN
   X  Datumsformat "MMM JJJJ -- MMM JJJJ" / "MMM JJJJ -- heute" (Okt, Mai, Dez ...).
   X  Lebenslauf: Ziel 1 Seite, max. 2 Seiten. Anschreiben max. 1 Seite.
   X  Keine Floskeln ("teamfähig und motiviert") ohne konkretes Beispiel.
+  X  Kein Stichpunkt ohne Handlung und ohne Ergebnis oder Zweck.
   X  Keine Anschreiben-Elemente (Datum, Unterschrift, Grußformel) in tex/-Dateien.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

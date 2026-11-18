@@ -80,6 +80,25 @@ GUIDING PRINCIPLE — LESS IS MORE
     relevant to this job (never more than 1.5 pages of real content).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW TO WRITE A BULLET — ACTION, CONTEXT, RESULT (compressed STAR)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Every CV bullet is ONE line (two at most) shaped like:
+      <Action verb> <what> [with <tools>] [to / for <why or for whom>], <result>.
+  - Start with a strong past-tense action verb (Built, Designed, Integrated, Cut,
+    Led, Automated ...); "Designing / Developing" only for ongoing work.
+    Never start with a noun ("LiDAR integration ...", "Person-following ...").
+  - End with the RESULT: a number from refs/ if one exists (95%, 0.01 cm, 2 of 7
+    platforms delivered). If refs/ has no number, give the concrete outcome or
+    purpose instead (what it enabled, who used it, what it replaced).
+    NEVER invent a number, percentage or outcome to complete the pattern.
+  - Context = the situation or reason in a few words ("so the robot can grasp
+    while driving", "for offline use on low-end PCs"). Skip it if the line gets long.
+  - Weave in the job ad's keywords where they truthfully fit.
+  - Full STAR stories (Situation, Task, Action, Result) belong in the cover letter
+    and interviews, not in CV bullets. If an entry in refs/ has a "STAR:" block,
+    use it for the cover letter.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 REPOSITORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   refs/*.txt         MASTER content in PLAIN ENGLISH — source of truth. READ ONLY, NEVER EDIT.
@@ -149,7 +168,8 @@ STEP 7 — cover_letter.tex (ALWAYS rewrite)
     and salutation. Keep everything above \begin{minipage} unchanged.
   - Opening: genuine connection to the company's mission and the role.
   - Body: 3-4 bullets or paragraphs mapping Shrikar's strongest experiences to the
-    role's top requirements — specific, with numbers from refs/.
+    role's top requirements — specific, with numbers from refs/. Tell 1-2 of them
+    as short STAR stories (situation, task, what he did, result).
   - Closing: availability / start date and hours; sign off with "Kind regards,".
   - Must fit on one page.
 
@@ -166,6 +186,7 @@ HARD RULES — NEVER VIOLATE
   X  Dates in the format "MMM YYYY -- MMM YYYY" / "MMM YYYY -- Present".
   X  CV: aim for 1 page, hard max 2 pages. Cover letter max 1 page.
   X  No generic filler ("passionate team player") without a concrete example.
+  X  No CV bullet without an action verb at the start and a result or purpose at the end.
   X  No cover-letter text (dates, signatures, salutations) inside tex/ files.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

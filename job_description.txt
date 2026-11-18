@@ -105,6 +105,8 @@ REPOSITORY STRUCTURE
                      Every job / project / degree is a "## Title" block with When / Where /
                      Link / Tech lines, bullet points and Notes. Notes are instructions about
                      that entry (e.g. "never use this number") — follow them, never copy them.
+                     "STAR:" blocks are full stories for the cover letter; anything under
+                     "Missing:" is an open question, NOT a fact — never use it.
                      refs/README.txt explains the format.
   tex/               Tailored LaTeX sections for THIS application. This is what you edit.
                      Write every entry out in full LaTeX, using the commands already in tex/
@@ -146,6 +148,9 @@ STEP 3 — tex/Personal_Info.tex
 STEP 4 — tex/Projects.tex  (comes FIRST in the CV, right after the summary)
   - Pick the 2-3 projects this company would be most interested in, most
     relevant first. Max 2 bullets each, 1 line per bullet where possible.
+  - Use \resumeProject{Title}{\repo{...} or dates}{Tech $\cdot$ Tech $\cdot$ ...}{context}
+    for every project (two-line header: title + context + link, then the tech
+    stack in grey). \resumeSubheading is for jobs and degrees only.
   - ALWAYS keep the GitHub link of a project (as \repo{ItsShriks/<repo>}) when refs/ has one —
     it is evidence of the work.
 

@@ -15,6 +15,18 @@ Tech: C++, Qt, Python, DocTR, Tesseract, EasyOCR, YOLOv11, Docker, CI/CD
 - Dockerized deployment, automated test suites and CI/CD quality gates for reproducible builds
   and reliable releases.
 Notes: no other numbers -- release / usage figures are confidential.
+STAR:
+  Situation: Documents such as invoices had to be read and checked by software that runs
+    fully offline on low-end office PCs.
+  Task: Build a text and layout recognition pipeline accurate enough for multilingual text
+    and tables without a GPU or cloud service.
+  Action: Combined DocTR, Tesseract and EasyOCR into an ensemble with image preprocessing;
+    generated synthetic invoices to fine-tune YOLOv11 for document fields; shipped it in C++/Qt
+    and Python services with Docker, automated tests and CI/CD.
+  Result: 90--95% accuracy on multilingual text and tables, running on low-end CPUs.
+  Missing: Is the Situation right (why offline / low-end PCs -- customer requirement, data
+    privacy)? What did it replace (manual checking, a cloud OCR)? Any outcome you may share
+    without confidential figures (e.g. "used in the product", "adopted by the team")?
 
 ## Research Assistant
 When: Oct 2024 -- Apr 2025
@@ -39,6 +51,16 @@ Tech: ROS / ROS 2, YOLO, TensorFlow, Fusion 360, Inventor, URDF
   and simulation-ready URDF models.
 - Mentored robotics teams, helped build automation labs, supported IndiaSkills Mobile Robotics
   training.
+STAR:
+  Situation: Sakar Robotics / HunarPro Hub built several autonomous robot platforms in
+    parallel with a 10-person engineering team.
+  Task: As Scrum Master and robotics engineer, keep the team delivering and get the robots
+    commissioned.
+  Action: Ran the Scrum process; set up coordinate frames, LiDAR / IMU / encoder integration
+    and ROS / ROS 2 navigation; built YOLO / TensorFlow object detection; turned CAD into URDF
+    models for simulation; owned hardware commissioning and configuration management.
+  Result: Contributed to 7 autonomous robotic platforms, 2 delivered end-to-end.
+  Missing: What were the 2 delivered robots, and for whom (customer, lab, competition)?
 
 ## Lead Researcher / Hardware Development Researcher
 When: May 2021 -- Dec 2021

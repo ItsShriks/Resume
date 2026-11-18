@@ -62,6 +62,18 @@
     & #2 \\
   \end{tabularx}%
 }
+% Project entry with a two-line header:
+%   \resumeProject{Title}{right: link / dates}{tech stack}{context: lab / "Master Thesis" (optional)}
+% renders as   **Title** · Context                               link
+%              Tech stack (small, grey)
+\newcommand{\resumeProject}[4]{%
+  \item[]\hspace*{-1.1em}%   flush with the section title
+  \begin{tabularx}{\dimexpr\linewidth+1.1em}{@{}>{\raggedright\arraybackslash}X@{\hspace{8pt}}r@{}}
+    \textbf{#1}\if\relax\detokenize{#4}\relax\else\ {\color{subtle}$\cdot$\ #4}\fi
+    & {\small #2} \\[-1pt]
+    \multicolumn{2}{@{}l@{}}{\small\color{subtle}#3} \\
+  \end{tabularx}%
+}
 % One-line "Label: text" entry (skills, certificates, publications, interests)
 \newcommand{\resumeItem}[2]{\item{\textbf{#1}{: #2}}}
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}

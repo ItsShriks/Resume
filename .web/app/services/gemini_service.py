@@ -148,7 +148,7 @@ Provide an in-depth analysis formatted as strict JSON with the following keys:
             "1. NEVER invent fake companies, degrees, or years of experience. Keep facts 100% grounded in the candidate's actual history.\n"
             "2. Reword, sharpen, and reorder bullet points to prominently feature relevant keywords, metrics, and responsibilities from the JD.\n"
             "3. Output valid LaTeX for each section matching the exact commands used in the original LaTeX snippets "
-            "(\\resumeSubheading, \\resumeItem, \\resumeItemPlain, \\resumeSubItem, \\resumeSubHeadingListStart, \\resumeItemListStart, etc.).\n"
+            "(\\resumeSubheading for jobs/degrees, \\resumeProject{title}{link or dates}{tech}{context} for projects, \\resumeItem, \\resumeItemPlain, \\resumeSubItem, \\resumeSubHeadingListStart, \\resumeItemListStart, etc.).\n"
             "The master content in refs/ is plain English notes (\"## Title\" blocks with When / Where / Link / Tech lines, "
             "bullets and Notes). Write every entry out in full LaTeX; follow the Notes but never copy them. "
             "Never use facts that are not in refs/.\n"

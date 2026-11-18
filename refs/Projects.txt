@@ -20,6 +20,19 @@ Tech: ROS 2, C++17, Python, MPC, TSID, MuJoCo, VGN
 - MuJoCo model of the MMO-700 (MPO-700 base, UR5e arm, Robotiq 2F-85 gripper) with a fully
   autonomous drive -> reach -> grasp -> lift pipeline (numerical and differential IK).
 - Figure-8 ("arc-8") whole-body-control validation and VGN grasp-planning integration.
+STAR:
+  Situation: Mobile manipulators usually drive, stop, settle and only then grasp, which is
+    slow and fails when the object or the robot moves.
+  Task: Thesis goal -- let the robot keep moving and grasp continuously, with the camera
+    keeping the object in view.
+  Action: Designing a visibility-aware MPC planner coupled to a high-frequency TSID
+    controller; wrote the asynchronous ROS 2 bridge and adapters in C++17; built the MuJoCo
+    model of the MMO-700 with a full drive -> reach -> grasp -> lift pipeline.
+  Result: In progress (thesis due Feb 2027). Working simulation pipeline; the whole-body
+    control results are under the Steve entry.
+  Missing: Any measured result yet from the MPC + TSID coupling (time to grasp, success rate)?
+    The steve_wbc README mentions 36.8 -> 30.8 s to reach the grasp pose (sim, "far" scene)
+    when approaching while driving -- is that thesis work, and may it be used?
 
 ## Steve -- Autonomous Butler Mobile Manipulator (umbrella entry)
 When: 2025 -- Present
@@ -37,6 +50,24 @@ contributor (137 of 163 commits on steve_ros2_ws; sole author of steve_wbc, stev
 steve_hardware_bringup, steve_manipulation and steve_essentials). steve_perception: minor
 contributor (8 of 72 commits). steve_command_grounding: NOT my work -- do not claim it.
 Use this umbrella entry when there is room for only one Steve entry.
+STAR (main story -- whole-body control on Steve):
+  Situation: Steve has to grasp objects from a table, including rolling ones, while its
+    omnidirectional base keeps moving. With a weighted single QP the arm and base tasks
+    fought each other, so the gripper drifted: 0.55 cm RMS / 1.90 cm max error in a
+    figure-8 kinematic check while the base orbits the table.
+  Task: Build one controller for base + arm that keeps the gripper precise while the base
+    moves, and that runs unchanged in MuJoCo, Gazebo and on the real robot.
+  Action: Wrote a 9-DOF strict task hierarchy (end effector > base > posture), one
+    constrained least-squares problem per level, with the exact whole-body Jacobian from the
+    MuJoCo model plus joint, velocity and collision constraints. Added a visibility task that
+    keeps the camera on the object, switched the real UR5e to velocity commands, and
+    calibrated the wrist camera without markers.
+  Result: 0.01 cm RMS / 0.03 cm max error in the same check (vs 0.55 / 1.90 cm), 10--13 ms
+    per solve; on the real robot a small figure-8 tracked at 0.12 cm RMS (vs 0.17 cm before);
+    camera kept on the object 100% of the time vs 29% without the visibility task (sim);
+    camera calibration 0.17 cm RMS over 8 poses.
+  Missing: Has the full grasp (incl. a rolling object) worked on the real robot yet? If yes,
+    how often (e.g. 4 of 5 tries)? Who used / saw the result (lab demo, supervisor)?
 
 ## Steve -- Whole-Body Control & Active Perception
 Link: github.com/ItsShriks/steve_wbc
@@ -93,6 +124,17 @@ Tech: ROS 2, MediaPipe, OpenCV, C++17, Python, Docker, Toyota HSR
 - 3D object segmentation and spatial mapping from LiDAR / point clouds; tools to visualise
   reachability, frame alignment and camera visibility.
 - Hardware adapters in Modern C++ (C++17) and Python; reproducible Docker deployments.
+STAR:
+  Situation: RoboCup@Home tests service robots in a home setting. In "Help Me Carry" the
+    robot must follow a person and understand which bag they point at.
+  Task: As perception & navigation core member, make the Toyota HSR follow a person reliably
+    and detect pointing gestures in real time.
+  Action: Built person following and intention awareness with ROS 2, MediaPipe and OpenCV;
+    built pointing detection by intersecting the pointing ray with the scene, using TF
+    transforms between camera, base and arm frames; calibrated RGB-D, LiDAR and odometry.
+  Result: 95% tracking success rate; the team completed Help Me Carry at RoboCup German
+    Open 2025.
+  Missing: How was the 95% measured (how many runs)? Where did the team place overall?
 
 ---------------------------------------------------------------------------
 PERSONAL & RESEARCH PROJECTS
@@ -111,6 +153,19 @@ Tech: Python, PyTorch, PointNet / PointNet++, Open3D, RANSAC, ICP, DBSCAN, Docke
 - Packaged as a library with one CLI, YAML configs, CI, Docker and tests on synthetic forests.
 Notes: rule-based stump detection F1 0.31 vs 129 annotated stumps -- only mention with
 "limited by the data". NEVER use 15%, 11.8% or 93%.
+STAR:
+  Situation: Reforestation teams survey clear-cuts with UAV LiDAR to find ground, tree stumps
+    and remaining vegetation. The point clouds arrive unlabelled, and hand-labelling millions
+    of points per site does not scale.
+  Task: Segment the clouds and produce a stump inventory without any manual labels.
+  Action: Generated pseudo-labels from geometric features (ground model, height above
+    ground, eigenvalues, vertical continuity, DBSCAN); wrote PointNet and PointNet++ from
+    scratch in PyTorch; aligned field annotations to the LiDAR map with RANSAC + ICP; packaged
+    it all as a tested library with one CLI.
+  Result: 0.80 validation mIoU (preliminary, vs. pseudo-labels); 98.8% annotation inliers at
+    0.11 m RMS. Showed that stump detection is limited by the data (ground layer ~26 cm thick,
+    stumps only 20--40 cm tall), so the limit is measured instead of hidden.
+  Missing: Who was it for (project partner, lab, research group)? Did anyone use the output?
 
 ## Padh_Lo -- Offline Document OCR & Field Detection
 When: Jun 2025 -- Nov 2025

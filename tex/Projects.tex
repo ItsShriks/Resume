@@ -1,26 +1,26 @@
-% Angepasst: BMW Group -- Praktikant Robotik und Logistiksimulation (w/m/x), München (Job-ID 197049)
+% Angepasst: Rheinmetall -- Softwaredeveloper Visual Based Navigation (m/w/d), Braunschweig (Ref.-Nr. DE20641)
 %-----------PROJEKTE-----------------
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Mobilmanipulator von der Simulation zum realen Roboter}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 $\cdot$ Python $\cdot$ MuJoCo $\cdot$ Gazebo $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ URDF / MJCF $\cdot$ YOLO}{Humanoid Robots Lab, Uni Bonn}
+      {Steve -- Navigation, SLAM \& Wahrnehmung eines Mobilmanipulators}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2 $\cdot$ Nav2 $\cdot$ SLAM Toolbox $\cdot$ AMCL $\cdot$ RTAB-Map $\cdot$ EKF $\cdot$ MPC $\cdot$ Gazebo $\cdot$ MuJoCo}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Als \textbf{Hauptentwickler} den ROS-2-Stack für Neobotix-Basis, UR5e, Greifer, Kameras und LiDARs aufgebaut: derselbe Code läuft in \textbf{MuJoCo}, \textbf{Gazebo} und auf dem realen Roboter (Sim-to-Real bestätigt).}
-        \resumeItemPlain{\textbf{Simulationsmodelle} austauschbarer Endeffektoren aus Hersteller-URDFs generiert und Nav2 mit SLAM Toolbox / AMCL sowie YOLO und \textbf{Vision-Language-Modelle} für die semantische Objektsuche integriert.}
+        \resumeItemPlain{Als \textbf{Hauptentwickler} Nav2 mit \textbf{SLAM Toolbox} / AMCL und \textbf{3D-SLAM mit RTAB-Map} auf zwei LiDARs, RGB-D-Kameras und IMU integriert; derselbe Code läuft in \textbf{Gazebo}, MuJoCo und auf dem realen Roboter.}
+        \resumeItemPlain{Objektverfolgung mit zwei RGB-D-Kameras aufgebaut und \textbf{EKF}-Baseline mit Least-Squares-Tracker + MPC verglichen (10--13\,ms pro Lösung); Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert.}
       \resumeItemListEnd
     \resumeProject
-      {Masterarbeit -- Greifen während der Fahrt (MPC + Ganzkörperregelung)}{\repo{ItsShriks/steve_wbc}}
-      {Python $\cdot$ MuJoCo $\cdot$ QP $\cdot$ MPC $\cdot$ VGN $\cdot$ ROS 2}{H-BRS / Uni Bonn}
+      {Navigations-Stack \& Inbetriebnahme eines mobilen Roboters}{}
+      {ROS 2 $\cdot$ Nav2 $\cdot$ SLAM $\cdot$ EKF $\cdot$ LiDAR / IMU / Encoder $\cdot$ rosbag $\cdot$ RViz}{Reale omnidirektionale Industrieplattform}
       \resumeItemListStart
-        \resumeItemPlain{Autonome Pipeline \textbf{Fahren $\rightarrow$ Greifen $\rightarrow$ Anheben} in MuJoCo simuliert, damit der Roboter nicht mehr anhalten muss; Ganzkörperregler mit \textbf{0,01\,cm RMS} Greiferfehler (gewichtetes QP: 0,55\,cm), 10--13\,ms pro Lösung.}
-        \resumeItemPlain{Sichtbarkeitsaufgabe für die Kamera ergänzt: Objekt in der Simulation \textbf{100\,\%} der Zeit im Bild (ohne: 29\,\%); am realen UR5e Acht-Bahn mit \textbf{0,12\,cm RMS} gefahren.}
+        \resumeItemPlain{Eigenen \textbf{Extended-Kalman-Filter}-Knoten für die \textbf{Sensorfusion} von LiDAR, IMU und Encodern entwickelt, damit die Plattform sich zuverlässig lokalisiert; Frontier-Exploration unterstützt.}
+        \resumeItemPlain{Navigations-Stack am realen Roboter in Betrieb genommen und mit Mapping- und Trajektorientests validiert; Fehlerursachen mit rosbag und RViz gefunden und in \textbf{QA-Berichten} dokumentiert.}
       \resumeItemListEnd
     \resumeProject
-      {UR5-Bewegungsbibliothek \& LLM-Co-Pilot}{\repo{ItsShriks/ur5_simulation}}
-      {ROS $\cdot$ Gazebo $\cdot$ MoveIt $\cdot$ KDL $\cdot$ Python $\cdot$ Hugging Face Transformers}{Programmieraufgabe, Jan 2025}
+      {JungleLook -- Segmentierung von UAV-LiDAR-Punktwolken}{\repo{ItsShriks/JungleLook}}
+      {Python $\cdot$ PyTorch $\cdot$ PointNet++ $\cdot$ Open3D $\cdot$ RANSAC $\cdot$ ICP $\cdot$ CUDA $\cdot$ Docker $\cdot$ CI}{Forschungsprojekt, Okt 2024 -- Sep 2026}
       \resumeItemListStart
-        \resumeItemPlain{UR5 in \textbf{Gazebo} simuliert und Bewegungsbibliothek (Gelenk- und lineare Kartesische Bahnen, IK mit KDL, kollisionsfreie Planung mit MoveIt) mit Python-API entwickelt.}
-        \resumeItemPlain{\textbf{LLM-Co-Pilot} mit Open-Source-Modellen ergänzt, der Code für diese Roboter-API vorschlägt -- als Assistent für das Programmieren von Bewegungsabläufen.}
+        \resumeItemPlain{Feldannotationen mit \textbf{RANSAC + ICP} auf \textbf{UAV-LiDAR}-Karten registriert: \textbf{98,8\,\% Inlier} bei 0,11\,m RMS.}
+        \resumeItemPlain{PointNet / PointNet++ von Grund auf in PyTorch implementiert (CPU, CUDA, Apple MPS) und als getestete Bibliothek mit CLI, CI und Docker ausgeliefert: 0,80 mIoU (vorläufig, gegen Pseudo-Labels).}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

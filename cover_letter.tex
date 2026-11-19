@@ -1,8 +1,8 @@
 %! jobname = Anschreiben_Shrikar_Nakhye
 %------------------------
 % Anschreiben (Deutsch) -- wird für jede Bewerbung neu geschrieben.
-% Stelle      : Praktikant Robotik und Logistiksimulation (w/m/x) -- Job-ID 197049
-% Unternehmen : BMW AG (BMW Group), Advanced Development/Research, München
+% Stelle      : Softwaredeveloper Visual Based Navigation (m/w/d) -- Ref.-Nr. DE20641
+% Unternehmen : Rheinmetall, Standort Braunschweig (Ansprechpartner/in: Charlene Schnaars)
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -22,33 +22,30 @@
 \vspace{4pt}
 
 \textbf{An:} \\
-BMW AG \\
-Advanced Development/Research -- Logistik-Innovation \\
-München
+Rheinmetall \\
+z.\,Hd. Charlene Schnaars \\
+Braunschweig
 
 \vspace{5pt}
-\textbf{Betreff: Bewerbung als Praktikant Robotik und Logistiksimulation (w/m/x) -- Job-ID 197049}
+\textbf{Betreff: Bewerbung als Softwaredeveloper Visual Based Navigation (m/w/d) -- Ref.-Nr. DE20641}
 
 \vspace{5pt}
-Sehr geehrte Damen und Herren,
+Guten Tag Charlene Schnaars,
 
 \vspace{3pt}
-bevor ein Roboter in einem Werk Material bewegt, muss er in der Simulation zeigen, dass das Konzept trägt. Genau diesen Weg von der Simulation zum realen System gehe ich seit über vier Jahren mit Python und ROS. In Ihrem Team möchte ich ihn für innovative Logistikprozesse der BMW Group einsetzen.
+wenn GNSS gestört ist, muss ein unbemanntes Flugsystem allein aus Kamera, IMU und LiDAR wissen, wo es ist. Genau diese Frage -- wie ein autonomes System sich aus seinen eigenen Sensoren lokalisiert -- beschäftigt mich seit über vier Jahren in Robotik-Projekten mit C++, Python und ROS 2. Bei Rheinmetall möchte ich diese Erfahrung in die bildbasierte Navigation für autonome Flugmissionen einbringen.
 
 \vspace{3pt}
-\textbf{Simulation robotischer Systeme.} Mobilmanipulatoren fahren meist zum Ziel, halten an und greifen erst dann, das kostet Zeit. In meiner Masterarbeit soll unser Roboter \textit{Steve} (omnidirektionale Basis mit UR5e) greifen, während er weiterfährt. Ich habe dafür in MuJoCo eine autonome Pipeline \textit{Fahren -- Greifen -- Anheben} aufgebaut. Mit einem gewichteten QP arbeiteten Arm und Basis gegeneinander, der Greifer wich um 0,55\,cm RMS ab; mein hierarchischer Ganzkörperregler senkte den Fehler auf \textbf{0,01\,cm RMS} bei 10--13\,ms pro Lösung. Derselbe ROS-2-Code läuft in MuJoCo, Gazebo und auf dem realen Roboter, wo das Greifen inzwischen funktioniert.
+\textbf{SLAM und Sensorfusion.} Für eine omnidirektionale Industrieplattform habe ich einen eigenen Extended-Kalman-Filter-Knoten geschrieben, der LiDAR, IMU und Encoder fusioniert, und den Navigations-Stack am realen Roboter in Betrieb genommen. Auf dem Mobilmanipulator \textit{Steve} der Universität Bonn betreibe ich als Hauptentwickler Nav2 mit SLAM Toolbox / AMCL und 3D-SLAM mit RTAB-Map auf zwei LiDARs, RGB-D-Kameras und IMU -- mit demselben Code in Gazebo und auf dem realen Roboter.
 
 \vspace{3pt}
-\textbf{Modelle, Python und ROS.} Als Hauptentwickler des Steve-Stacks habe ich Simulationsmodelle aus Hersteller-URDFs erzeugt sowie Navigation (Nav2, SLAM) und Bilderkennung integriert. Bei Sakar Robotics habe ich CAD-Baugruppen in simulationsfähige URDF-Modelle überführt; mit Isaac Sim und Webots habe ich ebenfalls gearbeitet.
+\textbf{Kameras, Kalibrierung und Echtzeit.} Im RoboCup-Team b-it bots sollte unser Toyota HSR einer Person folgen und erkennen, auf welche Tasche sie zeigt. Ich habe RGB-D, LiDAR und Odometrie kalibriert und die Zeigegeste über TF-Transformationen zwischen Kamera-, Basis- und Arm-Koordinatensystem mit der Szene geschnitten. Ergebnis: \textbf{95\,\% Tracking-Erfolgsquote}; das Team absolvierte \textit{Help Me Carry} bei den RoboCup German Open 2025. Bei Steve habe ich die Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert; der Regler mit Objektverfolgung (EKF-Baseline vs. Least-Squares-Tracker + MPC) löst in 10--13\,ms.
 
 \vspace{3pt}
-\textbf{KI-Agenten.} Für eine UR5-Simulation in Gazebo habe ich neben der Bewegungsbibliothek einen LLM-Co-Pilot gebaut, der mit Open-Source-Modellen Code für die Roboter-API vorschlägt. Bei Steve binde ich Vision-Language-Modelle für die semantische Objektsuche ein.
+\textbf{UAV-Daten und Performance.} Als wissenschaftliche Hilfskraft habe ich unbeschriftete UAV-LiDAR-Punktwolken verarbeitet -- CUDA-beschleunigt auf Embedded-Linux- / GPU-Hardware -- und Ursachen von Sensor-Timing-Jitter gefunden. Feldannotationen habe ich mit RANSAC + ICP auf die LiDAR-Karte registriert: \textbf{98,8\,\% Inlier} bei 0,11\,m RMS. Code-Qualität sichere ich mit automatisierten Tests, Docker und CI/CD, wie bei Navilan Solutions.
 
 \vspace{3pt}
-\textbf{Zusammenarbeit über Teams hinweg.} Bei Sakar Robotics habe ich als Scrum Master ein 10-köpfiges Team koordiniert; wir haben an 7 Roboterplattformen gearbeitet und 2 vollständig ausgeliefert. Im RoboCup-Team b-it bots habe ich eine Personenverfolgung mit \textbf{95\,\% Tracking-Erfolgsquote} entwickelt, mit der das Team bei den RoboCup German Open 2025 \textit{Help Me Carry} absolviert hat.
-
-\vspace{3pt}
-Ab Januar 2027 stehe ich Ihnen für sechs Monate in Vollzeit in München zur Verfügung. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau. Über die Gelegenheit, Ihnen meine Simulationen in einem Gespräch zu zeigen, freue ich mich sehr.
+Ab Januar 2027 stehe ich Ihnen in Vollzeit zur Verfügung. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau. Über die Gelegenheit, Ihnen meine Arbeit in einem Gespräch vorzustellen, freue ich mich sehr.
 
 \vspace{8pt}
 

@@ -8,60 +8,66 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Advanced Development/Research
-Munich
-28.10.2026
-Praktikant Robotik und Logistiksimulation (w/m/x)
-THEORETISCH DIE BESTE ENTSCHEIDUNG. PRAKTISCH AUCH.
-TEILE DEINE LEIDENSCHAFT.
-Nur hochprofessionelle Abläufe in dynamischen Teams produzieren innovative Spitzentechnologie. Aber Fahrfreude wird bei uns von der Entwicklung bis zur Fertigung vor allem auch mit Spaß an der Arbeit und Begeisterung für das gemeinsame Projekt realisiert. Deshalb geben wir Studierenden bei uns nicht nur die Gelegenheit zum Zuhören, sondern auch zum Mitreden und Weiterdenken.
-Unser Team bei der BMW Group koordiniert als zentrale Steuerungseinheit wichtige Logistik-Innovationsthemen. Im Rahmen deines Praktikums unterstützt du uns bei verschiedenen Themen rund um Robotik und Simulation.
-Was erwartet dich?
-Du unterstützt bei der Simulation robotischer Systeme für innovative Logistiklösungen.
-Außerdem wirkst du mit bei der Erarbeitung von Konzeptvorschlägen für innovative Logistikprozesse.
-Darüber hinaus unterstützt du bei Forschungsprojekten rund um Robotik und Logistik.
-Zudem trägst du koordiniert zur Zusammenarbeit mit Fachbereichen, IT-Teams, Produktion und weiteren Projektbeteiligten bei.
-Außerdem wirkst du beim Einsatz von KI-Agenten mit.
+Rheinmetall  /  Softwaredeveloper Visual Based Navigation (m/w/d)
+Ref.-Nr.:
+DE20641
+Anstellungsart:
+Vollzeit
+Vertragsart:
+Unbefristeter Vertrag
+shareOntwitter
+shareOnlinkedIn
+shareOnxing
+WOFÜR WIR SIE SUCHEN
+Wir suchen Sie für die Entwicklung und Integration bildbasierter Navigations- und Lokalisierungssysteme, um unbemannte Flugsysteme auch in GNSS-gestörten Umgebungen oder unter schlechten Sichtverhältnissen sicher und autonom zu steuern.
 
-Was bringst du mit?
-Studium der Informatik, Robotik, Logistik oder eines vergleichbaren Studiengangs, möglichst ab dem vierten Semester.
-Interesse an digitalen Supply-Chain-, Logistik- und Robotikthemen.
-Analytische, strukturierte und sorgfältige Arbeitsweise.
-Sicherer Umgang mit MS Office.
-Kenntnisse in Python, ROS oder vergleichbaren Technologien sowie erste Erfahrungen mit Blender oder Omniverse.
-Eigeninitiative, Engagement sowie professionelles Zeitmanagement und gute Team- und Kommunikationsfähigkeit.
+Kernaufgaben:
+
+Entwicklung und Implementierung von Algorithmen zur bildbasierten Navigation zB visuelle Odometrie, SLAM und Feature Tracking
+Integration visueller Navigationsdaten mit andern Sensorsystemen IMU, GPS, Lidar über Sensorfusion zB EKF/UKF, Graph-SLAM
+Entwurf und Test von Navigationsarchitekturen für autonome Flugmissionen
+Durchführung von Simulationen und Flugversuchen
+Anpassung und Erweiterung bestehender Open-Source-Frameworks zB PX4, ROS 2, OpenVINS, ORB-SLAM
+Zusammenarbeit mit Teams aus den Bereichen Flight Control, KI-Entwicklung und System Engineering sowie evtl. mit externen Partnern
+Dokumentation, Codequalitätssicherung und Performance-Optimierung
+WAS SIE MITBRINGEN SOLLTEN
+Abgeschlossenes Studium in Informatik, Elektrotechnik, Robotik, Luft- und Raumfahrt oder vergleichbar
+Fundierte Kenntnisse in der Computer Vision und Bildverarbeitung (z. B. OpenCV, Eigen, PCL)
+Erfahrung in der Implementierung und Optimierung von Navigations- und SLAM-Verfahren
+Kenntnisse in C++/Python, ROS 2 und idealerweise PX4 oder MAVLink
+Erfahrung in Sensordatenfusion, Kalman-Filtern und nichtlinearen Schätzverfahren
+Kenntnisse in der Arbeit mit Kameras, IMUs und ggf. Lidar-Systemen
+Erfahrung mit Simulationstools (z. B. Gazebo, AirSim) und HIL-Tests
+Kenntnisse in Echtzeitprogrammierung und Embedded-Softwareentwicklung sind von Vorteil
+Hohes technisches Verständnis und systemisches Denken
+Ausgeprägte analytische Fähigkeiten und Freude an komplexer Algorithmenentwicklung
+Teamfähigkeit, Kommunikationsstärke und interdisziplinäre Zusammenarbeit
+Selbstständige, strukturierte und lösungsorientierte Arbeitsweise
+Innovationsfreude und Interesse an autonomen Navigationssystemen
+Verantwortungsbewusstsein und Qualitätsorientierung
 Gute Deutsch- und Englischkenntnisse in Wort und Schrift.
+Stärken und Erfahrungen zählen bei Rheinmetall, auch wenn vielleicht nicht alle aufgeführten Anforderungen vollständig erfüllt sind. Wir freuen uns auf Bewerber (m/w/d), die Lust haben, etwas zu bewegen und Verantwortung zu übernehmen. Wir legen Wert auf Individualität und Chancengleichheit. Schwerbehinderte Bewerber (m/w/d) werden bei gleicher Eignung besonders berücksichtigt.
 
-Bringst du Begeisterung für neue Technologien und ein innovatives Umfeld mit? Dann bewirb dich jetzt!
+WAS WIR IHNEN BIETEN
+An unserem Standort in Braunschweig bieten wir Ihnen:
 
-Was bieten wir dir?
-Umfassendes Mentoring & Onboarding.
-Persönliche & fachliche Weiterentwicklung.
-Flexible Arbeitszeiten.
-Mobilarbeit.
-Attraktive & faire Vergütung.
-Apartments für Studierende (nach Verfügbarkeit & nur am Standort München).
-Und vieles mehr siehe bmw.jobs/waswirbieten
+Flexible Arbeitszeiten
+Attraktive Vergütung und 30 Tage Urlaub pro Jahr
+Spannende, interdisziplinäre und internationale Projekte
+Eine Unternehmenskultur, die berufliche und persönliche Entwicklung fördert
+Erfolgsbeteiligung, Aktienkaufprogramm, betriebliche Altersvorsorge, Bike-Leasing, Wellpass, Corporate Benefits Plattform
+Kostenlose Parkmöglichkeiten
+Play
+00:14
+04:17
+Mute
 
-Startdatum: ab frühestens 01.12.2026
-Dauer: 6 Monate
-Arbeitszeit: Vollzeit
+Settings
+Enter fullscreen
 
-Hilfreiche Tipps zu deiner Bewerbung und dem Bewerbungsprozess findest du hier.
-
-Wir bei der BMW Group legen großen Wert auf Gleichbehandlung und Chancengleichheit. Unsere Recruiting-Entscheidungen basieren auf der Persönlichkeit, den Erfahrungen und Fähigkeiten der Bewerber:innen. Mehr dazu hier.
-Praktikant Robotik und Logistiksimulation (w/m/x)
-Legal Entity:
-BMW AG
-Location:
-Munich
-Job Field:
-Advanced Development/Research
-Job ID:
-197049
-Publication Date:
-28.10.2026
-
+Play
+KONTAKTDETAILS
+Zuständige/r Ansprechpartner/in: Charlene Schnaars
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [ENDE DER STELLENANZEIGE]

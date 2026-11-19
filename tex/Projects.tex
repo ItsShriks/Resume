@@ -3,18 +3,19 @@
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Navigation, SLAM \& Wahrnehmung eines Mobilmanipulators}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 $\cdot$ Nav2 $\cdot$ SLAM Toolbox $\cdot$ AMCL $\cdot$ RTAB-Map $\cdot$ EKF $\cdot$ MPC $\cdot$ Gazebo $\cdot$ MuJoCo}{Humanoid Robots Lab, Uni Bonn}
+      {Steve -- Navigation, SLAM \& Sensorfusion eines mobilen Roboters}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2 $\cdot$ Nav2 $\cdot$ EKF $\cdot$ SLAM Toolbox $\cdot$ AMCL $\cdot$ RTAB-Map $\cdot$ LiDAR / IMU / Encoder $\cdot$ Gazebo}{Humanoid Robots Lab, Uni Bonn, Okt 2025 -- heute}
       \resumeItemListStart
-        \resumeItemPlain{Als \textbf{Hauptentwickler} Nav2 mit \textbf{SLAM Toolbox} / AMCL und \textbf{3D-SLAM mit RTAB-Map} auf zwei LiDARs, RGB-D-Kameras und IMU integriert; derselbe Code läuft in \textbf{Gazebo}, MuJoCo und auf dem realen Roboter.}
-        \resumeItemPlain{Objektverfolgung mit zwei RGB-D-Kameras aufgebaut und \textbf{EKF}-Baseline mit Least-Squares-Tracker + MPC verglichen (10--13\,ms pro Lösung); Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert.}
+        \resumeItemPlain{Eigenen \textbf{Extended-Kalman-Filter}-Knoten für die \textbf{Sensorfusion} von LiDAR, IMU und Encodern entwickelt, damit sich die omnidirektionale Plattform zuverlässig lokalisiert; Frontier-Exploration unterstützt.}
+        \resumeItemPlain{Als \textbf{Hauptentwickler} Nav2 mit \textbf{SLAM Toolbox} / AMCL und \textbf{3D-SLAM mit RTAB-Map} auf zwei LiDARs, RGB-D-Kameras und IMU integriert; derselbe Code läuft in \textbf{Gazebo} und auf dem realen Roboter.}
+        \resumeItemPlain{Navigations-Stack am realen Roboter in Betrieb genommen und mit Mapping- und Trajektorientests validiert; Fehlerursachen mit rosbag und RViz gefunden und in \textbf{QA-Berichten} dokumentiert.}
       \resumeItemListEnd
     \resumeProject
-      {Navigations-Stack \& Inbetriebnahme eines mobilen Roboters}{}
-      {ROS 2 $\cdot$ Nav2 $\cdot$ SLAM $\cdot$ EKF $\cdot$ LiDAR / IMU / Encoder $\cdot$ rosbag $\cdot$ RViz}{Reale omnidirektionale Industrieplattform}
+      {Steve -- Objektverfolgung, Kamerakalibrierung \& Echtzeitregelung}{\repo{ItsShriks/steve_wbc}}
+      {Python $\cdot$ MuJoCo $\cdot$ EKF $\cdot$ MPC $\cdot$ QP $\cdot$ RGB-D $\cdot$ ROS 2}{Masterarbeit}
       \resumeItemListStart
-        \resumeItemPlain{Eigenen \textbf{Extended-Kalman-Filter}-Knoten für die \textbf{Sensorfusion} von LiDAR, IMU und Encodern entwickelt, damit die Plattform sich zuverlässig lokalisiert; Frontier-Exploration unterstützt.}
-        \resumeItemPlain{Navigations-Stack am realen Roboter in Betrieb genommen und mit Mapping- und Trajektorientests validiert; Fehlerursachen mit rosbag und RViz gefunden und in \textbf{QA-Berichten} dokumentiert.}
+        \resumeItemPlain{Objektverfolgung mit Kopf- und Handkamera (RGB-D) aufgebaut und \textbf{EKF}-Baseline mit Least-Squares-Tracker + MPC verglichen, um rollende Objekte abzufangen; 10--13\,ms pro Lösung.}
+        \resumeItemPlain{Handkamera am realen Roboter markerfrei kalibriert: \textbf{0,17\,cm RMS über 8 Posen}; Sichtbarkeitsaufgabe hält das Objekt in der Simulation \textbf{100\,\%} der Zeit im Bild (ohne: 29\,\%).}
       \resumeItemListEnd
     \resumeProject
       {JungleLook -- Segmentierung von UAV-LiDAR-Punktwolken}{\repo{ItsShriks/JungleLook}}

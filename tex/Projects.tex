@@ -1,26 +1,26 @@
-% Angepasst: fruitcore robotics -- Robotics Application Engineer (m/w/d), Industrielle Humanoide (Konstanz)
+% Angepasst: BMW Group -- Praktikant Robotik und Logistiksimulation (w/m/x), München (Job-ID 197049)
 %-----------PROJEKTE-----------------
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Autonomer Mobilmanipulator (Arm, Kameras, KI, mobile Plattform)}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ RTAB-Map $\cdot$ YOLO $\cdot$ VGN $\cdot$ MuJoCo $\cdot$ Gazebo}{Humanoid Robots Lab, Uni Bonn}
+      {Steve -- Mobilmanipulator von der Simulation zum realen Roboter}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2 $\cdot$ Python $\cdot$ MuJoCo $\cdot$ Gazebo $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ URDF / MJCF $\cdot$ YOLO}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Als \textbf{Hauptentwickler} \textbf{Neobotix MMO-700}, \textbf{UR5e}, Robotiq-Greifer, RealSense-Kameras und zwei SICK-LiDARs zu einem \textbf{ROS-2-Gesamtsystem} integriert: alle Komponenten starten beim Einschalten, derselbe Code läuft in MuJoCo, Gazebo und \textbf{auf dem realen Roboter}.}
-        \resumeItemPlain{\textbf{YOLO}, OpenYOLO3D, Mask3D und \textbf{Vision-Language-Modelle} für die semantische Objektsuche sowie \textbf{VGN-Griffplanung} eingebunden, damit der Roboter Objekte selbstständig findet und greift.}
+        \resumeItemPlain{Als \textbf{Hauptentwickler} den ROS-2-Stack für Neobotix-Basis, UR5e, Greifer, Kameras und LiDARs aufgebaut: derselbe Code läuft in \textbf{MuJoCo}, \textbf{Gazebo} und auf dem realen Roboter (Sim-to-Real bestätigt).}
+        \resumeItemPlain{\textbf{Simulationsmodelle} austauschbarer Endeffektoren aus Hersteller-URDFs generiert und Nav2 mit SLAM Toolbox / AMCL sowie YOLO und \textbf{Vision-Language-Modelle} für die semantische Objektsuche integriert.}
       \resumeItemListEnd
     \resumeProject
-      {Steve -- Ganzkörperregelung \& Kalibrierung}{\repo{ItsShriks/steve_wbc}}
-      {Python $\cdot$ MuJoCo $\cdot$ QP $\cdot$ MPC $\cdot$ ROS 2 $\cdot$ UR5e}{Präzision bei fahrender Basis}
+      {Masterarbeit -- Greifen während der Fahrt (MPC + Ganzkörperregelung)}{\repo{ItsShriks/steve_wbc}}
+      {Python $\cdot$ MuJoCo $\cdot$ QP $\cdot$ MPC $\cdot$ VGN $\cdot$ ROS 2}{H-BRS / Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{9-DOF-\textbf{Ganzkörperregler} (strikte Aufgabenhierarchie) entwickelt, damit der Greifer bei fahrender Basis präzise bleibt: \textbf{0,01\,cm RMS} Endeffektorfehler im kinematischen Test (gewichtetes QP: 0,55\,cm), 10--13\,ms pro Lösung.}
-        \resumeItemPlain{Realen UR5e auf Geschwindigkeitsbefehle umgestellt (Acht-Bahn: \textbf{0,12} statt 0,17\,cm RMS) und Handkamera markerfrei kalibriert: \textbf{0,17\,cm RMS über 8 Posen}; Not-Halt und LiDAR-Schutzfeld integriert.}
+        \resumeItemPlain{Autonome Pipeline \textbf{Fahren $\rightarrow$ Greifen $\rightarrow$ Anheben} in MuJoCo simuliert, damit der Roboter nicht mehr anhalten muss; Ganzkörperregler mit \textbf{0,01\,cm RMS} Greiferfehler (gewichtetes QP: 0,55\,cm), 10--13\,ms pro Lösung.}
+        \resumeItemPlain{Sichtbarkeitsaufgabe für die Kamera ergänzt: Objekt in der Simulation \textbf{100\,\%} der Zeit im Bild (ohne: 29\,\%); am realen UR5e Acht-Bahn mit \textbf{0,12\,cm RMS} gefahren.}
       \resumeItemListEnd
     \resumeProject
-      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
-      {ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ TF $\cdot$ Toyota HSR}{Studentisches Engagement}
+      {UR5-Bewegungsbibliothek \& LLM-Co-Pilot}{\repo{ItsShriks/ur5_simulation}}
+      {ROS $\cdot$ Gazebo $\cdot$ MoveIt $\cdot$ KDL $\cdot$ Python $\cdot$ Hugging Face Transformers}{Programmieraufgabe, Jan 2025}
       \resumeItemListStart
-        \resumeItemPlain{Personenverfolgung auf dem Toyota HSR mit ROS 2, MediaPipe und OpenCV entwickelt: \textbf{95\,\% Tracking-Erfolgsquote}.}
-        \resumeItemPlain{RGB-D, LiDAR und Odometrie kalibriert und Zeigegesten über \textbf{TF}-Transformationen erkannt; damit absolvierte das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{UR5 in \textbf{Gazebo} simuliert und Bewegungsbibliothek (Gelenk- und lineare Kartesische Bahnen, IK mit KDL, kollisionsfreie Planung mit MoveIt) mit Python-API entwickelt.}
+        \resumeItemPlain{\textbf{LLM-Co-Pilot} mit Open-Source-Modellen ergänzt, der Code für diese Roboter-API vorschlägt -- als Assistent für das Programmieren von Bewegungsabläufen.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

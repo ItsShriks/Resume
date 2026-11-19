@@ -1,8 +1,8 @@
 %! jobname = Anschreiben_Shrikar_Nakhye
 %------------------------
 % Anschreiben (Deutsch) -- wird für jede Bewerbung neu geschrieben.
-% Stelle      : Robotics Application Engineer (m/w/d) -- Industrielle Humanoide (PLEXA One)
-% Unternehmen : fruitcore robotics GmbH (HORST), Konstanz
+% Stelle      : Praktikant Robotik und Logistiksimulation (w/m/x) -- Job-ID 197049
+% Unternehmen : BMW AG (BMW Group), Advanced Development/Research, München
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -22,30 +22,33 @@
 \vspace{4pt}
 
 \textbf{An:} \\
-fruitcore robotics GmbH \\
-Recruiting-Team \\
-Konstanz
+BMW AG \\
+Advanced Development/Research -- Logistik-Innovation \\
+München
 
 \vspace{5pt}
-\textbf{Betreff: Bewerbung als Robotics Application Engineer (m/w/d) -- Industrielle Humanoide}
+\textbf{Betreff: Bewerbung als Praktikant Robotik und Logistiksimulation (w/m/x) -- Job-ID 197049}
 
 \vspace{5pt}
 Sehr geehrte Damen und Herren,
 
 \vspace{3pt}
-mit HORST bringen Sie Industrieroboter bereits in die Fertigung. Mit PLEXA One gehen Sie den nächsten Schritt: Arme, Kameras, KI und eine mobile Plattform müssen in der Produktion als ein System zuverlässig zusammenarbeiten. Genau an diesem Zusammenspiel arbeite ich seit über vier Jahren, und ich möchte es bei Ihnen vom Labor in den industriellen Einsatz bringen.
+bevor ein Roboter in einem Werk Material bewegt, muss er in der Simulation zeigen, dass das Konzept trägt. Genau diesen Weg von der Simulation zum realen System gehe ich seit über vier Jahren mit Python und ROS. In Ihrem Team möchte ich ihn für innovative Logistikprozesse der BMW Group einsetzen.
 
 \vspace{3pt}
-\textbf{Gesamtsystem am realen Roboter.} Im Humanoid Robots Lab der Universität Bonn bin ich Hauptentwickler des ROS-2-Stacks von \textit{Steve}, einem Mobilmanipulator aus omnidirektionaler Neobotix-Basis, UR5e, Robotiq-Greifer, RealSense-Kameras und zwei LiDARs. Ich habe alle Komponenten so integriert, dass sie beim Einschalten automatisch starten und derselbe Code in der Simulation und auf dem realen Roboter läuft. Für Wahrnehmung und Greifen habe ich YOLO, Vision-Language-Modelle und VGN-Griffplanung eingebunden; das Greifen funktioniert inzwischen auf dem realen Roboter.
+\textbf{Simulation robotischer Systeme.} Mobilmanipulatoren fahren meist zum Ziel, halten an und greifen erst dann, das kostet Zeit. In meiner Masterarbeit soll unser Roboter \textit{Steve} (omnidirektionale Basis mit UR5e) greifen, während er weiterfährt. Ich habe dafür in MuJoCo eine autonome Pipeline \textit{Fahren -- Greifen -- Anheben} aufgebaut. Mit einem gewichteten QP arbeiteten Arm und Basis gegeneinander, der Greifer wich um 0,55\,cm RMS ab; mein hierarchischer Ganzkörperregler senkte den Fehler auf \textbf{0,01\,cm RMS} bei 10--13\,ms pro Lösung. Derselbe ROS-2-Code läuft in MuJoCo, Gazebo und auf dem realen Roboter, wo das Greifen inzwischen funktioniert.
 
 \vspace{3pt}
-\textbf{Genauigkeit und Kalibrierung.} Steve soll greifen, während die Basis weiterfährt. Mit einem gewichteten QP arbeiteten Arm und Basis gegeneinander, der Greifer wich im Test um 0,55\,cm RMS ab. Ich habe einen hierarchischen 9-DOF-Ganzkörperregler entwickelt und den Fehler damit auf \textbf{0,01\,cm RMS} gesenkt. Am realen UR5e habe ich auf Geschwindigkeitsbefehle umgestellt (Bahnfolge \textbf{0,12} statt 0,17\,cm RMS) und die Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert. Industrielle Kalibrierung kenne ich auch aus meinem Praktikum bei SSIG, wo ich ABB-Roboter in RAPID programmiert und TCPs kalibriert habe.
+\textbf{Modelle, Python und ROS.} Als Hauptentwickler des Steve-Stacks habe ich Simulationsmodelle aus Hersteller-URDFs erzeugt sowie Navigation (Nav2, SLAM) und Bilderkennung integriert. Bei Sakar Robotics habe ich CAD-Baugruppen in simulationsfähige URDF-Modelle überführt; mit Isaac Sim und Webots habe ich ebenfalls gearbeitet.
 
 \vspace{3pt}
-\textbf{Computer Vision und Inbetriebnahme.} Im RoboCup-Team b-it bots habe ich RGB-D, LiDAR und Odometrie kalibriert und eine Personenverfolgung mit \textbf{95\,\% Tracking-Erfolgsquote} entwickelt; damit hat das Team bei den RoboCup German Open 2025 die Aufgabe \textit{Help Me Carry} absolviert. Bei Sakar Robotics habe ich als Scrum Master eines 10-köpfigen Teams die Hardware-Inbetriebnahme verantwortet und an 7 autonomen Plattformen mitgewirkt, von denen 2 vollständig ausgeliefert wurden.
+\textbf{KI-Agenten.} Für eine UR5-Simulation in Gazebo habe ich neben der Bewegungsbibliothek einen LLM-Co-Pilot gebaut, der mit Open-Source-Modellen Code für die Roboter-API vorschlägt. Bei Steve binde ich Vision-Language-Modelle für die semantische Objektsuche ein.
 
 \vspace{3pt}
-Ab Januar 2027 stehe ich Ihnen in Vollzeit zur Verfügung; für die Stelle ziehe ich gern nach Konstanz. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau und baue mein Deutsch im Arbeitsalltag gern weiter aus. Über die Gelegenheit, Ihnen meine Arbeit an Steve in einem Gespräch zu zeigen, freue ich mich sehr.
+\textbf{Zusammenarbeit über Teams hinweg.} Bei Sakar Robotics habe ich als Scrum Master ein 10-köpfiges Team koordiniert; wir haben an 7 Roboterplattformen gearbeitet und 2 vollständig ausgeliefert. Im RoboCup-Team b-it bots habe ich eine Personenverfolgung mit \textbf{95\,\% Tracking-Erfolgsquote} entwickelt, mit der das Team bei den RoboCup German Open 2025 \textit{Help Me Carry} absolviert hat.
+
+\vspace{3pt}
+Ab Januar 2027 stehe ich Ihnen für sechs Monate in Vollzeit in München zur Verfügung. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau. Über die Gelegenheit, Ihnen meine Simulationen in einem Gespräch zu zeigen, freue ich mich sehr.
 
 \vspace{8pt}
 

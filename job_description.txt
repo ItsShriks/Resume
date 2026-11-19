@@ -8,40 +8,61 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-About the job
-Deine ChallengeDu möchtest industrielle humanoid Roboter in Anwendungen bringen und selbst daran mitentwickeln? Dann setze gemeinsam mit unserem Team anspruchsvolle Projekte mit unserem Roboter PLEXA One um.Mit unserer eigenen Entwicklungs- und Steuerungssoftware entwickelst du Lösungen für das Zusammenspiel von Roboterarmen, Kameras und KI sowie – je nach Ausführung – einer mobilen Plattform. Du übernimmst Verantwortung für eigene Projekte und technische Aufgaben: von der ersten Idee über die Entwicklung bis zur Erprobung und zum industriellen Einsatz.Je nach deinem fachlichen Schwerpunkt erwarten dich dabei folgende Aufgaben:
-Roboteranwendungen umsetzen: Du analysierst die Anforderungen eines Projekts, entwickelst passende Lösungen und setzt diese direkt am Roboter um.
-Software und Funktionen entwickeln: Du programmierst projektbezogene Features und optimierst Bewegungsabläufe sowie das Zusammenspiel der einzelnen Systemkomponenten.
-Unsere KI einsetzen: Gemeinsam mit unserem Team integrierst du unsere KI in konkrete Anwendungen, um die Wahrnehmung und Ansteuerung unserer humanoiden Roboter weiterzuentwickeln.
-Robotik, Kameras und mobile Plattformen integrieren: Du verbindest die Komponenten zu einem funktionierenden Gesamtsystem und entwickelst deren Zusammenspiel weiter.
-Genauigkeit und Zuverlässigkeit verbessern: Du führst Kalibrierungen durch, untersuchst Abweichungen und verbesserst die Präzision, Wiederholbarkeit und Robustheit der Anwendungen.
-Erkenntnisse in die Entwicklung einbringen: Du erprobst Lösungen unter praxisnahen Bedingungen, analysierst Fehler und leitest gemeinsam mit unserer Entwicklung Verbesserungen an Software und Hardware ab.
+Advanced Development/Research
+Munich
+28.10.2026
+Praktikant Robotik und Logistiksimulation (w/m/x)
+THEORETISCH DIE BESTE ENTSCHEIDUNG. PRAKTISCH AUCH.
+TEILE DEINE LEIDENSCHAFT.
+Nur hochprofessionelle Abläufe in dynamischen Teams produzieren innovative Spitzentechnologie. Aber Fahrfreude wird bei uns von der Entwicklung bis zur Fertigung vor allem auch mit Spaß an der Arbeit und Begeisterung für das gemeinsame Projekt realisiert. Deshalb geben wir Studierenden bei uns nicht nur die Gelegenheit zum Zuhören, sondern auch zum Mitreden und Weiterdenken.
+Unser Team bei der BMW Group koordiniert als zentrale Steuerungseinheit wichtige Logistik-Innovationsthemen. Im Rahmen deines Praktikums unterstützt du uns bei verschiedenen Themen rund um Robotik und Simulation.
+Was erwartet dich?
+Du unterstützt bei der Simulation robotischer Systeme für innovative Logistiklösungen.
+Außerdem wirkst du mit bei der Erarbeitung von Konzeptvorschlägen für innovative Logistikprozesse.
+Darüber hinaus unterstützt du bei Forschungsprojekten rund um Robotik und Logistik.
+Zudem trägst du koordiniert zur Zusammenarbeit mit Fachbereichen, IT-Teams, Produktion und weiteren Projektbeteiligten bei.
+Außerdem wirkst du beim Einsatz von KI-Agenten mit.
 
-Dein Talent
-Du bringst einen technischen Hintergrund mit, beispielsweise durch ein Studium in Robotik, Informatik, Mechatronik, Elektrotechnik oder Automatisierungstechnik, eine Weiterbildung zum Techniker oder vergleichbare praktische Erfahrung.
-Du verfügst über Programmierkenntnisse und hast Freude daran, Software direkt an echter Hardware zu entwickeln und zu testen.
-Du arbeitest selbstständig und strukturiert, gehst technischen Problemen systematisch auf den Grund und bringst Projekte aktiv voran.
-Du arbeitest gerne im Team und kannst technische Anforderungen, Lösungsansätze und Erkenntnisse nachvollziehbar vermitteln.
-Du beherrschst verhandlungssicheres Deutsch und fließendes Englisch in Wort und Schrift.
+Was bringst du mit?
+Studium der Informatik, Robotik, Logistik oder eines vergleichbaren Studiengangs, möglichst ab dem vierten Semester.
+Interesse an digitalen Supply-Chain-, Logistik- und Robotikthemen.
+Analytische, strukturierte und sorgfältige Arbeitsweise.
+Sicherer Umgang mit MS Office.
+Kenntnisse in Python, ROS oder vergleichbaren Technologien sowie erste Erfahrungen mit Blender oder Omniverse.
+Eigeninitiative, Engagement sowie professionelles Zeitmanagement und gute Team- und Kommunikationsfähigkeit.
+Gute Deutsch- und Englischkenntnisse in Wort und Schrift.
 
-Darüber hinaus bringst du praktische Erfahrung in einem oder mehreren dieser Bereiche mit:
-Robotik und Automatisierung: Programmierung, Integration oder Inbetriebnahme von Robotern und mechatronischen Systemen.
-Mobile Robotik: Arbeit mit AGVs beziehungsweise AMRs, beispielsweise bei Navigation, Positionierung oder der Integration in Anwendungen.
-Computer Vision: Einsatz von Kameras, Bildverarbeitung oder Objekterkennung in technischen Anwendungen.
-Kalibrierung und Genauigkeit: Abstimmung von Roboter- und Kamerasystemen, Arbeit mit Koordinatensystemen oder Verbesserung der Positioniergenauigkeit.
-KI in der Anwendung: Einbindung und Erprobung KI-basierter Funktionen in Robotik- oder Automatisierungsprojekten.
+Bringst du Begeisterung für neue Technologien und ein innovatives Umfeld mit? Dann bewirb dich jetzt!
 
-Du musst nicht alle Bereiche abdecken. Wir suchen mehrere Personen, deren Stärken sich ergänzen. Entscheidend ist, dass du deine Erfahrung einbringst, Verantwortung übernimmst und gemeinsam mit uns zuverlässige industrielle Roboteranwendungen entwickelst.
-Deine Benefits
-Bei fruitcore findest du deine persönliche Challenge! Ab dem ersten Tag trägst du Verantwortung und bekommst die Freiheit zur Verwirklichung deiner Ideen.
-Einer für alle – alle für HORST! Dich erwartet ein schnell wachsendes Team, das mit Teamspirit und Motivation daran arbeitet, HORST gemeinsam nach vorne zu bringen.
-Deine Entwicklung ist uns wichtig! Du erhältst regelmäßige Schulungen und Coachings, damit du bei fruitcore sowohl beruflich als auch persönlich deine nächsten Schritte gehst.
-Mitgestalten statt abnicken! Egal ob im Praktikum oder in der Geschäftsführung – bei uns gestaltest du mit und deine Ideen werden gehört.
-Flexibilität und Vertrauen! Wir bieten dir flexible Arbeitszeiten und die entsprechende technische Ausstattung, um deinen Arbeitsalltag mitgestalten zu können.
-Hohe Lebens- und Arbeitsqualität! An unseren gut angebundenen Standorten am Bodensee und im Schwarzwald arbeitest du mit modernsten Methoden und Tools.
-Mehr als nur ein attraktives Gehalt! Mit JobRad, betrieblicher Altersvorsorge (bAV), Hansefit und Corporate Benefits bieten wir dir attraktive Zusatzleistungen für heute und morgen.
-Weil das Miteinander zählt! Regelmäßige Teamevents und eine strukturierte Onboarding-Phase sorgen dafür, dass du dich bei uns von Anfang an gut aufgehoben fühlst.
-Come as you are! Bei uns zählt der Mensch, nicht das Outfit!
+Was bieten wir dir?
+Umfassendes Mentoring & Onboarding.
+Persönliche & fachliche Weiterentwicklung.
+Flexible Arbeitszeiten.
+Mobilarbeit.
+Attraktive & faire Vergütung.
+Apartments für Studierende (nach Verfügbarkeit & nur am Standort München).
+Und vieles mehr siehe bmw.jobs/waswirbieten
+
+Startdatum: ab frühestens 01.12.2026
+Dauer: 6 Monate
+Arbeitszeit: Vollzeit
+
+Hilfreiche Tipps zu deiner Bewerbung und dem Bewerbungsprozess findest du hier.
+
+Wir bei der BMW Group legen großen Wert auf Gleichbehandlung und Chancengleichheit. Unsere Recruiting-Entscheidungen basieren auf der Persönlichkeit, den Erfahrungen und Fähigkeiten der Bewerber:innen. Mehr dazu hier.
+Praktikant Robotik und Logistiksimulation (w/m/x)
+Legal Entity:
+BMW AG
+Location:
+Munich
+Job Field:
+Advanced Development/Research
+Job ID:
+197049
+Publication Date:
+28.10.2026
+
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [ENDE DER STELLENANZEIGE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

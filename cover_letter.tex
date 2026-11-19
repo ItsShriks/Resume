@@ -1,8 +1,8 @@
 %! jobname = Anschreiben_Shrikar_Nakhye
 %------------------------
 % Anschreiben (Deutsch) -- wird für jede Bewerbung neu geschrieben.
-% Stelle      : Entwicklungsingenieur Humanoide Robotik (m/w/d/x)
-% Unternehmen : PROGNUM Automotive GmbH, Stuttgart
+% Stelle      : Robotics Software Engineer - Integration & Control (m/f/d)
+% Unternehmen : Prefiro
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -22,33 +22,32 @@
 \vspace{4pt}
 
 \textbf{An:} \\
-PROGNUM Automotive GmbH \\
-Recruiting-Team \\
-Stuttgart
+Prefiro \\
+Recruiting-Team
 
 \vspace{5pt}
-\textbf{Betreff: Bewerbung als Entwicklungsingenieur Humanoide Robotik (m/w/d/x)}
+\textbf{Betreff: Bewerbung als Robotics Software Engineer -- Integration \& Control (m/w/d)}
 
 \vspace{5pt}
-Hallo PROGNUM-Team,
+Hallo Prefiro-Team,
 
 \vspace{3pt}
-ein humanoider Roboter funktioniert nur, wenn Mechanik, Elektronik, Regelung und KI als ein System zusammenspielen. Als studierter Mechatroniker arbeite ich seit über vier Jahren genau an dieser Schnittstelle -- vom CAD-Bauteil bis zum Regler am realen Roboter. Diese Erfahrung möchte ich bei Ihnen in Projekte für Servicerobotik und Industrieautomation einbringen.
+meine erste Veröffentlichung war ein Industrie-Roboterarm für die Erdbeerernte (IEEE, 2022) -- die Frage, wie ein Roboter empfindliche Ernte vom Feld holt, hat mich also schon in die Robotik gebracht. Dass ihr Grünspargel, der bis heute komplett von Hand geerntet wird, mit echten Maschinen auf echten Feldern automatisiert, reizt mich sehr. Heute arbeite ich genau an dem, was eure Stelle verlangt: Roboterarme in ROS 2 integrieren und mit MPC und Ganzkörperregelung auf der realen Hardware ansteuern.
 
 \vspace{3pt}
-\textbf{Regelungsalgorithmen und Bewegungsabläufe.} Im Humanoid Robots Lab der Universität Bonn soll unser Mobilmanipulator \textit{Steve} greifen, während seine omnidirektionale Basis weiterfährt. Mit einem gewichteten QP arbeiteten Arm und Basis gegeneinander, der Greifer wich um 0,55\,cm RMS ab. Ich habe einen hierarchischen 9-DOF-Ganzkörperregler mit Gelenk-, Geschwindigkeits- und Kollisionsgrenzen entwickelt und den Fehler auf \textbf{0,01\,cm RMS} bei 10--13\,ms pro Lösung gesenkt. Am realen UR5e habe ich auf Geschwindigkeitsbefehle umgestellt; die Acht-Bahn folgt nun mit \textbf{0,12} statt 0,17\,cm RMS.
+\textbf{Mein Projekt auf echter Hardware: Steve.} Im Humanoid Robots Lab der Universität Bonn soll unser Mobilmanipulator \textit{Steve} (Neobotix-Basis, UR5e, Robotiq 2F-85) greifen, während seine omnidirektionale Basis weiterfährt. Mit einem gewichteten QP arbeiteten Arm und Basis gegeneinander, der Greifer wich um 0,55\,cm RMS ab. Ich habe einen 9-DOF-Ganzkörperregler als strikte Aufgabenhierarchie mit exakter Jacobi-Matrix sowie Gelenk-, Geschwindigkeits- und Kollisionsgrenzen geschrieben: \textbf{0,01\,cm RMS} bei \textbf{10--13\,ms} pro Lösung. Am realen UR5e habe ich auf die Geschwindigkeitsschnittstelle umgestellt; eine Acht-Bahn folgt nun mit \textbf{0,12} statt 0,17\,cm RMS, und das Greifen läuft auf dem realen Roboter. Code: \repo{ItsShriks/steve_wbc}.
 
 \vspace{3pt}
-\textbf{Greifsysteme, Sensorik und Aktorik.} Als Hauptentwickler des ROS-2-Stacks habe ich Basis, Arm, Greifer, LiDARs und Kameras so integriert, dass sie beim Einschalten automatisch starten. Für das Greifen habe ich ein Framework für austauschbare Endeffektoren gebaut, darunter die humanoiden Hände PSYONIC Ability Hand und Unitree Dex5; Ability Hand und Robotiq-Greifer laufen auf dem realen Roboter, und das Greifen funktioniert dort inzwischen.
+\textbf{Integration vom Hochfahren bis zum Betrieb.} Als Hauptentwickler des ROS-2-Stacks habe ich Basis, Arm, Greifer, LiDARs und Kameras so integriert, dass alles beim Einschalten automatisch startet, mit Heartbeat-Watchdog, Not-Halt und LiDAR-Schutzfeld. Die Handkamera habe ich markerfrei auf 0,17\,cm RMS kalibriert; derselbe Code läuft in MuJoCo, Gazebo und am realen Roboter (\repo{ItsShriks/steve_hardware_bringup}).
 
 \vspace{3pt}
-\textbf{Mensch-Roboter-Interaktion.} Im RoboCup-Team b-it bots habe ich für den Serviceroboter Toyota HSR eine Personenverfolgung mit \textbf{95\,\% Tracking-Erfolgsquote} und eine Echtzeit-Zeigegestenerkennung entwickelt; damit absolvierte das Team \textit{Help Me Carry} bei den RoboCup German Open 2025.
+\textbf{Trajektorienplanung mit MPC.} In meiner Masterarbeit koppele ich einen sichtbarkeitsbewussten MPC-Planer mit einem hochfrequenten TSID-Regler. Ein MPC fängt bereits rollende Objekte ab, und eine Sichtbarkeitsaufgabe hält die Kamera 100\,\% statt 29\,\% der Zeit auf dem Objekt (Simulation).
 
 \vspace{3pt}
-\textbf{Mechatronik und Abstimmung im Team.} Bei Sakar Robotics habe ich als Scrum Master eines 10-köpfigen Teams Mechanik, Elektronik und Software abgestimmt, Bauteile in Fusion 360 konstruiert und die Inbetriebnahme verantwortet: 7 Roboterplattformen, davon 2 vollständig ausgeliefert. Industrieroboter kenne ich aus meinem Praktikum bei SSIG, wo ich ABB-Roboter in RAPID programmiert habe.
+\textbf{Industrieroboter und Inbetriebnahme.} Bei SSIG habe ich ABB-Roboter in RAPID programmiert und Industrie-I/O eingebunden; bei Sakar Robotics habe ich zwei Jahre lang die Hardware-Inbetriebnahme verantwortet (7 Plattformen, 2 vollständig ausgeliefert). Fehler auf echten Robotern finde ich mit rosbag, RViz und Foxglove; ausgeliefert habe ich mit Docker und CI/CD.
 
 \vspace{3pt}
-Ab Januar 2027 stehe ich Ihnen in Vollzeit zur Verfügung; Stuttgart ist einer meiner Wunschstandorte. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau. Über ein Gespräch, in dem ich Ihnen Steve zeigen kann, freue ich mich sehr.
+Zu euren Anforderungen ganz offen: Meinen Master schließe ich im Februar 2027 mit der Abgabe der Masterarbeit ab; neben zwei Jahren Vollzeit als Robotik-Ingenieur bei Sakar arbeite ich seit 2024 im Studium durchgehend an realen Robotern. Ab \textbf{Januar 2027} stehe ich euch in Vollzeit zur Verfügung, gern auch für die Feldtests während der Spargelsaison. Meine Gehaltsvorstellung liegt bei 65.000\,€ brutto im Jahr. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau. Und als nächstes Gemüse? Erdbeeren -- botanisch zwar kein Gemüse, aber da habe ich noch eine Rechnung offen. Ich freue mich auf ein Gespräch.
 
 \vspace{8pt}
 

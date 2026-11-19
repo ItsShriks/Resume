@@ -8,67 +8,55 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Rheinmetall  /  Softwaredeveloper Visual Based Navigation (m/w/d)
-Ref.-Nr.:
-DE20641
-Anstellungsart:
-Vollzeit
-Vertragsart:
-Unbefristeter Vertrag
-shareOntwitter
-shareOnlinkedIn
-shareOnxing
-WOFÜR WIR SIE SUCHEN
-Wir suchen Sie für die Entwicklung und Integration bildbasierter Navigations- und Lokalisierungssysteme, um unbemannte Flugsysteme auch in GNSS-gestörten Umgebungen oder unter schlechten Sichtverhältnissen sicher und autonom zu steuern.
+Prefiro
 
-Kernaufgaben:
+Robotics Software Engineer - Integration & Control (m/f/d)
 
-Entwicklung und Implementierung von Algorithmen zur bildbasierten Navigation zB visuelle Odometrie, SLAM und Feature Tracking
-Integration visueller Navigationsdaten mit andern Sensorsystemen IMU, GPS, Lidar über Sensorfusion zB EKF/UKF, Graph-SLAM
-Entwurf und Test von Navigationsarchitekturen für autonome Flugmissionen
-Durchführung von Simulationen und Flugversuchen
-Anpassung und Erweiterung bestehender Open-Source-Frameworks zB PX4, ROS 2, OpenVINS, ORB-SLAM
-Zusammenarbeit mit Teams aus den Bereichen Flight Control, KI-Entwicklung und System Engineering sowie evtl. mit externen Partnern
-Dokumentation, Codequalitätssicherung und Performance-Optimierung
-WAS SIE MITBRINGEN SOLLTEN
-Abgeschlossenes Studium in Informatik, Elektrotechnik, Robotik, Luft- und Raumfahrt oder vergleichbar
-Fundierte Kenntnisse in der Computer Vision und Bildverarbeitung (z. B. OpenCV, Eigen, PCL)
-Erfahrung in der Implementierung und Optimierung von Navigations- und SLAM-Verfahren
-Kenntnisse in C++/Python, ROS 2 und idealerweise PX4 oder MAVLink
-Erfahrung in Sensordatenfusion, Kalman-Filtern und nichtlinearen Schätzverfahren
-Kenntnisse in der Arbeit mit Kameras, IMUs und ggf. Lidar-Systemen
-Erfahrung mit Simulationstools (z. B. Gazebo, AirSim) und HIL-Tests
-Kenntnisse in Echtzeitprogrammierung und Embedded-Softwareentwicklung sind von Vorteil
-Hohes technisches Verständnis und systemisches Denken
-Ausgeprägte analytische Fähigkeiten und Freude an komplexer Algorithmenentwicklung
-Teamfähigkeit, Kommunikationsstärke und interdisziplinäre Zusammenarbeit
-Selbstständige, strukturierte und lösungsorientierte Arbeitsweise
-Innovationsfreude und Interesse an autonomen Navigationssystemen
-Verantwortungsbewusstsein und Qualitätsorientierung
-Gute Deutsch- und Englischkenntnisse in Wort und Schrift.
-Stärken und Erfahrungen zählen bei Rheinmetall, auch wenn vielleicht nicht alle aufgeführten Anforderungen vollständig erfüllt sind. Wir freuen uns auf Bewerber (m/w/d), die Lust haben, etwas zu bewegen und Verantwortung zu übernehmen. Wir legen Wert auf Individualität und Chancengleichheit. Schwerbehinderte Bewerber (m/w/d) werden bei gleicher Eignung besonders berücksichtigt.
+About the job
+Über PrefiroSpargel hat diese Saison bis zu 25 Euro pro Kilo gekostet! Das liegt daran, dass er wie ein Großteil des Gemüseregals ausschließlich in Handarbeit geerntet wird. Wir von Prefiro sind die Ersten, die diese Prozesse automatisieren! Seit unserer Gründung 2024 nutzen wir Künstliche Intelligenz sowie Computer Vision und Robotik, um die Anbaugeräte der nächsten Generation aufs Feld zu bringen.Dich begeistert es, neue Technologien unter realen Bedingungen einzusetzen, interessante und abwechslungsreiche Probleme zu lösen und direkt zu sehen, welchen Einfluss deine Ideen haben?Dann werde Teil unseres achtköpfigen Teams und lass uns gemeinsam echte Probleme lösen.AufgabenIn der Rolle wirst du ...
+unsere Denso-Roboterarme programmieren und in Betrieb nehmen: Bewegungsabläufe, Ansteuerung und Fehlerbehandlung.
+Roboter und Peripherie (IO, Sensorik, Greifer) in unseren ROS-2-Robotik-Stack integrieren, vom Hochfahren bis zum Servicebetrieb.
+MPC-basierte Trajektorienplanung und Optimalsteuerung mitentwickeln, vom Konzept bis zur Umsetzung in Echtzeit auf dem Roboter.
+Taktzeiten im realen Einsatz analysieren und reduzieren.
+den Stack von einem Robotermodul auf mehrere pro Maschine skalieren. Dazu gehören Vernetzung, Robotersetup und Kalibrierung.
+die Roboterrechner für die Echtzeitsteuerung optimieren: Docker, CPU-Pinning, ROS-2-Scheduling und Multithreading.
+Fernzugriff, Datenerfassung und Robotik-CI/CD (z.B. Tests mit rosbag-Playback) aufbauen, damit wir die Roboter mit echten Felddaten laufend verbessern können.
+Code reviewen, Architekturentscheidungen mitgestalten und den Stack gemeinsam im Team debuggen.
+die Roboter bei Feldtests vor der Saison und während der Spargelernte direkt auf dem Feld betreuen.
 
-WAS WIR IHNEN BIETEN
-An unserem Standort in Braunschweig bieten wir Ihnen:
+QualifikationDu passt perfekt, wenn du ...
+ein abgeschlossenes Masterstudium in Robotik, Mechatronik, Maschinenbau, Informatik oder einem vergleichbaren technischen Fach hast.
+mindestens zwei Jahre Berufserfahrung in der Robotik mitbringst, und zwar an echten Robotern, nicht nur in der Simulation.
+schon selbst echte Roboterarme programmiert, in Betrieb genommen und im realen Einsatz zum Laufen gebracht hast.
+sicher in modernem C++ (C++17) und Python 3 programmierst.
+praktische Erfahrung mit ROS 2 hast, idealerweise mit Jazzy: Nodes, Lifecycle Nodes, Executors, QoS und Launch-Files.
+dich fundiert mit Roboterkinematik und -dynamik auskennst (z. B. URDF, Pinocchio oder Vergleichbares).
+idealerweise schon Erfahrung mit Trajektorienplanung in Echtzeit hast, etwa mit Optimalsteuerung oder modellprädiktiver Regelung (MPC). Reinforcement Learning ist ein Plus.
+Erfahrung mit Echtzeit-Robotersteuerung hast und weißt, worauf es bei Soft-Real-Time unter Linux ankommt (Scheduling, Latenzen, Threading).
+sicher mit CMake/colcon und Git unter Linux umgehst.
+fließend Englisch sprichst, denn Englisch ist unsere Arbeitssprache.
 
-Flexible Arbeitszeiten
-Attraktive Vergütung und 30 Tage Urlaub pro Jahr
-Spannende, interdisziplinäre und internationale Projekte
-Eine Unternehmenskultur, die berufliche und persönliche Entwicklung fördert
-Erfolgsbeteiligung, Aktienkaufprogramm, betriebliche Altersvorsorge, Bike-Leasing, Wellpass, Corporate Benefits Plattform
-Kostenlose Parkmöglichkeiten
-Play
-00:14
-04:17
-Mute
+Nice to HaveExtra-Pluspunkte gibt es, wenn du ...
+mit Industrierobotern gearbeitet hast, vor allem mit Denso SCARA (b-CAP, RC8) oder Universal Robots.
 
-Settings
-Enter fullscreen
+Optimal-Control-Frameworks wie acados oder CasADi kennst oder schon mit Control Barrier Functions gearbeitet hast.
+Erfahrung mit MoveIt 2 oder Ruckig für die Bewegungsplanung hast.
+dich mit Docker, GitLab CI und automatisierten Tests (GoogleTest, launch_testing) auskennst.
+schon DDS oder Zenoh getunt oder Multi-Roboter-Setups aufgebaut hast.
+mit Debugging-Tools wie RViz, Foxglove, PlotJuggler oder Nsight Systems vertraut bist.
+unter Linux sicher mit systemd, tmux und Shell-Skripten umgehst.
+Grundkenntnisse in Deutsch hast.
 
-Play
-KONTAKTDETAILS
-Zuständige/r Ansprechpartner/in: Charlene Schnaars
+Das bieten wir
+Echte Felder ab deiner ersten Saison. Dein Code läuft auf unseren Maschinen, und zwar auf landwirtschaftlichen Betrieben in Deutschland.
+Kurze Wege vom Code zum Roboter. Neue Ideen laufen meist schon nach wenigen Tagen auf der echten Maschine.
+Ein Problem, das sich zu lösen lohnt. Grünspargel wird bis heute komplett von Hand geerntet.
+Ein kleines, motiviertes Team, das gemeinsam viel bewegt. Wenn du dazukommst, sind wir 8 Leute in Vollzeit, dazu 2 Praktikant:innen und ein:e Werkstudent:in.
+Offene Kultur, flache Hierarchien. Wir stehen noch am Anfang, deshalb zählt deine Meinung bei technischen Entscheidungen.
+Gemeinsame Mittagspausen und Kaffee in der Küche unserer Halle.
+Mitarbeiterbeteiligung über Stock Options.
 
+So bewirbst du dichSchick uns über den Button „Jetzt bewerben“ deinen Lebenslauf und ein paar Zeilen zu einem Robotikprojekt, das du auf echter Hardware umgesetzt hast. Links zum Code sind herzlich willkommen. Verrat uns außerdem deinen frühestmöglichen Starttermin, deine Gehaltsvorstellung und welches Gemüse du als Nächstes automatisieren würdest.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [ENDE DER STELLENANZEIGE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

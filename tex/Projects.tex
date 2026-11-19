@@ -1,26 +1,27 @@
-% Angepasst: PROGNUM Automotive GmbH -- Entwicklungsingenieur Humanoide Robotik (m/w/d/x), Stuttgart
+% Angepasst: Prefiro -- Robotics Software Engineer - Integration & Control (m/f/d)
 %-----------PROJEKTE-----------------
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Ganzkörperregelung: Greifen während der Fahrt}{\repo{ItsShriks/steve_wbc}}
-      {Python $\cdot$ MuJoCo $\cdot$ hierarchisches QP $\cdot$ MPC $\cdot$ ROS 2 $\cdot$ UR5e}{Masterarbeit, Humanoid Robots Lab, Uni Bonn}
+      {Steve -- Ganzkörperregelung \& MPC}{\repo{ItsShriks/steve_wbc}}
+      {Python $\cdot$ ROS 2 $\cdot$ MPC $\cdot$ hierarchisches QP $\cdot$ MuJoCo $\cdot$ UR5e}{Masterarbeit, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{9-DOF-\textbf{Ganzkörperregler} (Basis + Arm) als strikte Aufgabenhierarchie mit Gelenk-, Geschwindigkeits- und Kollisionsgrenzen entwickelt: \textbf{0,01\,cm RMS} Greiferfehler (gewichtetes QP: 0,55\,cm), 10--13\,ms pro Lösung.}
-        \resumeItemPlain{Realen UR5e auf Geschwindigkeitsbefehle umgestellt (Acht-Bahn \textbf{0,12} statt 0,17\,cm RMS) und Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert; Not-Halt und LiDAR-Schutzfeld integriert.}
+        \resumeItemPlain{9-DOF-\textbf{Ganzkörperregler} (Basis + UR5e) als strikte Aufgabenhierarchie entwickelt: \textbf{0,01\,cm RMS} Greiferfehler (vorher 0,55\,cm), \textbf{10--13\,ms} pro Lösung.}
+        \resumeItemPlain{\textbf{MPC}-Abfangen rollender Objekte und Sichtbarkeitsaufgabe umgesetzt: Objekt \textbf{100\,\%} statt 29\,\% der Zeit im Blick (Sim.).}
+        \resumeItemPlain{Realen UR5e auf Geschwindigkeitsschnittstelle umgestellt: Acht-Bahn mit \textbf{0,12} statt 0,17\,cm RMS.}
       \resumeItemListEnd
     \resumeProject
-      {Steve -- Greifsysteme, Sensorik \& Aktorik}{\repo{ItsShriks/steve_grasping}}
-      {ROS 2 $\cdot$ MuJoCo $\cdot$ URDF / MJCF $\cdot$ Robotiq 2F-85 $\cdot$ PSYONIC Ability Hand $\cdot$ Unitree Dex5 $\cdot$ CANopen}{Humanoid Robots Lab, Uni Bonn}
+      {Steve -- Inbetriebnahme \& ROS-2-Integration}{\repo{ItsShriks/steve_hardware_bringup}}
+      {ROS 2 $\cdot$ MoveIt 2 $\cdot$ UR-Treiber / URCap $\cdot$ Robotiq 2F-85 $\cdot$ LiDAR / RGB-D $\cdot$ CANopen}{Hauptentwickler, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Framework für austauschbare Endeffektoren entwickelt (Robotiq-Greifer, \textbf{humanoide Hände} PSYONIC Ability Hand und Unitree Dex5): Ability Hand und Robotiq laufen \textbf{auf dem realen Roboter}.}
-        \resumeItemPlain{Als \textbf{Hauptentwickler} Basis, UR5e, Greifer, LiDARs und Kameras so integriert, dass alles beim Einschalten startet (mit Watchdog); derselbe Code läuft in Simulation und am realen Roboter.}
+        \resumeItemPlain{Basis, Arm, Greifer, LiDARs und Kameras integriert, die \textbf{beim Einschalten automatisch starten} (mit Watchdog); derselbe Code läuft in Simulation und am Roboter.}
+        \resumeItemPlain{Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert; Not-Halt und LiDAR-Schutzfeld als Sicherheitsstopp eingebunden.}
       \resumeItemListEnd
     \resumeProject
-      {b-it bots @Home -- Mensch-Roboter-Interaktion (RoboCup@Home)}{Okt 2024 -- heute}
-      {ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ C++17 $\cdot$ TF $\cdot$ Toyota HSR}{Studentisches Engagement, H-BRS}
+      {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
+      {ROS 2 $\cdot$ C++17 $\cdot$ Python $\cdot$ Docker $\cdot$ rosbag $\cdot$ Foxglove $\cdot$ Toyota HSR}{Offizielles Teammitglied, H-BRS}
       \resumeItemListStart
-        \resumeItemPlain{Personenverfolgung und Absichtserkennung auf dem Serviceroboter Toyota HSR entwickelt: \textbf{95\,\% Tracking-Erfolgsquote}.}
-        \resumeItemPlain{Zeigegesten in Echtzeit über TF-Transformationen erkannt; damit absolvierte das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
+        \resumeItemPlain{Personenverfolgung auf dem Toyota HSR entwickelt (\textbf{95\,\%} Tracking-Erfolg); \textbf{Help Me Carry} bei RoboCup German Open 2025.}
+        \resumeItemPlain{Hardware-Adapter in C++17 / Python mit Docker-Deployments gebaut; Fehler mit rosbag, RViz und Foxglove behoben.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

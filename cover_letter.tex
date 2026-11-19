@@ -1,8 +1,8 @@
 %! jobname = Anschreiben_Shrikar_Nakhye
 %------------------------
 % Anschreiben (Deutsch) -- wird für jede Bewerbung neu geschrieben.
-% Stelle      : Softwaredeveloper Visual Based Navigation (m/w/d) -- Ref.-Nr. DE20641
-% Unternehmen : Rheinmetall, Standort Braunschweig (Ansprechpartner/in: Charlene Schnaars)
+% Stelle      : Entwicklungsingenieur Humanoide Robotik (m/w/d/x)
+% Unternehmen : PROGNUM Automotive GmbH, Stuttgart
 %------------------------
 \documentclass[a4paper,10pt]{article}
 \input{tex/preamble.tex}
@@ -22,30 +22,33 @@
 \vspace{4pt}
 
 \textbf{An:} \\
-Rheinmetall \\
-z.\,Hd. Charlene Schnaars \\
-Braunschweig
+PROGNUM Automotive GmbH \\
+Recruiting-Team \\
+Stuttgart
 
 \vspace{5pt}
-\textbf{Betreff: Bewerbung als Softwaredeveloper Visual Based Navigation (m/w/d) -- Ref.-Nr. DE20641}
+\textbf{Betreff: Bewerbung als Entwicklungsingenieur Humanoide Robotik (m/w/d/x)}
 
 \vspace{5pt}
-Guten Tag Charlene Schnaars,
+Hallo PROGNUM-Team,
 
 \vspace{3pt}
-wenn GNSS gestört ist, muss ein unbemanntes Flugsystem allein aus Kamera, IMU und LiDAR wissen, wo es ist. Genau diese Frage -- wie ein autonomes System sich aus seinen eigenen Sensoren lokalisiert -- beschäftigt mich seit über vier Jahren in Robotik-Projekten mit C++, Python und ROS 2. Bei Rheinmetall möchte ich diese Erfahrung in die bildbasierte Navigation für autonome Flugmissionen einbringen.
+ein humanoider Roboter funktioniert nur, wenn Mechanik, Elektronik, Regelung und KI als ein System zusammenspielen. Als studierter Mechatroniker arbeite ich seit über vier Jahren genau an dieser Schnittstelle -- vom CAD-Bauteil bis zum Regler am realen Roboter. Diese Erfahrung möchte ich bei Ihnen in Projekte für Servicerobotik und Industrieautomation einbringen.
 
 \vspace{3pt}
-\textbf{SLAM und Sensorfusion.} Seit Oktober 2025 bin ich im Humanoid Robots Lab der Universität Bonn Hauptentwickler des ROS-2-Stacks des mobilen Roboters \textit{Steve}. Für seine omnidirektionale Plattform habe ich einen eigenen Extended-Kalman-Filter-Knoten geschrieben, der LiDAR, IMU und Encoder fusioniert, Nav2 mit SLAM Toolbox / AMCL sowie 3D-SLAM mit RTAB-Map auf zwei LiDARs, RGB-D-Kameras und IMU integriert und den Navigations-Stack am realen Roboter in Betrieb genommen -- mit demselben Code in Gazebo. Erfahrung mit Graph-SLAM, HIL-Tests und ArduPilot bringe ich ebenfalls mit.
+\textbf{Regelungsalgorithmen und Bewegungsabläufe.} Im Humanoid Robots Lab der Universität Bonn soll unser Mobilmanipulator \textit{Steve} greifen, während seine omnidirektionale Basis weiterfährt. Mit einem gewichteten QP arbeiteten Arm und Basis gegeneinander, der Greifer wich um 0,55\,cm RMS ab. Ich habe einen hierarchischen 9-DOF-Ganzkörperregler mit Gelenk-, Geschwindigkeits- und Kollisionsgrenzen entwickelt und den Fehler auf \textbf{0,01\,cm RMS} bei 10--13\,ms pro Lösung gesenkt. Am realen UR5e habe ich auf Geschwindigkeitsbefehle umgestellt; die Acht-Bahn folgt nun mit \textbf{0,12} statt 0,17\,cm RMS.
 
 \vspace{3pt}
-\textbf{Kameras, Kalibrierung und Echtzeit.} Im RoboCup-Team b-it bots sollte unser Toyota HSR einer Person folgen und erkennen, auf welche Tasche sie zeigt. Ich habe RGB-D, LiDAR und Odometrie kalibriert und die Zeigegeste über TF-Transformationen zwischen Kamera-, Basis- und Arm-Koordinatensystem mit der Szene geschnitten. Ergebnis: \textbf{95\,\% Tracking-Erfolgsquote}; das Team absolvierte \textit{Help Me Carry} bei den RoboCup German Open 2025. Bei Steve habe ich die Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert; der Regler mit Objektverfolgung (EKF-Baseline vs. Least-Squares-Tracker + MPC) löst in 10--13\,ms.
+\textbf{Greifsysteme, Sensorik und Aktorik.} Als Hauptentwickler des ROS-2-Stacks habe ich Basis, Arm, Greifer, LiDARs und Kameras so integriert, dass sie beim Einschalten automatisch starten. Für das Greifen habe ich ein Framework für austauschbare Endeffektoren gebaut, darunter die humanoiden Hände PSYONIC Ability Hand und Unitree Dex5; Ability Hand und Robotiq-Greifer laufen auf dem realen Roboter, und das Greifen funktioniert dort inzwischen.
 
 \vspace{3pt}
-\textbf{UAV-Daten und Performance.} Als wissenschaftliche Hilfskraft habe ich unbeschriftete UAV-LiDAR-Punktwolken verarbeitet -- CUDA-beschleunigt auf Embedded-Linux- / GPU-Hardware -- und Ursachen von Sensor-Timing-Jitter gefunden. Feldannotationen habe ich mit RANSAC + ICP auf die LiDAR-Karte registriert: \textbf{98,8\,\% Inlier} bei 0,11\,m RMS. Code-Qualität sichere ich mit automatisierten Tests, Docker und CI/CD, wie bei Navilan Solutions.
+\textbf{Mensch-Roboter-Interaktion.} Im RoboCup-Team b-it bots habe ich für den Serviceroboter Toyota HSR eine Personenverfolgung mit \textbf{95\,\% Tracking-Erfolgsquote} und eine Echtzeit-Zeigegestenerkennung entwickelt; damit absolvierte das Team \textit{Help Me Carry} bei den RoboCup German Open 2025.
 
 \vspace{3pt}
-Ab Januar 2027 stehe ich Ihnen in Vollzeit zur Verfügung; für die Stelle ziehe ich gern nach Braunschweig. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau. Über die Gelegenheit, Ihnen meine Arbeit in einem Gespräch vorzustellen, freue ich mich sehr.
+\textbf{Mechatronik und Abstimmung im Team.} Bei Sakar Robotics habe ich als Scrum Master eines 10-köpfigen Teams Mechanik, Elektronik und Software abgestimmt, Bauteile in Fusion 360 konstruiert und die Inbetriebnahme verantwortet: 7 Roboterplattformen, davon 2 vollständig ausgeliefert. Industrieroboter kenne ich aus meinem Praktikum bei SSIG, wo ich ABB-Roboter in RAPID programmiert habe.
+
+\vspace{3pt}
+Ab Januar 2027 stehe ich Ihnen in Vollzeit zur Verfügung; Stuttgart ist einer meiner Wunschstandorte. Ich spreche Englisch auf C2- und Deutsch auf B2-Niveau. Über ein Gespräch, in dem ich Ihnen Steve zeigen kann, freue ich mich sehr.
 
 \vspace{8pt}
 

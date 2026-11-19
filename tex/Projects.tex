@@ -1,27 +1,26 @@
-% Angepasst: Rheinmetall -- Softwaredeveloper Visual Based Navigation (m/w/d), Braunschweig (Ref.-Nr. DE20641)
+% Angepasst: PROGNUM Automotive GmbH -- Entwicklungsingenieur Humanoide Robotik (m/w/d/x), Stuttgart
 %-----------PROJEKTE-----------------
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Navigation, SLAM \& Sensorfusion eines mobilen Roboters}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 $\cdot$ Nav2 $\cdot$ EKF $\cdot$ SLAM Toolbox $\cdot$ AMCL $\cdot$ RTAB-Map $\cdot$ LiDAR / IMU / Encoder $\cdot$ Gazebo}{Humanoid Robots Lab, Uni Bonn, Okt 2025 -- heute}
+      {Steve -- Ganzkörperregelung: Greifen während der Fahrt}{\repo{ItsShriks/steve_wbc}}
+      {Python $\cdot$ MuJoCo $\cdot$ hierarchisches QP $\cdot$ MPC $\cdot$ ROS 2 $\cdot$ UR5e}{Masterarbeit, Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Eigenen \textbf{Extended-Kalman-Filter}-Knoten für die \textbf{Sensorfusion} von LiDAR, IMU und Encodern entwickelt, damit sich die omnidirektionale Plattform zuverlässig lokalisiert; Frontier-Exploration unterstützt.}
-        \resumeItemPlain{Als \textbf{Hauptentwickler} Nav2 mit \textbf{SLAM Toolbox} / AMCL und \textbf{3D-SLAM mit RTAB-Map} auf zwei LiDARs, RGB-D-Kameras und IMU integriert; derselbe Code läuft in \textbf{Gazebo} und auf dem realen Roboter.}
-        \resumeItemPlain{Navigations-Stack am realen Roboter in Betrieb genommen und mit Mapping- und Trajektorientests validiert; Fehlerursachen mit rosbag und RViz gefunden und in \textbf{QA-Berichten} dokumentiert.}
+        \resumeItemPlain{9-DOF-\textbf{Ganzkörperregler} (Basis + Arm) als strikte Aufgabenhierarchie mit Gelenk-, Geschwindigkeits- und Kollisionsgrenzen entwickelt: \textbf{0,01\,cm RMS} Greiferfehler (gewichtetes QP: 0,55\,cm), 10--13\,ms pro Lösung.}
+        \resumeItemPlain{Realen UR5e auf Geschwindigkeitsbefehle umgestellt (Acht-Bahn \textbf{0,12} statt 0,17\,cm RMS) und Handkamera markerfrei auf \textbf{0,17\,cm RMS} kalibriert; Not-Halt und LiDAR-Schutzfeld integriert.}
       \resumeItemListEnd
     \resumeProject
-      {Steve -- Objektverfolgung, Kamerakalibrierung \& Echtzeitregelung}{\repo{ItsShriks/steve_wbc}}
-      {Python $\cdot$ MuJoCo $\cdot$ EKF $\cdot$ MPC $\cdot$ QP $\cdot$ RGB-D $\cdot$ ROS 2}{Masterarbeit}
+      {Steve -- Greifsysteme, Sensorik \& Aktorik}{\repo{ItsShriks/steve_grasping}}
+      {ROS 2 $\cdot$ MuJoCo $\cdot$ URDF / MJCF $\cdot$ Robotiq 2F-85 $\cdot$ PSYONIC Ability Hand $\cdot$ Unitree Dex5 $\cdot$ CANopen}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{Objektverfolgung mit Kopf- und Handkamera (RGB-D) aufgebaut und \textbf{EKF}-Baseline mit Least-Squares-Tracker + MPC verglichen, um rollende Objekte abzufangen; 10--13\,ms pro Lösung.}
-        \resumeItemPlain{Handkamera am realen Roboter markerfrei kalibriert: \textbf{0,17\,cm RMS über 8 Posen}; Sichtbarkeitsaufgabe hält das Objekt in der Simulation \textbf{100\,\%} der Zeit im Bild (ohne: 29\,\%).}
+        \resumeItemPlain{Framework für austauschbare Endeffektoren entwickelt (Robotiq-Greifer, \textbf{humanoide Hände} PSYONIC Ability Hand und Unitree Dex5): Ability Hand und Robotiq laufen \textbf{auf dem realen Roboter}.}
+        \resumeItemPlain{Als \textbf{Hauptentwickler} Basis, UR5e, Greifer, LiDARs und Kameras so integriert, dass alles beim Einschalten startet (mit Watchdog); derselbe Code läuft in Simulation und am realen Roboter.}
       \resumeItemListEnd
     \resumeProject
-      {JungleLook -- Segmentierung von UAV-LiDAR-Punktwolken}{\repo{ItsShriks/JungleLook}}
-      {Python $\cdot$ PyTorch $\cdot$ PointNet++ $\cdot$ Open3D $\cdot$ RANSAC $\cdot$ ICP $\cdot$ CUDA $\cdot$ Docker $\cdot$ CI}{Forschungsprojekt, Okt 2024 -- Sep 2026}
+      {b-it bots @Home -- Mensch-Roboter-Interaktion (RoboCup@Home)}{Okt 2024 -- heute}
+      {ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ C++17 $\cdot$ TF $\cdot$ Toyota HSR}{Studentisches Engagement, H-BRS}
       \resumeItemListStart
-        \resumeItemPlain{Feldannotationen mit \textbf{RANSAC + ICP} auf \textbf{UAV-LiDAR}-Karten registriert: \textbf{98,8\,\% Inlier} bei 0,11\,m RMS.}
-        \resumeItemPlain{PointNet / PointNet++ von Grund auf in PyTorch implementiert (CPU, CUDA, Apple MPS) und als getestete Bibliothek mit CLI, CI und Docker ausgeliefert: 0,80 mIoU (vorläufig, gegen Pseudo-Labels).}
+        \resumeItemPlain{Personenverfolgung und Absichtserkennung auf dem Serviceroboter Toyota HSR entwickelt: \textbf{95\,\% Tracking-Erfolgsquote}.}
+        \resumeItemPlain{Zeigegesten in Echtzeit über TF-Transformationen erkannt; damit absolvierte das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

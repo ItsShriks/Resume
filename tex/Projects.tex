@@ -1,31 +1,26 @@
-% Angepasst: ALLGEMEINER technischer Lebenslauf -- schlanke Version
+% Angepasst: fruitcore robotics -- Robotics Application Engineer (m/w/d), Industrielle Humanoide (Konstanz)
 %-----------PROJEKTE-----------------
 \section{Projekte}
 \resumeSubHeadingListStart
     \resumeProject
-      {Steve -- Autonomer Butler-Mobilmanipulator}{\repo{ItsShriks/steve_ros2_ws}}
-      {ROS 2 $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ MuJoCo $\cdot$ Gazebo $\cdot$ YOLO}{Humanoid Robots Lab, Uni Bonn}
+      {Steve -- Autonomer Mobilmanipulator (Arm, Kameras, KI, mobile Plattform)}{\repo{ItsShriks/steve_ros2_ws}}
+      {ROS 2 $\cdot$ Nav2 $\cdot$ MoveIt 2 $\cdot$ RTAB-Map $\cdot$ YOLO $\cdot$ VGN $\cdot$ MuJoCo $\cdot$ Gazebo}{Humanoid Robots Lab, Uni Bonn}
       \resumeItemListStart
-        \resumeItemPlain{\textbf{ROS-2}-Stack eines \textbf{Neobotix MMO-700} (UR5e, Robotiq-Greifer, RealSense, zwei LiDARs) als Hauptentwickler aufgebaut; derselbe Code läuft in \textbf{MuJoCo, Gazebo und auf dem realen Roboter}.}
-        \resumeItemPlain{9-DOF-\textbf{Ganzkörperregler} (strikt hierarchisches QP) entworfen, damit der Arm bei fahrender Basis präzise bleibt: \textbf{0,01\,cm RMS} Endeffektorfehler im kinematischen Test (gewichtetes QP: 0,55\,cm), \textbf{10--13\,ms} pro Lösung.}
+        \resumeItemPlain{Als \textbf{Hauptentwickler} \textbf{Neobotix MMO-700}, \textbf{UR5e}, Robotiq-Greifer, RealSense-Kameras und zwei SICK-LiDARs zu einem \textbf{ROS-2-Gesamtsystem} integriert: alle Komponenten starten beim Einschalten, derselbe Code läuft in MuJoCo, Gazebo und \textbf{auf dem realen Roboter}.}
+        \resumeItemPlain{\textbf{YOLO}, OpenYOLO3D, Mask3D und \textbf{Vision-Language-Modelle} für die semantische Objektsuche sowie \textbf{VGN-Griffplanung} eingebunden, damit der Roboter Objekte selbstständig findet und greift.}
       \resumeItemListEnd
     \resumeProject
-      {Kontinuierliche Mobile Manipulation}{\repo{ItsShriks/porta_ros2_ws}}
-      {ROS 2 $\cdot$ C++17 $\cdot$ MPC $\cdot$ TSID $\cdot$ MuJoCo}{Masterarbeit}
+      {Steve -- Ganzkörperregelung \& Kalibrierung}{\repo{ItsShriks/steve_wbc}}
+      {Python $\cdot$ MuJoCo $\cdot$ QP $\cdot$ MPC $\cdot$ ROS 2 $\cdot$ UR5e}{Präzision bei fahrender Basis}
       \resumeItemListStart
-        \resumeItemPlain{Entwurf einer \textbf{MPC}- + \textbf{TSID}-Architektur (ROS 2, \textbf{C++17}, \textbf{MuJoCo}), damit ein mobiler Roboter während der Fahrt greift.}
+        \resumeItemPlain{9-DOF-\textbf{Ganzkörperregler} (strikte Aufgabenhierarchie) entwickelt, damit der Greifer bei fahrender Basis präzise bleibt: \textbf{0,01\,cm RMS} Endeffektorfehler im kinematischen Test (gewichtetes QP: 0,55\,cm), 10--13\,ms pro Lösung.}
+        \resumeItemPlain{Realen UR5e auf Geschwindigkeitsbefehle umgestellt (Acht-Bahn: \textbf{0,12} statt 0,17\,cm RMS) und Handkamera markerfrei kalibriert: \textbf{0,17\,cm RMS über 8 Posen}; Not-Halt und LiDAR-Schutzfeld integriert.}
       \resumeItemListEnd
     \resumeProject
       {b-it bots @Home -- RoboCup@Home-Team}{Okt 2024 -- heute}
-      {Kernmitglied Perception \& Navigation $\cdot$ ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ Toyota HSR}{Studentisches Engagement}
+      {ROS 2 $\cdot$ MediaPipe $\cdot$ OpenCV $\cdot$ TF $\cdot$ Toyota HSR}{Studentisches Engagement}
       \resumeItemListStart
-        \resumeItemPlain{Person-Following auf dem Toyota HSR mit ROS 2, MediaPipe und OpenCV entwickelt: \textbf{95\,\% Tracking-Erfolgsquote}.}
-        \resumeItemPlain{Zeigegesten-Erkennung mit \textbf{TF} ergänzt; damit absolvierte das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
-      \resumeItemListEnd
-    \resumeProject
-      {JungleLook -- Label-freie Segmentierung von LiDAR-Punktwolken}{\repo{ItsShriks/JungleLook}}
-      {Python $\cdot$ PyTorch $\cdot$ PointNet++ $\cdot$ Open3D}{}
-      \resumeItemListStart
-        \resumeItemPlain{\textbf{PointNet++} ohne manuelle Labels trainiert (\textbf{0,80 mIoU}, vorläufig); Annotationen mit \textbf{RANSAC + ICP} registriert: \textbf{98,8\,\% Inlier}.}
+        \resumeItemPlain{Personenverfolgung auf dem Toyota HSR mit ROS 2, MediaPipe und OpenCV entwickelt: \textbf{95\,\% Tracking-Erfolgsquote}.}
+        \resumeItemPlain{RGB-D, LiDAR und Odometrie kalibriert und Zeigegesten über \textbf{TF}-Transformationen erkannt; damit absolvierte das Team \textbf{Help Me Carry} bei den \textbf{RoboCup German Open 2025}.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd

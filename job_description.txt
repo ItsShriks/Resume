@@ -8,38 +8,40 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [STELLENANZEIGE — UNTERHALB DIESER ZEILE EINFÜGEN]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+About the job
+Deine ChallengeDu möchtest industrielle humanoid Roboter in Anwendungen bringen und selbst daran mitentwickeln? Dann setze gemeinsam mit unserem Team anspruchsvolle Projekte mit unserem Roboter PLEXA One um.Mit unserer eigenen Entwicklungs- und Steuerungssoftware entwickelst du Lösungen für das Zusammenspiel von Roboterarmen, Kameras und KI sowie – je nach Ausführung – einer mobilen Plattform. Du übernimmst Verantwortung für eigene Projekte und technische Aufgaben: von der ersten Idee über die Entwicklung bis zur Erprobung und zum industriellen Einsatz.Je nach deinem fachlichen Schwerpunkt erwarten dich dabei folgende Aufgaben:
+Roboteranwendungen umsetzen: Du analysierst die Anforderungen eines Projekts, entwickelst passende Lösungen und setzt diese direkt am Roboter um.
+Software und Funktionen entwickeln: Du programmierst projektbezogene Features und optimierst Bewegungsabläufe sowie das Zusammenspiel der einzelnen Systemkomponenten.
+Unsere KI einsetzen: Gemeinsam mit unserem Team integrierst du unsere KI in konkrete Anwendungen, um die Wahrnehmung und Ansteuerung unserer humanoiden Roboter weiterzuentwickeln.
+Robotik, Kameras und mobile Plattformen integrieren: Du verbindest die Komponenten zu einem funktionierenden Gesamtsystem und entwickelst deren Zusammenspiel weiter.
+Genauigkeit und Zuverlässigkeit verbessern: Du führst Kalibrierungen durch, untersuchst Abweichungen und verbesserst die Präzision, Wiederholbarkeit und Robustheit der Anwendungen.
+Erkenntnisse in die Entwicklung einbringen: Du erprobst Lösungen unter praxisnahen Bedingungen, analysierst Fehler und leitest gemeinsam mit unserer Entwicklung Verbesserungen an Software und Hardware ab.
 
-Minijob für E-Mail Kundensupport 10h / Woche (m/w/d)
-Global Treats GmbH (Marke: Vernasche die Welt) -- Homeoffice (DE/AT/CH), 13--16 EUR/Stunde (geschätzt)
-Quelle: https://talents.studysmarter.de/companies/global-treats-gmbh/minijob-fuer-e-mail-kundensupport-10h-woche-m-w-d-1099000/
+Dein Talent
+Du bringst einen technischen Hintergrund mit, beispielsweise durch ein Studium in Robotik, Informatik, Mechatronik, Elektrotechnik oder Automatisierungstechnik, eine Weiterbildung zum Techniker oder vergleichbare praktische Erfahrung.
+Du verfügst über Programmierkenntnisse und hast Freude daran, Software direkt an echter Hardware zu entwickeln und zu testen.
+Du arbeitest selbstständig und strukturiert, gehst technischen Problemen systematisch auf den Grund und bringst Projekte aktiv voran.
+Du arbeitest gerne im Team und kannst technische Anforderungen, Lösungsansätze und Erkenntnisse nachvollziehbar vermitteln.
+Du beherrschst verhandlungssicheres Deutsch und fließendes Englisch in Wort und Schrift.
 
-Vernasche die Welt ist die angesagte Marke für internationale Süßigkeiten und Snacks, die sich zusammen mit einer entzückenden Community und Kundschaft für die leckersten und aufregendsten Snacks aus aller Welt begeistert.
+Darüber hinaus bringst du praktische Erfahrung in einem oder mehreren dieser Bereiche mit:
+Robotik und Automatisierung: Programmierung, Integration oder Inbetriebnahme von Robotern und mechatronischen Systemen.
+Mobile Robotik: Arbeit mit AGVs beziehungsweise AMRs, beispielsweise bei Navigation, Positionierung oder der Integration in Anwendungen.
+Computer Vision: Einsatz von Kameras, Bildverarbeitung oder Objekterkennung in technischen Anwendungen.
+Kalibrierung und Genauigkeit: Abstimmung von Roboter- und Kamerasystemen, Arbeit mit Koordinatensystemen oder Verbesserung der Positioniergenauigkeit.
+KI in der Anwendung: Einbindung und Erprobung KI-basierter Funktionen in Robotik- oder Automatisierungsprojekten.
 
-Als rasant wachsendes Startup faszinieren wir unsere große und Social Media begeisterte Zielgruppe mit innovativen und vor allem spannenden Produkten aus der ganzen Welt. Erstklassiger Geschmack und höchste Qualitätsansprüche werden bei Vernasche die Welt in Einklang gebracht.
-
-Aufgaben
-Als Werkstudent/in im Kundensupport bist du ein wichtiger Bestandteil unseres Teams und unterstützt unsere Kunden bei ihren Anfragen per E-Mail. Du sorgst dafür, dass unsere Kunden stets eine professionelle und effiziente Hilfe erhalten und trägst so zu ihrer Zufriedenheit und dem Erfolg unseres Unternehmens bei.
-- Beantwortung von Kundenanfragen per E-Mail / Chat.
-- Erfassung und Dokumentation der Kundenanliegen in unserem Support-System.
-- Enge Zusammenarbeit mit anderen Abteilungen zur Lösungsfindung bei komplexen Anfragen.
-- Mitwirkung bei der Optimierung unserer Support-Prozesse.
-- Gelegentliche Unterstützung bei weiteren Projekten.
-
-Qualifikation
-- Sehr gute Deutschkenntnisse in Wort und Schrift sowie gute Englischkenntnisse.
-- Starke Kommunikationsfähigkeiten und Freude am Umgang mit Kunden.
-- Selbstständige, strukturierte und lösungsorientierte Arbeitsweise.
-- Du verfügst über einen Laptop/PC.
-- Teamplayer-Mentalität und hohe Motivation.
-- Gute EDV-Kenntnisse und schnelle Auffassungsgabe bei neuen Systemen.
-
-Benefits
-- Eine spannende Tätigkeit in einem schnell wachsenden Unternehmen.
-- Eine teamorientierte Arbeitsumgebung mit flachen Hierarchien.
-- Die Möglichkeit, eigene Ideen einzubringen und umzusetzen.
-- Flexible Wahl von Arbeitsbeginn und -ende.
-- Home-Office: Du bist nicht an einen festen Standort gebunden.
-
+Du musst nicht alle Bereiche abdecken. Wir suchen mehrere Personen, deren Stärken sich ergänzen. Entscheidend ist, dass du deine Erfahrung einbringst, Verantwortung übernimmst und gemeinsam mit uns zuverlässige industrielle Roboteranwendungen entwickelst.
+Deine Benefits
+Bei fruitcore findest du deine persönliche Challenge! Ab dem ersten Tag trägst du Verantwortung und bekommst die Freiheit zur Verwirklichung deiner Ideen.
+Einer für alle – alle für HORST! Dich erwartet ein schnell wachsendes Team, das mit Teamspirit und Motivation daran arbeitet, HORST gemeinsam nach vorne zu bringen.
+Deine Entwicklung ist uns wichtig! Du erhältst regelmäßige Schulungen und Coachings, damit du bei fruitcore sowohl beruflich als auch persönlich deine nächsten Schritte gehst.
+Mitgestalten statt abnicken! Egal ob im Praktikum oder in der Geschäftsführung – bei uns gestaltest du mit und deine Ideen werden gehört.
+Flexibilität und Vertrauen! Wir bieten dir flexible Arbeitszeiten und die entsprechende technische Ausstattung, um deinen Arbeitsalltag mitgestalten zu können.
+Hohe Lebens- und Arbeitsqualität! An unseren gut angebundenen Standorten am Bodensee und im Schwarzwald arbeitest du mit modernsten Methoden und Tools.
+Mehr als nur ein attraktives Gehalt! Mit JobRad, betrieblicher Altersvorsorge (bAV), Hansefit und Corporate Benefits bieten wir dir attraktive Zusatzleistungen für heute und morgen.
+Weil das Miteinander zählt! Regelmäßige Teamevents und eine strukturierte Onboarding-Phase sorgen dafür, dass du dich bei uns von Anfang an gut aufgehoben fühlst.
+Come as you are! Bei uns zählt der Mensch, nicht das Outfit!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [ENDE DER STELLENANZEIGE]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
